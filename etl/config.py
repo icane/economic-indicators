@@ -8,14 +8,14 @@ from pkg_resources import resource_filename
 params = {
     'input': {
         'path': resource_filename(__name__, 'data/input/'),
-        'mensual': {
+        'monthly': {
             'file': 'Datos_carga_mensual.xlsx',
             'series': {
                 'paro': 'Paro',
                 'contratos': 'Contratos',
                 'afiliados': 'Afiliados',
                 'asalariados': 'Afiliados_Asalariados',
-                'no-asalariados': 'Afiliados_No_asalariados',
+                'no_asalariados': 'Afiliados_No_asalariados',
                 'ipc': 'Ipc',
                 'matriculaciones': 'Matriculacion_turismos'
             },
@@ -24,12 +24,12 @@ params = {
                 'contratos': 'ICANE a partir de Movimiento Laboral Registrado del SEPE',
                 'afiliados': 'ICANE a partir de microdatos de la TGSS',
                 'asalariados': 'ICANE a partir de microdatos de la TGSS',
-                'no-asalariados': 'ICANE a partir de microdatos de la TGSS',
+                'no_asalariados': 'ICANE a partir de microdatos de la TGSS',
                 'ipc': 'ICANE a partir del Índice de Precios al Consumo del INE',
                 'matriculaciones': 'ICANE a partir de datos de la DGT'
             }
         },
-        'trimestral': {
+        'quarterly': {
             'file': 'Datos_carga_trimestral.xlsx',
             'series': {
                 'confianza': 'Indice confianza empresarial'
@@ -41,28 +41,28 @@ params = {
     },
     'output': {
         'path': resource_filename(__name__, 'data/output/'),
-        'mensual': {
+        'monthly': {
             'files': {
                 'paro': 'paro.json-stat',
-                'paro-tendencia': 'paro-tendencia.json-stat',
+                'paro_tendencia': 'paro-tendencia.json-stat',
                 'contratos': 'contratos.json-stat',
-                'contratos-tendencia': 'contratos-tendencia.json-stat',
+                'contratos_tendencia': 'contratos-tendencia.json-stat',
                 'afiliados': 'afiliados.json-stat',
-                'afiliados-tendencia': 'afiliados-tendencia.json-stat',
+                'afiliados_tendencia': 'afiliados-tendencia.json-stat',
                 'asalariados': 'afiliados-asalariados.json-stat',
-                'asalariados-tendencia': 'afiliados-asalariados-tendencia.json-stat',
+                'asalariados_tendencia': 'afiliados-asalariados-tendencia.json-stat',
                 'no_asalariados': 'afiliados-no-asalariados.json-stat',
-                'no_asalariados-tendencia': 'afiliados-no-asalariados-tendencia.json-stat',
+                'no_asalariados_tendencia': 'afiliados-no-asalariados-tendencia.json-stat',
                 'ipc': 'ipc.json-stat',
-                'ipc-tendencia': 'ipc-tendencia.json-stat',
+                'ipc_tendencia': 'ipc-tendencia.json-stat',
                 'matriculaciones': 'matriculaciones.json-stat',
-                'matriculaciones-tendencia': 'matriculaciones-tendencia.json-stat'
+                'matriculaciones_tendencia': 'matriculaciones-tendencia.json-stat'
             }
         },
-        'trimestral': {
+        'quarterly': {
             'files': {
                 'confianza': 'confianza.json-stat',
-                'confianza-tendencia': 'confianza-tendencia.json-stat'
+                'confianza_tendencia': 'confianza-tendencia.json-stat'
             }
         }
     },

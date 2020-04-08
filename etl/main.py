@@ -1,6 +1,5 @@
 """Generation of JSON-Stat datasets."""
 
-"""Import configuration."""
 from config import etl_cfg
 
 from etlstat.extractor.extractor import xlsx
@@ -54,21 +53,70 @@ def write_to_file(json_data, file_name):
     file.write(json_data)
     file.close()
 
-"""Comienzo del proceso."""
+"""Read all input files."""
 data = xlsx(etl_cfg.input.path)
 
-"""Series trimestrales."""
+"""Quarterly series."""
 
-# Confianza empresarial
-confianza = data[etl_cfg.input.trimestral.file]\
-    [etl_cfg.input.trimestral.series.confianza][[
-    'Año', 'Trimestre', 'Dato Cantabria', 'Dato España']].copy()
-confianza = transform(confianza, ['Año', 'Trimestre'], etl_cfg.quarter)
-json_file = to_json(
-    confianza,
-    ['Trimestre'],
-    ['Dato Cantabria', 'Dato España'],
-    etl_cfg.input.trimestral.sources.confianza)
-write_to_file(json_file, etl_cfg.output.path + etl_cfg.output.trimestral.files.confianza)
+for key in etl_cfg.input.quarterly.series:
+    df = data[etl_cfg.input.quarterly.file]\
+        [etl_cfg.input.quarterly.series[key]][[
+        'Año', 'Trimestre', 'Dato Cantabria', 'Dato España']].copy()
+    df = transform(df, ['Año', 'Trimestre'], etl_cfg.quarter)
+    json_file = to_json(
+        df,
+        ['Trimestre'],
+        ['Dato Cantabria', 'Dato España'],
+        etl_cfg.input.quarterly.sources[key])
+    write_to_file(json_file, etl_cfg.output.path + etl_cfg.output.quarterly.files[key])
+
+    df_tendencia = data[etl_cfg.input.quarterly.file]\
+        [etl_cfg.input.quarterly.series[key]][[
+            'Año',
+            'Trimestre',
+            'Var interanual Cantabria',
+            'Tendencia Cantabria',
+            'Var interanual España',
+            'Tendencia España']].copy()
+    df_tendencia = transform(df_tendencia, ['Año', 'Trimestre'], etl_cfg.quarter)
+    json_file = to_json(
+        df_tendencia,
+        ['Trimestre'],
+        ['Var interanual Cantabria','Tendencia Cantabria',
+        'Var interanual España', 'Tendencia España'],
+        etl_cfg.input.quarterly.sources[key])
+    write_to_file(json_file, etl_cfg.output.path + etl_cfg.output.quarterly.files[str(key) + '_tendencia'])
+
+"""Monthly series."""
+
+for key in etl_cfg.input.monthly.series:
+    df = data[etl_cfg.input.monthly.file]\
+        [etl_cfg.input.monthly.series[key]][[
+        'Año', 'Mes', 'Dato Cantabria', 'Dato España']].copy()
+    df = transform(df, ['Año', 'Mes'], etl_cfg.month)
+    json_file = to_json(
+        df,
+        ['Mes'],
+        ['Dato Cantabria', 'Dato España'],
+        etl_cfg.input.monthly.sources[key])
+    write_to_file(json_file, etl_cfg.output.path + etl_cfg.output.monthly.files[key])
+
+    df_tendencia = data[etl_cfg.input.monthly.file]\
+        [etl_cfg.input.monthly.series[key]][[
+            'Año',
+            'Mes',
+            'Var interanual Cantabria',
+            'Tendencia Cantabria',
+            'Var interanual España',
+            'Tendencia España']].copy()
+    df_tendencia = transform(df_tendencia, ['Año', 'Mes'], etl_cfg.month)
+    json_file = to_json(
+        df_tendencia,
+        ['Mes'],
+        ['Var interanual Cantabria','Tendencia Cantabria',
+        'Var interanual España', 'Tendencia España'],
+        etl_cfg.input.monthly.sources[key])
+    write_to_file(json_file, etl_cfg.output.path + etl_cfg.output.monthly.files[str(key) + '_tendencia'])
+
 
 print('Fin del proceso. Ficheros generados con éxito')
