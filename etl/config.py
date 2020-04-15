@@ -6,87 +6,202 @@ from pkg_resources import resource_filename
 
 
 params = {
-    'input': {
-        'path': resource_filename(__name__, 'data/input/'),
-        'monthly': {
-            'file': 'Datos_carga_mensual.xlsx',
-            'series': {
-                'paro': 'Paro',
-                'contratos': 'Contratos',
-                'afiliados': 'Afiliados',
-                'asalariados': 'Afiliados_Asalariados',
-                'no_asalariados': 'Afiliados_No_asalariados',
-                'ipc': 'Ipc',
-                'matriculaciones': 'Matriculacion_turismos'
+    'path': {
+        'input': resource_filename(__name__, 'data/input/'),
+        'output': resource_filename(__name__, 'data/output/')
+    },
+    'monthly': {
+        'file': 'Datos_carga_mensual.xlsx',
+        'series': {
+            'paro': {
+                'sheet': 'Paro',
+                'label': 'Paro registrado',
+                'value_vars': ['Paro Cantabria', 'Paro España'],
+                'trend_vars': [
+                    'Paro Cantabria. Var interanual', 'Paro España. Var interanual',
+                    'Paro Cantabria. Tendencia', 'Paro España. Tendencia'],
+                'source': 'Fuente: ICANE a partir de Movimiento Laboral Registrado del SEPE',
+                'json': {
+                    'value': 'paro.json-stat',
+                    'trend': 'paro-tendencia.json-stat'
+                }
             },
-            'sources': {
-                'paro': 'ICANE a partir de Movimiento Laboral Registrado del SEPE',
-                'contratos': 'ICANE a partir de Movimiento Laboral Registrado del SEPE',
-                'afiliados': 'ICANE a partir de microdatos de la TGSS',
-                'asalariados': 'ICANE a partir de microdatos de la TGSS',
-                'no_asalariados': 'ICANE a partir de microdatos de la TGSS',
-                'ipc': 'ICANE a partir del Índice de Precios al Consumo del INE',
-                'matriculaciones': 'ICANE a partir de datos de la DGT'
+            'contratos': {
+                'sheet': 'Contratos',
+                'label': 'Contratos',
+                'value_vars': [
+                    'Contratos Cantabria', 'Contratos España'],
+                'trend_vars': [
+                    'Contratos Cantabria. Var interanual', 'Contratos España. Var interanual',
+                    'Contratos Cantabria. Tendencia','Contratos España. Tendencia'],
+                'source': 'Fuente: ICANE a partir de Movimiento Laboral Registrado del SEPE',
+                'json': {
+                    'value': 'contratos.json-stat',
+                    'trend': 'contratos-tendencia.json-stat'
+                }
+            },
+            'afiliados': {
+                'sheet': 'Afiliados',
+                'label': 'Afiliados',
+                'value_vars': [
+                    'Afiliados a último día de mes Cantabria',
+                    'Afiliados a último día de mes España'],
+                'trend_vars': [
+                    'Afiliados a último día de mes Cantabria. Var interanual',
+                    'Afiliados a último día de mes España. Var interanual',
+                    'Afiliados a último día de mes Cantabria. Tendencia',
+                    'Afiliados a último día de mes España. Tendencia'],
+                'source': 'Fuente: ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
+                'json': {
+                    'value': 'afiliados.json-stat',
+                    'trend': 'afiliados-tendencia.json-stat'
+                }
+            },
+            'asalariados': {
+                'sheet': 'Afiliados_Asalariados',
+                'label': 'Afiliados asalariados',
+                'value_vars': [
+                    'Afiliados. Asalariados Cantabria',
+                    'Afiliados. Asalariados España'],
+                'trend_vars': [
+                    'Afiliados. Asalariados Cantabria. Var interanual',
+                    'Afiliados. Asalariados España. Var interanual',
+                    'Afiliados. Asalariados Cantabria. Tendencia',
+                    'Afiliados. Asalariados España. Tendencia'],
+                'source': 'Fuente: ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
+                'json': {
+                    'value': 'afiliados-asalariados.json-stat',
+                    'trend': 'afiliados-asalariados-tendencia.json-stat'
+                }
+            },
+            'no_asalariados': {
+                'sheet': 'Afiliados_No_asalariados',
+                'label': 'Afiliados no asalariados',
+                'value_vars': [
+                    'Afiliados. No asalariados Cantabria',
+                    'Afiliados. No asalariados España'],
+                'trend_vars': [
+                    'Afiliados. No asalariados Cantabria. Var interanual',
+                    'Afiliados. No asalariados España. Var interanual',
+                    'Afiliados. No asalariados Cantabria. Tendencia',
+                    'Afiliados. No asalariados España. Tendencia'],
+                'source': 'Fuente: ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
+                'json': {
+                    'value': 'afiliados-no-asalariados.json-stat',
+                    'trend': 'afiliados-no-asalariados-tendencia.json-stat'
+                }
+            },
+            'ipc': {
+                'sheet': 'Ipc',
+                'label': 'IPC',
+                'value_vars': [],
+                'trend_vars': [],
+                'source': 'Fuente: ICANE a partir de Índice de Precios al Consumo del INE',
+                'json': {
+                    'value': 'ipc.json-stat',
+                    'trend': 'ipc-tendencia.json-stat'
+                }
+            },
+            'matriculaciones': {
+                'sheet': 'Matriculacion_turismos',
+                'label': 'Matriculación de vehículos',
+                'value_vars': [],
+                'trend_vars': [],
+                'source': 'Fuente: ICANE a partir de Matriculación de Vehiculos de la Dirección General de Tráfico',
+                'json': {
+                    'value': 'matriculaciones.json-stat',
+                    'trend': 'matriculaciones-tendencia.json-stat'
+                }
+            },
+            'clima': {
+                'sheet': 'ECI',
+                'label': 'Indicador de clima industrial',
+                'value_vars': [],
+                'trend_vars': [],
+                'source': 'Fuente: ICANE a partir de Encuesta de Coyuntura Industrial del Ministerio de Industria, Comercio y Turismo',
+                'json': {
+                    'value': 'clima-industrial.json-stat',
+                    'trend': 'clima-industrial-tendencia.json-stat'
+                }
+            },
+            'empresas': {
+                'sheet': 'Emp',
+                'label': 'Empresas inscritas en la Seguridad social',
+                'value_vars': [],
+                'trend_vars': [],
+                'source': 'Fuente: ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
+                'json': {
+                    'value': 'empresas.json-stat',
+                    'trend': 'empresas-tendencia.json-stat'
+                }
+            },
+            'personas_fisicas': {
+                'sheet': 'Emp_fi',
+                'label': 'Personas físicas inscritas en la Seguridad social',
+                'value_vars': [],
+                'trend_vars': [],
+                'source': 'Fuente: ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
+                'json': {
+                    'value': 'personas-fisicas.json-stat',
+                    'trend': 'personas-fisicas-tendencia.json-stat'
+                }
+            },
+            'personas_juridicas': {
+                'sheet': 'Emp_ju',
+                'label': 'Personas jurídicas inscritas en la Seguridad social',
+                'value_vars': [],
+                'trend_vars': [],
+                'source': 'Fuente: ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
+                'json': {
+                    'value': 'personas-juridicas.json-stat',
+                    'trend': 'personas-juridicas-tendencia.json-stat'
+                }
             }
         },
-        'quarterly': {
-            'file': 'Datos_carga_trimestral.xlsx',
-            'series': {
-                'confianza': 'Indice confianza empresarial'
-            },
-            'sources': {
-                'confianza': 'ICANE a partir del Índice de Confianza Empresarial del INE'
+    },
+    'quarterly': {
+        'file': 'Datos_carga_trimestral.xlsx',
+        'series': {
+            'confianza': {
+                'sheet': 'Indice confianza empresarial',
+                'label': 'Índice de confianza empresarial',
+                'value_vars': ['ICE Cantabria', 'ICE España'],
+                'trend_vars': ['ICE Cantabria. Var interanual', 'ICE Cantabria. Tendencia',
+                               'ICE España. Var interanual', 'ICE España. Tendencia'],
+                'source': 'Fuente: ICANE a partir de Índice de Confianza Empresarial del INE',
+                'json': {
+                    'value': 'confianza.json-stat',
+                    'trend': 'confianza-tendencia.json-stat'
+                }
             }
         }
     },
-    'output': {
-        'path': resource_filename(__name__, 'data/output/'),
-        'monthly': {
-            'files': {
-                'paro': 'paro.json-stat',
-                'paro_tendencia': 'paro-tendencia.json-stat',
-                'contratos': 'contratos.json-stat',
-                'contratos_tendencia': 'contratos-tendencia.json-stat',
-                'afiliados': 'afiliados.json-stat',
-                'afiliados_tendencia': 'afiliados-tendencia.json-stat',
-                'asalariados': 'afiliados-asalariados.json-stat',
-                'asalariados_tendencia': 'afiliados-asalariados-tendencia.json-stat',
-                'no_asalariados': 'afiliados-no-asalariados.json-stat',
-                'no_asalariados_tendencia': 'afiliados-no-asalariados-tendencia.json-stat',
-                'ipc': 'ipc.json-stat',
-                'ipc_tendencia': 'ipc-tendencia.json-stat',
-                'matriculaciones': 'matriculaciones.json-stat',
-                'matriculaciones_tendencia': 'matriculaciones-tendencia.json-stat'
-            }
+    'value_labels': {
+        'month': {
+            '1': 'Enero',
+            '2': 'Febrero',
+            '3': 'Marzo',
+            '4': 'Abril',
+            '5': 'Mayo',
+            '6': 'Junio',
+            '7': 'Julio',
+            '8': 'Agosto',
+            '9': 'Septiembre',
+            '10': 'Octubre',
+            '11': 'Noviembre',
+            '12': 'Diciembre'
         },
-        'quarterly': {
-            'files': {
-                'confianza': 'confianza.json-stat',
-                'confianza_tendencia': 'confianza-tendencia.json-stat'
-            }
+        'quarter': {
+            '1': '1T',
+            '2': '2T',
+            '3': '3T',
+            '4': '4T'
         }
     },
-    'month': {
-        '1': 'Enero',
-        '2': 'Febrero',
-        '3': 'Marzo',
-        '4': 'Abril',
-        '5': 'Mayo',
-        '6': 'Junio',
-        '7': 'Julio',
-        '8': 'Agosto',
-        '9': 'Septiembre',
-        '10': 'Octubre',
-        '11': 'Noviembre',
-        '12': 'Diciembre'
-    },
-    'quarter': {
-        '1': '1T',
-        '2': '2T',
-        '3': '3T',
-        '4': '4T'
-    },
-    'periods': 61
+    'periods': {
+        'global': 5,
+        'monthly': 61,
+        'quarterly': 15}
 }
 
 etl_cfg = Baseconfig(params)
