@@ -107,7 +107,7 @@ params = {
                 'rate_vars': [
                     'Ipc Cantabria. Var interanual',
                     'Ipc España. Var interanual'],
-                'trend_vars': [],
+                'trend_vars': ['Ipc Cantabria. Tendencia', 'Ipc España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Índice de Precios al Consumo del INE',
                 'json': {
                     'value': 'ipc.json-stat',
@@ -203,8 +203,26 @@ params = {
                     'value': 'personas-juridicas.json-stat',
                     'trend': 'personas-juridicas-tendencia.json-stat'
                 }
+            },
+            'trafico_aereo': {
+                'sheet': 'Taereo',
+                'label': 'Tráfico aéreo de pasajeros',
+                'value_vars': [
+                    'Tráfico aéreo de pasajeros Cantabria',
+                    'Tráfico aéreo de pasajeros España'],
+                'rate_vars': [
+                    'Tráfico aéreo de pasajeros Cantabria. Var interanual',
+                    'Tráfico aéreo de pasajeros España. Var interanual'],
+                'trend_vars': [
+                    'Tráfico aéreo de pasajeros Cantabria. Tendencia',
+                    'Tráfico aéreo de pasajeros España. Tendencia'],
+                'source': 'Fuente: ICANE a partir de Estadística de tráfico aéreo de AENA',
+                'json': {
+                    'value': 'trafico-aereo.json-stat',
+                    'trend': 'trafico-aereo-tendencia.json-stat'
+                }
             }
-        },
+        }
     },
     'quarterly': {
         'file': 'Datos_carga_trimestral.xlsx',
@@ -248,7 +266,8 @@ params = {
     'periods': {
         'global': 5,
         'monthly': 61,
-        'quarterly': 15}
+        'quarterly': 15
+    }
 }
 
 etl_cfg = Baseconfig(params)
