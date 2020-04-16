@@ -1,4 +1,4 @@
-"""Generation of JSON-Stat datasets."""
+"""Generation of JSON-Stat datasets for indicators."""
 
 from config import etl_cfg
 
@@ -58,7 +58,6 @@ def write_to_file(json_data, file_name):
 data = xlsx(etl_cfg.path.input)
 
 """Quarterly series."""
-
 for key in etl_cfg.quarterly.series:
     # Value variables
     value_vars = etl_cfg.quarterly.series[key].value_vars
@@ -97,7 +96,6 @@ for key in etl_cfg.quarterly.series:
     write_to_file(json_file, etl_cfg.path.output + etl_cfg.quarterly.series[key].json.trend)
 
 """Monthly series."""
-
 for key in etl_cfg.monthly.series:
     # Value variables
     value_vars = etl_cfg.monthly.series[key].value_vars

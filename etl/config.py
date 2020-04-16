@@ -264,7 +264,7 @@ params = {
         }
     },
     'periods': {
-        'global': 5,
+        'globals': 5,
         'monthly': 61,
         'quarterly': 15
     }
