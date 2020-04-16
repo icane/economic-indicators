@@ -11,17 +11,14 @@ import pandas as pd
 from pyjstat import pyjstat
 
 
-def transform(df, time_columns, labels, periods):
-    """Slice dataframe. Generate time period column.
+def transform(df, time_columns, labels):
+    """Generate time period column.
     
         df (dataframe): dataset
         time_columns (list): [year_column, month|quarter_column]
         labels (dict): time period labels
-        periods (int): number of time periods
     """
-    df = df.tail(periods)
-    df.reset_index(inplace=True)
-
+    df.reset_index(drop=True, inplace=True)
     for i in range(0, len(df)):
         period1 = str(df.loc[i, time_columns[0]])
         period2 = str(df.loc[i, time_columns[1]])
@@ -45,7 +42,7 @@ def to_json(df, id_vars, value_vars,
         value_vars=value_vars,
         var_name='Variables')
     id_vars.append('Variables')
-    df = df.sort_values(by=id_vars)
+    # df = df.sort_values(by=id_vars)
     dataset = pyjstat.Dataset.read(df, source=source)
     metric = {'metric': ['Variables']}
     dataset.setdefault('role', metric)
@@ -84,10 +81,20 @@ for key in etl_cfg.quarterly.series:
 
     qframes.append(data[etl_cfg.quarterly.file][etl_cfg.quarterly.series[key].sheet])
 
-qdata = pd.concat(qframes, axis=1)
+# Join dataframes and remove duplicate columns
+qdata = pd.concat(qframes, axis=1, verify_integrity=True)
+qdata = qdata.loc[:,~qdata.columns.duplicated()]
 
-print(qdata)
+# Change time dimension
+qdata = transform(qdata, ['Año', 'Trimestre'], etl_cfg.value_labels.quarter)
 
+# Export JSON-Stat dataset
+variables = list(qdata.columns.values).remove('Trimestre')
+json_file = to_json(
+        qdata,
+        ['Trimestre'],
+        variables)
+write_to_file(json_file, etl_cfg.path.output + 'globales-trimestral.json-stat')
 
 """Monthly series."""
 mdata = pd.DataFrame()
@@ -114,8 +121,19 @@ for key in etl_cfg.monthly.series:
 
     mframes.append(data[etl_cfg.monthly.file][etl_cfg.monthly.series[key].sheet])
 
-mdata = pd.concat(mframes, axis=1)
+# Join dataframes and remove duplicate columns
+mdata = pd.concat(mframes, axis=1, copy=False)
+mdata = mdata.loc[:,~mdata.columns.duplicated()]
 
-print(mdata)
+# Change time dimension
+mdata = transform(mdata, ['Año', 'Mes'], etl_cfg.value_labels.month)
+
+# Export JSON-Stat dataset
+variables = list(mdata.columns.values).remove('Mes')
+json_file = to_json(
+        mdata,
+        ['Mes'],
+        variables)
+write_to_file(json_file, etl_cfg.path.output + 'globales-mensual.json-stat')
 
 print('\nEnd of process. Files generated successfully.')
