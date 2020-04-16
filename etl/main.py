@@ -98,4 +98,41 @@ for key in etl_cfg.quarterly.series:
 
 """Monthly series."""
 
+for key in etl_cfg.monthly.series:
+    # Value variables
+    value_vars = etl_cfg.monthly.series[key].value_vars
+    variables = ['Año', 'Mes']
+    variables.extend(value_vars)
+    df = data[etl_cfg.monthly.file]\
+        [etl_cfg.monthly.series[key].sheet][variables].copy()
+    df = transform(
+        df, ['Año', 'Mes'],
+        etl_cfg.value_labels.month, etl_cfg.periods.monthly)
+    json_file = to_json(
+        df,
+        ['Mes'],
+        value_vars,
+        etl_cfg.monthly.series[key].source)
+    write_to_file(json_file, etl_cfg.path.output + etl_cfg.monthly.series[key].json.value)
+
+    # Rate and trend vars
+    rate_vars = etl_cfg.monthly.series[key].rate_vars
+    trend_vars = etl_cfg.monthly.series[key].trend_vars
+    variables = ['Año', 'Mes']
+    variables.extend(rate_vars)
+    variables.extend(trend_vars)
+    df_trend = data[etl_cfg.monthly.file]\
+        [etl_cfg.monthly.series[key].sheet][variables].copy()
+    df_trend = transform(
+        df_trend, ['Año', 'Mes'],
+        etl_cfg.value_labels.month, etl_cfg.periods.monthly)
+    variables = rate_vars
+    variables.extend(trend_vars)
+    json_file = to_json(
+        df_trend,
+        ['Mes'],
+        variables,
+        etl_cfg.monthly.series[key].source)
+    write_to_file(json_file, etl_cfg.path.output + etl_cfg.monthly.series[key].json.trend)
+
 print('\nEnd of process. Files generated successfully.')
