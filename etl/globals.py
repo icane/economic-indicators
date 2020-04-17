@@ -42,7 +42,7 @@ def to_json(df, id_vars, value_vars,
         value_vars=value_vars,
         var_name='Variables')
     id_vars.append('Variables')
-    # df = df.sort_values(by=id_vars)
+    df = df.sort_values(by=id_vars)
     dataset = pyjstat.Dataset.read(df, source=source)
     metric = {'metric': ['Variables']}
     dataset.setdefault('role', metric)
