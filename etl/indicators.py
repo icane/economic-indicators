@@ -4,6 +4,8 @@ from config import etl_cfg
 
 from etlstat.extractor.extractor import xlsx
 
+import json
+
 from numpy import arange
 
 from pyjstat import pyjstat
@@ -73,6 +75,10 @@ for key in etl_cfg.quarterly.series:
         ['Trimestre'],
         value_vars,
         etl_cfg.quarterly.series[key].source)
+    json_obj = json.loads(json_file)
+    json_obj['dimension']['Variables']['category']['unit'] = \
+        etl_cfg.quarterly.series[key].unit.value
+    json_file = json.dumps(json_obj)
     write_to_file(json_file, etl_cfg.path.output + etl_cfg.quarterly.series[key].json.value)
 
     # Rate and trend vars
@@ -93,6 +99,10 @@ for key in etl_cfg.quarterly.series:
         ['Trimestre'],
         variables,
         etl_cfg.quarterly.series[key].source)
+    json_obj = json.loads(json_file)
+    json_obj['dimension']['Variables']['category']['unit'] = \
+        etl_cfg.quarterly.series[key].unit.trend
+    json_file = json.dumps(json_obj)
     write_to_file(json_file, etl_cfg.path.output + etl_cfg.quarterly.series[key].json.trend)
 
 """Monthly series."""
@@ -111,6 +121,10 @@ for key in etl_cfg.monthly.series:
         ['Mes'],
         value_vars,
         etl_cfg.monthly.series[key].source)
+    json_obj = json.loads(json_file)
+    json_obj['dimension']['Variables']['category']['unit'] = \
+        etl_cfg.monthly.series[key].unit.value
+    json_file = json.dumps(json_obj)
     write_to_file(json_file, etl_cfg.path.output + etl_cfg.monthly.series[key].json.value)
 
     # Rate and trend vars
@@ -131,6 +145,10 @@ for key in etl_cfg.monthly.series:
         ['Mes'],
         variables,
         etl_cfg.monthly.series[key].source)
+    json_obj = json.loads(json_file)
+    json_obj['dimension']['Variables']['category']['unit'] = \
+        etl_cfg.monthly.series[key].unit.trend
+    json_file = json.dumps(json_obj)
     write_to_file(json_file, etl_cfg.path.output + etl_cfg.monthly.series[key].json.trend)
 
 print('\nEnd of process. Files generated successfully.')

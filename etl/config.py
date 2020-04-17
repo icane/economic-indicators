@@ -24,6 +24,10 @@ params = {
                     'Paro Cantabria. Tendencia',
                     'Paro España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Movimiento Laboral Registrado del SEPE',
+                'unit':{
+                    'value': 'Personas',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'paro.json-stat',
                     'trend': 'paro-tendencia.json-stat'
@@ -41,6 +45,10 @@ params = {
                     'Contratos Cantabria. Tendencia',
                     'Contratos España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Movimiento Laboral Registrado del SEPE',
+                'unit':{
+                    'value': 'Contratos',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'contratos.json-stat',
                     'trend': 'contratos-tendencia.json-stat'
@@ -59,6 +67,10 @@ params = {
                     'Afiliados a último día de mes Cantabria. Tendencia',
                     'Afiliados a último día de mes España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
+                'unit':{
+                    'value': 'Afiliados (a último día de mes)',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'afiliados.json-stat',
                     'trend': 'afiliados-tendencia.json-stat'
@@ -77,6 +89,10 @@ params = {
                     'Afiliados. Asalariados Cantabria. Tendencia',
                     'Afiliados. Asalariados España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
+                'unit':{
+                    'value': 'Afiliados (a último día de mes)',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'afiliados-asalariados.json-stat',
                     'trend': 'afiliados-asalariados-tendencia.json-stat'
@@ -95,6 +111,10 @@ params = {
                     'Afiliados. No asalariados Cantabria. Tendencia',
                     'Afiliados. No asalariados España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
+                'unit':{
+                    'value': 'Afiliados (a último día de mes)',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'afiliados-no-asalariados.json-stat',
                     'trend': 'afiliados-no-asalariados-tendencia.json-stat'
@@ -107,8 +127,12 @@ params = {
                 'rate_vars': [
                     'Ipc Cantabria. Var interanual',
                     'Ipc España. Var interanual'],
-                'trend_vars': ['Ipc Cantabria. Tendencia', 'Ipc España. Tendencia'],
+                'trend_vars': [],
                 'source': 'Fuente: ICANE a partir de Índice de Precios al Consumo del INE',
+                'unit':{
+                    'value': 'Índice',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'ipc.json-stat',
                     'trend': 'ipc-tendencia.json-stat'
@@ -127,6 +151,10 @@ params = {
                     'Matriculación de vehículos Cantabria. Tendencia',
                     'Matriculación de vehículos España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Matriculación de Vehiculos de la Dirección General de Tráfico',
+                'unit':{
+                    'value': 'Vehículos',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'matriculaciones.json-stat',
                     'trend': 'matriculaciones-tendencia.json-stat'
@@ -145,6 +173,10 @@ params = {
                     'Indicador de clima industrial Cantabria. Tendencia',
                     'Indicador de clima industrial España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Encuesta de Coyuntura Industrial del Ministerio de Industria, Comercio y Turismo',
+                'unit':{
+                    'value': 'Saldo',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'clima-industrial.json-stat',
                     'trend': 'clima-industrial-tendencia.json-stat'
@@ -163,6 +195,10 @@ params = {
                     'Empresas inscritas en la Seguridad Social Cantabria. Tendencia',
                     'Empresas inscritas en la Seguridad Social España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
+                'unit':{
+                    'value': 'Empresas',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'empresas.json-stat',
                     'trend': 'empresas-tendencia.json-stat'
@@ -181,6 +217,10 @@ params = {
                     'Personas físicas inscritas en la Seguridad Social Cantabria. Tendencia',
                     'Personas físicas inscritas en la Seguridad Social España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
+                'unit':{
+                    'value': 'Empresas',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'personas-fisicas.json-stat',
                     'trend': 'personas-fisicas-tendencia.json-stat'
@@ -199,6 +239,10 @@ params = {
                     'Personas jurídicas inscritas en la Seguridad Social Cantabria. Tendencia',
                     'Personas jurídicas inscritas en la Seguridad Social España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
+                'unit':{
+                    'value': 'Empresas',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'personas-juridicas.json-stat',
                     'trend': 'personas-juridicas-tendencia.json-stat'
@@ -217,6 +261,10 @@ params = {
                     'Tráfico aéreo de pasajeros Cantabria. Tendencia',
                     'Tráfico aéreo de pasajeros España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Estadística de tráfico aéreo de AENA',
+                'unit':{
+                    'value': 'Pasajeros',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'trafico-aereo.json-stat',
                     'trend': 'trafico-aereo-tendencia.json-stat'
@@ -234,6 +282,10 @@ params = {
                 'rate_vars': ['ICE Cantabria. Var interanual', 'ICE España. Var interanual'],
                 'trend_vars': ['ICE Cantabria. Tendencia', 'ICE España. Tendencia'],
                 'source': 'Fuente: ICANE a partir de Índice de Confianza Empresarial del INE',
+                'unit':{
+                    'value': 'Índice',
+                    'trend': '%'
+                },
                 'json': {
                     'value': 'confianza.json-stat',
                     'trend': 'confianza-tendencia.json-stat'

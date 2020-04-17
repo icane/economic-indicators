@@ -4,6 +4,7 @@ from config import etl_cfg
 
 from etlstat.extractor.extractor import xlsx
 
+import json
 from numpy import arange
 
 import pandas as pd
@@ -94,6 +95,10 @@ json_file = to_json(
         qdata,
         ['Trimestre'],
         variables)
+json_obj = json.loads(json_file)
+json_obj['dimension']['Variables']['category']['unit'] = \
+    etl_cfg.quarterly.series[key].unit.value
+json_file = json.dumps(json_obj)
 write_to_file(json_file, etl_cfg.path.output + 'globales-trimestral.json-stat')
 
 """Monthly series."""
@@ -134,6 +139,10 @@ json_file = to_json(
         mdata,
         ['Mes'],
         variables)
+json_obj = json.loads(json_file)
+json_obj['dimension']['Variables']['category']['unit'] = \
+    etl_cfg.monthly.series[key].unit.value
+json_file = json.dumps(json_obj)
 write_to_file(json_file, etl_cfg.path.output + 'globales-mensual.json-stat')
 
 print('\nEnd of process. Files generated successfully.')
