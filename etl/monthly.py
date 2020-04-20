@@ -29,6 +29,21 @@ def transform(df, periods):
     df.rename(columns={'period': 'Mes'}, inplace=True)
     return df
 
+def replace_month(json_str):
+    """Replace month number by its name."""
+    json_str = json_str.replace(' - 1"', ' - Enero"')
+    json_str = json_str.replace(' - 2"', ' - Febrero"')
+    json_str = json_str.replace(' - 3"', ' - Marzo"')
+    json_str = json_str.replace(' - 4"', ' - Abril"')
+    json_str = json_str.replace(' - 5"', ' - Mayo"')
+    json_str = json_str.replace(' - 6"', ' - Junio"')
+    json_str = json_str.replace(' - 7"', ' - Julio"')
+    json_str = json_str.replace(' - 8"', ' - Agosto"')
+    json_str = json_str.replace(' - 9"', ' - Septiembre"')
+    json_str = json_str.replace(' - 10"', ' - Octubre"')
+    json_str = json_str.replace(' - 11"', ' - Noviembre"')
+    json_str = json_str.replace(' - 12"', ' - Diciembre"')
+    return json_str
 
 # Read  input files
 data = xlsx(cfg.path.input)
@@ -50,6 +65,7 @@ for key in cfg.series:
     json_obj['dimension']['Variables']['category']['unit'] = \
         cfg.series[key].unit.value
     json_file = json.dumps(json_obj)
+    json_file = replace_month(json_file)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.value)
 
     # Rate and trend vars
@@ -73,6 +89,7 @@ for key in cfg.series:
     json_obj['dimension']['Variables']['category']['unit'] = \
         cfg.series[key].unit.trend
     json_file = json.dumps(json_obj)
+    json_file = replace_month(json_file)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.trend)
 
 # Global dataset
@@ -109,6 +126,7 @@ json_obj = json.loads(json_file)
 json_obj['dimension']['Variables']['category']['unit'] = \
     cfg.series[key].unit.value
 json_file = json.dumps(json_obj)
+json_file = replace_month(json_file)
 write_to_file(json_file, cfg.path.output + cfg.globals.json)
 
 print('\nEnd of process. Files generated successfully.')

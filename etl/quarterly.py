@@ -29,6 +29,13 @@ def transform(df, periods):
     df.rename(columns={'period': 'Trimestre'}, inplace=True)
     return df
 
+def replace_quarter(json_str):
+    """Replace quarter number by its label."""
+    json_str = json_str.replace(' - 1"', ' - 1T"')
+    json_str = json_str.replace(' - 2"', ' - 2T"')
+    json_str = json_str.replace(' - 3"', ' - 3T"')
+    json_str = json_str.replace(' - 4"', ' - 4T"')
+    return json_str
 
 # Read  input files
 data = xlsx(cfg.path.input)
@@ -50,6 +57,7 @@ for key in cfg.series:
     json_obj['dimension']['Variables']['category']['unit'] = \
         cfg.series[key].unit.value
     json_file = json.dumps(json_obj)
+    json_file = replace_quarter(json_file)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.value)
 
     # Rate and trend vars
@@ -73,6 +81,7 @@ for key in cfg.series:
     json_obj['dimension']['Variables']['category']['unit'] = \
         cfg.series[key].unit.trend
     json_file = json.dumps(json_obj)
+    json_file = replace_quarter(json_file)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.trend)
 
 # Global dataset
@@ -109,6 +118,7 @@ json_obj = json.loads(json_file)
 json_obj['dimension']['Variables']['category']['unit'] = \
     cfg.series[key].unit.value
 json_file = json.dumps(json_obj)
+json_file = replace_quarter(json_file)
 write_to_file(json_file, cfg.path.output + cfg.globals.json)
 
 print('\nEnd of process. Files generated successfully.')
