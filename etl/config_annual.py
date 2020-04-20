@@ -1,6 +1,6 @@
 from beautifuldict.baseconfig import Baseconfig
 
-from config_common import common_cfg
+from etl.config_common import common_cfg
 
 from decouple import config
 
@@ -27,7 +27,7 @@ params = {
             },
             'json': {
                 'value': 'pib-indice-volumen.json-stat',
-                'trend': 'pib-iv-tendencia.json-stat'
+                'trend': 'pib-indice-volumen-tendencia.json-stat'
             }
         },
         'pib_precios_corrientes': {

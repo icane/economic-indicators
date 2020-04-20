@@ -1,6 +1,6 @@
 from beautifuldict.baseconfig import Baseconfig
 
-from config_common import common_cfg
+from etl.config_common import common_cfg
 
 from decouple import config
 

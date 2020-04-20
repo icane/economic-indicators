@@ -1,6 +1,6 @@
 from beautifuldict.baseconfig import Baseconfig
 
-from config_common import common_cfg
+from etl.config_common import common_cfg
 
 from decouple import config
 
@@ -20,8 +20,8 @@ params = {
                 'trend': '%'
             },
             'json': {
-                'value': 'confianza.json-stat',
-                'trend': 'confianza-tendencia.json-stat'
+                'value': 'confianza-empresarial.json-stat',
+                'trend': 'confianza-empresarial-tendencia.json-stat'
             }
         }
     }
