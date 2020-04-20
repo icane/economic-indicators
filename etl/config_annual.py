@@ -117,6 +117,10 @@ params = {
                 'trend': 'gasto-sanitario-consolidado-per-capita-tendencia.json-stat'
             }
         },
+    },
+    'globals': {
+        'source': 'Fuente: ICANE a partir de Contabilidad Regional de España Base 2015 (INE), Estadística de Gasto Sanitario Público (Ministerio de Sanidad)',
+        'json': 'globales-anual.json-stat'
     }
 }
 

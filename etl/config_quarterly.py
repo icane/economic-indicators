@@ -24,6 +24,10 @@ params = {
                 'trend': 'confianza-empresarial-tendencia.json-stat'
             }
         }
+    },
+    'globals': {
+        'source': 'Fuente: ICANE a partir de Índice de Confianza Empresarial del INE',
+        'json': 'globales-trimestral.json-stat'
     }
 }
 
