@@ -9,4 +9,4 @@ En etl/data/input. Formato XLSX.
 
 ## Ficheros de resultados
 
-En etl/data/output. Formato JSON-Stat.
+En etl/data/output. Formato JSON-Stat y CSV.

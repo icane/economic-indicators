@@ -17,9 +17,6 @@ def transform(df, periods):
         df (dataframe): dataset
         periods (int): number of time periods
     """
-    df = df.tail(periods)
-    df.reset_index(inplace=True)
-
     for i in range(0, len(df)):
         period1 = str(df.loc[i, 'Año'])
         period2 = str(df.loc[i, 'Trimestre'])
@@ -27,6 +24,7 @@ def transform(df, periods):
 
     df.drop(columns={'Año', 'Trimestre'}, axis=1, inplace=True)
     df.rename(columns={'period': 'Trimestre'}, inplace=True)
+    df = df.tail(periods)
     return df
 
 def replace_quarter(json_str):
@@ -107,7 +105,7 @@ gdata = gdata.loc[:,~gdata.columns.duplicated()]
 # Change time dimension
 gdata = transform(gdata, cfg.periods.globals)
 
-# Export JSON-Stat dataset
+# JSON-Stat dataset
 variables = list(gdata.columns.values).remove('Trimestre')
 json_file = to_json_stat(
         gdata,
@@ -120,5 +118,24 @@ json_obj['dimension']['Variables']['category']['unit'] = \
 json_file = json.dumps(json_obj)
 json_file = replace_quarter(json_file)
 write_to_file(json_file, cfg.path.output + cfg.globals.json)
+
+# CSV dataset
+ice_cant = gdata[['Trimestre', 'ICE Cantabria. Var interanual']].copy()
+ice_cant.set_index('Trimestre', inplace=True)
+ice_cant.rename(
+    columns={'ICE Cantabria. Var interanual':
+             'Índice de confianza empresarial'},
+             inplace=True)
+ice_cant = ice_cant.transpose()
+ice_esp = gdata[['Trimestre', 'ICE España. Var interanual']].copy()
+ice_esp.set_index('Trimestre', inplace=True)
+ice_esp.rename(
+    columns={'ICE España. Var interanual':
+             'Índice de confianza empresarial'},
+             inplace=True)
+ice_esp = ice_esp.transpose()
+ice = pd.concat([ice_cant, ice_esp], axis=1)
+print(ice)
+
 
 print('\nEnd of process. Files generated successfully.')

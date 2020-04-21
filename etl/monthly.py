@@ -17,29 +17,27 @@ def transform(df, periods):
         df (dataframe): dataset
         periods (int): number of time periods
     """
-    df = df.tail(periods)
-    df.reset_index(inplace=True)
-
     for i in range(0, len(df)):
         period1 = str(df.loc[i, 'Año'])
-        period2 = str(df.loc[i, 'Mes'])
+        period2 = '{:0>2}'.format(df.loc[i, 'Mes'])
         df.loc[i, 'period'] =  period1 + ' - ' + period2
 
     df.drop(columns={'Año', 'Mes'}, axis=1, inplace=True)
     df.rename(columns={'period': 'Mes'}, inplace=True)
+    df = df.tail(periods)
     return df
 
 def replace_month(json_str):
     """Replace month number by its name."""
-    json_str = json_str.replace(' - 1"', ' - Enero"')
-    json_str = json_str.replace(' - 2"', ' - Febrero"')
-    json_str = json_str.replace(' - 3"', ' - Marzo"')
-    json_str = json_str.replace(' - 4"', ' - Abril"')
-    json_str = json_str.replace(' - 5"', ' - Mayo"')
-    json_str = json_str.replace(' - 6"', ' - Junio"')
-    json_str = json_str.replace(' - 7"', ' - Julio"')
-    json_str = json_str.replace(' - 8"', ' - Agosto"')
-    json_str = json_str.replace(' - 9"', ' - Septiembre"')
+    json_str = json_str.replace(' - 01"', ' - Enero"')
+    json_str = json_str.replace(' - 02"', ' - Febrero"')
+    json_str = json_str.replace(' - 03"', ' - Marzo"')
+    json_str = json_str.replace(' - 04"', ' - Abril"')
+    json_str = json_str.replace(' - 05"', ' - Mayo"')
+    json_str = json_str.replace(' - 06"', ' - Junio"')
+    json_str = json_str.replace(' - 07"', ' - Julio"')
+    json_str = json_str.replace(' - 08"', ' - Agosto"')
+    json_str = json_str.replace(' - 09"', ' - Septiembre"')
     json_str = json_str.replace(' - 10"', ' - Octubre"')
     json_str = json_str.replace(' - 11"', ' - Noviembre"')
     json_str = json_str.replace(' - 12"', ' - Diciembre"')

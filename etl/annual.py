@@ -18,7 +18,6 @@ def transform(df, periods):
         periods (int): number of time periods
     """
     df = df.tail(periods)
-    df.reset_index(inplace=True)
     return df
 
 
