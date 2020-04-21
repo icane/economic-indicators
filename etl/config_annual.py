@@ -120,7 +120,8 @@ params = {
     },
     'globals': {
         'source': 'Fuente: ICANE a partir de Contabilidad Regional de España Base 2015 (INE), Estadística de Gasto Sanitario Público (Ministerio de Sanidad)',
-        'json': 'globales-anual.json-stat'
+        'json': 'globales-anual.json-stat',
+        'csv': 'globales-anual-tabla.csv'
     }
 }
 

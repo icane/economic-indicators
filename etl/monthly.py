@@ -127,4 +127,28 @@ json_file = json.dumps(json_obj)
 json_file = replace_month(json_file)
 write_to_file(json_file, cfg.path.output + cfg.globals.json)
 
+# CSV dataset
+indicators = []
+for key in cfg.series:
+    cant = gdata[['Mes', cfg.series[key].rate_vars[0]]].copy()
+    cant.set_index('Mes', inplace=True)
+    cant.rename(
+        columns={cfg.series[key].rate_vars[0]:
+                cfg.series[key].label},
+                inplace=True)
+    cant = cant.transpose()
+    esp = gdata[['Mes', cfg.series[key].rate_vars[1]]].copy()
+    esp.set_index('Mes', inplace=True)
+    esp.rename(
+        columns={cfg.series[key].rate_vars[1]:
+                cfg.series[key].label},
+                inplace=True)
+    esp = esp.transpose()
+    indicator = pd.concat([cant, esp], axis=1)
+    indicators.append(indicator)
+
+global_table = pd.concat(indicators, axis=0, verify_integrity=False)
+
+global_table.to_csv(cfg.path.output + cfg.globals.csv)
+
 print('\nEnd of process. Files generated successfully.')

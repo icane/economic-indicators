@@ -120,22 +120,27 @@ json_file = replace_quarter(json_file)
 write_to_file(json_file, cfg.path.output + cfg.globals.json)
 
 # CSV dataset
-ice_cant = gdata[['Trimestre', 'ICE Cantabria. Var interanual']].copy()
-ice_cant.set_index('Trimestre', inplace=True)
-ice_cant.rename(
-    columns={'ICE Cantabria. Var interanual':
-             'Índice de confianza empresarial'},
-             inplace=True)
-ice_cant = ice_cant.transpose()
-ice_esp = gdata[['Trimestre', 'ICE España. Var interanual']].copy()
-ice_esp.set_index('Trimestre', inplace=True)
-ice_esp.rename(
-    columns={'ICE España. Var interanual':
-             'Índice de confianza empresarial'},
-             inplace=True)
-ice_esp = ice_esp.transpose()
-ice = pd.concat([ice_cant, ice_esp], axis=1)
-print(ice)
+indicators = []
+for key in cfg.series:
+    cant = gdata[['Trimestre', cfg.series[key].rate_vars[0]]].copy()
+    cant.set_index('Trimestre', inplace=True)
+    cant.rename(
+        columns={cfg.series[key].rate_vars[0]:
+                cfg.series[key].label},
+                inplace=True)
+    cant = cant.transpose()
+    esp = gdata[['Trimestre', cfg.series[key].rate_vars[1]]].copy()
+    esp.set_index('Trimestre', inplace=True)
+    esp.rename(
+        columns={cfg.series[key].rate_vars[1]:
+                cfg.series[key].label},
+                inplace=True)
+    esp = esp.transpose()
+    indicator = pd.concat([cant, esp], axis=1)
+    indicators.append(indicator)
 
+global_table = pd.concat(indicators, axis=0, verify_integrity=False)
+
+global_table.to_csv(cfg.path.output + cfg.globals.csv)
 
 print('\nEnd of process. Files generated successfully.')

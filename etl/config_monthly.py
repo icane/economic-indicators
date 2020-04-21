@@ -268,7 +268,8 @@ params = {
     },
     'globals': {
         'source': 'Fuente: ICANE a partir de Movimiento Laboral Registrado [SEPE], Afiliaciones a la Seguridad Social [TGSS], Índice de Precios al Consumo [INE], Matriculación de Vehiculos [DGT], Encuesta de Coyuntura Industrial [MICT], Empresas Inscritas en Seguridad Social [MTMSS], Estadística de tráfico aéreo [AENA]',
-        'json': 'globales-mensual.json-stat'
+        'json': 'globales-mensual.json-stat',
+        'csv': 'globales-mensual-tabla.csv'
     }
 }
 
