@@ -20,19 +20,20 @@ def transform(df, periods):
     for i in range(0, len(df)):
         period1 = str(df.loc[i, 'Año'])
         period2 = str(df.loc[i, 'Trimestre'])
-        df.loc[i, 'period'] =  period1 + ' - ' + period2
+        df.loc[i, 'period'] =  period1 + '-' + period2
 
     df.drop(columns={'Año', 'Trimestre'}, axis=1, inplace=True)
     df.rename(columns={'period': 'Trimestre'}, inplace=True)
     df = df.tail(periods)
+    df = df.round(3)
     return df
 
 def replace_quarter(json_str):
     """Replace quarter number by its label."""
-    json_str = json_str.replace(' - 1"', ' - 1T"')
-    json_str = json_str.replace(' - 2"', ' - 2T"')
-    json_str = json_str.replace(' - 3"', ' - 3T"')
-    json_str = json_str.replace(' - 4"', ' - 4T"')
+    json_str = json_str.replace('-1"', '-1T"')
+    json_str = json_str.replace('-2"', '-2T"')
+    json_str = json_str.replace('-3"', '-3T"')
+    json_str = json_str.replace('-4"', '-4T"')
     return json_str
 
 # Read  input files

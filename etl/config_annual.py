@@ -8,28 +8,6 @@ from decouple import config
 params = {
     'file': 'Datos_carga_anual.xlsx',
     'series': {
-        'pib_indice_volumen': {
-            'sheet': 'Hoja1',
-            'label': 'PIB. Índices de volumen',
-            'value_vars': [
-                'PIB. Índice de volumen Cantabria',
-                'PIB. Índice de volumen España'],
-            'rate_vars': [
-                'PIB. Índice de volumen Cantabria. Var interanual',
-                'PIB. Índice de volumen España. Var interanual'],
-            'trend_vars': [
-                'PIB. Índice de volumen Cantabria. Tendencia',
-                'PIB. Índice de volumen España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Contabilidad Regional de España Base 2015 del INE',
-            'unit':{
-                'value': 'Índice',
-                'trend': '%'
-            },
-            'json': {
-                'value': 'pib-indice-volumen.json-stat',
-                'trend': 'pib-indice-volumen-tendencia.json-stat'
-            }
-        },
         'pib_precios_corrientes': {
             'sheet': 'Hoja2',
             'label': 'PIB. Precios corrientes',
@@ -50,6 +28,28 @@ params = {
             'json': {
                 'value': 'pib-precios-corrientes.json-stat',
                 'trend': 'pib-precios-corrientes-tendencia.json-stat'
+            }
+        },
+        'pib_indice_volumen': {
+            'sheet': 'Hoja1',
+            'label': 'PIB. Índices de volumen',
+            'value_vars': [
+                'PIB. Índice de volumen Cantabria',
+                'PIB. Índice de volumen España'],
+            'rate_vars': [
+                'PIB. Índice de volumen Cantabria. Var interanual',
+                'PIB. Índice de volumen España. Var interanual'],
+            'trend_vars': [
+                'PIB. Índice de volumen Cantabria. Tendencia',
+                'PIB. Índice de volumen España. Tendencia'],
+            'source': 'Fuente: ICANE a partir de Contabilidad Regional de España Base 2015 del INE',
+            'unit':{
+                'value': 'Índice',
+                'trend': '%'
+            },
+            'json': {
+                'value': 'pib-indice-volumen.json-stat',
+                'trend': 'pib-indice-volumen-tendencia.json-stat'
             }
         },
         'pib_per_capita': {
@@ -116,7 +116,7 @@ params = {
                 'value': 'gasto-sanitario-consolidado-per-capita.json-stat',
                 'trend': 'gasto-sanitario-consolidado-per-capita-tendencia.json-stat'
             }
-        },
+        }
     },
     'globals': {
         'source': 'Fuente: ICANE a partir de Contabilidad Regional de España Base 2015 (INE), Estadística de Gasto Sanitario Público (Ministerio de Sanidad)',

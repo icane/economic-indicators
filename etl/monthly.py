@@ -20,27 +20,28 @@ def transform(df, periods):
     for i in range(0, len(df)):
         period1 = str(df.loc[i, 'Año'])
         period2 = '{:0>2}'.format(df.loc[i, 'Mes'])
-        df.loc[i, 'period'] =  period1 + ' - ' + period2
+        df.loc[i, 'period'] =  period1 + '-' + period2
 
     df.drop(columns={'Año', 'Mes'}, axis=1, inplace=True)
     df.rename(columns={'period': 'Mes'}, inplace=True)
     df = df.tail(periods)
+    df = df.round(3)
     return df
 
 def replace_month(json_str):
     """Replace month number by its name."""
-    json_str = json_str.replace(' - 01"', ' - Enero"')
-    json_str = json_str.replace(' - 02"', ' - Febrero"')
-    json_str = json_str.replace(' - 03"', ' - Marzo"')
-    json_str = json_str.replace(' - 04"', ' - Abril"')
-    json_str = json_str.replace(' - 05"', ' - Mayo"')
-    json_str = json_str.replace(' - 06"', ' - Junio"')
-    json_str = json_str.replace(' - 07"', ' - Julio"')
-    json_str = json_str.replace(' - 08"', ' - Agosto"')
-    json_str = json_str.replace(' - 09"', ' - Septiembre"')
-    json_str = json_str.replace(' - 10"', ' - Octubre"')
-    json_str = json_str.replace(' - 11"', ' - Noviembre"')
-    json_str = json_str.replace(' - 12"', ' - Diciembre"')
+    json_str = json_str.replace('-01"', '-Ene"')
+    json_str = json_str.replace('-02"', '-Feb"')
+    json_str = json_str.replace('-03"', '-Mar"')
+    json_str = json_str.replace('-04"', '-Abr"')
+    json_str = json_str.replace('-05"', '-May"')
+    json_str = json_str.replace('-06"', '-Jun"')
+    json_str = json_str.replace('-07"', '-Jul"')
+    json_str = json_str.replace('-08"', '-Ago"')
+    json_str = json_str.replace('-09"', '-Sep"')
+    json_str = json_str.replace('-10"', '-Oct"')
+    json_str = json_str.replace('-11"', '-Nov"')
+    json_str = json_str.replace('-12"', '-Dic"')
     return json_str
 
 # Read  input files
