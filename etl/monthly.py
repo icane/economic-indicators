@@ -25,7 +25,7 @@ def transform(df, periods):
     df.drop(columns={'Año', 'Mes'}, axis=1, inplace=True)
     df.rename(columns={'period': 'Mes'}, inplace=True)
     df = df.tail(periods)
-    df = df.round(3)
+    df = df.round(2)
     return df
 
 def replace_month(json_str):
