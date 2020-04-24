@@ -17,7 +17,7 @@ def transform(df, periods):
         df (dataframe): dataset
         periods (int): number of time periods
     """
-    # df = df.tail(periods)
+    df = df.tail(periods)
     df = df.round(2)
     return df
 
