@@ -16,9 +16,24 @@ params = {
             'trend_vars': ['ICE Cantabria. Tendencia', 'ICE España. Tendencia'],
             'source': 'Fuente: ICANE a partir de Índice de Confianza Empresarial del INE',
             'unit':{
-                'value': 'Índice',
-                'trend': '%'
+                'value': {
+                    'ICE Cantabria': {
+                        'decimals': 2, 'label': 'Índice'},
+                    'ICE España': {
+                        'decimals': 2, 'label': 'Índice'},
+                },
+                'trend': {
+                    'ICE Cantabria. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                    'ICE España. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                    'ICE Cantabria. Tendencia': {
+                        'decimals': 2, 'label': '%'},
+                    'ICE España. Tendencia': {
+                        'decimals': 2, 'label': '%'},
+                }
             },
+            "note":[""],
             'json': {
                 'value': 'confianza-empresarial.json-stat',
                 'trend': 'confianza-empresarial-tendencia.json-stat'
@@ -27,6 +42,7 @@ params = {
     },
     'globals': {
         'source': 'Fuente: ICANE a partir de Índice de Confianza Empresarial del INE',
+        'note': [""],
         'json': 'globales-trimestral.json-stat',
         'csv': 'globales-trimestral-tabla.csv'
     }

@@ -55,6 +55,7 @@ for key in cfg.series:
     json_obj = json.loads(json_file)
     json_obj['dimension']['Variables']['category']['unit'] = \
         cfg.series[key].unit.value
+    json_obj['note'] = cfg.series[key].note
     json_file = json.dumps(json_obj)
     json_file = replace_quarter(json_file)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.value)
@@ -79,6 +80,7 @@ for key in cfg.series:
     json_obj = json.loads(json_file)
     json_obj['dimension']['Variables']['category']['unit'] = \
         cfg.series[key].unit.trend
+    json_obj['note'] = cfg.series[key].note
     json_file = json.dumps(json_obj)
     json_file = replace_quarter(json_file)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.trend)
@@ -114,8 +116,6 @@ json_file = to_json_stat(
         variables,
         cfg.globals.source)
 json_obj = json.loads(json_file)
-json_obj['dimension']['Variables']['category']['unit'] = \
-    cfg.series[key].unit.value
 json_file = json.dumps(json_obj)
 json_file = replace_quarter(json_file)
 write_to_file(json_file, cfg.path.output + cfg.globals.json)
