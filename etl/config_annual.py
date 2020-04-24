@@ -126,6 +126,26 @@ params = {
                 'value': 'gasto-sanitario-consolidado-pib.json-stat',
                 'trend': 'gasto-sanitario-consolidado-pib-tendencia.json-stat'
             }
+        },
+        'ingresos_tributarios_netos': {
+            'sheet': 'Hoja7',
+            'label': 'Ingresos tributarios netos anuales',
+            'value_vars': [
+                'Ingresos tributarios netos Delegación Cantabria',
+                'Ingresos tributarios netos España'],
+            'rate_vars': [
+                'Ingresos tributarios netos Delegación Cantabria. Var interanual',
+                'Ingresos tributarios netos España. Var interanual'],
+            'trend_vars': [],
+            'source': 'Fuente: ICANE a partir de Informes de Recaudación Tributaria de la AEAT',
+            'unit':{
+                'value': 'Miles de euros',
+                'trend': '%'
+            },
+            'json': {
+                'value': 'ingresos-tributarios-netos.json-stat',
+                'trend': 'ingresos-tributarios-netos-tendencia.json-stat'
+            }
         }
     },
     'globals': {

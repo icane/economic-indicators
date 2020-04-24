@@ -89,7 +89,7 @@ gdata = pd.concat(qframes, axis=1, verify_integrity=False)
 gdata = gdata.loc[:,~gdata.columns.duplicated()]
 
 # Change time dimension
-gdata = transform(gdata, cfg.periods.globals)
+gdata = transform(gdata, cfg.periods.annual)
 
 # Export JSON-Stat dataset
 variables = list(gdata.columns.values).remove('Año')
