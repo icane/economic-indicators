@@ -17,9 +17,7 @@ params = {
             'rate_vars': [
                 'PIB. Precios corrientes Cantabria. Var interanual',
                 'PIB. Precios corrientes España. Var interanual'],
-            'trend_vars': [
-                'PIB. Precios corrientes Cantabria. Tendencia',
-                'PIB. Precios corrientes España. Tendencia'],
+            'trend_vars': [],
             'source': 'Fuente: ICANE a partir de Contabilidad Regional de España Base 2015 del INE',
             'unit':{
                 'value': 'Miles de euros',
@@ -39,9 +37,7 @@ params = {
             'rate_vars': [
                 'PIB. Índice de volumen Cantabria. Var interanual',
                 'PIB. Índice de volumen España. Var interanual'],
-            'trend_vars': [
-                'PIB. Índice de volumen Cantabria. Tendencia',
-                'PIB. Índice de volumen España. Tendencia'],
+            'trend_vars': [],
             'source': 'Fuente: ICANE a partir de Contabilidad Regional de España Base 2015 del INE',
             'unit':{
                 'value': 'Índice',
@@ -60,9 +56,7 @@ params = {
             'rate_vars': [
                 'PIB per cápita Cantabria. Var interanual',
                 'PIB per cápita España. Var interanual'],
-            'trend_vars': [
-                'PIB per cápita Cantabria. Tendencia',
-                'PIB per cápita España. Tendencia'],
+            'trend_vars': [],
             'source': 'Fuente: ICANE a partir de Contabilidad Regional de España Base 2015 del INE',
             'unit':{
                 'value': 'Euros',
@@ -82,9 +76,7 @@ params = {
             'rate_vars': [
                 'Gasto sanitario público consolidado. Sector CC.AA Cantabria. Var interanual',
                 'Gasto sanitario público consolidado. Sector CC.AA España. Var interanual'],
-            'trend_vars': [
-                'Gasto sanitario público consolidado. Sector CC.AA Cantabria. Tendencia',
-                'Gasto sanitario público consolidado. Sector CC.AA España. Tendencia'],
+            'trend_vars': [],
             'source': 'Fuente: ICANE a partir de Estadística de Gasto sanitario público del Ministerio de Sanidad',
             'unit':{
                 'value': 'Miles de euros',
@@ -104,9 +96,7 @@ params = {
             'rate_vars': [
                 'Gasto sanitario público consolidado per cápita. Sector CC.AA Cantabria. Var interanual',
                 'Gasto sanitario público consolidado per cápita. Sector CC.AA España. Var interanual'],
-            'trend_vars': [
-                'Gasto sanitario público consolidado per cápita. Sector CC.AA Cantabria. Tendencia',
-                'Gasto sanitario público consolidado per cápita. Sector CC.AA España. Tendencia'],
+            'trend_vars': [],
             'source': 'Fuente: ICANE a partir de Estadística de Gasto sanitario público del Ministerio de Sanidad',
             'unit':{
                 'value': 'Euros',
@@ -115,6 +105,26 @@ params = {
             'json': {
                 'value': 'gasto-sanitario-consolidado-per-capita.json-stat',
                 'trend': 'gasto-sanitario-consolidado-per-capita-tendencia.json-stat'
+            }
+        },
+        'gasto_sanitario_consolidado_pib': {
+            'sheet': 'Hoja6',
+            'label': 'Gasto sanitario público consolidado sobre el PIB. Sector CC.AA',
+            'value_vars': [
+                'Gasto sanitario público consolidado sobre PIB. Sector CC.AA Cantabria',
+                'Gasto sanitario público consolidado sobre PIB. Sector CC.AA España'],
+            'rate_vars': [
+                'Gasto sanitario público consolidado sobre PIB. Sector CC.AA Cantabria. Var interanual',
+                'Gasto sanitario público consolidado sobre PIB. Sector CC.AA España. Var interanual'],
+            'trend_vars': [],
+            'source': 'Fuente: ICANE a partir de Estadística de Gasto sanitario público del Ministerio de Sanidad',
+            'unit':{
+                'value': '%',
+                'trend': '%'
+            },
+            'json': {
+                'value': 'gasto-sanitario-consolidado-pib.json-stat',
+                'trend': 'gasto-sanitario-consolidado-pib-tendencia.json-stat'
             }
         }
     },

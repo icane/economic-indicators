@@ -1,0 +1,26 @@
+{
+    "type": "csv",
+    "title": "Batería de indicadores anuales. Tasa de variación anual (%)",
+    "url": "https://raw.githubusercontent.com/icane/economic-indicators/master/etl/data/output/vision-global-anuales.csv",
+    "position": {
+      "x": 0,
+      "y": 3,
+      "w": 12,
+      "h": 5
+    },
+    "options": {
+      "thead": [
+        {
+          "colSpan": [5, 1, 5]
+        },
+        {
+          "colSpan": 1
+        }
+      ],
+      "groupBy": "Categoria",
+      "notes": [
+          "Unidades: %",
+          "PIB. Precios Corrientes: Los datos de 2017 son provisionales y los datos de 2018 son avance."
+        ]
+    }
+}
