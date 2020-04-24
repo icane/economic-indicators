@@ -264,6 +264,28 @@ params = {
                 'value': 'trafico-aereo.json-stat',
                 'trend': 'trafico-aereo-tendencia.json-stat'
             }
+        },
+        'pernoctaciones_hoteleras': {
+            'sheet': 'CTH',
+            'label': 'Pernoctaciones hoteleras',
+            'value_vars': [
+                'Pernoctaciones hoteleras Cantabria',
+                'Pernoctaciones hoteleras España'],
+            'rate_vars': [
+                'Pernoctaciones hoteleras Cantabria. Var interanual',
+                'Pernoctaciones hoteleras España. Var interanual'],
+            'trend_vars': [
+                'Pernoctaciones hoteleras Cantabria. Tendencia',
+                'Pernoctaciones hoteleras España. Tendencia'],
+            'source': 'Fuente: ICANE a partir de Coyuntura Turística Hotelera del INE',
+            'unit':{
+                'value': 'Pernoctaciones',
+                'trend': '%'
+            },
+            'json': {
+                'value': 'pernoctaciones-hoteleras.json-stat',
+                'trend': 'pernoctaciones-hoteleras-tendencia.json-stat'
+            }
         }
     },
     'globals': {
