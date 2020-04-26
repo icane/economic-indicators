@@ -103,6 +103,38 @@ params = {
                 'trend': 'pib-per-capita-tendencia.json-stat'
             }
         },
+        'ingresos_tributarios_netos': {
+            'sheet': 'Hoja7',
+            'label': 'Ingresos tributarios netos anuales',
+            'category': 'Economía',
+            'value_vars': [
+                'Ingresos tributarios netos Delegación Cantabria',
+                'Ingresos tributarios netos España'],
+            'rate_vars': [
+                'Ingresos tributarios netos Delegación Cantabria. Var interanual',
+                'Ingresos tributarios netos España. Var interanual'],
+            'trend_vars': [],
+            'source': 'Fuente: ICANE a partir de Informes de Recaudación Tributaria de la AEAT',
+            'unit':{
+                'value': {
+                    'Ingresos tributarios netos Delegación Cantabria': {
+                        'decimals': 0, 'label': 'Miles de euros'},
+                    'Ingresos tributarios netos España': {
+                        'decimals': 0, 'label': 'Miles de euros'},
+                },
+                'trend': {
+                    'Ingresos tributarios netos Delegación Cantabria. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                    'Ingresos tributarios netos España. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            "note":[""],
+            'json': {
+                'value': 'ingresos-tributarios-netos.json-stat',
+                'trend': 'ingresos-tributarios-netos-tendencia.json-stat'
+            }
+        },
         'gasto_sanitario_consolidado': {
             'sheet': 'Hoja4',
             'label': 'Gasto sanitario público consolidado. Sector CC.AA',
@@ -198,45 +230,10 @@ params = {
                 'value': 'gasto-sanitario-consolidado-pib.json-stat',
                 'trend': 'gasto-sanitario-consolidado-pib-tendencia.json-stat'
             }
-        },
-        'ingresos_tributarios_netos': {
-            'sheet': 'Hoja7',
-            'label': 'Ingresos tributarios netos anuales',
-            'category': 'Economía',
-            'value_vars': [
-                'Ingresos tributarios netos Delegación Cantabria',
-                'Ingresos tributarios netos España'],
-            'rate_vars': [
-                'Ingresos tributarios netos Delegación Cantabria. Var interanual',
-                'Ingresos tributarios netos España. Var interanual'],
-            'trend_vars': [],
-            'source': 'Fuente: ICANE a partir de Informes de Recaudación Tributaria de la AEAT',
-            'unit':{
-                'value': {
-                    'Ingresos tributarios netos Delegación Cantabria': {
-                        'decimals': 0, 'label': 'Miles de euros'},
-                    'Ingresos tributarios netos España': {
-                        'decimals': 0, 'label': 'Miles de euros'},
-                },
-                'trend': {
-                    'Ingresos tributarios netos Delegación Cantabria. Var interanual': {
-                        'decimals': 2, 'label': '%'},
-                    'Ingresos tributarios netos España. Var interanual': {
-                        'decimals': 2, 'label': '%'},
-                }
-            },
-            "note":[""],
-            'json': {
-                'value': 'ingresos-tributarios-netos.json-stat',
-                'trend': 'ingresos-tributarios-netos-tendencia.json-stat'
-            }
         }
     },
     'globals': {
-        'source': 'Fuente: ICANE a partir de Contabilidad Regional de España Base 2015 (INE), Estadística de Gasto Sanitario Público (Ministerio de Sanidad)',
-        'note': [""],
-        'json': 'globales-anual.json-stat',
-        'csv': 'globales-anual-tabla.csv'
+        'csv': 'vision-global-anuales.csv'
     }
 }
 

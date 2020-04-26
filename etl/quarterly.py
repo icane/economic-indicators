@@ -115,28 +115,4 @@ for key in cfg.series:
 df_global = pd.concat(indicators, axis=0, verify_integrity=False)
 df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
 
-"""
-indicators = []
-for key in cfg.series:
-    cant = gdata[['Trimestre', cfg.series[key].rate_vars[0]]].copy()
-    cant.set_index('Trimestre', inplace=True)
-    cant.rename(
-        columns={cfg.series[key].rate_vars[0]:
-                cfg.series[key].label},
-                inplace=True)
-    cant = cant.transpose()
-    esp = gdata[['Trimestre', cfg.series[key].rate_vars[1]]].copy()
-    esp.set_index('Trimestre', inplace=True)
-    esp.rename(
-        columns={cfg.series[key].rate_vars[1]:
-                cfg.series[key].label},
-                inplace=True)
-    esp = esp.transpose()
-    indicator = pd.concat([cant, esp], axis=1)
-    indicators.append(indicator)
-
-global_table = pd.concat(indicators, axis=0, verify_integrity=False)
-
-global_table.to_csv(cfg.path.output + cfg.globals.csv)
-"""
 print('\nEnd of process. Files generated successfully.')

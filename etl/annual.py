@@ -11,12 +11,19 @@ import json
 import pandas as pd
 
 
-def transform(df, periods):
+def transform(df, periods, prefix=''):
     """Slice dataframe. Generate time period column.
     
         df (dataframe): dataset
         periods (int): number of time periods
+        prefix (str): prefix for time periods
     """
+    for i in range(0, len(df)):
+        period = str(df.loc[i, 'Año'])
+        df.loc[i, 'period'] =  prefix + period
+
+    df.drop(columns={'Año'}, axis=1, inplace=True)
+    df.rename(columns={'period': 'Año'}, inplace=True)
     df = df.tail(periods)
     df = df.round(2)
     return df
@@ -71,61 +78,30 @@ for key in cfg.series:
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.trend)
 
 # Global dataset
-gdata = pd.DataFrame()
-qframes = []
-for key in cfg.series:
-    # Remove unused variables
-    data[cfg.file][cfg.series[key].sheet].drop(
-            columns=cfg.series[key].value_vars,
-            axis=1,
-            inplace=True)
-    data[cfg.file][cfg.series[key].sheet].drop(
-            columns=cfg.series[key].trend_vars,
-            axis=1,
-            inplace=True)
-    
-    qframes.append(data[cfg.file][cfg.series[key].sheet])
-
-# Join dataframes and remove duplicate columns
-gdata = pd.concat(qframes, axis=1, verify_integrity=False)
-gdata = gdata.loc[:,~gdata.columns.duplicated()]
-
-# Change time dimension
-gdata = transform(gdata, cfg.periods.annual)
-
-# Export JSON-Stat dataset
-variables = list(gdata.columns.values).remove('Año')
-json_file = to_json_stat(
-        gdata,
-        ['Año'],
-        variables,
-        cfg.globals.source)
-json_obj = json.loads(json_file)
-json_file = json.dumps(json_obj)
-write_to_file(json_file, cfg.path.output + cfg.globals.json)
-
-# CSV dataset
+df_global = pd.DataFrame()
 indicators = []
 for key in cfg.series:
-    cant = gdata[['Año', cfg.series[key].rate_vars[0]]].copy()
-    cant.set_index('Año', inplace=True)
-    cant.rename(
-        columns={cfg.series[key].rate_vars[0]:
-                cfg.series[key].label},
-                inplace=True)
-    cant = cant.transpose()
-    esp = gdata[['Año', cfg.series[key].rate_vars[1]]].copy()
-    esp.set_index('Año', inplace=True)
-    esp.rename(
-        columns={cfg.series[key].rate_vars[1]:
-                cfg.series[key].label},
-                inplace=True)
-    esp = esp.transpose()
-    indicator = pd.concat([cant, esp], axis=1)
-    indicators.append(indicator)
+    # Cantabria
+    df_cant = data[cfg.file][cfg.series[key].sheet][[
+        'Año', cfg.series[key].rate_vars[0]]].copy()
+    df_cant = transform(df_cant, cfg.periods.global_annual, 'Cantabria - ')
+    df_cant.set_index('Año', inplace=True)
+    df_cant = df_cant.transpose()
+    df_cant.insert(0, 'Categoria', cfg.series[key].category)
+    df_cant[' - Indicadores'] = cfg.series[key].label
+    # España
+    df_esp = data[cfg.file][cfg.series[key].sheet][[
+        'Año', cfg.series[key].rate_vars[1]]].copy()
+    df_esp = transform(df_esp, cfg.periods.global_annual, 'España - ')
+    df_esp.set_index('Año', inplace=True)
+    df_esp = df_esp.transpose()
+    df_esp[' - Indicadores'] = cfg.series[key].label
+    # merge dataframes
+    df_cant = df_cant.merge(df_esp, on=' - Indicadores')
+    # append to global
+    indicators.append(df_cant)
 
-global_table = pd.concat(indicators, axis=0, verify_integrity=False)
-
-global_table.to_csv(cfg.path.output + cfg.globals.csv)
+df_global = pd.concat(indicators, axis=0, verify_integrity=False)
+df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
 
 print('\nEnd of process. Files generated successfully.')
