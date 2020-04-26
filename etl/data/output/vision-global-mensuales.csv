@@ -1,35 +1,14 @@
-Categoria,Cantabria - nov-19,Cantabria - dic-19,Cantabria - ene-20,Cantabria - feb-20,Cantabria - mar-20, - Indicadores,España - nov-19,España - dic-19,España - ene-20,España - feb-20,España - mar-20
-Economía,,,,,,PIB. Indices de volumen,,,,,
-Economía,,,,,,Deficit público,,,,,
-Economía,,,,,,Deficit público sobre el PIB,,,,,
-Economía,,,,,,Recaudación tributaria,,,,,
+Categoria,Cantabria - 2019-11,Cantabria - 2019-12,Cantabria - 2020-01,Cantabria - 2020-02,Cantabria - 2020-03, - Indicadores,España - 2019-11,España - 2019-12,España - 2020-01,España - 2020-02,España - 2020-03
+Mercado de Trabajo,-0.37,-2.19,-1.78,-2.24,5.01,Paro registrado,-1.68,-1.21,-0.97,-1.31,9.01
+Mercado de Trabajo,-1.27,7.17,1.33,9.65,-30.55,Contratos,-5.52,1.8,-5.02,1.51,-26.51
+Mercado de Trabajo,2.31,1.62,2.04,2.66,-2.97,Afiliados,2.88,1.83,1.66,2.3,-3.41
+Mercado de Trabajo,2.99,2.16,2.67,3.34,-3.35,Afiliados asalariados,3.32,2.13,1.9,2.62,-3.92
+Mercado de Trabajo,-0.46,-0.58,-0.52,-0.14,-1.35,Afiliados no asalariados,0.76,0.44,0.52,0.76,-0.98
+"Nivel, calidad y condiciones de vida",0.4,0.9,1.1,0.8,-0.1,IPC,0.4,0.8,1.1,0.7,0.0
+Industria y energía,-3.3,9.87,8.87,-5.35,-70.91,Matriculación de vehículos,3.61,4.78,-6.46,-2.9,-64.67
+Industria y energía,-23.97,-23.09,-12.88,-7.22,-8.05,Indicador de clima industrial,-3.6,1.36,-1.27,1.29,-5.45
 Empresas,0.02,-0.59,0.04,0.33,-5.7,Empresas inscritas en la Seguridad social,0.61,-0.46,-0.65,-0.04,-7.41
 Empresas,-0.96,-1.92,-0.68,-0.19,-9.51,Personas físicas inscritas en la Seguridad social,0.18,-1.76,-2.19,-0.92,-12.98
 Empresas,0.7,0.33,0.52,0.68,-3.08,Personas jurídicas inscritas en la Seguridad social,0.87,0.36,0.29,0.48,-4.04
-Empresas,,,,,,Sociedades mercantiles,,,,,
-Empresas,,,,,,Estadística de Procedimiento  concursal,,,,,
-Mercado de Trabajo,-0.37,-2.19,-1.78,-2.24,5.01,Paro registrado,-1.68,-1.21,-0.97,-1.31,9.01
-Mercado de Trabajo,-1.27,7.17,1.33,9.65,-30.55,Contratos,-5.52,1.8,-5.02,1.51,-26.51
-Mercado de Trabajo,2.31,1.62,2.04,2.66,,Afiliados,2.88,1.83,1.66,2.3,
-Mercado de Trabajo,2.99,2.16,2.67,3.34,,Afiliados asalariados,3.32,2.13,1.9,2.62,
-Mercado de Trabajo,-0.46,-0.58,-0.52,-0.14,,Afiliados no asalariados,0.76,0.44,0.52,0.76,
-Mercado de Trabajo,,,,,,Expedientes de regulación de empleo,,,,,
-Industria y energía,-23.97,-23.09,-12.88,-7.22,-8.05,Indicador de clima industrial,-3.6,1.36,-1.27,1.29,-5.45
-Industria y energía,,,,,,Índice de producción Industrial,,,,,
-Industria y energía,,,,,,Índice de entrada de pedidos en la industria,,,,,
-Industria y energía,,,,,,Consumo de productos petrolíferos,,,,,
-Industria y energía,,,,,,Consumo de energía eléctrica,,,,,
-Industria y energía,-3.3,9.87,8.87,-5.35,-70.91,Matriculación de vehículos,3.61,4.78,-6.46,-2.9,-64.67
-Servicios,,,,,,Indicador de actividad del sector servicios,,,,,
-Servicios,,,,,,Índice de comercio al por menor,,,,,
 Servicios,7.52,7.33,10.89,3.99,-63.97,Tráfico aéreo de pasajeros,3.59,3.68,2.36,3.94,-59.35
-Servicios,,,,,,Tráfico del puerto,,,,,
 Servicios,2.05,5.24,24.37,8.93,-65.49,Pernoctaciones hoteleras,0.46,1.5,2.92,6.76,-61.11
-Servicios,,,,,,Encuesta de ocupación turística extrahotelera,,,,,
-Servicios,,,,,,Encuesta de gasto turístico,,,,,
-Servicios,,,,,,Frontur,,,,,
-Sector exterior,,,,,,Importaciones,,,,,
-Sector exterior,,,,,,Exportaciones,,,,,
-Sector exterior,,,,,,Saldo comerical,,,,,
-Sector exterior,,,,,,Tasas de apertura,,,,,
-Nivel calidad y condiciones de vida,0.4,0.9,1.1,0.8,-0.1,IPC,0.4,0.8,1.1,0.7,0.0
