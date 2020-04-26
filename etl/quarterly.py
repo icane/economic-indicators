@@ -11,16 +11,17 @@ import json
 import pandas as pd
 
 
-def transform(df, periods):
+def transform(df, periods, prefix=''):
     """Slice dataframe. Generate time period column.
     
         df (dataframe): dataset
         periods (int): number of time periods
+        prefix (str): prefix for time periods
     """
     for i in range(0, len(df)):
         period1 = str(df.loc[i, 'Año'])
         period2 = str(df.loc[i, 'Trimestre'])
-        df.loc[i, 'period'] =  period1 + '-' + period2
+        df.loc[i, 'period'] =  prefix + period1 + '-' + period2
 
     df.drop(columns={'Año', 'Trimestre'}, axis=1, inplace=True)
     df.rename(columns={'period': 'Trimestre'}, inplace=True)
@@ -86,41 +87,35 @@ for key in cfg.series:
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.trend)
 
 # Global dataset
-gdata = pd.DataFrame()
-qframes = []
+df_global = pd.DataFrame()
+indicators = []
 for key in cfg.series:
-    # Remove unused variables
-    data[cfg.file][cfg.series[key].sheet].drop(
-            columns=cfg.series[key].value_vars,
-            axis=1,
-            inplace=True)
-    data[cfg.file][cfg.series[key].sheet].drop(
-            columns=cfg.series[key].trend_vars,
-            axis=1,
-            inplace=True)
-    
-    qframes.append(data[cfg.file][cfg.series[key].sheet])
+    # Cantabria
+    df_cant = data[cfg.file][cfg.series[key].sheet][[
+        'Año', 'Trimestre',
+        cfg.series[key].rate_vars[0]]].copy()
+    df_cant = transform(df_cant, cfg.periods.global_quarterly, 'Cantabria - ')
+    df_cant.set_index('Trimestre', inplace=True)
+    df_cant = df_cant.transpose()
+    df_cant.insert(0, 'Categoria', cfg.series[key].category)
+    df_cant[' - Indicadores'] = cfg.series[key].label
+    # España
+    df_esp = data[cfg.file][cfg.series[key].sheet][[
+        'Año', 'Trimestre',
+        cfg.series[key].rate_vars[1]]].copy()
+    df_esp = transform(df_esp, cfg.periods.global_quarterly, 'España - ')
+    df_esp.set_index('Trimestre', inplace=True)
+    df_esp = df_esp.transpose()
+    df_esp[' - Indicadores'] = cfg.series[key].label
+    # merge dataframes
+    df_cant = df_cant.merge(df_esp, on=' - Indicadores')
+    # append to global
+    indicators.append(df_cant)
 
-# Join dataframes and remove duplicate columns
-gdata = pd.concat(qframes, axis=1, verify_integrity=False)
-gdata = gdata.loc[:,~gdata.columns.duplicated()]
+df_global = pd.concat(indicators, axis=0, verify_integrity=False)
+df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
 
-# Change time dimension
-gdata = transform(gdata, cfg.periods.globals)
-
-# JSON-Stat dataset
-variables = list(gdata.columns.values).remove('Trimestre')
-json_file = to_json_stat(
-        gdata,
-        ['Trimestre'],
-        variables,
-        cfg.globals.source)
-json_obj = json.loads(json_file)
-json_file = json.dumps(json_obj)
-json_file = replace_quarter(json_file)
-write_to_file(json_file, cfg.path.output + cfg.globals.json)
-
-# CSV dataset
+"""
 indicators = []
 for key in cfg.series:
     cant = gdata[['Trimestre', cfg.series[key].rate_vars[0]]].copy()
@@ -143,5 +138,5 @@ for key in cfg.series:
 global_table = pd.concat(indicators, axis=0, verify_integrity=False)
 
 global_table.to_csv(cfg.path.output + cfg.globals.csv)
-
+"""
 print('\nEnd of process. Files generated successfully.')

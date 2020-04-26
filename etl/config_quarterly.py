@@ -42,10 +42,7 @@ params = {
         }
     },
     'globals': {
-        'source': 'Fuente: ICANE a partir de Índice de Confianza Empresarial del INE',
-        'note': [""],
-        'json': 'globales-trimestral.json-stat',
-        'csv': 'globales-trimestral-tabla.csv'
+        'csv': 'vision-global-trimestrales.csv'
     }
 }
 
