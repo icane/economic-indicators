@@ -11,6 +11,7 @@ params = {
         'confianza': {
             'sheet': 'Indice confianza empresarial',
             'label': 'Índice de confianza empresarial',
+            'category': 'Empresas',
             'value_vars': ['ICE Cantabria', 'ICE España'],
             'rate_vars': ['ICE Cantabria. Var interanual', 'ICE España. Var interanual'],
             'trend_vars': ['ICE Cantabria. Tendencia', 'ICE España. Tendencia'],

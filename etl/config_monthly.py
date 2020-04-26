@@ -11,6 +11,7 @@ params = {
         'paro': {
             'sheet': 'Paro',
             'label': 'Paro registrado',
+            'category': 'Mercado de Trabajo',
             'value_vars': ['Paro Cantabria', 'Paro España'],
             'rate_vars': [
                 'Paro Cantabria. Var interanual',
@@ -46,6 +47,7 @@ params = {
         'contratos': {
             'sheet': 'Contratos',
             'label': 'Contratos',
+            'category': 'Mercado de Trabajo',
             'value_vars': [
                 'Contratos Cantabria', 'Contratos España'],
             'rate_vars': [
@@ -82,6 +84,7 @@ params = {
         'afiliados': {
             'sheet': 'Afiliados',
             'label': 'Afiliados',
+            'category': 'Mercado de Trabajo',
             'value_vars': [
                 'Afiliados a último día de mes Cantabria',
                 'Afiliados a último día de mes España'],
@@ -119,6 +122,7 @@ params = {
         'asalariados': {
             'sheet': 'Afiliados_Asalariados',
             'label': 'Afiliados asalariados',
+            'category': 'Mercado de Trabajo',
             'value_vars': [
                 'Afiliados. Asalariados Cantabria',
                 'Afiliados. Asalariados España'],
@@ -156,6 +160,7 @@ params = {
         'no_asalariados': {
             'sheet': 'Afiliados_No_asalariados',
             'label': 'Afiliados no asalariados',
+            'category': 'Mercado de Trabajo',
             'value_vars': [
                 'Afiliados. No asalariados Cantabria',
                 'Afiliados. No asalariados España'],
@@ -193,6 +198,7 @@ params = {
         'ipc': {
             'sheet': 'Ipc',
             'label': 'IPC',
+            'category': 'Nivel, calidad y condiciones de vida',
             'value_vars': ['Ipc Cantabria', 'Ipc España'],
             'rate_vars': [
                 'Ipc Cantabria. Var interanual',
@@ -222,6 +228,7 @@ params = {
         'matriculaciones': {
             'sheet': 'Matriculacion_turismos',
             'label': 'Matriculación de vehículos',
+            'category': 'Industria y energía',
             'value_vars': [
                 'Matriculación de vehículos Cantabria',
                 'Matriculación de vehículos España'],
@@ -259,6 +266,7 @@ params = {
         'clima': {
             'sheet': 'ECI',
             'label': 'Indicador de clima industrial',
+            'category': 'Industria y energía',
             'value_vars': [
                 'Indicador de clima industrial Cantabria',
                 'Indicador de clima industrial España'],
@@ -296,6 +304,7 @@ params = {
         'empresas': {
             'sheet': 'Emp',
             'label': 'Empresas inscritas en la Seguridad social',
+            'category': 'Empresas',
             'value_vars': [
                 'Empresas inscritas en la Seguridad Social Cantabria',
                 'Empresas inscritas en la Seguridad Social España'],
@@ -333,6 +342,7 @@ params = {
         'personas_fisicas': {
             'sheet': 'Emp_fi',
             'label': 'Personas físicas inscritas en la Seguridad social',
+            'category': 'Empresas',
             'value_vars': [
                 'Personas físicas inscritas en la Seguridad Social Cantabria',
                 'Personas físicas inscritas en la Seguridad Social España'],
@@ -370,6 +380,7 @@ params = {
         'personas_juridicas': {
             'sheet': 'Emp_ju',
             'label': 'Personas jurídicas inscritas en la Seguridad social',
+            'category': 'Empresas',
             'value_vars': [
                 'Personas jurídicas inscritas en la Seguridad Social Cantabria',
                 'Personas jurídicas inscritas en la Seguridad Social España'],
@@ -407,6 +418,7 @@ params = {
         'trafico_aereo': {
             'sheet': 'Taereo',
             'label': 'Tráfico aéreo de pasajeros',
+            'category': 'Servicios',
             'value_vars': [
                 'Tráfico aéreo de pasajeros Cantabria',
                 'Tráfico aéreo de pasajeros España'],
@@ -444,6 +456,7 @@ params = {
         'pernoctaciones_hoteleras': {
             'sheet': 'CTH',
             'label': 'Pernoctaciones hoteleras',
+            'category': 'Servicios',
             'value_vars': [
                 'Pernoctaciones hoteleras Cantabria',
                 'Pernoctaciones hoteleras España'],

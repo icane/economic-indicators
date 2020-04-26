@@ -11,6 +11,7 @@ params = {
         'pib_precios_corrientes': {
             'sheet': 'Hoja2',
             'label': 'PIB. Precios corrientes',
+            'category': 'Economía',
             'value_vars': [
                 'PIB. Precios corrientes Cantabria',
                 'PIB. Precios corrientes España'],
@@ -42,6 +43,7 @@ params = {
         'pib_indice_volumen': {
             'sheet': 'Hoja1',
             'label': 'PIB. Índices de volumen',
+            'category': 'Economía',
             'value_vars': [
                 'PIB. Índice de volumen Cantabria',
                 'PIB. Índice de volumen España'],
@@ -73,6 +75,7 @@ params = {
         'pib_per_capita': {
             'sheet': 'Hoja3',
             'label': 'PIB per cápita',
+            'category': 'Economía',
             'value_vars': [
                 'PIB per cápita Cantabria','PIB per cápita España'],
             'rate_vars': [
@@ -103,6 +106,7 @@ params = {
         'gasto_sanitario_consolidado': {
             'sheet': 'Hoja4',
             'label': 'Gasto sanitario público consolidado. Sector CC.AA',
+            'category': 'Sanidad',
             'value_vars': [
                 'Gasto sanitario público consolidado. Sector CC.AA Cantabria',
                 'Gasto sanitario público consolidado. Sector CC.AA España'],
@@ -134,6 +138,7 @@ params = {
         'gasto_sanitario_consolidado_per_capita': {
             'sheet': 'Hoja5',
             'label': 'Gasto sanitario público consolidado per cápita. Sector CC.AA',
+            'category': 'Sanidad',
             'value_vars': [
                 'Gasto sanitario público consolidado per cápita. Sector CC.AA Cantabria',
                 'Gasto sanitario público consolidado per cápita. Sector CC.AA España'],
@@ -165,6 +170,7 @@ params = {
         'gasto_sanitario_consolidado_pib': {
             'sheet': 'Hoja6',
             'label': 'Gasto sanitario público consolidado sobre el PIB. Sector CC.AA',
+            'category': 'Sanidad',
             'value_vars': [
                 'Gasto sanitario público consolidado sobre PIB. Sector CC.AA Cantabria',
                 'Gasto sanitario público consolidado sobre PIB. Sector CC.AA España'],
@@ -196,6 +202,7 @@ params = {
         'ingresos_tributarios_netos': {
             'sheet': 'Hoja7',
             'label': 'Ingresos tributarios netos anuales',
+            'category': 'Economía',
             'value_vars': [
                 'Ingresos tributarios netos Delegación Cantabria',
                 'Ingresos tributarios netos España'],
