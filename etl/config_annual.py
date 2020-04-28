@@ -135,6 +135,134 @@ params = {
                 'trend': 'ingresos-tributarios-netos-tendencia.json-stat'
             }
         },
+        'deuda_publica': {
+            'sheet': 'Hoja8',
+            'label': 'Deuda pública CC.AA',
+            'category': 'Economía',
+            'value_vars': [
+                'Deuda pública CC.AA Cantabria',
+                'Deuda pública CC.AA España'],
+            'rate_vars': [
+                'Deuda pública CC.AA Cantabria. Var interanual',
+                'Deuda pública CC.AA España. Var interanual'],
+            'trend_vars': [],
+            'source': 'Fuente: ICANE a partir de Deuda según PDE del Banco de España',
+            'unit':{
+                'value': {
+                    'Deuda pública CC.AA Cantabria': {
+                        'decimals': 0, 'label': 'Miles de euros'},
+                    'Deuda pública CC.AA España': {
+                        'decimals': 0, 'label': 'Miles de euros'},
+                },
+                'trend': {
+                    'Deuda pública CC.AA Cantabria. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                    'Deuda pública CC.AA España. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            "note":["Los datos de 2019 son avance"],
+            'json': {
+                'value': 'deuda-publica.json-stat',
+                'trend': 'deuda-publica-tendencia.json-stat'
+            }
+        },
+'deuda_publica_pib': {
+            'sheet': 'Hoja9',
+            'label': 'Deuda pública CC.AA sobre el PIB',
+            'category': 'Economía',
+            'value_vars': [
+                'Deuda pública CC.AA sobre el PIB Cantabria',
+                'Deuda pública CC.AA sobre el PIB España'],
+            'rate_vars': [
+                'Deuda pública CC.AA sobre el PIB Cantabria. Var interanual',
+                'Deuda pública CC.AA sobre el PIB España. Var interanual'],
+            'trend_vars': [],
+            'source': 'Fuente: ICANE a partir de Deuda según PDE del Banco de España',
+            'unit':{
+                'value': {
+                    'Deuda pública CC.AA sobre el PIB Cantabria': {
+                        'decimals': 0, 'label': '%'},
+                    'Deuda pública CC.AA sobre el PIB España': {
+                        'decimals': 0, 'label': '%'},
+                },
+                'trend': {
+                    'Deuda pública CC.AA sobre el PIB Cantabria. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                    'Deuda pública CC.AA sobre el PIB España. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            "note":["Los datos de 2017 son provisionales y los de 2018 y 2019 un avance"],
+            'json': {
+                'value': 'deuda-publica-pib.json-stat',
+                'trend': 'deuda-publica-pib-tendencia.json-stat'
+            }
+        },
+'deficit_publico': {
+            'sheet': 'Hoja10',
+            'label': 'Deficit público CC.AA',
+            'category': 'Economía',
+            'value_vars': [
+                'Déficit público CC.AA Cantabria',
+                'Déficit público CC.AA España'],
+            'rate_vars': [
+                'Déficit público CC.AA Cantabria. Var interanual',
+                'Déficit público CC.AA España. Var interanual'],
+            'trend_vars': [],
+            'source': 'Fuente: ICANE a partir de Presupuestos de la Comunidad Autónoma en términos de Contabilidad Nacional de la IGAE',
+            'unit':{
+                'value': {
+                    'Déficit público CC.AA Cantabria': {
+                        'decimals': 0, 'label': 'Millones de euros'},
+                    'Déficit público CC.AA España': {
+                        'decimals': 0, 'label': 'Millones de euros'},
+                },
+                'trend': {
+                    'Déficit público CC.AA Cantabria. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                    'Déficit público CC.AA España. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            "note":["Los datos de 2019 son avance"],
+            'json': {
+                'value': 'deficit-publico.json-stat',
+                'trend': 'deficit-publico-tendencia.json-stat'
+            }
+        },
+'deficit_publico_pib': {
+            'sheet': 'Hoja11',
+            'label': 'Deficit público CC.AA sobre el PIB',
+            'category': 'Economía',
+            'value_vars': [
+                'Déficit público CC.AA sobre el PIB Cantabria',
+                'Déficit público CC.AA sobre el PIB España'],
+            'rate_vars': [
+                'Déficit público CC.AA sobre el PIB Cantabria. Var interanual',
+                'Déficit público CC.AA sobre el PIB España. Var interanual'],
+            'trend_vars': [],
+            'source': 'Fuente: ICANE a partir de Presupuestos de la Comunidad Autónoma en términos de Contabilidad Nacional de la IGAE',
+            'unit':{
+                'value': {
+                    'Déficit público CC.AA sobre el PIB Cantabria': {
+                        'decimals': 0, 'label': '%'},
+                    'Déficit público CC.AA sobre el PIB España': {
+                        'decimals': 0, 'label': '%'},
+                },
+                'trend': {
+                    'Déficit público CC.AA sobre el PIB Cantabria. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                    'Déficit público CC.AA sobre el PIB España. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            "note":["Los datos de 2017 son provisionales y los de 2018 y 2019 un avance"],
+            'json': {
+                'value': 'deficit-publico-pib.json-stat',
+                'trend': 'deficit-publico-pib-tendencia.json-stat'
+            }
+        },
         'gasto_sanitario_consolidado': {
             'sheet': 'Hoja4',
             'label': 'Gasto sanitario público consolidado. Sector CC.AA',
