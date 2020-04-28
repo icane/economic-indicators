@@ -48,7 +48,12 @@ def replace_month(json_str):
 # Read  input files
 data = xlsx(cfg.path.input)
 
+# Value and trend files for each indicator
 for key in cfg.series:
+    # Drop NA rows, if any
+    data[cfg.file][cfg.series[key].sheet].dropna(
+        axis=0, how='all', inplace=True)
+
     # Value variables
     value_vars = cfg.series[key].value_vars
     variables = ['Año', 'Mes']

@@ -86,30 +86,30 @@ params = {
             'label': 'Afiliados',
             'category': 'Mercado de Trabajo',
             'value_vars': [
-                'Afiliados a último día de mes Cantabria',
-                'Afiliados a último día de mes España'],
+                'Afiliados Cantabria',
+                'Afiliados España'],
             'rate_vars': [
-                'Afiliados a último día de mes Cantabria. Var interanual',
-                'Afiliados a último día de mes España. Var interanual'],
+                'Afiliados Cantabria. Var interanual',
+                'Afiliados España. Var interanual'],
             'trend_vars': [
-                'Afiliados a último día de mes Cantabria. Tendencia',
-                'Afiliados a último día de mes España. Tendencia'],
+                'Afiliados Cantabria. Tendencia',
+                'Afiliados España. Tendencia'],
             'source': 'Fuente: ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
             'unit':{
                 'value': {
-                    'Afiliados a último día de mes Cantabria': {
+                    'Afiliados Cantabria': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
-                    'Afiliados a último día de mes España': {
+                    'Afiliados España': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
                 },
                 'trend': {
-                    'Afiliados a último día de mes Cantabria. Var interanual': {
+                    'Afiliados Cantabria. Var interanual': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados a último día de mes España. Var interanual': {
+                    'Afiliados España. Var interanual': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados a último día de mes Cantabria. Tendencia': {
+                    'Afiliados Cantabria. Tendencia': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados a último día de mes España. Tendencia': {
+                    'Afiliados España. Tendencia': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -124,30 +124,30 @@ params = {
             'label': 'Afiliados asalariados',
             'category': 'Mercado de Trabajo',
             'value_vars': [
-                'Afiliados. Asalariados Cantabria',
-                'Afiliados. Asalariados España'],
+                'Afiliados asalariados Cantabria',
+                'Afiliados asalariados España'],
             'rate_vars': [
-                'Afiliados. Asalariados Cantabria. Var interanual',
-                'Afiliados. Asalariados España. Var interanual'],
+                'Afiliados asalariados Cantabria. Var interanual',
+                'Afiliados asalariados España. Var interanual'],
             'trend_vars': [
-                'Afiliados. Asalariados Cantabria. Tendencia',
-                'Afiliados. Asalariados España. Tendencia'],
+                'Afiliados asalariados Cantabria. Tendencia',
+                'Afiliados asalariados España. Tendencia'],
             'source': 'Fuente: ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
             'unit':{
                 'value': {
-                    'Afiliados. Asalariados Cantabria': {
+                    'Afiliados asalariados Cantabria': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
-                    'Afiliados. Asalariados España': {
+                    'Afiliados asalariados España': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
                 },
                 'trend': {
-                    'Afiliados. Asalariados Cantabria. Var interanual': {
+                    'Afiliados asalariados Cantabria. Var interanual': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados. Asalariados España. Var interanual': {
+                    'Afiliados asalariados España. Var interanual': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados. Asalariados Cantabria. Tendencia': {
+                    'Afiliados asalariados Cantabria. Tendencia': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados. Asalariados España. Tendencia': {
+                    'Afiliados asalariados España. Tendencia': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -162,30 +162,30 @@ params = {
             'label': 'Afiliados no asalariados',
             'category': 'Mercado de Trabajo',
             'value_vars': [
-                'Afiliados. No asalariados Cantabria',
+                'Afiliados no asalariados Cantabria',
                 'Afiliados. No asalariados España'],
             'rate_vars': [
-                'Afiliados. No asalariados Cantabria. Var interanual',
-                'Afiliados. No asalariados España. Var interanual'],
+                'Afiliados no asalariados Cantabria. Var interanual',
+                'Afiliados no asalariados España. Var interanual'],
             'trend_vars': [
-                'Afiliados. No asalariados Cantabria. Tendencia',
-                'Afiliados. No asalariados España. Tendencia'],
+                'Afiliados no asalariados Cantabria. Tendencia',
+                'Afiliados no asalariados España. Tendencia'],
             'source': 'Fuente: ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
             'unit':{
                 'value': {
-                    'Afiliados. No asalariados Cantabria': {
+                    'Afiliados no asalariados Cantabria': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
                     'Afiliados. No asalariados España': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
                 },
                 'trend': {
-                    'Afiliados. No asalariados Cantabria. Var interanual': {
+                    'Afiliados no asalariados Cantabria. Var interanual': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados. No asalariados España. Var interanual': {
+                    'Afiliados no asalariados España. Var interanual': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados. No asalariados Cantabria. Tendencia': {
+                    'Afiliados no asalariados Cantabria. Tendencia': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados. No asalariados España. Tendencia': {
+                    'Afiliados no asalariados España. Tendencia': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -344,30 +344,30 @@ params = {
             'label': 'Personas físicas inscritas en la Seguridad social',
             'category': 'Empresas',
             'value_vars': [
-                'Personas físicas inscritas en la Seguridad Social Cantabria',
+                'Empresas personas físicas inscritas en la Seguridad Social Cantabria',
                 'Personas físicas inscritas en la Seguridad Social España'],
             'rate_vars': [
-                'Personas físicas inscritas en la Seguridad Social Cantabria. Var interanual',
-                'Personas físicas inscritas en la Seguridad Social España. Var interanual'],
+                'Empresas personas físicas inscritas en la Seguridad Social Cantabria. Var interanual',
+                'Empresas personas físicas inscritas en la Seguridad Social España. Var interanual'],
             'trend_vars': [
-                'Personas físicas inscritas en la Seguridad Social Cantabria. Tendencia',
-                'Personas físicas inscritas en la Seguridad Social España. Tendencia'],
+                'Empresas personas físicas inscritas en la Seguridad Social Cantabria. Tendencia',
+                'Empresas personas físicass inscritas en la Seguridad Social España. Tendencia'],
             'source': 'Fuente: ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
             'unit':{
                 'value': {
-                    'Personas físicas inscritas en la Seguridad Social Cantabria': {
+                    'Empresas personas físicas inscritas en la Seguridad Social Cantabria': {
                         'decimals': 0, 'label': 'Empresas'},
                     'Personas físicas inscritas en la Seguridad Social España': {
                         'decimals': 0, 'label': 'Empresas'},
                 },
                 'trend': {
-                    'Personas físicas inscritas en la Seguridad Social Cantabria. Var interanual': {
+                    'Empresas personas físicas inscritas en la Seguridad Social Cantabria. Var interanual': {
                         'decimals': 2, 'label': '%'},
-                    'Personas físicas inscritas en la Seguridad Social España. Var interanual': {
+                    'Empresas personas físicas inscritas en la Seguridad Social España. Var interanual': {
                         'decimals': 2, 'label': '%'},
-                    'Personas físicas inscritas en la Seguridad Social Cantabria. Tendencia': {
+                    'Empresas personas físicas inscritas en la Seguridad Social Cantabria. Tendencia': {
                         'decimals': 2, 'label': '%'},
-                    'Personas físicas inscritas en la Seguridad Social España. Tendencia': {
+                    'Empresas personas físicass inscritas en la Seguridad Social España. Tendencia': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -383,29 +383,29 @@ params = {
             'category': 'Empresas',
             'value_vars': [
                 'Personas jurídicas inscritas en la Seguridad Social Cantabria',
-                'Personas jurídicas inscritas en la Seguridad Social España'],
+                'Empresas personas jurídicas inscritas en la Seguridad Social España'],
             'rate_vars': [
-                'Personas jurídicas inscritas en la Seguridad Social Cantabria. Var interanual',
-                'Personas jurídicas inscritas en la Seguridad Social España. Var interanual'],
+                'Empresas personas jurídicas inscritas en la Seguridad Social Cantabria. Var interanual',
+                'Empresas personas jurídicas inscritas en la Seguridad Social España. Var interanual'],
             'trend_vars': [
-                'Personas jurídicas inscritas en la Seguridad Social Cantabria. Tendencia',
-                'Personas jurídicas inscritas en la Seguridad Social España. Tendencia'],
+                'Empresas personas jurídicas inscritas en la Seguridad Social Cantabria. Tendencia',
+                'Empresas personas jurídicas inscritas en la Seguridad Social España. Tendencia'],
             'source': 'Fuente: ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
             'unit':{
                 'value': {
                     'Personas jurídicas inscritas en la Seguridad Social Cantabria': {
                         'decimals': 0, 'label': 'Empresas'},
-                    'Personas jurídicas inscritas en la Seguridad Social España': {
+                    'Empresas personas jurídicas inscritas en la Seguridad Social España': {
                         'decimals': 0, 'label': 'Empresas'},
                 },
                 'trend': {
-                    'Personas jurídicas inscritas en la Seguridad Social Cantabria. Var interanual': {
+                    'Empresas personas jurídicas inscritas en la Seguridad Social Cantabria. Var interanual': {
                         'decimals': 2, 'label': '%'},
-                    'Personas jurídicas inscritas en la Seguridad Social España. Var interanual': {
+                    'Empresas personas jurídicas inscritas en la Seguridad Social España. Var interanual': {
                         'decimals': 2, 'label': '%'},
-                    'Personas jurídicas inscritas en la Seguridad Social Cantabria. Tendencia': {
+                    'Empresas personas jurídicas inscritas en la Seguridad Social Cantabria. Tendencia': {
                         'decimals': 2, 'label': '%'},
-                    'Personas jurídicas inscritas en la Seguridad Social España. Tendencia': {
+                    'Empresas personas jurídicas inscritas en la Seguridad Social España. Tendencia': {
                         'decimals': 2, 'label': '%'},
                 }
             },
