@@ -490,6 +490,44 @@ params = {
                 'value': 'pernoctaciones-hoteleras.json-stat',
                 'trend': 'pernoctaciones-hoteleras-tendencia.json-stat'
             }
+        },
+        'icm': {
+            'sheet': 'ICM',
+            'label': 'Índice de comercio al por menor a precios constantes',
+            'category': 'Servicios',
+            'value_vars': [
+                'Índice de comercio al por menor a precios constantes Cantabria',
+                'Índice de comercio al por menor a precios constantes España'],
+            'rate_vars': [
+                'Índice de comercio al por menor a precios constantes Cantabria. Var interanual',
+                'Índice de comercio al por menor a precios constantes España. Var interanual'],
+            'trend_vars': [
+                'Índice de comercio al por menor a precios constantes Cantabria. Tendencia',
+                'Índice de comercio al por menor a precios constantes España. Tendencia'],
+            'source': 'ICANE a partir de Índice de Comercio al por Menor del INE',
+            'unit':{
+                'value': {
+                    'Índice de comercio al por menor a precios constantes Cantabria': {
+                        'decimals': 0, 'label': 'Índice'},
+                    'Índice de comercio al por menor a precios constantes España': {
+                        'decimals': 0, 'label': 'Índice'},
+                },
+                'trend': {
+                    'Índice de comercio al por menor a precios constantes Cantabria. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                    'Índice de comercio al por menor a precios constantes España. Var interanual': {
+                        'decimals': 2, 'label': '%'},
+                    'Índice de comercio al por menor a precios constantes Cantabria. Tendencia': {
+                        'decimals': 2, 'label': '%'},
+                    'Índice de comercio al por menor a precios constantes España. Tendencia': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            "note":[""],
+            'json': {
+                'value': 'icm.json-stat',
+                'trend': 'icm-tendencia.json-stat'
+            }
         }
     },
     'globals': {

@@ -32,7 +32,7 @@ params = {
         }
     },
     'periods': {
-        'global_annual': 10,
+        'global_annual': 6,
         'annual': 10,
         'global_monthly': 5,
         'monthly': 61,
