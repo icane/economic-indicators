@@ -19,7 +19,7 @@ params = {
             'trend_vars': [
                 'Paro Cantabria. Tendencia',
                 'Paro España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Movimiento Laboral Registrado del SEPE',
+            'source': 'ICANE a partir de Movimiento Laboral Registrado del SEPE',
             'unit':{
                 'value': {
                     'Paro Cantabria': {
@@ -56,7 +56,7 @@ params = {
             'trend_vars': [
                 'Contratos Cantabria. Tendencia',
                 'Contratos España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Movimiento Laboral Registrado del SEPE',
+            'source': 'ICANE a partir de Movimiento Laboral Registrado del SEPE',
             'unit':{
                 'value': {
                     'Contratos Cantabria': {
@@ -94,7 +94,7 @@ params = {
             'trend_vars': [
                 'Afiliados Cantabria. Tendencia',
                 'Afiliados España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
+            'source': 'ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
             'unit':{
                 'value': {
                     'Afiliados Cantabria': {
@@ -132,7 +132,7 @@ params = {
             'trend_vars': [
                 'Afiliados asalariados Cantabria. Tendencia',
                 'Afiliados asalariados España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
+            'source': 'ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
             'unit':{
                 'value': {
                     'Afiliados asalariados Cantabria': {
@@ -170,7 +170,7 @@ params = {
             'trend_vars': [
                 'Afiliados no asalariados Cantabria. Tendencia',
                 'Afiliados no asalariados España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
+            'source': 'ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
             'unit':{
                 'value': {
                     'Afiliados no asalariados Cantabria': {
@@ -204,7 +204,7 @@ params = {
                 'Ipc Cantabria. Var interanual',
                 'Ipc España. Var interanual'],
             'trend_vars': [],
-            'source': 'Fuente: ICANE a partir de Índice de Precios al Consumo del INE',
+            'source': 'ICANE a partir de Índice de Precios al Consumo del INE',
             'unit':{
                 'value': {
                     'Ipc Cantabria': {
@@ -238,7 +238,7 @@ params = {
             'trend_vars': [
                 'Matriculación de vehículos Cantabria. Tendencia',
                 'Matriculación de vehículos España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Matriculación de Vehiculos de la Dirección General de Tráfico',
+            'source': 'ICANE a partir de Matriculación de Vehiculos de la Dirección General de Tráfico',
             'unit':{
                 'value': {
                     'Matriculación de vehículos Cantabria': {
@@ -276,7 +276,7 @@ params = {
             'trend_vars': [
                 'Indicador de clima industrial Cantabria. Tendencia',
                 'Indicador de clima industrial España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Encuesta de Coyuntura Industrial del Ministerio de Industria, Comercio y Turismo',
+            'source': 'ICANE a partir de Encuesta de Coyuntura Industrial del Ministerio de Industria, Comercio y Turismo',
             'unit':{
                 'value': {
                     'Indicador de clima industrial Cantabria': {
@@ -314,7 +314,7 @@ params = {
             'trend_vars': [
                 'Empresas inscritas en la Seguridad Social Cantabria. Tendencia',
                 'Empresas inscritas en la Seguridad Social España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
+            'source': 'ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
             'unit':{
                 'value': {
                     'Empresas inscritas en la Seguridad Social Cantabria': {
@@ -352,7 +352,7 @@ params = {
             'trend_vars': [
                 'Empresas personas físicas inscritas en la Seguridad Social Cantabria. Tendencia',
                 'Empresas personas físicass inscritas en la Seguridad Social España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
+            'source': 'ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
             'unit':{
                 'value': {
                     'Empresas personas físicas inscritas en la Seguridad Social Cantabria': {
@@ -390,7 +390,7 @@ params = {
             'trend_vars': [
                 'Empresas personas jurídicas inscritas en la Seguridad Social Cantabria. Tendencia',
                 'Empresas personas jurídicas inscritas en la Seguridad Social España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
+            'source': 'ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
             'unit':{
                 'value': {
                     'Personas jurídicas inscritas en la Seguridad Social Cantabria': {
@@ -428,7 +428,7 @@ params = {
             'trend_vars': [
                 'Tráfico aéreo de pasajeros Cantabria. Tendencia',
                 'Tráfico aéreo de pasajeros España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Estadística de tráfico aéreo de AENA',
+            'source': 'ICANE a partir de Estadística de tráfico aéreo de AENA',
             'unit':{
                 'value': {
                     'Tráfico aéreo de pasajeros Cantabria': {
@@ -466,7 +466,7 @@ params = {
             'trend_vars': [
                 'Pernoctaciones hoteleras Cantabria. Tendencia',
                 'Pernoctaciones hoteleras España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Coyuntura Turística Hotelera del INE',
+            'source': 'ICANE a partir de Coyuntura Turística Hotelera del INE',
             'unit':{
                 'value': {
                     'Pernoctaciones hoteleras Cantabria': {

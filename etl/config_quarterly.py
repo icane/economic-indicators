@@ -15,7 +15,7 @@ params = {
             'value_vars': ['ICE Cantabria', 'ICE España'],
             'rate_vars': ['ICE Cantabria. Var interanual', 'ICE España. Var interanual'],
             'trend_vars': ['ICE Cantabria. Tendencia', 'ICE España. Tendencia'],
-            'source': 'Fuente: ICANE a partir de Índice de Confianza Empresarial del INE',
+            'source': 'ICANE a partir de Índice de Confianza Empresarial del INE',
             'unit':{
                 'value': {
                     'ICE Cantabria': {
