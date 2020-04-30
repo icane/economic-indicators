@@ -24,9 +24,9 @@ params = {
             'unit':{
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 2, 'label': 'Miles de personas'},
+                        'decimals': 1, 'label': 'Miles de personas'},
                     'Valor España': {
-                        'decimals': 2, 'label': 'Miles de personas'},
+                        'decimals': 1, 'label': 'Miles de personas'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -61,9 +61,9 @@ params = {
             'unit':{
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 2, 'label': 'Miles de personas'},
+                        'decimals': 1, 'label': 'Miles de personas'},
                     'Valor España': {
-                        'decimals': 2, 'label': 'Miles de personas'},
+                        'decimals': 1, 'label': 'Miles de personas'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -204,9 +204,9 @@ params = {
             'unit':{
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 2, 'label': 'Índice'},
+                        'decimals': 1, 'label': 'Índice'},
                     'Valor España': {
-                        'decimals': 2, 'label': 'Índice'},
+                        'decimals': 1, 'label': 'Índice'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
