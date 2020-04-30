@@ -55,9 +55,9 @@ params = {
             'unit':{
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 0, 'label': 'Miles de euros'},
+                        'decimals': 2, 'label': 'Índice'},
                     'Valor España': {
-                        'decimals': 0, 'label': 'Miles de euros'},
+                        'decimals': 2, 'label': 'Índice'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -86,9 +86,9 @@ params = {
             'unit':{
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 0, 'label': 'Miles de euros'},
+                        'decimals': 0, 'label': 'Euros'},
                     'Valor España': {
-                        'decimals': 0, 'label': 'Miles de euros'},
+                        'decimals': 0, 'label': 'Euros'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -129,7 +129,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            "note":["Los datos de 2019 son provisionales"],
             'json': {
                 'value': 'ingresos-tributarios-netos.json-stat',
                 'trend': 'ingresos-tributarios-netos-tendencia.json-stat'
@@ -182,9 +182,9 @@ params = {
             'unit':{
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 2, 'label': '%'},
+                        'decimals': 1, 'label': '%'},
                     'Valor España': {
-                        'decimals': 2, 'label': '%'},
+                        'decimals': 1, 'label': '%'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -214,9 +214,9 @@ params = {
             'unit':{
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 2, 'label': 'Millones de euros'},
+                        'decimals': 0, 'label': 'Millones de euros'},
                     'Valor España': {
-                        'decimals': 2, 'label': 'Millones de euros'},
+                        'decimals': 0, 'label': 'Millones de euros'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -246,9 +246,9 @@ params = {
             'unit':{
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 2, 'label': '%'},
+                        'decimals': 1, 'label': '%'},
                     'Valor España': {
-                        'decimals': 2, 'label': '%'},
+                        'decimals': 1, 'label': '%'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -289,7 +289,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            "note":["Los datos de 2017 y 2018 son provisionales"],
             'json': {
                 'value': 'gasto-sanitario-consolidado.json-stat',
                 'trend': 'gasto-sanitario-consolidado-tendencia.json-stat'
@@ -321,7 +321,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            "note":["Los datos de 2017 y 2018 son provisionales"],
             'json': {
                 'value': 'gasto-sanitario-consolidado-per-capita.json-stat',
                 'trend': 'gasto-sanitario-consolidado-per-capita-tendencia.json-stat'
@@ -342,9 +342,9 @@ params = {
             'unit':{
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 0, 'label': '%'},
+                        'decimals': 2, 'label': '%'},
                     'Valor España': {
-                        'decimals': 0, 'label': '%'},
+                        'decimals': 2, 'label': '%'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -353,7 +353,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            "note":["Los datos de 2017 y 2018 son provisionales. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de un porcentaje"],
             'json': {
                 'value': 'gasto-sanitario-consolidado-pib.json-stat',
                 'trend': 'gasto-sanitario-consolidado-pib-tendencia.json-stat'

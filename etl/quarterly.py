@@ -83,9 +83,10 @@ for key in cfg.series:
 
     # Rate and trend vars
     variables = [
-        'Año', 'Trimestre', 'Var. interanual Cantabria',
-        'Var. interanual España', 'Tendencia Cantabria',
-        'Tendencia España']
+        'Año', 'Trimestre', 'Tendencia Cantabria',
+        'Var. interanual Cantabria',
+        'Tendencia España'
+        'Var. interanual España']
     df_trend = data[cfg.file]\
         [cfg.series[key].sheet][variables].copy()
     df_trend = transform(
@@ -93,8 +94,8 @@ for key in cfg.series:
     json_file = to_json_stat(
         df_trend,
         ['Trimestre'],
-        ['Var. interanual Cantabria', 'Var. interanual España',
-         'Tendencia Cantabria', 'Tendencia España'],
+        ['Tendencia Cantabria', 'Var. interanual Cantabria',
+         'Tendencia España', 'Var. interanual España'],
         cfg.series[key].source)
     json_obj = json.loads(json_file)
     json_obj['dimension']['Variables']['category']['unit'] = \
