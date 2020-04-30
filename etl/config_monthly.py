@@ -22,19 +22,19 @@ params = {
             'source': 'ICANE a partir de Movimiento Laboral Registrado del SEPE',
             'unit':{
                 'value': {
-                    'Paro Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Personas'},
-                    'Paro España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Personas'},
                 },
                 'trend': {
-                    'Paro Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Paro España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Paro Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Paro España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -59,19 +59,19 @@ params = {
             'source': 'ICANE a partir de Movimiento Laboral Registrado del SEPE',
             'unit':{
                 'value': {
-                    'Contratos Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Contratos'},
-                    'Contratos España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Contratos'},
                 },
                 'trend': {
-                    'Contratos Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Contratos España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Contratos Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Contratos España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -97,19 +97,19 @@ params = {
             'source': 'ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
             'unit':{
                 'value': {
-                    'Afiliados Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
-                    'Afiliados España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
                 },
                 'trend': {
-                    'Afiliados Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -135,19 +135,19 @@ params = {
             'source': 'ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
             'unit':{
                 'value': {
-                    'Afiliados asalariados Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
-                    'Afiliados asalariados España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
                 },
                 'trend': {
-                    'Afiliados asalariados Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados asalariados España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados asalariados Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados asalariados España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -173,19 +173,19 @@ params = {
             'source': 'ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
             'unit':{
                 'value': {
-                    'Afiliados no asalariados Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
-                    'Afiliados. No asalariados España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
                 },
                 'trend': {
-                    'Afiliados no asalariados Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados no asalariados España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados no asalariados Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Afiliados no asalariados España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -207,15 +207,15 @@ params = {
             'source': 'ICANE a partir de Índice de Precios al Consumo del INE',
             'unit':{
                 'value': {
-                    'Ipc Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 2, 'label': 'Índice'},
-                    'Ipc España': {
+                    'Valor España': {
                         'decimals': 2, 'label': 'Índice'},
                 },
                 'trend': {
-                    'Ipc Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Ipc España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'}
                 }
             },
@@ -241,19 +241,19 @@ params = {
             'source': 'ICANE a partir de Matriculación de Vehiculos de la Dirección General de Tráfico',
             'unit':{
                 'value': {
-                    'Matriculación de vehículos Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Vehículos'},
-                    'Matriculación de vehículos España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Vehículos'},
                 },
                 'trend': {
-                    'Matriculación de vehículos Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Matriculación de vehículos España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Matriculación de vehículos Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Matriculación de vehículos España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -279,19 +279,19 @@ params = {
             'source': 'ICANE a partir de Encuesta de Coyuntura Industrial del Ministerio de Industria, Comercio y Turismo',
             'unit':{
                 'value': {
-                    'Indicador de clima industrial Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Saldo'},
-                    'Indicador de clima industrial España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Saldo'},
                 },
                 'trend': {
-                    'Indicador de clima industrial Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Indicador de clima industrial España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Indicador de clima industrial Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Indicador de clima industrial España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -317,19 +317,19 @@ params = {
             'source': 'ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
             'unit':{
                 'value': {
-                    'Empresas inscritas en la Seguridad Social Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Empresas'},
-                    'Empresas inscritas en la Seguridad Social España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Empresas'},
                 },
                 'trend': {
-                    'Empresas inscritas en la Seguridad Social Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Empresas inscritas en la Seguridad Social España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Empresas inscritas en la Seguridad Social Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Empresas inscritas en la Seguridad Social España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -355,19 +355,19 @@ params = {
             'source': 'ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
             'unit':{
                 'value': {
-                    'Empresas personas físicas inscritas en la Seguridad Social Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Empresas'},
-                    'Personas físicas inscritas en la Seguridad Social España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Empresas'},
                 },
                 'trend': {
-                    'Empresas personas físicas inscritas en la Seguridad Social Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Empresas personas físicas inscritas en la Seguridad Social España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Empresas personas físicas inscritas en la Seguridad Social Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Empresas personas físicass inscritas en la Seguridad Social España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -393,19 +393,19 @@ params = {
             'source': 'ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
             'unit':{
                 'value': {
-                    'Personas jurídicas inscritas en la Seguridad Social Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Empresas'},
-                    'Empresas personas jurídicas inscritas en la Seguridad Social España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Empresas'},
                 },
                 'trend': {
-                    'Empresas personas jurídicas inscritas en la Seguridad Social Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Empresas personas jurídicas inscritas en la Seguridad Social España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Empresas personas jurídicas inscritas en la Seguridad Social Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Empresas personas jurídicas inscritas en la Seguridad Social España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -431,19 +431,19 @@ params = {
             'source': 'ICANE a partir de Estadística de tráfico aéreo de AENA',
             'unit':{
                 'value': {
-                    'Tráfico aéreo de pasajeros Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Pasajeros'},
-                    'Tráfico aéreo de pasajeros España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Pasajeros'},
                 },
                 'trend': {
-                    'Tráfico aéreo de pasajeros Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Tráfico aéreo de pasajeros España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Tráfico aéreo de pasajeros Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Tráfico aéreo de pasajeros España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -469,19 +469,19 @@ params = {
             'source': 'ICANE a partir de Coyuntura Turística Hotelera del INE',
             'unit':{
                 'value': {
-                    'Pernoctaciones hoteleras Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Pernoctaciones'},
-                    'Pernoctaciones hoteleras España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Pernoctaciones'},
                 },
                 'trend': {
-                    'Pernoctaciones hoteleras Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Pernoctaciones hoteleras España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Pernoctaciones hoteleras Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Pernoctaciones hoteleras España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -507,19 +507,19 @@ params = {
             'source': 'ICANE a partir de Índice de Comercio al por Menor del INE',
             'unit':{
                 'value': {
-                    'Índice de comercio al por menor a precios constantes Cantabria': {
-                        'decimals': 0, 'label': 'Índice'},
-                    'Índice de comercio al por menor a precios constantes España': {
-                        'decimals': 0, 'label': 'Índice'},
+                    'Valor Cantabria': {
+                        'decimals': 2, 'label': 'Índice'},
+                    'Valor España': {
+                        'decimals': 2, 'label': 'Índice'},
                 },
                 'trend': {
-                    'Índice de comercio al por menor a precios constantes Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Índice de comercio al por menor a precios constantes España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
-                    'Índice de comercio al por menor a precios constantes Cantabria. Tendencia': {
+                    'Tendencia Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Índice de comercio al por menor a precios constantes España. Tendencia': {
+                    'Tendencia España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
