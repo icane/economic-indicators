@@ -38,17 +38,29 @@ for key in cfg.series:
     data[cfg.file][cfg.series[key].sheet].dropna(
         axis=0, how='all', inplace=True)
 
+    # Rename variables
+    data[cfg.file][cfg.series[key].sheet].rename(
+        columns={
+            cfg.series[key].value_vars[0]: 'Valor Cantabria',
+            cfg.series[key].value_vars[1]: 'Valor España',
+            cfg.series[key].rate_vars[0]: 'Var. interanual Cantabria',
+            cfg.series[key].rate_vars[1]: 'Var. interanual España'},
+        inplace=True)
+
+    # Remove .0 from Año
+    data[cfg.file][cfg.series[key].sheet]['Año'] = \
+        data[cfg.file][cfg.series[key].sheet]['Año'].astype(str).replace('\.0', '', regex=True)
+
     # Value variables
     value_vars = cfg.series[key].value_vars
-    variables = ['Año']
-    variables.extend(value_vars)
+    variables = ['Año', 'Valor Cantabria', 'Valor España']
     df = data[cfg.file]\
         [cfg.series[key].sheet][variables].copy()
     df = transform(df, cfg.periods.annual)
     json_file = to_json_stat(
         df,
         ['Año'],
-        value_vars,
+        ['Valor Cantabria', 'Valor España'],
         cfg.series[key].source)
     json_obj = json.loads(json_file)
     json_obj['dimension']['Variables']['category']['unit'] = \
@@ -58,21 +70,15 @@ for key in cfg.series:
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.value)
 
     # Rate and trend vars
-    rate_vars = cfg.series[key].rate_vars
-    trend_vars = cfg.series[key].trend_vars
-    variables = ['Año']
-    variables.extend(rate_vars)
-    variables.extend(trend_vars)
+    variables = ['Año', 'Var. interanual Cantabria', 'Var. interanual España']
     df_trend = data[cfg.file]\
         [cfg.series[key].sheet][variables].copy()
     df_trend = transform(
         df_trend, cfg.periods.annual)
-    variables = rate_vars
-    variables.extend(trend_vars)
     json_file = to_json_stat(
         df_trend,
         ['Año'],
-        variables,
+        ['Var. interanual Cantabria', 'Var. interanual España'],
         cfg.series[key].source)
     json_obj = json.loads(json_file)
     json_obj['dimension']['Variables']['category']['unit'] = \
@@ -87,7 +93,7 @@ indicators = []
 for key in cfg.series:
     # Cantabria
     df_cant = data[cfg.file][cfg.series[key].sheet][[
-        'Año', cfg.series[key].rate_vars[0]]].copy()
+        'Año', 'Var. interanual Cantabria']].copy()
     df_cant = transform(df_cant, cfg.periods.global_annual, 'Cantabria - ')
     df_cant.set_index('Año', inplace=True)
     df_cant = df_cant.transpose()
@@ -95,7 +101,7 @@ for key in cfg.series:
     df_cant[' - Indicadores'] = cfg.series[key].label
     # España
     df_esp = data[cfg.file][cfg.series[key].sheet][[
-        'Año', cfg.series[key].rate_vars[1]]].copy()
+        'Año', 'Var. interanual España']].copy()
     df_esp = transform(df_esp, cfg.periods.global_annual, 'España - ')
     df_esp.set_index('Año', inplace=True)
     df_esp = df_esp.transpose()

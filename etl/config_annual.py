@@ -22,15 +22,15 @@ params = {
             'source': 'ICANE a partir de Contabilidad Regional de España Base 2015 del INE',
             'unit':{
                 'value': {
-                    'PIB. Precios corrientes Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Miles de euros'},
-                    'PIB. Precios corrientes España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Miles de euros'},
                 },
                 'trend': {
-                    'PIB. Precios corrientes Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'PIB. Precios corrientes España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -54,15 +54,15 @@ params = {
             'source': 'ICANE a partir de Contabilidad Regional de España Base 2015 del INE',
             'unit':{
                 'value': {
-                    'PIB. Índice de volumen Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Miles de euros'},
-                    'PIB. Índice de volumen España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Miles de euros'},
                 },
                 'trend': {
-                    'PIB. Índice de volumen Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'PIB. Índice de volumen España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -85,15 +85,15 @@ params = {
             'source': 'ICANE a partir de Contabilidad Regional de España Base 2015 del INE',
             'unit':{
                 'value': {
-                    'PIB per cápita Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Miles de euros'},
-                    'PIB per cápita España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Miles de euros'},
                 },
                 'trend': {
-                    'PIB per cápita Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'PIB per cápita España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -117,15 +117,15 @@ params = {
             'source': 'ICANE a partir de Informes de Recaudación Tributaria de la AEAT',
             'unit':{
                 'value': {
-                    'Ingresos tributarios netos Delegación Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Miles de euros'},
-                    'Ingresos tributarios netos España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Miles de euros'},
                 },
                 'trend': {
-                    'Ingresos tributarios netos Delegación Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Ingresos tributarios netos España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -149,15 +149,15 @@ params = {
             'source': 'ICANE a partir de Deuda según PDE del Banco de España',
             'unit':{
                 'value': {
-                    'Deuda pública CC.AA Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Miles de euros'},
-                    'Deuda pública CC.AA España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Miles de euros'},
                 },
                 'trend': {
-                    'Deuda pública CC.AA Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Deuda pública CC.AA España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -181,15 +181,15 @@ params = {
             'source': 'ICANE a partir de Deuda según PDE del Banco de España',
             'unit':{
                 'value': {
-                    'Deuda pública CC.AA sobre el PIB Cantabria': {
-                        'decimals': 0, 'label': '%'},
-                    'Deuda pública CC.AA sobre el PIB España': {
-                        'decimals': 0, 'label': '%'},
+                    'Valor Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Valor España': {
+                        'decimals': 2, 'label': '%'},
                 },
                 'trend': {
-                    'Deuda pública CC.AA sobre el PIB Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Deuda pública CC.AA sobre el PIB España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -213,15 +213,15 @@ params = {
             'source': 'ICANE a partir de Presupuestos de la Comunidad Autónoma en términos de Contabilidad Nacional de la IGAE',
             'unit':{
                 'value': {
-                    'Déficit público CC.AA Cantabria': {
-                        'decimals': 0, 'label': 'Millones de euros'},
-                    'Déficit público CC.AA España': {
-                        'decimals': 0, 'label': 'Millones de euros'},
+                    'Valor Cantabria': {
+                        'decimals': 2, 'label': 'Millones de euros'},
+                    'Valor España': {
+                        'decimals': 2, 'label': 'Millones de euros'},
                 },
                 'trend': {
-                    'Déficit público CC.AA Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Déficit público CC.AA España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -245,15 +245,15 @@ params = {
             'source': 'ICANE a partir de Presupuestos de la Comunidad Autónoma en términos de Contabilidad Nacional de la IGAE',
             'unit':{
                 'value': {
-                    'Déficit público CC.AA sobre el PIB Cantabria': {
-                        'decimals': 0, 'label': '%'},
-                    'Déficit público CC.AA sobre el PIB España': {
-                        'decimals': 0, 'label': '%'},
+                    'Valor Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Valor España': {
+                        'decimals': 2, 'label': '%'},
                 },
                 'trend': {
-                    'Déficit público CC.AA sobre el PIB Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Déficit público CC.AA sobre el PIB España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -277,15 +277,15 @@ params = {
             'source': 'ICANE a partir de Estadística de Gasto sanitario público del Ministerio de Sanidad',
             'unit':{
                 'value': {
-                    'Gasto sanitario público consolidado. Sector CC.AA Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Miles de euros'},
-                    'Gasto sanitario público consolidado. Sector CC.AA España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Miles de euros'},
                 },
                 'trend': {
-                    'Gasto sanitario público consolidado. Sector CC.AA Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Gasto sanitario público consolidado. Sector CC.AA España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -309,15 +309,15 @@ params = {
             'source': 'ICANE a partir de Estadística de Gasto sanitario público del Ministerio de Sanidad',
             'unit':{
                 'value': {
-                    'Gasto sanitario público consolidado per cápita. Sector CC.AA Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': 'Euros'},
-                    'Gasto sanitario público consolidado per cápita. Sector CC.AA España': {
+                    'Valor España': {
                         'decimals': 0, 'label': 'Euros'},
                 },
                 'trend': {
-                    'Gasto sanitario público consolidado per cápita. Sector CC.AA Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Gasto sanitario público consolidado per cápita. Sector CC.AA España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
@@ -341,15 +341,15 @@ params = {
             'source': 'ICANE a partir de Estadística de Gasto sanitario público del Ministerio de Sanidad',
             'unit':{
                 'value': {
-                    'Gasto sanitario público consolidado sobre PIB. Sector CC.AA Cantabria': {
+                    'Valor Cantabria': {
                         'decimals': 0, 'label': '%'},
-                    'Gasto sanitario público consolidado sobre PIB. Sector CC.AA España': {
+                    'Valor España': {
                         'decimals': 0, 'label': '%'},
                 },
                 'trend': {
-                    'Gasto sanitario público consolidado sobre PIB. Sector CC.AA Cantabria. Var interanual': {
+                    'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
-                    'Gasto sanitario público consolidado sobre PIB. Sector CC.AA España. Var interanual': {
+                    'Var. interanual España': {
                         'decimals': 2, 'label': '%'},
                 }
             },
