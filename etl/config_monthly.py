@@ -113,7 +113,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            "note":["Datos a último día de mes"],
             'json': {
                 'value': 'afiliados.json-stat',
                 'trend': 'afiliados-tendencia.json-stat'
@@ -151,7 +151,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            "note":["Datos a último día de mes"],
             'json': {
                 'value': 'afiliados-asalariados.json-stat',
                 'trend': 'afiliados-asalariados-tendencia.json-stat'
@@ -189,7 +189,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            "note":["Datos a último día de mes"],
             'json': {
                 'value': 'afiliados-no-asalariados.json-stat',
                 'trend': 'afiliados-no-asalariados-tendencia.json-stat'
@@ -197,7 +197,7 @@ params = {
         },
         'ipc': {
             'sheet': 'Ipc',
-            'label': 'IPC',
+            'label': 'Índice de precios al consumo',
             'category': 'Nivel, calidad y condiciones de vida',
             'value_vars': ['Ipc Cantabria', 'Ipc España'],
             'rate_vars': [
@@ -208,9 +208,9 @@ params = {
             'unit':{
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 2, 'label': 'Índice'},
+                        'decimals': 0, 'label': 'Índice'},
                     'Valor España': {
-                        'decimals': 2, 'label': 'Índice'},
+                        'decimals': 0, 'label': 'Índice'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -280,9 +280,9 @@ params = {
             'unit':{
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 0, 'label': 'Saldo'},
+                        'decimals': 2, 'label': 'Saldo'},
                     'Valor España': {
-                        'decimals': 0, 'label': 'Saldo'},
+                        'decimals': 2, 'label': 'Saldo'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -447,7 +447,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            "note":["Los datos de 2018 son provisionales"],
             'json': {
                 'value': 'trafico-aereo.json-stat',
                 'trend': 'trafico-aereo-tendencia.json-stat'
@@ -508,9 +508,9 @@ params = {
             'unit':{
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 2, 'label': 'Índice'},
+                        'decimals': 1, 'label': 'Índice'},
                     'Valor España': {
-                        'decimals': 2, 'label': 'Índice'},
+                        'decimals': 1, 'label': 'Índice'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
