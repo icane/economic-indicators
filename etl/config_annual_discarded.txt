@@ -1,0 +1,65 @@
+        'gasto_sanitario_consolidado_pib': {
+            'sheet': 'Hoja6',
+            'label': 'Gasto sanitario público consolidado sobre el PIB. Sector CC.AA',
+            'category': 'Sanidad',
+            'value_vars': [
+                'Gasto sanitario público consolidado sobre PIB. Sector CC.AA Cantabria',
+                'Gasto sanitario público consolidado sobre PIB. Sector CC.AA España'],
+            'rate_vars': [
+                'Gasto sanitario público consolidado sobre PIB. Sector CC.AA Cantabria. Var interanual',
+                'Gasto sanitario público consolidado sobre PIB. Sector CC.AA España. Var interanual'],
+            'trend_vars': [],
+            'source': 'ICANE a partir de Estadística de Gasto sanitario público del Ministerio de Sanidad',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Valor España': {
+                        'decimals': 2, 'label': '%'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos de 2017 y 2018 son provisionales. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de un porcentaje'],
+            'json': {
+                'value': 'gasto-sanitario-consolidado-pib.json-stat',
+                'trend': 'gasto-sanitario-consolidado-pib-tendencia.json-stat'
+            }
+        }
+
+        'deuda_publica_pib': {
+            'sheet': 'Hoja9',
+            'label': 'Deuda pública CC.AA sobre el PIB',
+            'category': 'Economía',
+            'value_vars': [
+                'Deuda pública CC.AA sobre el PIB Cantabria',
+                'Deuda pública CC.AA sobre el PIB España'],
+            'rate_vars': [
+                'Deuda pública CC.AA sobre el PIB Cantabria. Var interanual',
+                'Deuda pública CC.AA sobre el PIB España. Var interanual'],
+            'trend_vars': [],
+            'source': 'ICANE a partir de Deuda según PDE del Banco de España',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': '%'},
+                    'Valor España': {
+                        'decimals': 1, 'label': '%'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            "note":["Los datos de 2017 son provisionales y los de 2018 y 2019 un avance"],
+            'json': {
+                'value': 'deuda-publica-pib.json-stat',
+                'trend': 'deuda-publica-pib-tendencia.json-stat'
+            }
+        },
