@@ -129,7 +129,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2019 son provisionales"],
+            "note":[""],
             'json': {
                 'value': 'ingresos-tributarios-netos.json-stat',
                 'trend': 'ingresos-tributarios-netos-tendencia.json-stat'
