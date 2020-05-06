@@ -75,6 +75,8 @@ for key in cfg.series:
         [cfg.series[key].sheet][variables].copy()
     df_trend = transform(
         df_trend, cfg.periods.annual)
+    # Exclude rows whose value for Var. interanual Cantabria is NA
+    df_trend = df_trend[df_trend['Var. interanual Cantabria'].notna()]
     json_file = to_json_stat(
         df_trend,
         ['Año'],
