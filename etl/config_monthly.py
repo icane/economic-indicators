@@ -8,6 +8,44 @@ from decouple import config
 params = {
     'file': 'Datos_carga_mensual.xlsx',
     'series': {
+        'ingresos_tributarios': {
+            'sheet': 'IT',
+            'label': 'Ingresos tributarios netos',
+            'category': 'Economía',
+            'value_vars': [
+                'Ingresos tributarios netos Delegación Cantabria',
+                'Ingresos tributarios netos España'],
+            'rate_vars': [
+                'Ingresos tributarios netos Delegación Cantabria. Var interanual',
+                'Ingresos tributarios netos España. Var interanual'],
+            'trend_vars': [
+                'Ingresos tributarios netos Delegación Cantabria. Tendencia',
+                'Ingresos tributarios netos España. Tendencia'],
+            'source': 'ICANE a partir de Informes Mensuales de Recaudación Tributaria de la AEAT',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Miles de euros'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Miles de euros'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            "note":[""],
+            'json': {
+                'value': 'ingresos-tributarios.json-stat',
+                'trend': 'ingresos-tributarios-tendencia.json-stat'
+            }
+        },
         'paro': {
             'sheet': 'Paro',
             'label': 'Paro registrado',
@@ -193,6 +231,82 @@ params = {
             'json': {
                 'value': 'afiliados-no-asalariados.json-stat',
                 'trend': 'afiliados-no-asalariados-tendencia.json-stat'
+            }
+        },
+        'prd_b': {
+            'sheet': 'PRD_B',
+            'label': 'Beneficiarios prestaciones por desempleo',
+            'category': 'Nivel, calidad y condiciones de vida',
+            'value_vars': [
+                'Beneficiarios prestaciones por desempleo Cantabria',
+                'Beneficiarios prestaciones por desempleos España'],
+            'rate_vars': [
+                'Beneficiarios prestaciones por desempleo Cantabria. Var interanual',
+                'Beneficiarios prestaciones por desempleos España. Var interanual'],
+            'trend_vars': [
+                'Beneficiarios prestaciones por desempleo Cantabria. Tendencia',
+                'Beneficiarios prestaciones por desempleos España. Tendencia'],
+            'source': 'ICANE a partir de Prestaciones por Desempleo del Ministerio de Trabajo, Migraciones y Seguridad Social',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Beneficiarios'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Beneficiarios'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'}
+                }
+            },
+            "note":["A último día del mes"],
+            'json': {
+                'value': 'prestacion-desempleo-beneficiarios.json-stat',
+                'trend': 'prestacion-desempleo-beneficiarios-tendencia.json-stat'
+            }
+        },
+        'prd_g': {
+            'sheet': 'PRD_G',
+            'label': 'Gasto prestaciones por desempleo',
+            'category': 'Nivel, calidad y condiciones de vida',
+            'value_vars': [
+                'Beneficiarios prestaciones por desempleos Cantabria',
+                'Beneficiarios prestaciones por desempleos España'],
+            'rate_vars': [
+                'Beneficiarios prestaciones por desempleo Cantabria. Var interanual',
+                'Beneficiarios prestaciones por desempleos España. Var interanual'],
+            'trend_vars': [
+                'Beneficiarios prestaciones por desempleo Cantabria. Tendencia',
+                'Beneficiarios prestaciones por desempleos España. Tendencia'],
+            'source': 'ICANE a partir de Prestaciones por Desempleo del Ministerio de Trabajo, Migraciones y Seguridad Social',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Miles de euros'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Miles de euros'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'}
+                }
+            },
+            "note":["Gasto contablilizado en el mes siguiente pero devengado en el mes"],
+            'json': {
+                'value': 'gasto-prestaciones-desempleo.json-stat',
+                'trend': 'gasto-prestaciones-desempleo-tendencia.json-stat'
             }
         },
         'ipc': {
@@ -489,6 +603,44 @@ params = {
             'json': {
                 'value': 'pernoctaciones-hoteleras.json-stat',
                 'trend': 'pernoctaciones-hoteleras-tendencia.json-stat'
+            }
+        },
+        'pernoctaciones_extrahoteleras': {
+            'sheet': 'EOAT',
+            'label': 'Pernoctaciones extrahoteleras',
+            'category': 'Servicios',
+            'value_vars': [
+                'Pernoctaciones extrahoteleras Cantabria',
+                'Pernoctaciones extrahoteleras España'],
+            'rate_vars': [
+                'Pernoctaciones extrahoteleras Cantabria. Var interanual',
+                'Pernoctaciones extrahoteleras España. Var interanual'],
+            'trend_vars': [
+                'Pernoctaciones extrahoteleras Cantabria. Tendencia',
+                'Pernoctaciones extrahoteleras España. Tendencia'],
+            'source': 'ICANE a partir de Encuesta de Ocupación de Alojamientos Turísticos Extrahoteleros del INE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Pernoctaciones'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Pernoctaciones'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            "note":["Los datos de abril del año 2019 y posteriores son provisionales. Los datos de enero, febrero y marzo de 2020 para Cantabria no tienen la información de camping por secreto estadistico"],
+            'json': {
+                'value': 'pernoctaciones-extrahoteleras.json-stat',
+                'trend': 'pernoctaciones-extrahoteleras-tendencia.json-stat'
             }
         },
         'icm': {
