@@ -105,7 +105,7 @@ params = {
         },
         'ingresos_tributarios_netos': {
             'sheet': 'Hoja7',
-            'label': 'Ingresos tributarios netos anuales',
+            'label': 'Ingresos tributarios netos',
             'category': 'Economía',
             'value_vars': [
                 'Ingresos tributarios netos Delegación Cantabria',
@@ -114,7 +114,7 @@ params = {
                 'Ingresos tributarios netos Delegación Cantabria. Var interanual',
                 'Ingresos tributarios netos España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Informes de Recaudación Tributaria de la AEAT',
+            'source': 'ICANE a partir de Informes Mensuales de Recaudación Tributaria de la AEAT',
             'unit':{
                 'value': {
                     'Valor Cantabria': {
@@ -129,7 +129,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'ingresos-tributarios-netos.json-stat',
                 'trend': 'ingresos-tributarios-netos-tendencia.json-stat'
@@ -161,7 +161,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2019 son avance"],
+            'note':[''],
             'json': {
                 'value': 'deuda-publica.json-stat',
                 'trend': 'deuda-publica-tendencia.json-stat'
@@ -223,7 +223,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2017 son provisionales y los de 2018 y 2019 un avance"],
+            "note":["Los datos de 2017 son provisionales y los de 2018 y 2019 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual."],
             'json': {
                 'value': 'deficit-publico-pib.json-stat',
                 'trend': 'deficit-publico-pib-tendencia.json-stat'
@@ -253,7 +253,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2017 son provisionales y los de 2018 y 2019 un avance"],
+            "note":["Los datos de 2017 son provisionales y los de 2018 y 2019 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual."],
             'json': {
                 'value': 'deuda-publica-pib.json-stat',
                 'trend': 'deuda-publica-pib-tendencia.json-stat'
@@ -315,7 +315,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2017 y 2018 son provisionales. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de un porcentaje'],
+            'note':['Los datos de 2017 son provisionales y los de 2018 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
             'json': {
                 'value': 'gasto-sanitario-consolidado-pib.json-stat',
                 'trend': 'gasto-sanitario-consolidado-pib-tendencia.json-stat'

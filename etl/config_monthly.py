@@ -18,9 +18,7 @@ params = {
             'rate_vars': [
                 'Ingresos tributarios netos Delegación Cantabria. Var interanual',
                 'Ingresos tributarios netos España. Var interanual'],
-            'trend_vars': [
-                'Ingresos tributarios netos Delegación Cantabria. Tendencia',
-                'Ingresos tributarios netos España. Tendencia'],
+            'trend_vars': [],
             'source': 'ICANE a partir de Informes Mensuales de Recaudación Tributaria de la AEAT',
             'unit':{
                 'value': {
@@ -33,14 +31,10 @@ params = {
                     'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
                     'Var. interanual España': {
-                        'decimals': 2, 'label': '%'},
-                    'Tendencia Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'Tendencia España': {
-                        'decimals': 2, 'label': '%'},
+                        'decimals': 2, 'label': '%'}
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'ingresos-tributarios.json-stat',
                 'trend': 'ingresos-tributarios-tendencia.json-stat'
@@ -76,7 +70,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'paro.json-stat',
                 'trend': 'paro-tendencia.json-stat'
@@ -113,7 +107,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'contratos.json-stat',
                 'trend': 'contratos-tendencia.json-stat'
@@ -333,7 +327,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'ipc.json-stat',
                 'trend': 'ipc-tendencia.json-stat'
@@ -371,7 +365,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'matriculaciones.json-stat',
                 'trend': 'matriculaciones-tendencia.json-stat'
@@ -447,7 +441,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'empresas.json-stat',
                 'trend': 'empresas-tendencia.json-stat'
@@ -485,7 +479,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'personas-fisicas.json-stat',
                 'trend': 'personas-fisicas-tendencia.json-stat'
@@ -523,7 +517,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'personas-juridicas.json-stat',
                 'trend': 'personas-juridicas-tendencia.json-stat'
@@ -675,7 +669,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'icm.json-stat',
                 'trend': 'icm-tendencia.json-stat'
