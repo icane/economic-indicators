@@ -270,14 +270,14 @@ params = {
             'label': 'Gasto prestaciones por desempleo',
             'category': 'Nivel, calidad y condiciones de vida',
             'value_vars': [
-                'Beneficiarios prestaciones por desempleos Cantabria',
-                'Beneficiarios prestaciones por desempleos España'],
+                'Gasto prestaciones por desempleo Cantabria',
+                'Gasto prestaciones por desempleos España'],
             'rate_vars': [
-                'Beneficiarios prestaciones por desempleo Cantabria. Var interanual',
-                'Beneficiarios prestaciones por desempleos España. Var interanual'],
+                'Gasto prestaciones por desempleo Cantabria. Var interanual',
+                'Gasto prestaciones por desempleos España. Var interanual'],
             'trend_vars': [
-                'Beneficiarios prestaciones por desempleo Cantabria. Tendencia',
-                'Beneficiarios prestaciones por desempleos España. Tendencia'],
+                'Gasto prestaciones por desempleo Cantabria. Tendencia',
+                'Gasto prestaciones por desempleos España. Tendencia'],
             'source': 'ICANE a partir de Prestaciones por Desempleo del Ministerio de Trabajo, Migraciones y Seguridad Social',
             'unit':{
                 'value': {
@@ -407,6 +407,44 @@ params = {
             'json': {
                 'value': 'clima-industrial.json-stat',
                 'trend': 'clima-industrial-tendencia.json-stat'
+            }
+        },
+        'ipi': {
+            'sheet': 'IPI',
+            'label': 'Índice de Producción Industrial',
+            'category': 'Industria y energía',
+            'value_vars': [
+                'Índice de Producción Industrial  Cantabria',
+                'Índice de Producción Industrial s España'],
+            'rate_vars': [
+                'Índice de Producción Industrial  Cantabria. Var interanual',
+                'Índice de Producción Industrial s España. Var interanual'],
+            'trend_vars': [
+                'Índice de Producción Industrial  Cantabria. Tendencia',
+                'Índice de Producción Industrial s España. Tendencia'],
+            'source': 'ICANE  a partir de Índice de Producción Industrial del INE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 2, 'label': 'Índice'},
+                    'Valor España': {
+                        'decimals': 2, 'label': 'Índice'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'ipi.json-stat',
+                'trend': 'ipi-tendencia.json-stat'
             }
         },
         'empresas': {

@@ -39,7 +39,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'epa-ocupados.json-stat',
                 'trend': 'epa-ocupados-tendencia.json-stat'
@@ -76,7 +76,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'epa-parados.json-stat',
                 'trend': 'epa-parados-tendencia.json-stat'
@@ -113,7 +113,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa"],
+            'note':['Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa'],
             'json': {
                 'value': 'epa-tasa-actividad.json-stat',
                 'trend': 'epa-tasa-actividad-tendencia.json-stat'
@@ -150,7 +150,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa"],
+            'note':['Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa'],
             'json': {
                 'value': 'epa-tasa-empleo.json-stat',
                 'trend': 'epa-tasa-empleo-tendencia.json-stat'
@@ -187,7 +187,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa"],
+            'note':['Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa'],
             'json': {
                 'value': 'epa-tasa-paro.json-stat',
                 'trend': 'epa-tasa-paro-tendencia.json-stat'
@@ -219,10 +219,86 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":[""],
+            'note':[''],
             'json': {
                 'value': 'confianza-empresarial.json-stat',
                 'trend': 'confianza-empresarial-tendencia.json-stat'
+            }
+        },
+        'turistas_internacionales': {
+            'sheet': 'FRONTUR',
+            'label': 'Turistas internacionales',
+            'category': 'Servicios',
+            'value_vars': [
+                'Turistas internacionalesCantabria',
+                'Turistas internacionalesEspaña'],
+            'rate_vars': [
+                'Turistas internacionalesCantabria. Var interanual',
+                'Turistas internacionalesEspaña. Var interanual'],
+            'trend_vars': [
+                'Turistas internacionalesCantabria. Tendencia',
+                'Turistas internacionalesEspaña. Tendencia'],
+            'source': 'ICANE a partir de Movimientos Turísticos en Frontera del INE e Instituto de Estudios Turísticos',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Personas'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Personas'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos de abril del año 2019 y posteriores son provisionales'],
+            'json': {
+                'value': 'turistas-internacionales.json-stat',
+                'trend': 'turistas-internacionales-tendencia.json-stat'
+            }
+        },
+        'gasto_turistas_internacionales': {
+            'sheet': 'EGATUR',
+            'label': 'Gasto de turistas internacionales',
+            'category': 'Servicios',
+            'value_vars': [
+                'Gasto de turistas internacionalesCantabria',
+                'Gasto de turistas internacionalesEspaña'],
+            'rate_vars': [
+                'Gasto de turistas internacionalesCantabria. Var interanual',
+                'Gasto de turistas internacionalesEspaña. Var interanual'],
+            'trend_vars': [
+                'Gasto de turistas internacionalesCantabria. Tendencia',
+                'Gasto de turistas internacionalesEspaña. Tendencia'],
+            'source': 'ICANE a partir de Encuesta de Gasto Turistico del INE e Instituto de Estudios Turísticos',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Millones de euros'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Millones de euros'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos de abril del año 2019 y posteriores son provisionales'],
+            'json': {
+                'value': 'gasto-turistas-internacionales.json-stat',
+                'trend': 'gasto-turistas-internacionales-tendencia.json-stat'
             }
         }
     },
