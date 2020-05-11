@@ -206,7 +206,9 @@ params = {
             'value_vars': [
                 'Déficit público CC.AA sobre el PIB Cantabria',
                 'Déficit público CC.AA sobre el PIB España'],
-            'rate_vars': [],
+            'rate_vars': [
+                'Déficit público CC.AA sobre el PIB Cantabria. Var interanual',
+                'Déficit público CC.AA sobre el PIB España. Var interanual'],
             'trend_vars': [],
             'source': 'ICANE a partir de Presupuestos de la Comunidad Autónoma en términos de Contabilidad Nacional de la IGAE',
             'unit':{
@@ -236,7 +238,9 @@ params = {
             'value_vars': [
                 'Deuda pública CC.AA sobre el PIB Cantabria',
                 'Deuda pública CC.AA sobre el PIB España'],
-            'rate_vars': [],
+            'rate_vars': [
+                'Deuda pública CC.AA sobre el PIB Cantabria. Var interanual',
+                'Deuda pública CC.AA sobre el PIB España. Var interanual'],
             'trend_vars': [],
             'source': 'ICANE a partir de Deuda según PDE del Banco de España',
             'unit':{
@@ -298,7 +302,9 @@ params = {
             'value_vars': [
                 'Gasto sanitario público consolidado sobre PIB. Sector CC.AA Cantabria',
                 'Gasto sanitario público consolidado sobre PIB. Sector CC.AA España'],
-            'rate_vars': [],
+            'rate_vars': [
+                'Gasto sanitario público consolidado sobre PIB. Sector CC.AA Cantabria. Var interanual',
+                'Gasto sanitario público consolidado sobre PIB. Sector CC.AA España. Var interanual'],
             'trend_vars': [],
             'source': 'ICANE a partir de Estadística de Gasto sanitario público del Ministerio de Sanidad',
             'unit':{
