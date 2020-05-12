@@ -447,6 +447,44 @@ params = {
                 'trend': 'ipi-tendencia.json-stat'
             }
         },
+        'consumo_productos_petroliferos': {
+            'sheet': 'CP',
+            'label': 'Consumo de productos petrolíferos',
+            'category': 'Industria y energía',
+            'value_vars': [
+                'Consumo de productos petrolíferos Cantabria',
+                'Consumo de productos petrolíferos España'],
+            'rate_vars': [
+                'Consumo de productos petrolíferos Cantabria. Var interanual',
+                'Consumo de productos petrolíferos España. Var interanual'],
+            'trend_vars': [
+                'Consumo de productos petrolíferos Cantabria. Tendencia',
+                'Consumo de productos petrolíferos España. Tendencia'],
+            'source': 'ICANE a partir de Consumo de Productos Pretrolíferos del CORES',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 2, 'label': 'Toneladas'},
+                    'Valor España': {
+                        'decimals': 2, 'label': 'Toneladas'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'consumo-productos-petroliferos.json-stat',
+                'trend': 'consumo-productos-petroliferos-tendencia.json-stat'
+            }
+        },
         'empresas': {
             'sheet': 'Emp',
             'label': 'Empresas inscritas en la Seguridad social',
@@ -597,6 +635,82 @@ params = {
             'json': {
                 'value': 'trafico-aereo.json-stat',
                 'trend': 'trafico-aereo-tendencia.json-stat'
+            }
+        },
+        'trafico_portuario': {
+            'sheet': 'TPS_M',
+            'label': 'Tráfico portuario',
+            'category': 'Servicios',
+            'value_vars': [
+                'Tráfico portuario Cantabria',
+                'Tráfico portuario España'],
+            'rate_vars': [
+                'Tráfico portuario Cantabria. Var interanual',
+                'Tráfico portuario España. Var interanual'],
+            'trend_vars': [
+                'Tráfico portuario Cantabria. Tendencia',
+                'Tráfico portuario España. Tendencia'],
+            'source': 'ICANE a partir de Estadística del Puerto de la Autoridad Portuaria de Santander y Ministerio de Fomento',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Toneladas'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Toneladas'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'trafico-portuario.json-stat',
+                'trend': 'trafico-portuario-tendencia.json-stat'
+            }
+        },
+        'trafico_portuario_pasajeros': {
+            'sheet': 'TPS_P',
+            'label': 'Tráfico portuario de pasajeros',
+            'category': 'Servicios',
+            'value_vars': [
+                'Tráfico portuario de pasajeros Cantabria',
+                'Tráfico portuario de pasajeros España'],
+            'rate_vars': [
+                'Tráfico portuario de pasajeros Cantabria. Var interanual',
+                'Tráfico portuario de pasajeros España. Var interanual'],
+            'trend_vars': [
+                'Tráfico portuario de pasajeros Cantabria. Tendencia',
+                'Tráfico portuario de pasajeros España. Tendencia'],
+            'source': 'ICANE a partir de Estadística del Puerto de la Autoridad Portuaria de Santander y Ministerio de Fomento',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Pasajeros'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Pasajeros'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'trafico-portuario-pasajeros.json-stat',
+                'trend': 'trafico-portuario-pasajeros-tendencia.json-stat'
             }
         },
         'pernoctaciones_hoteleras': {

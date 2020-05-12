@@ -114,7 +114,7 @@ params = {
                 'Ingresos tributarios netos Delegación Cantabria. Var interanual',
                 'Ingresos tributarios netos España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Informes Mensuales de Recaudación Tributaria de la AEAT',
+            'source': 'ICANE a partir de Informes Anuales de Recaudación Tributaria de la AEAT',
             'unit':{
                 'value': {
                     'Valor Cantabria': {
