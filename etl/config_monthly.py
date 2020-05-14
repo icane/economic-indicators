@@ -599,6 +599,82 @@ params = {
                 'trend': 'personas-juridicas-tendencia.json-stat'
             }
         },
+        'sociedades_mercantiles_constituidas': {
+            'sheet': 'SM_C',
+            'label': 'Sociedades mercantiles constituidas',
+            'category': 'Empresas',
+            'value_vars': [
+                'Sociedades mercantiles constituidas Cantabria',
+                'Sociedades mercantiles constituidas España'],
+            'rate_vars': [
+                'Sociedades mercantiles constituidas Cantabria. Var interanual',
+                'Sociedades mercantiles constituidas España. Var interanual'],
+            'trend_vars': [
+                'Sociedades mercantiles constituidas Cantabria. Tendencia',
+                'Sociedades mercantiles constituidas España. Tendencia'],
+            'source': 'ICANE a partir de Sociedades Mercantiles del INE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Sociedades'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Sociedades'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos de abril del año 2019 y posteriores son provisionales'],
+            'json': {
+                'value': 'sociedades-mercantiles-constituidas.json-stat',
+                'trend': 'sociedades-mercantiles-constituidas-tendencia.json-stat'
+            }
+        },
+        'sociedades_mercantiles_disueltas': {
+            'sheet': 'SM_D',
+            'label': 'Sociedades mercantiles disueltas',
+            'category': 'Empresas',
+            'value_vars': [
+                'Sociedades mercantiles disueltas Cantabria',
+                'Sociedades mercantiles disueltas España'],
+            'rate_vars': [
+                'Sociedades mercantiles disueltas Cantabria. Var interanual',
+                'Sociedades mercantiles disueltas España. Var interanual'],
+            'trend_vars': [
+                'Sociedades mercantiles disueltas Cantabria. Tendencia',
+                'Sociedades mercantiles disueltas España. Tendencia'],
+            'source': 'ICANE a partir de Sociedades Mercantiles del INE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Sociedades'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Sociedades'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos de abril del año 2019 y posteriores son provisionales'],
+            'json': {
+                'value': 'sociedades-mercantiles-disueltas.json-stat',
+                'trend': 'sociedades-mercantiles-disueltas-tendencia.json-stat'
+            }
+        },
         'trafico_aereo': {
             'sheet': 'Taereo',
             'label': 'Tráfico aéreo de pasajeros',

@@ -7,7 +7,7 @@ Mercado de Trabajo,2.16,2.67,3.34,-3.35,,Afiliados asalariados,2.13,1.9,2.62,-3.
 Mercado de Trabajo,-0.58,-0.52,-0.14,-1.35,,Afiliados no asalariados,0.44,0.52,0.76,-0.98,
 "Nivel, calidad y condiciones de vida",7.33,5.56,4.37,19.81,,Beneficiarios prestaciones por desempleo,7.01,6.07,5.47,15.22,
 "Nivel, calidad y condiciones de vida",13.24,12.89,12.77,18.01,,Gasto prestaciones por desempleo,13.22,12.46,13.22,17.55,
-"Nivel, calidad y condiciones de vida",0.9,1.1,0.8,-0.1,,Índice de precios al consumo,0.8,1.1,0.7,0.0,
+"Nivel, calidad y condiciones de vida",0.9,1.1,0.8,0.0,-0.7,Índice de precios al consumo,0.8,1.1,0.7,0.0,-0.7
 Industria y energía,9.87,8.87,-5.35,-70.91,,Matriculación de vehículos,4.78,-6.46,-2.9,-64.67,
 Industria y energía,-23.09,-12.88,-7.22,-8.05,-14.32,Indicador de clima industrial,1.36,-1.27,1.29,-5.45,-31.42
 Industria y energía,-12.7,-5.3,-9.4,-13.6,,Índice de Producción Industrial,2.2,-4.3,-0.1,-10.2,
@@ -15,6 +15,8 @@ Industria y energía,-6.18,-5.44,-1.81,-19.84,,Consumo de productos petrolífero
 Empresas,-0.59,0.04,0.33,-5.7,-7.02,Empresas inscritas en la Seguridad social,-0.46,-0.65,-0.04,-7.41,-7.86
 Empresas,-1.92,-0.68,-0.19,-9.51,-11.7,Personas físicas inscritas en la Seguridad social,-1.76,-2.19,-0.92,-12.98,-13.45
 Empresas,0.33,0.52,0.68,-3.08,-3.78,Personas jurídicas inscritas en la Seguridad social,0.36,0.29,0.48,-4.04,-4.48
+Empresas,-23.73,-42.35,1.82,-19.05,,Sociedades mercantiles constituidas,4.23,-3.77,-9.23,-28.29,
+Empresas,-38.89,23.08,20.83,27.78,,Sociedades mercantiles disueltas,2.49,-14.53,4.54,-21.08,
 Servicios,7.33,10.89,3.99,-63.97,,Tráfico aéreo de pasajeros,3.68,2.36,3.94,-59.35,
 Servicios,-0.44,-7.01,-9.42,-14.4,,Tráfico portuario,-7.45,-3.56,-1.48,-8.25,
 Servicios,-14.62,-1.12,34.44,-54.99,,Tráfico portuario de pasajeros,3.86,3.82,10.27,-58.88,
