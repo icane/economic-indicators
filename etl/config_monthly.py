@@ -642,14 +642,14 @@ params = {
             'label': 'Sociedades mercantiles disueltas',
             'category': 'Empresas',
             'value_vars': [
-                'Sociedades mercantiles disueltas Cantabria',
-                'Sociedades mercantiles disueltas España'],
+                'Sociedades mercantiles constituidas Cantabria',
+                'Sociedades mercantiles constituidas España'],
             'rate_vars': [
-                'Sociedades mercantiles disueltas Cantabria. Var interanual',
-                'Sociedades mercantiles disueltas España. Var interanual'],
+                'Sociedades mercantiles constituidas Cantabria. Var interanual',
+                'Sociedades mercantiles constituidas España. Var interanual'],
             'trend_vars': [
-                'Sociedades mercantiles disueltas Cantabria. Tendencia',
-                'Sociedades mercantiles disueltas España. Tendencia'],
+                'Sociedades mercantiles constituidas Cantabria. Tendencia',
+                'Sociedades mercantiles constituidas España. Tendencia'],
             'source': 'ICANE a partir de Sociedades Mercantiles del INE',
             'unit':{
                 'value': {
