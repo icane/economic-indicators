@@ -707,7 +707,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2018 son provisionales"],
+            "note":["Los datos son provisionales desde el año 2019"],
             'json': {
                 'value': 'trafico-aereo.json-stat',
                 'trend': 'trafico-aereo-tendencia.json-stat'

@@ -17,7 +17,7 @@ Empresas,-1.92,-0.68,-0.19,-9.51,-11.7,Personas físicas inscritas en la Segurid
 Empresas,0.33,0.52,0.68,-3.08,-3.78,Personas jurídicas inscritas en la Seguridad social,0.36,0.29,0.48,-4.04,-4.48
 Empresas,-23.73,-42.35,1.82,-19.05,,Sociedades mercantiles constituidas,4.23,-3.77,-9.23,-28.29,
 Empresas,-38.89,23.08,20.83,27.78,,Sociedades mercantiles disueltas,2.49,-14.53,4.54,-21.08,
-Servicios,7.33,10.89,3.99,-63.97,,Tráfico aéreo de pasajeros,3.68,2.36,3.94,-59.35,
+Servicios,7.33,10.89,3.99,-63.97,-99.98,Tráfico aéreo de pasajeros,3.68,2.36,3.94,-59.35,-99.45
 Servicios,-0.44,-7.01,-9.42,-14.4,,Tráfico portuario,-7.45,-3.56,-1.48,-8.25,
 Servicios,-14.62,-1.12,34.44,-54.99,,Tráfico portuario de pasajeros,3.86,3.82,10.27,-58.88,
 Servicios,5.24,24.37,8.93,-65.49,,Pernoctaciones hoteleras,1.5,2.92,6.76,-61.11,
