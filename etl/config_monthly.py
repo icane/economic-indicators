@@ -902,6 +902,151 @@ params = {
                 'value': 'icm.json-stat',
                 'trend': 'icm-tendencia.json-stat'
             }
+        },
+        'importaciones': {
+            'sheet': 'M',
+            'label': 'Importaciones',
+            'category': 'Sector exterior',
+            'value_vars': ['Importaciones Cantabria', 'Importaciones España'],
+            'rate_vars': [
+                'Importaciones Cantabria. Var interanual',
+                'Importaciones España. Var interanual'],
+            'trend_vars': [
+                'Importaciones Cantabria. Tendencia',
+                'Importaciones España. Tendencia'],
+            'source': 'ICANE a partir de Estadistica de Comercio Exterior de la AEAT',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Miles de euros'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Miles de euros'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos son provisionales desde enero 2019'],
+            'json': {
+                'value': 'importaciones.json-stat',
+                'trend': 'importaciones-tendencia.json-stat'
+            }
+        },
+        'exportaciones': {
+            'sheet': 'X',
+            'label': 'Exportaciones',
+            'category': 'Sector exterior',
+            'value_vars': [
+                'Exportaciones Cantabria', 'Exportaciones España'],
+            'rate_vars': [
+                'Exportaciones Cantabria. Var interanual',
+                'Exportaciones España. Var interanual'],
+            'trend_vars': [
+                'Exportaciones Cantabria. Tendencia',
+                'Exportaciones España. Tendencia'],
+            'source': 'ICANE a partir de Estadistica de Comercio Exterior de la AEAT',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Miles de euros'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Miles de euros'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos son provisionales desde enero 2019'],
+            'json': {
+                'value': 'exportaciones.json-stat',
+                'trend': 'exportaciones-tendencia.json-stat'
+            }
+        },
+        'saldo_comercial': {
+            'sheet': 'SALDO',
+            'label': 'Saldo comercial',
+            'category': 'Sector exterior',
+            'value_vars': ['Saldo comercial Cantabria', 'Saldo comercial España'],
+            'rate_vars': [
+                'Saldo comercial Cantabria. Var interanual',
+                'Saldo comercial España. Var interanual'],
+            'trend_vars': [
+                'Saldo comercial Cantabria. Tendencia',
+                'Saldo comercial España. Tendencia'],
+            'source': 'ICANE a partir de Estadistica de Comercio Exterior de la AEAT',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Miles de euros'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Miles de euros'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos son provisionales desde enero 2019'],
+            'json': {
+                'value': 'saldo-comercial.json-stat',
+                'trend': 'saldo-comercial-tendencia.json-stat'
+            }
+        },
+        'tasa_cobertura': {
+            'sheet': 'TCOBER',
+            'label': 'Tasa de cobertura',
+            'category': 'Sector exterior',
+            'value_vars': ['Tasa cobertura Cantabria', 'Tasa cobertura España'],
+            'rate_vars': [
+                'Tasa cobertura Cantabria. Var interanual',
+                'Tasa cobertura España. Var interanual'],
+            'trend_vars': [
+                'Tasa cobertura Cantabria. Tendencia',
+                'Tasa cobertura España. Tendencia'],
+            'source': 'ICANE a partir de Estadistica de Comercio Exterior de la AEAT',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': '%'},
+                    'Valor España': {
+                        'decimals': 1, 'label': '%'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos son provisionales desde enero 2019. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa'],
+            'json': {
+                'value': 'tasa-cobertura.json-stat',
+                'trend': 'tasa-cobertura-tendencia.json-stat'
+            }
         }
     },
     'globals': {
