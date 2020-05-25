@@ -227,6 +227,44 @@ params = {
                 'trend': 'afiliados-no-asalariados-tendencia.json-stat'
             }
         },
+        'expedientes_regulacion_empleo': {
+            'sheet': 'RE',
+            'label': 'Trabajadores afectados por expedientes de regulación de empleo',
+            'category': 'Mercado de Trabajo',
+            'value_vars': [
+                'Trabajadores afectados por expedientes de regulación de empleo Cantabria',
+                'Trabajadores afectados por expedientes de regulación de empleo España'],
+            'rate_vars': [
+                'Trabajadores afectados por expedientes de regulación de empleo Cantabria. Var interanual',
+                'Trabajadores afectados por expedientes de regulación de empleo España. Var interanual'],
+            'trend_vars': [
+                'Trabajadores afectados por expedientes de regulación de empleo Cantabria. Tendencia',
+                'Trabajadores afectados por expedientes de regulación de empleo España. Tendencia'],
+            'source': 'ICANE a partir de Regulación de Empleo del Ministerio de Ministerio de Trabajo, Migraciones y Seguridad Social',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Personas'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Personas'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos de 2020 son provisionales. Se ha ampliado el plazo para que las autoridades laborales remitan la información necesaria para elaborar la estadística por causa de la situación provocada por el COVID. Se incluyen únicamente trabajadores afectados por procedimientos de ámbito nacional. La información referida a los procedimientos de ámbito provincial o de Comunidad Autónoma se ampliará cuando se disponga de un número relevante de autoridades laborales en disposición de facilitar datos. Es importante por tanto tener en cuenta que en las tablas publicadas no está recogido el número de trabajadores del Total Nacional'],
+            'json': {
+                'value': 'expedientes-regulacion-empleo.json-stat',
+                'trend': 'expedientes-regulacion-empleo-tendencia.json-stat'
+            }
+        },
         'prd_b': {
             'sheet': 'PRD_B',
             'label': 'Beneficiarios prestaciones por desempleo',
@@ -331,6 +369,44 @@ params = {
             'json': {
                 'value': 'ipc.json-stat',
                 'trend': 'ipc-tendencia.json-stat'
+            }
+        },
+        'indice_cifra_negocios_industria': {
+            'sheet': 'ICN',
+            'label': 'Índice de cifra de negocios en la industria',
+            'category': 'Industria y energía',
+            'value_vars': [
+                'Índice de cifra de negocios en la industria Cantabria',
+                'Índice de cifra de negocios en la industria España'],
+            'rate_vars': [
+                'Índice de cifra de negocios en la industria Cantabria. Var interanual',
+                'Índice de cifra de negocios en la industria España. Var interanual'],
+            'trend_vars': [
+                'Índice de cifra de negocios en la industria Cantabria. Tendencia',
+                'Índice de cifra de negocios en la industria España. Tendencia'],
+            'source': 'ICANE a partir de Ìndice de Cifra de Negocios en la Industria del INE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Índice'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Índice'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'indice-cifra-negocios-industria.json-stat',
+                'trend': 'indice-cifra-negocios-industria-tendencia.json-stat'
             }
         },
         'matriculaciones': {
@@ -483,6 +559,44 @@ params = {
             'json': {
                 'value': 'consumo-productos-petroliferos.json-stat',
                 'trend': 'consumo-productos-petroliferos-tendencia.json-stat'
+            }
+        },
+        'consumo_gas_natural': {
+            'sheet': 'CGN',
+            'label': 'Consumo de gas natural',
+            'category': 'Industria y energía',
+            'value_vars': [
+                'Consumo de gas natural Cantabria',
+                'Consumo de gas natural España'],
+            'rate_vars': [
+                'Consumo de gas natural Cantabria. Var interanual',
+                'Consumo de gas natural España. Var interanual'],
+            'trend_vars': [
+                'Consumo de gas natural Cantabria. Tendencia',
+                'Consumo de gas natural España. Tendencia'],
+            'source': 'ICANE a partir de consumo de Gas Natural de CORES',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Gigavatios hora'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Gigavatios hora'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'consumo-gas-natural.json-stat',
+                'trend': 'consumo-gas-natural-tendencia.json-stat'
             }
         },
         'empresas': {
@@ -675,6 +789,158 @@ params = {
                 'trend': 'sociedades-mercantiles-disueltas-tendencia.json-stat'
             }
         },
+        'indice_cifra_negocios_servicios': {
+            'sheet': 'IASS',
+            'label': 'Índice de cifra de negocios del sector servicios',
+            'category': 'Servicios',
+            'value_vars': [
+                'Índice de cifra de negocios del sector servicios Cantabria',
+                'Índice de cifra de negocios del sector servicios España'],
+            'rate_vars': [
+                'Índice de cifra de negocios del sector servicios Cantabria. Var interanual',
+                'Índice de cifra de negocios del sector servicios España. Var interanual'],
+            'trend_vars': [
+                'Índice de cifra de negocios del sector servicios Cantabria. Tendencia',
+                'Índice de cifra de negocios del sector servicios España. Tendencia'],
+            'source': 'ICANE a partir de Indicador de Actividad del Sector Servicios del INE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Índice'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Índice'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'indice-cifra-negocios-servicios.json-stat',
+                'trend': 'indice-cifra-negocios-servicios-tendencia.json-stat'
+            }
+        },
+        'indice_ocupacion_servicios': {
+            'sheet': 'IASS_2',
+            'label': 'Índice de ocupación del sector servicios',
+            'category': 'Servicios',
+            'value_vars': [
+                'Índice de ocupación del sector servicios Cantabria',
+                'Índice de ocupación del sector servicios España'],
+            'rate_vars': [
+                'Índice de ocupación del sector servicios Cantabria. Var interanual',
+                'Índice de ocupación del sector servicios España. Var interanual'],
+            'trend_vars': [
+                'Índice de ocupación del sector servicios Cantabria. Tendencia',
+                'Índice de ocupación del sector servicios España. Tendencia'],
+            'source': 'ICANE a partir de Indicador de Actividad del Sector Servicios del INE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Índice'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Índice'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'indice-ocupacion-servicios.json-stat',
+                'trend': 'indice-ocupacion-servicios-tendencia.json-stat'
+            }
+        },
+        'icm': {
+            'sheet': 'ICM',
+            'label': 'Índice de cifra de negocios del comercio al por menor a precios constantes',
+            'category': 'Servicios',
+            'value_vars': [
+                'Índice de comercio al por menor a precios constantes Cantabria',
+                'Índice de comercio al por menor a precios constantes España'],
+            'rate_vars': [
+                'Índice de comercio al por menor a precios constantes Cantabria. Var interanual',
+                'Índice de comercio al por menor a precios constantes España. Var interanual'],
+            'trend_vars': [
+                'Índice de comercio al por menor a precios constantes Cantabria. Tendencia',
+                'Índice de comercio al por menor a precios constantes España. Tendencia'],
+            'source': 'ICANE a partir de Índice de Comercio al por Menor del INE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Índice'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Índice'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'icm.json-stat',
+                'trend': 'icm-tendencia.json-stat'
+            }
+        },
+        'indice_ocupacion_comercio_menor': {
+            'sheet': 'ICM (2)',
+            'label': 'Índice de ocupación del comercio al por menor',
+            'category': 'Servicios',
+            'value_vars': [
+                'Índice de ocupacion del comercio al por menor Cantabria',
+                'Índice de ocupacion del comercio al por menor España'],
+            'rate_vars': [
+                'Índice de ocupacion del comercio al por menor Cantabria. Var interanual',
+                'Índice de ocupacion del comercio al por menors España. Var interanual'],
+            'trend_vars': [
+                'Índice de ocupacion del comercio al por menor Cantabria. Tendencia',
+                'Índice de ocupacion del comercio al por menor España. Tendencia'],
+            'source': 'ICANE a partir de Índice de Comercio al por Menor del INE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Índice'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Índice'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'indice-ocupacion-comercio-menor.json-stat',
+                'trend': 'indice-ocupacion-comercio-menor-tendencia.json-stat'
+            }
+        },
         'trafico_aereo': {
             'sheet': 'Taereo',
             'label': 'Tráfico aéreo de pasajeros',
@@ -865,44 +1131,6 @@ params = {
                 'trend': 'pernoctaciones-extrahoteleras-tendencia.json-stat'
             }
         },
-        'icm': {
-            'sheet': 'ICM',
-            'label': 'Índice de comercio al por menor a precios constantes',
-            'category': 'Servicios',
-            'value_vars': [
-                'Índice de comercio al por menor a precios constantes Cantabria',
-                'Índice de comercio al por menor a precios constantes España'],
-            'rate_vars': [
-                'Índice de comercio al por menor a precios constantes Cantabria. Var interanual',
-                'Índice de comercio al por menor a precios constantes España. Var interanual'],
-            'trend_vars': [
-                'Índice de comercio al por menor a precios constantes Cantabria. Tendencia',
-                'Índice de comercio al por menor a precios constantes España. Tendencia'],
-            'source': 'ICANE a partir de Índice de Comercio al por Menor del INE',
-            'unit':{
-                'value': {
-                    'Valor Cantabria': {
-                        'decimals': 1, 'label': 'Índice'},
-                    'Valor España': {
-                        'decimals': 1, 'label': 'Índice'},
-                },
-                'trend': {
-                    'Var. interanual Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'Var. interanual España': {
-                        'decimals': 2, 'label': '%'},
-                    'Tendencia Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'Tendencia España': {
-                        'decimals': 2, 'label': '%'},
-                }
-            },
-            'note':[''],
-            'json': {
-                'value': 'icm.json-stat',
-                'trend': 'icm-tendencia.json-stat'
-            }
-        },
         'importaciones': {
             'sheet': 'M',
             'label': 'Importaciones',
@@ -933,7 +1161,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos son provisionales desde enero 2019'],
+            'note':['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT'],
             'json': {
                 'value': 'importaciones.json-stat',
                 'trend': 'importaciones-tendencia.json-stat'
@@ -970,7 +1198,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos son provisionales desde enero 2019'],
+            'note':['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT'],
             'json': {
                 'value': 'exportaciones.json-stat',
                 'trend': 'exportaciones-tendencia.json-stat'
@@ -1006,7 +1234,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos son provisionales desde enero 2019'],
+            'note':['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT'],
             'json': {
                 'value': 'saldo-comercial.json-stat',
                 'trend': 'saldo-comercial-tendencia.json-stat'
@@ -1042,7 +1270,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos son provisionales desde enero 2019. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa'],
+            'note':['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa'],
             'json': {
                 'value': 'tasa-cobertura.json-stat',
                 'trend': 'tasa-cobertura-tendencia.json-stat'
