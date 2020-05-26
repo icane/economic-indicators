@@ -145,7 +145,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Datos a último día de mes"],
+            'note':['Datos a último día de mes'],
             'json': {
                 'value': 'afiliados.json-stat',
                 'trend': 'afiliados-tendencia.json-stat'
@@ -183,7 +183,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Datos a último día de mes"],
+            'note':['Datos a último día de mes'],
             'json': {
                 'value': 'afiliados-asalariados.json-stat',
                 'trend': 'afiliados-asalariados-tendencia.json-stat'
@@ -221,7 +221,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Datos a último día de mes"],
+            'note':['Datos a último día de mes'],
             'json': {
                 'value': 'afiliados-no-asalariados.json-stat',
                 'trend': 'afiliados-no-asalariados-tendencia.json-stat'
@@ -297,7 +297,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            "note":["A último día del mes"],
+            'note':['A último día del mes'],
             'json': {
                 'value': 'prestacion-desempleo-beneficiarios.json-stat',
                 'trend': 'prestacion-desempleo-beneficiarios-tendencia.json-stat'
@@ -335,7 +335,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            "note":["Gasto contablilizado en el mes siguiente pero devengado en el mes"],
+            'note':['Gasto contablilizado en el mes siguiente pero devengado en el mes'],
             'json': {
                 'value': 'gasto-prestaciones-desempleo.json-stat',
                 'trend': 'gasto-prestaciones-desempleo-tendencia.json-stat'
@@ -479,7 +479,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de un saldo de porcentaje"],
+            'note':['Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de un saldo de porcentaje'],
             'json': {
                 'value': 'clima-industrial.json-stat',
                 'trend': 'clima-industrial-tendencia.json-stat'
@@ -973,7 +973,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos son provisionales desde el año 2019"],
+            'note':['Los datos son provisionales desde el año 2019'],
             'json': {
                 'value': 'trafico-aereo.json-stat',
                 'trend': 'trafico-aereo-tendencia.json-stat'
@@ -1087,7 +1087,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de abril del año 2019 y posteriores son provisionales"],
+            'note':['Los datos de mayo del año 2019 y posteriores son provisionales'],
             'json': {
                 'value': 'pernoctaciones-hoteleras.json-stat',
                 'trend': 'pernoctaciones-hoteleras-tendencia.json-stat'
@@ -1125,7 +1125,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de abril del año 2019 y posteriores son provisionales. Los datos de enero, febrero y marzo de 2020 para Cantabria no tienen la información de camping por secreto estadistico"],
+            'note':['Los datos de abril del año 2019 y posteriores son provisionales. Los datos de enero, febrero y marzo de 2020 para Cantabria no tienen la información de camping por secreto estadistico'],
             'json': {
                 'value': 'pernoctaciones-extrahoteleras.json-stat',
                 'trend': 'pernoctaciones-extrahoteleras-tendencia.json-stat'

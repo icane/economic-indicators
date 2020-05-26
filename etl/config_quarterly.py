@@ -295,7 +295,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos del T1 del año 2019 y posteriores son provisionales.'],
+            'note':[''],
             'json': {
                 'value': 'empresas-concursadas.json-stat',
                 'trend': 'empresas-concursadas-tendencia.json-stat'
@@ -371,7 +371,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de abril del año 2019 y posteriores son provisionales'],
+            'note':[''],
             'json': {
                 'value': 'gasto-turistas-internacionales.json-stat',
                 'trend': 'gasto-turistas-internacionales-tendencia.json-stat'
