@@ -1270,7 +1270,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa'],
+            'note':['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa.'],
             'json': {
                 'value': 'tasa-cobertura.json-stat',
                 'trend': 'tasa-cobertura-tendencia.json-stat'
