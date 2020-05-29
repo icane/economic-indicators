@@ -1,5 +1,6 @@
 Categoria,Cantabria - 2019-12,Cantabria - 2020-01,Cantabria - 2020-02,Cantabria - 2020-03,Cantabria - 2020-04, - Indicadores,España - 2019-12,España - 2020-01,España - 2020-02,España - 2020-03,España - 2020-04
 Economía,171.06,-132.48,131.86,-43.93,,Ingresos tributarios netos,6.98,9.1,4.21,15.89,
+Economía,264.86,,,,,Déficit público CC.AA,104.3,84.14,109.39,,
 Mercado de Trabajo,-2.19,-1.78,-2.24,5.01,19.13,Paro registrado,-1.21,-0.97,-1.31,9.01,21.1
 Mercado de Trabajo,7.17,1.33,9.65,-30.55,-73.76,Contratos,1.8,-5.02,1.51,-26.51,-61.87
 Mercado de Trabajo,1.62,2.04,2.66,-2.97,-3.72,Afiliados,1.83,1.66,2.3,-3.41,-4.1
@@ -22,8 +23,8 @@ Empresas,-23.73,-42.35,1.82,-19.05,,Sociedades mercantiles constituidas,4.23,-3.
 Empresas,-38.89,23.08,20.83,27.78,,Sociedades mercantiles disueltas,2.49,-14.53,4.54,-21.08,
 Servicios,3.4,3.4,2.0,-21.7,,Índice de cifra de negocios del sector servicios,5.0,2.2,3.3,-18.7,
 Servicios,1.8,0.8,0.5,-2.4,,Índice de ocupación del sector servicios,1.2,1.0,0.9,-1.6,
-Servicios,0.2,1.6,6.7,-12.1,,Índice de cifra de negocios del comercio al por menor a precios constantes,2.0,0.9,5.5,-14.3,
-Servicios,0.2,-0.1,-0.1,-0.7,,Índice de ocupación del comercio al por menor,0.9,0.8,0.7,-0.4,
+Servicios,0.2,1.6,6.7,-12.1,-29.7,Índice de cifra de negocios del comercio al por menor a precios constantes,2.0,0.9,5.5,-14.5,-31.5
+Servicios,0.2,-0.1,-0.1,-0.8,-2.1,Índice de ocupación del comercio al por menor,0.9,0.8,0.7,-0.4,-2.0
 Servicios,7.33,10.89,3.99,-63.97,-99.98,Tráfico aéreo de pasajeros,3.68,2.36,3.94,-59.35,-99.45
 Servicios,-0.44,-7.01,-9.42,-14.4,,Tráfico portuario,-7.45,-3.56,-1.48,-8.25,
 Servicios,-14.62,-1.12,34.44,-54.99,,Tráfico portuario de pasajeros,3.86,3.82,10.27,-58.88,
@@ -33,3 +34,4 @@ Sector exterior,-3.13,-4.0,-17.12,-15.12,,Importaciones,1.0,-1.33,1.8,-14.44,
 Sector exterior,-14.65,6.53,-2.53,-24.88,,Exportaciones,6.6,2.74,4.23,-14.53,
 Sector exterior,-105.61,43.54,272.66,-39.15,,Saldo comercial,35.53,21.77,19.43,13.44,
 Sector exterior,-12.87,14.1,18.53,-19.38,,Tasa de cobertura,4.83,3.44,2.14,-0.1,
+Sanidad,3.9,57.42,4.49,3.44,,Gasto en productos farmacéuticos y sanitarios,4.61,7.53,6.52,12.23,
