@@ -1159,7 +1159,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de abril del año 2019 y posteriores son provisionales. Los datos de enero, febrero y marzo de 2020 para Cantabria no tienen la información de camping por secreto estadistico'],
+            'note':['Los datos de mayo del año 2019 y posteriores son provisionales. Los datos de enero, febrero y marzo de 2020 para Cantabria no tienen la información de camping por secreto estadistico'],
             'json': {
                 'value': 'pernoctaciones-extrahoteleras.json-stat',
                 'trend': 'pernoctaciones-extrahoteleras-tendencia.json-stat'
