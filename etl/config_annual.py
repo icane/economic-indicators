@@ -193,7 +193,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2018 son provisionales y los de 2019 y 2020 avance"],
+            "note":["Los datos de 2018 son provisionales y los de 2019 avance"],
             'json': {
                 'value': 'deficit-publico.json-stat',
                 'trend': 'deficit-publico-tendencia.json-stat'

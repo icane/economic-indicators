@@ -301,6 +301,44 @@ params = {
                 'trend': 'empresas-concursadas-tendencia.json-stat'
             }
         },
+        'transporte_mercancias_carretera': {
+            'sheet': '',
+            'label': 'Transporte de mercancías por carretera',
+            'category': 'Servicios',
+            'value_vars': [
+                '',
+                ''],
+            'rate_vars': [
+                '',
+                ''],
+            'trend_vars': [
+                '',
+                ''],
+            'source': 'ICANE a partir de Transporte de Mercacias por Carretera del Ministerio de Transporte, Movilidad y Agenda Urbana',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Miles de de toneladas'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Miles de de toneladas'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Gasto devengado neto acumulado anual. Cantabria está realizando la revisión de la información de toda la serie para homogeneizar los criterios aplicados en la extracción de la información, por lo que las tres partidas de gasto pueden presentar modificaciones en próximas publicaciones.'],
+            'json': {
+                'value': 'transporte-mercancias-carretera.json-stat',
+                'trend': 'transporte-mercancias-carretera-tendencia.json-stat'
+            }
+        },
         'turistas_internacionales': {
             'sheet': 'FRONTUR',
             'label': 'Turistas internacionales',

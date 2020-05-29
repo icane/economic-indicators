@@ -40,6 +40,40 @@ params = {
                 'trend': 'ingresos-tributarios-tendencia.json-stat'
             }
         },
+        'deficit_publico_ccaa': {
+            'sheet': 'PCN',
+            'label': 'Déficit público CC.AA',
+            'category': 'Economía',
+            'value_vars': [
+                'Deficit público CC.AA  Cantabria',
+                'Deficit público CC.AA España'],
+            'rate_vars': [
+                'Deficit público CC.AA Cantabria. Var interanual',
+                'Deficit público CC.AA España. Var interanual'],
+            'trend_vars': [
+                'Deficit público CC.AA Cantabria. Tendencia',
+                'Deficit público CC.AA España. Tendencia'],
+            'source': 'ICANE a partir de Presupuestos de la Comunidad Autónoma en términos de Contabilidad Nacional de la IGAE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Millones de euros'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Millones de euros'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'}
+                }
+            },
+            'note':['Datos acumulados a final de periodo. Los datos de 2018 son provisionales y los de 2019 y 2020 avance'],
+            'json': {
+                'value': 'deficit-publico-ccaa.json-stat',
+                'trend': 'deficit-publico-ccaa-tendencia.json-stat'
+            }
+        },
         'paro': {
             'sheet': 'Paro',
             'label': 'Paro registrado',
@@ -1274,6 +1308,44 @@ params = {
             'json': {
                 'value': 'tasa-cobertura.json-stat',
                 'trend': 'tasa-cobertura-tendencia.json-stat'
+            }
+        },
+        'gasto_farmaceutico_sanitario': {
+            'sheet': 'GS',
+            'label': 'Gasto en productos farmacéuticos y sanitarios',
+            'category': 'Sanidad',
+            'value_vars': [
+                'Gasto en productos farmacéuticos y sanitarios Cantabria',
+                'Gasto en productos farmacéuticos y sanitarios España'],
+            'rate_vars': [
+                'Gasto en productos farmacéuticos y sanitarios Cantabria. Var interanual',
+                'Gasto en productos farmacéuticos y sanitarios España. Var interanual'],
+            'trend_vars': [
+                'Gasto en productos farmacéuticos y sanitarios Cantabria. Tendencia',
+                'Gasto en productos farmacéuticos y sanitarios España. Tendencia'],
+            'source': 'ICANE a partir de Gasto en productos farmacéuticos y sanitarios del Ministerio de Hacienda',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Miles de euros'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Miles de euros'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Gasto devengado neto acumulado anual. Cantabria está realizando la revisión de la información de toda la serie para homogeneizar los criterios aplicados en la extracción de la información, por lo que las tres partidas de gasto pueden presentar modificaciones en próximas publicaciones.'],
+            'json': {
+                'value': 'gasto-farmaceutico-sanitario.json-stat',
+                'trend': 'gasto-farmaceutico-sanitario-tendencia.json-stat'
             }
         }
     },
