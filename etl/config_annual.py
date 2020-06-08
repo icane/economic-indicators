@@ -34,7 +34,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2017 son provisionales, 2018 son avance"],
+            'note':['Los datos de 2017 son provisionales, 2018 son avance'],
             'json': {
                 'value': 'pib-precios-corrientes.json-stat',
                 'trend': 'pib-precios-corrientes-tendencia.json-stat'
@@ -66,7 +66,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2017 son provisionales, 2018 son avance"],
+            'note':['Los datos de 2017 son provisionales, 2018 son avance'],
             'json': {
                 'value': 'pib-indice-volumen.json-stat',
                 'trend': 'pib-indice-volumen-tendencia.json-stat'
@@ -97,7 +97,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2017 son provisionales, 2018 son avance"],
+            'note':['Los datos de 2017 son provisionales, 2018 son avance'],
             'json': {
                 'value': 'pib-per-capita.json-stat',
                 'trend': 'pib-per-capita-tendencia.json-stat'
@@ -193,7 +193,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2018 son provisionales y los de 2019 avance"],
+            'note':['Datos acumulados a final de periodo. Los datos de 2018 son provisionales y los de 2019 y 2020 avance'],
             'json': {
                 'value': 'deficit-publico.json-stat',
                 'trend': 'deficit-publico-tendencia.json-stat'
@@ -225,7 +225,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2017 son provisionales y los de 2018 y 2019 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual."],
+            'note':['Los datos de 2017 son provisionales y los de 2018 y 2019 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
             'json': {
                 'value': 'deficit-publico-pib.json-stat',
                 'trend': 'deficit-publico-pib-tendencia.json-stat'
@@ -257,7 +257,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2017 son provisionales y los de 2018 y 2019 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual."],
+            'note':['Los datos de 2017 son provisionales y los de 2018 y 2019 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
             'json': {
                 'value': 'deuda-publica-pib.json-stat',
                 'trend': 'deuda-publica-pib-tendencia.json-stat'
@@ -289,7 +289,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2017 y 2018 son provisionales"],
+            'note':['Los datos de 2017 y 2018 son provisionales'],
             'json': {
                 'value': 'gasto-sanitario-consolidado.json-stat',
                 'trend': 'gasto-sanitario-consolidado-tendencia.json-stat'
@@ -353,7 +353,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            "note":["Los datos de 2017 y 2018 son provisionales"],
+            'note':['Los datos de 2017 y 2018 son provisionales'],
             'json': {
                 'value': 'gasto-sanitario-consolidado-per-capita.json-stat',
                 'trend': 'gasto-sanitario-consolidado-per-capita-tendencia.json-stat'

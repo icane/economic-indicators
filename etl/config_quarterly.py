@@ -314,7 +314,7 @@ params = {
             'trend_vars': [
                 'Transporte de mercancias por carreteraCantabria. Tendencia',
                 'Transporte de mercancias por carreteraEspaña. Tendencia'],
-            'source': 'ICANE a partir de Transporte de Mercacias por Carretera del Ministerio de Transporte, Movilidad y Agenda Urbana',
+            'source': 'ICANE a partir de Transporte de Mercancías por Carretera del Ministerio de Transporte, Movilidad y Agenda Urbana',
             'unit':{
                 'value': {
                     'Valor Cantabria': {
