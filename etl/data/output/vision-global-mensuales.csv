@@ -3,31 +3,31 @@ Economía,132.48,131.86,-43.93,-489.88,,Ingresos tributarios netos,9.1,4.21,15.8
 Economía,,,-325.0,,,Déficit público CC.AA,-70.71,-38.73,-7.92,,
 Mercado de Trabajo,-1.78,-2.24,5.01,19.13,23.92,Paro registrado,-0.97,-1.31,9.01,21.1,25.27
 Mercado de Trabajo,1.33,9.65,-30.55,-73.76,-59.65,Contratos,-5.02,1.51,-26.51,-61.87,-59.02
-Mercado de Trabajo,2.04,2.66,-2.97,-3.72,,Afiliados,1.66,2.3,-3.41,-4.1,
-Mercado de Trabajo,2.67,3.34,-3.35,-4.08,,Afiliados asalariados,1.9,2.62,-3.92,-4.58,
-Mercado de Trabajo,-0.52,-0.14,-1.35,-2.23,,Afiliados no asalariados,0.52,0.76,-0.98,-1.74,
+Mercado de Trabajo,2.04,2.66,-2.97,-3.72,-3.29,Afiliados,1.66,2.3,-3.41,-4.1,-3.85
+Mercado de Trabajo,2.67,3.34,-3.35,-4.08,-3.64,Afiliados asalariados,1.9,2.62,-3.92,-4.58,-4.37
+Mercado de Trabajo,-0.52,-0.14,-1.35,-2.23,-1.79,Afiliados no asalariados,0.52,0.76,-0.98,-1.74,-1.31
 Mercado de Trabajo,373.24,89.66,3381.25,,,Trabajadores afectados por expedientes de regulación de empleo,47.09,-25.93,3334.85,,
 "Nivel, calidad y condiciones de vida",5.56,4.37,19.81,180.36,,Beneficiarios prestaciones por desempleo,6.07,5.47,15.22,163.46,
 "Nivel, calidad y condiciones de vida",12.89,12.77,18.01,251.08,,Gasto prestaciones por desempleo,12.46,13.22,17.55,236.23,
-"Nivel, calidad y condiciones de vida",1.1,0.8,0.0,-0.7,,Índice de precios al consumo,1.1,0.7,0.0,-0.7,
+"Nivel, calidad y condiciones de vida",1.1,0.8,0.0,-0.7,-1.1,Índice de precios al consumo,1.1,0.7,0.0,-0.7,-0.9
 Industria y energía,-9.8,-10.6,-15.8,,,Índice de cifra de negocios en la industria,-1.4,0.8,-13.9,,
-Industria y energía,8.87,-5.35,-70.91,-97.99,,Matriculación de vehículos,-6.46,-2.9,-64.67,-94.68,
+Industria y energía,8.87,-5.35,-70.91,-97.99,-52.51,Matriculación de vehículos,-6.46,-2.9,-64.67,-94.68,-67.8
 Industria y energía,-12.88,-7.22,-8.05,-14.32,-37.73,Indicador de clima industrial,-1.27,1.29,-5.45,-31.42,-29.36
 Industria y energía,-5.3,-9.4,-15.1,-33.6,,Índice de Producción Industrial,-4.3,-0.4,-11.7,-33.6,
-Industria y energía,-5.44,-1.81,-19.84,,,Consumo de productos petrolíferos,-5.77,-1.07,-18.52,,
+Industria y energía,-5.44,-1.81,-19.84,-54.44,,Consumo de productos petrolíferos,-5.75,-1.07,-18.52,-47.13,
 Industria y energía,-12.34,-4.41,-42.92,,,Consumo de gas natural,-2.02,-2.85,-6.86,,
-Empresas,0.04,0.33,-5.7,-7.02,,Empresas inscritas en la Seguridad social,-0.65,-0.04,-7.41,-7.86,
-Empresas,-0.68,-0.19,-9.51,-11.7,,Personas físicas inscritas en la Seguridad social,-2.19,-0.92,-12.98,-13.45,
-Empresas,0.52,0.68,-3.08,-3.78,,Personas jurídicas inscritas en la Seguridad social,0.29,0.48,-4.04,-4.48,
+Empresas,0.04,0.33,-5.7,-7.02,-5.7,Empresas inscritas en la Seguridad social,-0.65,-0.04,-7.41,-7.86,-6.3
+Empresas,-0.68,-0.19,-9.51,-11.7,-9.43,Personas físicas inscritas en la Seguridad social,-2.19,-0.92,-12.98,-13.45,-10.73
+Empresas,0.52,0.68,-3.08,-3.78,-3.11,Personas jurídicas inscritas en la Seguridad social,0.29,0.48,-4.04,-4.48,-3.61
 Empresas,-42.35,1.82,-19.05,-45.45,,Sociedades mercantiles constituidas,-3.77,-9.23,-28.29,-73.38,
 Empresas,23.08,20.83,27.78,-78.95,,Sociedades mercantiles disueltas,-14.53,4.54,-21.08,-75.09,
 Servicios,3.4,2.0,-21.7,,,Índice de cifra de negocios del sector servicios,2.2,3.3,-18.7,,
 Servicios,0.8,0.5,-2.4,,,Índice de ocupación del sector servicios,1.0,0.9,-1.6,,
 Servicios,1.6,6.7,-12.1,-29.7,,Índice de cifra de negocios del comercio al por menor a precios constantes,0.9,5.5,-14.5,-31.5,
 Servicios,-0.1,-0.1,-0.8,-2.1,,Índice de ocupación del comercio al por menor,0.8,0.7,-0.4,-2.0,
-Servicios,10.89,3.99,-63.97,-99.98,,Tráfico aéreo de pasajeros,2.36,3.94,-59.35,-99.45,
-Servicios,-7.01,-9.42,-14.4,,,Tráfico portuario,-3.56,-1.48,-8.25,,
-Servicios,-1.12,34.44,-54.99,,,Tráfico portuario de pasajeros,3.82,10.27,-58.88,,
+Servicios,10.64,3.75,-63.97,-99.98,-99.98,Tráfico aéreo de pasajeros,2.36,3.94,-59.35,-99.45,-98.94
+Servicios,-7.01,-9.42,-13.39,-24.99,,Tráfico portuario,-3.56,-1.48,-8.25,-10.43,
+Servicios,-1.12,34.44,-54.99,-97.23,,Tráfico portuario de pasajeros,3.82,10.27,-58.88,-96.47,
 Servicios,24.37,8.93,-65.49,-100.0,,Pernoctaciones hoteleras,2.92,6.76,-61.11,-100.0,
 Servicios,46.06,49.07,-83.12,-100.0,,Pernoctaciones extrahoteleras,2.17,6.67,-63.2,-100.0,
 Sector exterior,-4.0,-17.12,-15.12,,,Importaciones,-1.33,1.8,-14.44,,

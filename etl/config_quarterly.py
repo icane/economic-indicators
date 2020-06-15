@@ -414,6 +414,82 @@ params = {
                 'value': 'gasto-turistas-internacionales.json-stat',
                 'trend': 'gasto-turistas-internacionales-tendencia.json-stat'
             }
+        },
+        'indice_precios_vivienda': {
+            'sheet': 'IPV',
+            'label': 'Índice de precios de vivienda',
+            'category': 'Construcción',
+            'value_vars': [
+                'Índice de Pecios de Vivienda Cantabria',
+                'Índice de Pecios de Vivienda España'],
+            'rate_vars': [
+                'Índice de Pecios de Vivienda Cantabria. Var interanual',
+                'Índice de Pecios de Vivienda España. Var interanual'],
+            'trend_vars': [
+                'Índice de Pecios de Vivienda Cantabria. Tendencia',
+                'Índice de Pecios de Vivienda España. Tendencia'],
+            'source': 'ICANE a partir de  Índice de precios de vivienda del INE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Índice'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Índice'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'indice-precios-vivienda.json-stat',
+                'trend': 'indice-precios-vivienda-tendencia.json-stat'
+            }
+        },
+        'transacciones_inmobiliarias': {
+            'sheet': 'TI',
+            'label': 'Transacciones inmobiliarias',
+            'category': 'Construcción',
+            'value_vars': [
+                'Transacciones inmobiliarias Cantabria',
+                'Transacciones inmobiliarias España'],
+            'rate_vars': [
+                'Transacciones inmobiliarias Cantabria. Var interanual',
+                'Transacciones inmobiliarias España. Var interanual'],
+            'trend_vars': [
+                'Transacciones inmobiliarias Cantabria. Tendencia',
+                'Transacciones inmobiliarias. Tendencia'],
+            'source': 'ICANE a partir de Transacciones inmobiliarias del Ministerio de Transportes Movilidad y Agenda Urbana',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Transacciones'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Transacciones'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos del último trimestre son provisionales'],
+            'json': {
+                'value': 'transacciones-inmobiliarias.json-stat',
+                'trend': 'transacciones-inmobiliarias-tendencia.json-stat'
+            }
         }
     },
     'globals': {
