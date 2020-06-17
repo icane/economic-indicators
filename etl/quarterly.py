@@ -47,15 +47,24 @@ for key in cfg.series:
         axis=0, how='all', inplace=True)
 
     # Rename variables
-    data[cfg.file][cfg.series[key].sheet].rename(
+    if cfg.series[key].trend_vars == []:
+        data[cfg.file][cfg.series[key].sheet].rename(
         columns={
             cfg.series[key].value_vars[0]: 'Valor Cantabria',
             cfg.series[key].value_vars[1]: 'Valor España',
             cfg.series[key].rate_vars[0]: 'Var. interanual Cantabria',
-            cfg.series[key].rate_vars[1]: 'Var. interanual España',
-            cfg.series[key].trend_vars[0]: 'Tendencia Cantabria',
-            cfg.series[key].trend_vars[1]: 'Tendencia España'}, 
+            cfg.series[key].rate_vars[1]: 'Var. interanual España'},
         inplace=True)
+    else:
+        data[cfg.file][cfg.series[key].sheet].rename(
+            columns={
+                cfg.series[key].value_vars[0]: 'Valor Cantabria',
+                cfg.series[key].value_vars[1]: 'Valor España',
+                cfg.series[key].rate_vars[0]: 'Var. interanual Cantabria',
+                cfg.series[key].rate_vars[1]: 'Var. interanual España',
+                cfg.series[key].trend_vars[0]: 'Tendencia Cantabria',
+                cfg.series[key].trend_vars[1]: 'Tendencia España'}, 
+            inplace=True)
 
     # Remove .0 from Año and Trimestre
     data[cfg.file][cfg.series[key].sheet]['Año'] = \
@@ -82,19 +91,25 @@ for key in cfg.series:
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.value)
 
     # Rate and trend vars
-    variables = [
-        'Año', 'Trimestre', 'Var. interanual Cantabria',
-            'Var. interanual España', 'Tendencia Cantabria',
-            'Tendencia España']
+    if cfg.series[key].trend_vars == []:
+            variables = [
+            'Año', 'Trimestre', 'Var. interanual Cantabria',
+                'Var. interanual España']
+    else:
+        variables = [
+            'Año', 'Trimestre', 'Var. interanual Cantabria',
+                'Var. interanual España', 'Tendencia Cantabria',
+                'Tendencia España']
     df_trend = data[cfg.file]\
         [cfg.series[key].sheet][variables].copy()
     df_trend = transform(
         df_trend, cfg.periods.quarterly)
+    variables.remove('Año')
+    variables.remove('Trimestre')
     json_file = to_json_stat(
         df_trend,
         ['Trimestre'],
-        ['Var. interanual Cantabria', 'Var. interanual España',
-         'Tendencia Cantabria', 'Tendencia España'],
+        variables,
         cfg.series[key].source)
     json_obj = json.loads(json_file)
     json_obj['dimension']['Variables']['category']['unit'] = \
