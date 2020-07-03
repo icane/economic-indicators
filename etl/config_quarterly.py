@@ -8,6 +8,44 @@ from decouple import config
 params = {
     'file': 'Datos_carga_trimestral.xlsx',
     'series': {
+        'pib_indices_volumen': {
+            'sheet': 'PIB',
+            'label': 'PIB índices de volumen',
+            'category': 'Economía',
+            'value_vars': [
+                'PIB. Índice de volumen Cantabria',
+                'PIB. Índice de volumen España'],
+            'rate_vars': [
+                'PIB. Índice de volumen Cantabria. Var interanual',
+                'PIB. Índice de volumen España. Var interanual'],
+            'trend_vars': [
+                'PIB. Índice de volumen Cantabria. Tendencia',
+                'PIB. Índice de volumen España. Tendencia'],
+            'source': 'ICANE a partir de Contabilidad Trimestral de España del INE y Contabilidad Trimestral de Cantabria Base 2015 del ICANE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Índice'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Índice'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'pib-indices-volumen.json-stat',
+                'trend': 'pib-indices-volumen-tendencia.json-stat'
+            }
+        },
         'deuda_publica_ccaa': {
             'sheet': 'DEUDA',
             'label': 'Deuda pública CC.AA',
@@ -407,6 +445,82 @@ params = {
             'json': {
                 'value': 'transporte-mercancias-carretera.json-stat',
                 'trend': 'transporte-mercancias-carretera-tendencia.json-stat'
+            }
+        },
+        'pernoctaciones_residentes_espana': {
+            'sheet': 'ETR_1',
+            'label': 'Pernoctaciones de los residentes en España',
+            'category': 'Servicios',
+            'value_vars': [
+                'Pernoctaciones de los residentes en España. Cantabria',
+                'Pernoctaciones de los residentes en España. España'],
+            'rate_vars': [
+                'Pernoctaciones de los residentes en España. Cantabria. Var. Interanual',
+                'Pernoctaciones de los residentes en España. España. Var. Interanual'],
+            'trend_vars': [
+                'Pernoctaciones de los residentes en España. Cantabria. Tendencia',
+                'Pernoctaciones de los residentes en España. España. Tendencia'],
+            'source': 'ICANE a partir de Encuesta de Turismo de Residentes del INE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Pernoctaciones'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Pernoctaciones'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos del T1 del año 2019 y posteriores son provisionales.'],
+            'json': {
+                'value': 'pernoctaciones-residentes-espana.json-stat',
+                'trend': 'pernoctaciones-residentes-espana-tendencia.json-stat'
+            }
+        },
+        'gasto_turistico_residentes_espana': {
+            'sheet': 'ETR_2',
+            'label': 'Gasto turístico de los residentes en España',
+            'category': 'Servicios',
+            'value_vars': [
+                'Gasto turístico de los residentes en España. Cantabria',
+                'Gasto turístico de los residentes en España. España'],
+            'rate_vars': [
+                'Gasto turístico de los residentes en España. Cantabria. Var. Interanual',
+                'Gasto turístico de los residentes en España. España. Var. Interanual'],
+            'trend_vars': [
+                'Gasto turístico de los residentes en España. Cantabria. Tendencia',
+                'Gasto turístico de los residentes en España. España. Tendencia'],
+            'source': 'ICANE a partir de Encuesta de Turismo de Residentes del INE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Miles de euros '},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Miles de euros '},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Los datos del T1 del año 2019 y posteriores son provisionales.'],
+            'json': {
+                'value': 'gasto-turistico-residentes-espana.json-stat',
+                'trend': 'gasto-turistico-residentes-espana-tendencia.json-stat'
             }
         },
         'turistas_internacionales': {
