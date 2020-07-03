@@ -637,6 +637,44 @@ params = {
                 'trend': 'indice-precios-vivienda-tendencia.json-stat'
             }
         },
+        'tasa_apertura': {
+            'sheet': 'TA',
+            'label': 'Tasa de apertura',
+            'category': 'Sector exterior',
+            'value_vars': [
+                'Tasa de apertura Cantabria',
+                'Tasa de apertura España'],
+            'rate_vars': [
+                'Tasa de apertura Cantabria. Var interanual',
+                'Tasa de apertura España. Var interanual'],
+            'trend_vars': [
+                'Tasa de apertura Cantabria. Tendencia',
+                'Tasa de apertura España. Tendencia'],
+            'source': 'ICANE a partir de Estadística de Comercio Exterior de la AEAT, Contabilidad Nacional Trimestral de España del INE y Contabilidad Trimestral de Cantabria Base 2015 del ICANE',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': '%'},
+                    'Valor España': {
+                        'decimals': 1, 'label': '%'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['Tasa de apertura= (saldo comercial/PIB)*100. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de un saldo de porcentajes. Datos provisionales.'],
+            'json': {
+                'value': 'tasa-apertura.json-stat',
+                'trend': 'tasa-apertura-tendencia.json-stat'
+            }
+        },
         'transacciones_inmobiliarias': {
             'sheet': 'TI',
             'label': 'Transacciones inmobiliarias',
