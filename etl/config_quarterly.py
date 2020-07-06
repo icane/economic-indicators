@@ -78,7 +78,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note':['Los datos de 2017 son provisionales y los de 2018 y 2019 un avance'],
             'json': {
                 'value': 'deuda-publica-ccaa.json-stat',
                 'trend': 'deuda-publica-ccaa-tendencia.json-stat'
