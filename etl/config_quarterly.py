@@ -110,7 +110,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            'note':[''],
+            'note':['Los datos de 2017 son provisionales y los de 2018 y 2019 un avance. Los datos no son una tasa de variación sino que son el propio indicador.'],
             'json': {
                 'value': 'deuda-publica-ccaa-pib.json-stat',
                 'trend': 'deuda-publica-ccaa-pib-tendencia.json-stat'
@@ -441,7 +441,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Gasto devengado neto acumulado anual. Cantabria está realizando la revisión de la información de toda la serie para homogeneizar los criterios aplicados en la extracción de la información, por lo que las tres partidas de gasto pueden presentar modificaciones en próximas publicaciones.'],
+            'note':[''],
             'json': {
                 'value': 'transporte-mercancias-carretera.json-stat',
                 'trend': 'transporte-mercancias-carretera-tendencia.json-stat'
@@ -479,7 +479,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos del T1 del año 2019 y posteriores son provisionales.'],
+            'note':['Los datos del primer trimestre del año 2019 y posteriores son provisionales.'],
             'json': {
                 'value': 'pernoctaciones-residentes-espana.json-stat',
                 'trend': 'pernoctaciones-residentes-espana-tendencia.json-stat'
@@ -517,7 +517,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos del T1 del año 2019 y posteriores son provisionales.'],
+            'note':['Los datos del primer trimestre del año 2019 y posteriores son provisionales.'],
             'json': {
                 'value': 'gasto-turistico-residentes-espana.json-stat',
                 'trend': 'gasto-turistico-residentes-espana-tendencia.json-stat'
