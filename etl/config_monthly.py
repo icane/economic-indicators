@@ -627,7 +627,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note':['Datos provisionales'],
             'json': {
                 'value': 'consumo-gas-natural.json-stat',
                 'trend': 'consumo-gas-natural-tendencia.json-stat'

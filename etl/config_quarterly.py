@@ -18,9 +18,7 @@ params = {
             'rate_vars': [
                 'PIB. Índice de volumen Cantabria. Var interanual',
                 'PIB. Índice de volumen España. Var interanual'],
-            'trend_vars': [
-                'PIB. Índice de volumen Cantabria. Tendencia',
-                'PIB. Índice de volumen España. Tendencia'],
+            'trend_vars': [],
             'source': 'ICANE a partir de Contabilidad Trimestral de España del INE y Contabilidad Trimestral de Cantabria Base 2015 del ICANE',
             'unit':{
                 'value': {
@@ -110,7 +108,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            'note':['Los datos de 2017 son provisionales y los de 2018 y 2019 un avance. Los datos no son una tasa de variación sino que son el propio indicador.'],
+            'note':['Los datos de 2017 son provisionales y los de 2018 y 2019 un avance.'],
             'json': {
                 'value': 'deuda-publica-ccaa-pib.json-stat',
                 'trend': 'deuda-publica-ccaa-pib-tendencia.json-stat'
@@ -669,7 +667,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Tasa de apertura= (saldo comercial/PIB)*100. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de un saldo de porcentajes. Datos provisionales.'],
+            'note':['Tasa de apertura= (saldo comercial/PIB)*100.  Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
             'json': {
                 'value': 'tasa-apertura.json-stat',
                 'trend': 'tasa-apertura-tendencia.json-stat'
