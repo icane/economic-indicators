@@ -529,13 +529,13 @@ params = {
             'category': 'Servicios',
             'value_vars': [
                 'Turistas internacionalesCantabria',
-                'Turistas internacionalesEspaña'],
+                'Turistas internacionales España'],
             'rate_vars': [
                 'Turistas internacionalesCantabria. Var interanual',
-                'Turistas internacionalesEspaña. Var interanual'],
+                'Turistas internacionales España. Var interanual'],
             'trend_vars': [
                 'Turistas internacionalesCantabria. Tendencia',
-                'Turistas internacionalesEspaña. Tendencia'],
+                'Turistas internacionales España. Tendencia'],
             'source': 'ICANE a partir de Movimientos Turísticos en Frontera del INE e Instituto de Estudios Turísticos',
             'unit':{
                 'value': {
