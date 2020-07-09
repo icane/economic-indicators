@@ -193,7 +193,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Datos acumulados a final de periodo. Los datos de 2018 son provisionales y los de 2019 y 2020 avance'],
+            'note':['Los datos de 2018 son provisionales y los de 2019 avance'],
             'json': {
                 'value': 'deficit-publico.json-stat',
                 'trend': 'deficit-publico-tendencia.json-stat'
@@ -306,7 +306,7 @@ params = {
                 'Gasto sanitario público consolidado sobre PIB. Sector CC.AA Cantabria. Var interanual',
                 'Gasto sanitario público consolidado sobre PIB. Sector CC.AA España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Estadística de Gasto sanitario público del Ministerio de Sanidad',
+            'source': 'ICANE a partir de Estadística de Gasto Sanitario Público del Ministerio de Sanidad',
             'unit':{
                 'value': {
                     'Valor Cantabria': {
@@ -321,7 +321,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2017 son provisionales y los de 2018 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
+            'note':['Los datos de 2017 y 2018 son provisionales. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
             'json': {
                 'value': 'gasto-sanitario-consolidado-pib.json-stat',
                 'trend': 'gasto-sanitario-consolidado-pib-tendencia.json-stat'

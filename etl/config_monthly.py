@@ -779,7 +779,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de mayo del año 2019 y posteriores son provisionales'],
+            'note':['Los datos de junio del año 2019 y posteriores son provisionales'],
             'json': {
                 'value': 'sociedades-mercantiles-constituidas.json-stat',
                 'trend': 'sociedades-mercantiles-constituidas-tendencia.json-stat'
@@ -817,7 +817,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de mayo del año 2019 y posteriores son provisionales'],
+            'note':['Los datos de junio del año 2019 y posteriores son provisionales'],
             'json': {
                 'value': 'sociedades-mercantiles-disueltas.json-stat',
                 'trend': 'sociedades-mercantiles-disueltas-tendencia.json-stat'
@@ -1159,7 +1159,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de mayo del año 2019 y posteriores son provisionales. Los datos de enero, febrero y marzo de 2020 para Cantabria no tienen la información de camping por secreto estadistico'],
+            'note':['Los datos de junio del año 2019 y posteriores son provisionales. Los datos de enero, febrero, marzo y mayo de 2020 para Cantabria no tienen la información de camping por secreto estadistico'],
             'json': {
                 'value': 'pernoctaciones-extrahoteleras.json-stat',
                 'trend': 'pernoctaciones-extrahoteleras-tendencia.json-stat'

@@ -76,7 +76,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2017 son provisionales y los de 2018 y 2019 un avance'],
+            'note':[''],
             'json': {
                 'value': 'deuda-publica-ccaa.json-stat',
                 'trend': 'deuda-publica-ccaa-tendencia.json-stat'
@@ -108,7 +108,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            'note':['Los datos de 2017 son provisionales y los de 2018 y 2019 un avance.'],
+            'note':['Para una mejor interpretación es el dato del indicador y no su tasa de variación anual'],
             'json': {
                 'value': 'deuda-publica-ccaa-pib.json-stat',
                 'trend': 'deuda-publica-ccaa-pib-tendencia.json-stat'
@@ -216,7 +216,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note':['Los datos del T1 del año 2019 y posteriores son provisionales.'],
             'json': {
                 'value': 'empresas-concursadas.json-stat',
                 'trend': 'empresas-concursadas-tendencia.json-stat'
@@ -553,7 +553,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de mayo del año 2019 y posteriores son provisionales'],
+            'note':['Los datos del segundo trimestre del año 2019 y posteriores son provisionales.'],
             'json': {
                 'value': 'turistas-internacionales.json-stat',
                 'trend': 'turistas-internacionales-tendencia.json-stat'
@@ -591,7 +591,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de mayo del año 2019 y posteriores son provisionales'],
+            'note':['Los datos del segundo trimestre del año 2019 y posteriores son provisionales.'],
             'json': {
                 'value': 'gasto-turistas-internacionales.json-stat',
                 'trend': 'gasto-turistas-internacionales-tendencia.json-stat'
@@ -642,12 +642,8 @@ params = {
             'value_vars': [
                 'Tasa de apertura Cantabria',
                 'Tasa de apertura España'],
-            'rate_vars': [
-                'Tasa de apertura Cantabria. Var interanual',
-                'Tasa de apertura España. Var interanual'],
-            'trend_vars': [
-                'Tasa de apertura Cantabria. Tendencia',
-                'Tasa de apertura España. Tendencia'],
+            'rate_vars': [],
+            'trend_vars': [],
             'source': 'ICANE a partir de Estadística de Comercio Exterior de la AEAT, Contabilidad Nacional Trimestral de España del INE y Contabilidad Trimestral de Cantabria Base 2015 del ICANE',
             'unit':{
                 'value': {
@@ -667,7 +663,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Tasa de apertura= (saldo comercial/PIB)*100.  Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
+            'note':['Tasa de apertura= (saldo comercial/PIB)*100.  Para una mejor interpretación es el dato del indicador y no su tasa de variación anual'],
             'json': {
                 'value': 'tasa-apertura.json-stat',
                 'trend': 'tasa-apertura-tendencia.json-stat'
