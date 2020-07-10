@@ -405,6 +405,74 @@ params = {
                 'trend': 'ipc-tendencia.json-stat'
             }
         },
+        'pensiones_contributivas': {
+            'sheet': 'P_CONTR',
+            'label': 'Pensiones Contributivas',
+            'category': 'Nivel, calidad y condiciones de vida',
+            'value_vars': [
+                'Pensiones Contributivas Cantabria',
+                'Pensiones Contributivas España'],
+            'rate_vars': [
+                'Pensiones Contributivas Cantabria. Var interanual',
+                'Pensiones Contributivas España. Var interanual'],
+            'trend_vars': [
+                'Pensiones Conbtributivas Cantabria. Tendencia',
+                'Pensiones Contributivas España. Tendencia'],
+            'source': 'ICANE a partir de pensiones contributivas del Ministerio de Trabajo, Migraciones y Seguridad Social',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Número de pensiones'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Número de pensiones'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'}
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'pensiones-contributivas.json-stat',
+                'trend': 'pensiones-contributivas-tendencia.json-stat'
+            }
+        },
+        'pensiones_no_contributivas': {
+            'sheet': 'P_NO CONTR',
+            'label': 'Pensiones No Contributivas',
+            'category': 'Nivel, calidad y condiciones de vida',
+            'value_vars': [
+                'Pensiones no Contributivas Cantabria',
+                'Pensiones no Contributivas España'],
+            'rate_vars': [
+                'Pensiones no Contributivas Cantabria. Var interanual',
+                'Pensiones no Contributivas España. Var interanual'],
+            'trend_vars': [
+                'Pensiones no Conbtributivas Cantabria. Tendencia',
+                'Pensiones no Contributivas España. Tendencia'],
+            'source': 'ICANE a partir de prestaciones no contributivas del Ministerio de Trabajo, Migraciones y Seguridad Social',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Número de pensiones'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Número de pensiones'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'}
+                }
+            },
+            'note':[''],
+            'json': {
+                'value': 'pensiones-no-contributivas.json-stat',
+                'trend': 'pensiones-no-contributivas-tendencia.json-stat'
+            }
+        },
         'indice_cifra_negocios_industria': {
             'sheet': 'ICN',
             'label': 'Índice de cifra de negocios en la industria',
