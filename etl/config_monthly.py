@@ -440,7 +440,7 @@ params = {
             }
         },
         'pensiones_no_contributivas': {
-            'sheet': 'P_NO CONTR',
+            'sheet': 'P_NO CONTR.',
             'label': 'Pensiones No Contributivas',
             'category': 'Nivel, calidad y condiciones de vida',
             'value_vars': [
