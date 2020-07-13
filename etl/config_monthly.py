@@ -657,7 +657,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note':['Los datos del año en curso y del año precedente pueden sufrir variaciones debidas a rectificaciones enviadas por las compañías informantes.'],
             'json': {
                 'value': 'consumo-productos-petroliferos.json-stat',
                 'trend': 'consumo-productos-petroliferos-tendencia.json-stat'
