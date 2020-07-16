@@ -701,6 +701,44 @@ params = {
                 'trend': 'consumo-gas-natural-tendencia.json-stat'
             }
         },
+        'consumo_cemento': {
+            'sheet': 'CEMENTO',
+            'label': 'Consumo de cemento',
+            'category': 'Construcción',
+            'value_vars': [
+                'Consumo de cemento Zona Oeste',
+                'Consumo de cemento España'],
+            'rate_vars': [
+                'Consumo de cemento Zona Oeste. Var interanual',
+                'Consumo de cemento España. Var interanual'],
+            'trend_vars': [
+                'Consumo de cemento Zona Oeste. Tendencia',
+                'Consumo de cemento España. Tendencia'],
+            'source': 'ICANE a partir de datos de Estadística de Cemento de Oficemen',
+            'unit':{
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 0, 'label': 'Toneladas'},
+                    'Valor España': {
+                        'decimals': 0, 'label': 'Toneladas'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note':['La zona oeste está conformada por las Comunidades Autónomas de Castilla León, Galicia, Asturias y Cantabria. Los datos de junio de 2019 y posteriores son provisionales.'],
+            'json': {
+                'value': 'consumo-cemento.json-stat',
+                'trend': 'consumo-cemento-tendencia.json-stat'
+            }
+        },
         'empresas': {
             'sheet': 'Emp',
             'label': 'Empresas inscritas en la Seguridad social',
