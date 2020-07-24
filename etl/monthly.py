@@ -131,6 +131,7 @@ for key in cfg.series:
 df_global = pd.DataFrame()
 indicators = []
 for key in cfg.series:
+
     # Cantabria
     df_cant = data[cfg.file][cfg.series[key].sheet][[
         'Año', 'Mes', 'Var. interanual Cantabria']].copy()

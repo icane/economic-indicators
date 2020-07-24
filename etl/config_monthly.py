@@ -695,7 +695,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Datos provisionales'],
+            'note':['Debido a desajustes en la información remitida pueden encontrarse pequeñas diferencias entre los datos de consumos desglosados por grupos de presión y los desglosados por Comunidades Autónomas. Datos provisionales.'],
             'json': {
                 'value': 'consumo-gas-natural.json-stat',
                 'trend': 'consumo-gas-natural-tendencia.json-stat'
