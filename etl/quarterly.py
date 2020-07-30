@@ -149,3 +149,5 @@ df_global = pd.concat(indicators, axis=0, verify_integrity=False)
 df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
 
 print('\nEnd of process. Files generated successfully.')
+print('\nCheck the following:')
+print('\n\tFormat of the global file.')
