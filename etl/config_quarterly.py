@@ -178,7 +178,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos del T1 del año 2019 y posteriores son provisionales.'],
+            'note':['Los datos del T3 del año 2019 y posteriores son provisionales.'],
             'json': {
                 'value': 'deudores-concursados.json-stat',
                 'trend': 'deudores-concursados-tendencia.json-stat'
@@ -216,7 +216,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos del T1 del año 2019 y posteriores son provisionales.'],
+            'note':['Los datos del T3 del año 2019 y posteriores son provisionales.'],
             'json': {
                 'value': 'empresas-concursadas.json-stat',
                 'trend': 'empresas-concursadas-tendencia.json-stat'
