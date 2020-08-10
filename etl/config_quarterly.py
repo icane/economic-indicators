@@ -591,7 +591,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos del segundo trimestre del año 2019 y posteriores son provisionales.'],
+            'note':['Los datos del segundo trimestre del año 2019 y posteriores son provisionales. Segundo trimestre del año 2020 para Cantabria no disponible por falta de respaldo muestral.'],
             'json': {
                 'value': 'gasto-turistas-internacionales.json-stat',
                 'trend': 'gasto-turistas-internacionales-tendencia.json-stat'
