@@ -1265,7 +1265,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de julio del año 2019 y posteriores son provisionales.'],
+            'note':['Los datos de agosto del año 2019 y posteriores son provisionales.'],
             'json': {
                 'value': 'pernoctaciones-extrahoteleras.json-stat',
                 'trend': 'pernoctaciones-extrahoteleras-tendencia.json-stat'
