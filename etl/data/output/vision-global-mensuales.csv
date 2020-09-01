@@ -1,40 +1,40 @@
-Categoria,Cantabria - 2020-03,Cantabria - 2020-04,Cantabria - 2020-05,Cantabria - 2020-06,Cantabria - 2020-07, - Indicadores,España - 2020-03,España - 2020-04,España - 2020-05,España - 2020-06,España - 2020-07
-Economía,-43.93,-489.88,-51.23,-71.7,,Ingresos tributarios netos,15.89,-31.95,-27.62,-29.74,
-Economía,-325.0,-5.26,100.0,,,Déficit público CC.AA,-7.92,116.69,78.99,,
-Mercado de Trabajo,5.01,19.13,23.92,27.75,25.4,Paro registrado,9.01,21.1,25.27,28.09,25.29
-Mercado de Trabajo,-30.55,-73.76,-59.65,-43.43,-22.42,Contratos,-26.51,-61.87,-59.02,-42.28,-29.52
-Mercado de Trabajo,-2.97,-3.72,-3.29,-5.06,-99.9,Afiliados,-3.41,-4.1,-3.85,-5.01,-3.2
-Mercado de Trabajo,-3.35,-4.08,-3.64,-5.85,-3.46,Afiliados asalariados,-3.92,-4.58,-4.37,-5.78,-3.83
-Mercado de Trabajo,-1.35,-2.23,-1.79,-1.65,-0.95,Afiliados no asalariados,-0.98,-1.74,-1.31,-1.25,-0.14
-Mercado de Trabajo,3381.25,13584.21,229.69,,,Trabajadores afectados por expedientes de regulación de empleo,3334.85,3883.96,1717.98,,
-"Nivel, calidad y condiciones de vida",19.81,180.36,200.95,120.57,,Beneficiarios prestaciones por desempleo,15.22,163.46,183.45,127.67,
-"Nivel, calidad y condiciones de vida",18.01,251.08,293.65,166.33,,Gasto prestaciones por desempleo,17.55,236.23,279.15,193.11,
-"Nivel, calidad y condiciones de vida",0.0,-0.7,-1.1,-0.5,-0.4,Índice de precios al consumo,0.0,-0.7,-0.9,-0.3,-0.6
-"Nivel, calidad y condiciones de vida",0.65,0.54,0.28,0.1,0.08,Pensiones Contributivas,0.97,0.8,0.48,0.22,0.23
-"Nivel, calidad y condiciones de vida",-1.02,-1.51,-1.3,-1.27,-0.85,Pensiones No Contributivas,-0.18,-0.17,-0.32,-0.69,-0.46
-Industria y energía,-16.0,-39.7,-29.2,-10.57,,Índice de cifra de negocios en la industria,-13.8,-40.5,-33.1,-11.43,
-Industria y energía,-70.91,-97.99,-52.51,0.47,16.23,Matriculación de vehículos,-64.67,-94.68,-67.8,-28.0,3.56
-Industria y energía,-8.05,-14.32,-37.73,-50.62,-13.24,Indicador de clima industrial,-5.45,-31.42,-29.36,-19.63,-8.18
-Industria y energía,-16.1,-36.1,-26.8,-8.6,,Índice de Producción Industrial,-12.1,-34.1,-28.1,-9.6,
-Industria y energía,-19.84,-54.69,-40.07,-19.64,,Consumo de productos petrolíferos,-18.52,-47.16,-35.81,-17.47,
-Industria y energía,-42.92,-40.89,-42.06,-48.88,,Consumo de gas natural,-7.02,-22.31,-25.6,-18.59,
-Construcción,-43.73,-54.34,-32.37,,,Consumo de cemento,-28.35,-50.25,-17.81,,
-Empresas,-5.7,-7.02,-5.7,-4.87,-2.75,Empresas inscritas en la Seguridad social,-7.41,-7.86,-6.3,-5.63,-3.48
-Empresas,-9.51,-11.7,-9.43,-7.92,-4.38,Personas físicas inscritas en la Seguridad social,-12.98,-13.45,-10.73,-9.47,-5.95
-Empresas,-3.08,-3.78,-3.11,-2.71,-1.58,Personas jurídicas inscritas en la Seguridad social,-4.04,-4.48,-3.61,-3.3,-2.0
-Empresas,-19.05,-45.45,-44.0,-3.17,,Sociedades mercantiles constituidas,-28.29,-73.38,-55.88,-9.42,
-Empresas,27.78,-78.95,-89.47,30.77,,Sociedades mercantiles disueltas,-21.08,-75.09,-70.51,-11.39,
-Servicios,-21.6,-41.5,-30.9,-10.78,,Índice de cifra de negocios del sector servicios,-18.9,-41.4,-33.6,-17.95,
-Servicios,-2.6,-7.5,-8.2,-8.69,,Índice de ocupación del sector servicios,-1.7,-5.6,-6.9,-7.12,
-Servicios,-12.1,-29.6,-19.5,-2.0,-1.8,Índice de cifra de negocios del comercio al por menor a precios constantes,-14.7,-31.5,-20.1,-3.3,-3.7
-Servicios,-0.9,-2.4,-3.0,-3.0,-2.6,Índice de ocupación del comercio al por menor,-0.4,-2.4,-3.6,-3.7,-3.6
-Servicios,-63.97,-99.98,-99.98,-99.14,-72.76,Tráfico aéreo de pasajeros,-59.35,-99.45,-98.94,-96.16,-76.24
-Servicios,-13.39,-24.99,-34.05,-1.81,,Tráfico portuario,-8.25,-10.43,-25.28,-15.37,
-Servicios,-54.99,-97.23,-95.8,-94.75,,Tráfico portuario de pasajeros,-58.88,-96.47,-92.44,-76.27,
-Servicios,-65.49,-100.0,-99.21,-88.63,-34.77,Pernoctaciones hoteleras,-61.11,-100.0,-99.19,-95.1,-73.39
-Servicios,-83.12,-100.0,-97.57,-78.62,-10.67,Pernoctaciones extrahoteleras,-63.2,-100.0,-96.73,-84.27,-49.16
-Sector exterior,-15.12,-16.61,-41.41,-27.11,,Importaciones,-14.44,-37.2,-39.62,-20.07,
-Sector exterior,-24.88,-39.94,-33.2,0.29,,Exportaciones,-14.53,-39.26,-34.38,-9.22,
-Sector exterior,-39.15,-89.68,-3.66,142.16,,Saldo comercial,13.44,5.4,105.9,196.68,
-Sector exterior,-19.38,-41.09,17.88,44.87,,Tasa de cobertura,-0.1,-3.08,8.04,12.79,
-Sanidad,3.44,1.67,1.5,,,Gasto en productos farmacéuticos y sanitarios,12.23,14.39,10.58,,
+Categoria,Cantabria - 2020-04,Cantabria - 2020-05,Cantabria - 2020-06,Cantabria - 2020-07,Cantabria - 2020-08, - Indicadores,España - 2020-04,España - 2020-05,España - 2020-06,España - 2020-07,España - 2020-08
+Economía,-489.88,-51.23,-71.7,,,Ingresos tributarios netos,-31.95,-27.62,-29.74,,
+Economía,-5.26,100.0,,,,Déficit público CC.AA,116.69,78.99,,,
+Mercado de Trabajo,19.13,23.92,27.75,25.4,,Paro registrado,21.1,25.27,28.09,25.29,
+Mercado de Trabajo,-73.76,-59.65,-43.43,-22.42,,Contratos,-61.87,-59.02,-42.28,-29.52,
+Mercado de Trabajo,-3.72,-3.29,-5.06,-99.9,,Afiliados,-4.1,-3.85,-5.01,-3.2,
+Mercado de Trabajo,-4.08,-3.64,-5.85,-3.46,,Afiliados asalariados,-4.58,-4.37,-5.78,-3.83,
+Mercado de Trabajo,-2.23,-1.79,-1.65,-0.95,,Afiliados no asalariados,-1.74,-1.31,-1.25,-0.14,
+Mercado de Trabajo,13584.21,229.69,,,,Trabajadores afectados por expedientes de regulación de empleo,3883.96,1717.98,,,
+"Nivel, calidad y condiciones de vida",180.36,200.95,120.57,,,Beneficiarios prestaciones por desempleo,163.46,183.45,127.67,,
+"Nivel, calidad y condiciones de vida",251.08,293.65,166.33,,,Gasto prestaciones por desempleo,236.23,279.15,193.11,,
+"Nivel, calidad y condiciones de vida",-0.7,-1.1,-0.5,-0.4,,Índice de precios al consumo,-0.7,-0.9,-0.3,-0.6,
+"Nivel, calidad y condiciones de vida",0.54,0.28,0.1,0.08,,Pensiones Contributivas,0.8,0.48,0.22,0.23,
+"Nivel, calidad y condiciones de vida",-1.51,-1.3,-1.27,-0.85,,Pensiones No Contributivas,-0.17,-0.32,-0.69,-0.46,
+Industria y energía,-39.7,-29.2,-10.57,,,Índice de cifra de negocios en la industria,-40.5,-33.1,-11.43,,
+Industria y energía,-97.99,-52.51,0.47,16.23,,Matriculación de vehículos,-94.68,-67.8,-28.0,3.56,
+Industria y energía,-14.32,-37.73,-50.62,-13.24,-17.3,Indicador de clima industrial,-31.42,-29.36,-19.63,-8.18,-10.56
+Industria y energía,-36.1,-26.8,-8.6,,,Índice de Producción Industrial,-34.1,-28.1,-9.6,,
+Industria y energía,-54.69,-40.07,-19.64,,,Consumo de productos petrolíferos,-47.16,-35.81,-17.47,,
+Industria y energía,-40.89,-42.06,-48.88,,,Consumo de gas natural,-22.31,-25.6,-18.59,,
+Construcción,-54.34,-32.37,,,,Consumo de cemento,-50.25,-17.81,,,
+Empresas,-7.02,-5.7,-4.87,-2.75,,Empresas inscritas en la Seguridad social,-7.86,-6.3,-5.63,-3.48,
+Empresas,-11.7,-9.43,-7.92,-4.38,,Personas físicas inscritas en la Seguridad social,-13.45,-10.73,-9.47,-5.95,
+Empresas,-3.78,-3.11,-2.71,-1.58,,Personas jurídicas inscritas en la Seguridad social,-4.48,-3.61,-3.3,-2.0,
+Empresas,-45.45,-44.0,-3.17,,,Sociedades mercantiles constituidas,-73.38,-55.88,-9.42,,
+Empresas,-78.95,-89.47,30.77,,,Sociedades mercantiles disueltas,-75.09,-70.51,-11.39,,
+Servicios,-41.5,-30.9,-10.78,,,Índice de cifra de negocios del sector servicios,-41.4,-33.6,-17.95,,
+Servicios,-7.5,-8.2,-8.69,,,Índice de ocupación del sector servicios,-5.6,-6.9,-7.12,,
+Servicios,-29.6,-19.5,-2.0,-1.8,,Índice de cifra de negocios del comercio al por menor a precios constantes,-31.5,-20.1,-3.3,-3.7,
+Servicios,-2.4,-3.0,-3.0,-2.6,,Índice de ocupación del comercio al por menor,-2.4,-3.6,-3.7,-3.6,
+Servicios,-99.98,-99.98,-99.14,-72.76,,Tráfico aéreo de pasajeros,-99.45,-98.94,-96.16,-76.24,
+Servicios,-24.99,-34.05,-1.81,,,Tráfico portuario,-10.43,-25.28,-15.37,,
+Servicios,-97.23,-95.8,-94.75,,,Tráfico portuario de pasajeros,-96.47,-92.44,-76.27,,
+Servicios,-100.0,-99.21,-88.63,-34.77,,Pernoctaciones hoteleras,-100.0,-99.19,-95.1,-73.39,
+Servicios,-100.0,-97.57,-78.62,-10.67,,Pernoctaciones extrahoteleras,-100.0,-96.73,-84.27,-49.16,
+Sector exterior,-16.61,-41.41,-27.11,,,Importaciones,-37.2,-39.62,-20.07,,
+Sector exterior,-39.94,-33.2,0.29,,,Exportaciones,-39.26,-34.38,-9.22,,
+Sector exterior,-89.68,-3.66,142.16,,,Saldo comercial,5.4,105.9,196.68,,
+Sector exterior,-41.09,17.88,44.87,,,Tasa de cobertura,-3.08,8.04,12.79,,
+Sanidad,1.67,1.5,,,,Gasto en productos farmacéuticos y sanitarios,14.39,10.58,,,
