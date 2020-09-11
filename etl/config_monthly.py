@@ -885,7 +885,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de junio del año 2019 y posteriores son provisionales'],
+            'note':['Los datos son provisionales desde Enero de 2020'],
             'json': {
                 'value': 'sociedades-mercantiles-constituidas.json-stat',
                 'trend': 'sociedades-mercantiles-constituidas-tendencia.json-stat'
@@ -923,7 +923,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de junio del año 2019 y posteriores son provisionales'],
+            'note':['Los datos son provisionales desde Enero de 2020'],
             'json': {
                 'value': 'sociedades-mercantiles-disueltas.json-stat',
                 'trend': 'sociedades-mercantiles-disueltas-tendencia.json-stat'
