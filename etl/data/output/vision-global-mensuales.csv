@@ -1,4 +1,4 @@
-Categoria,Cantabria - 2020-04,Cantabria - 2020-05,Cantabria - 2020-06,Cantabria - 2020-07,Cantabria - 2020-08, - Indicadores,España - 2020-04,España - 2020-05,España - 2020-06,España - 2020-07,España - 2020-08
+Categoria,Cantabria - 2020-04,Cantabria - 2020-05,Cantabria - 2020-06,Cantabria - 2020-07,Cantabria - 2020-08,- Indicadores,España - 2020-04,España - 2020-05,España - 2020-06,España - 2020-07,España - 2020-08
 Economía,-489.88,-51.23,-71.7,-1.68,,Ingresos tributarios netos,-31.95,-27.62,-29.74,-14.66,
 Economía,-21.05,93.48,13.83,,,Déficit público CC.AA,115.59,79.82,19.59,,
 Mercado de Trabajo,19.13,23.92,27.75,25.4,21.9,Paro registrado,21.1,25.27,28.09,25.29,24.04
@@ -29,8 +29,8 @@ Servicios,-7.5,-8.2,-8.69,,,Índice de ocupación del sector servicios,-5.6,-6.9
 Servicios,-29.6,-19.5,-2.0,-1.8,,Índice de cifra de negocios del comercio al por menor a precios constantes,-31.5,-20.1,-3.3,-3.7,
 Servicios,-2.4,-3.0,-3.0,-2.6,,Índice de ocupación del comercio al por menor,-2.4,-3.6,-3.7,-3.6,
 Servicios,-99.98,-99.98,-99.14,-72.76,,Tráfico aéreo de pasajeros,-99.45,-98.94,-96.16,-76.24,
-Servicios,-24.99,-34.05,-1.81,,,Tráfico portuario,-10.43,-25.28,-15.37,,
-Servicios,-97.23,-95.8,-94.75,,,Tráfico portuario de pasajeros,-96.47,-92.44,-76.27,,
+Servicios,-24.99,-34.05,-1.81,-22.52,,Tráfico portuario,-10.43,-25.28,-15.37,-13.55,
+Servicios,-97.23,-95.8,-94.75,-66.33,,Tráfico portuario de pasajeros,-96.47,-92.44,-76.27,-63.67,
 Servicios,-100.0,-99.21,-88.63,-34.77,,Pernoctaciones hoteleras,-100.0,-99.19,-95.1,-73.39,
 Servicios,-100.0,-97.57,-78.62,-10.67,,Pernoctaciones extrahoteleras,-100.0,-96.73,-84.27,-49.16,
 Sector exterior,-16.61,-41.41,-27.11,,,Importaciones,-37.2,-39.62,-20.07,,
