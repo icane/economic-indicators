@@ -34,7 +34,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2017 son provisionales, 2018 son avance y 2019 primera estimación'],
+            'note':['Para Cantabria, los datos de 2017 son provisionales, 2018 son avance y 2019 primera estimación. Para España los datos de 2018 son provisionales y 2019 son avance'],
             'json': {
                 'value': 'pib-precios-corrientes.json-stat',
                 'trend': 'pib-precios-corrientes-tendencia.json-stat'
@@ -66,7 +66,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2017 son provisionales, 2018 son avance y 2019 primera estimación'],
+            'note':['Para Cantabria, los datos de 2017 son provisionales, 2018 son avance y 2019 primera estimación. Para España los datos de 2018 son provisionales y 2019 son avance'],
             'json': {
                 'value': 'pib-indice-volumen.json-stat',
                 'trend': 'pib-indice-volumen-tendencia.json-stat'
@@ -97,7 +97,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2017 son provisionales, 2018 son avance y 2019 primera estimación'],
+            'note':['Para Cantabria, los datos de 2017 son provisionales, 2018 son avance y 2019 primera estimación. Para España los datos de 2018 son provisionales y 2019 son avance'],
             'json': {
                 'value': 'pib-per-capita.json-stat',
                 'trend': 'pib-per-capita-tendencia.json-stat'
