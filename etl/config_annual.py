@@ -193,7 +193,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2018 son provisionales y los de 2019 avance'],
+            'note':['Los datos de 2019 son provisionales.'],
             'json': {
                 'value': 'deficit-publico.json-stat',
                 'trend': 'deficit-publico-tendencia.json-stat'
@@ -225,7 +225,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2017 son provisionales y los de 2018 y 2019 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
+            'note':['Los datos de 2018 y 2019 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
             'json': {
                 'value': 'deficit-publico-pib.json-stat',
                 'trend': 'deficit-publico-pib-tendencia.json-stat'
@@ -257,7 +257,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2017 son provisionales y los de 2018 y 2019 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
+            'note':['Los datos de 2018 y 2019 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
             'json': {
                 'value': 'deuda-publica-pib.json-stat',
                 'trend': 'deuda-publica-pib-tendencia.json-stat'

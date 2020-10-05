@@ -68,7 +68,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            'note':['Datos acumulados a final de periodo. Los datos de 2018 son provisionales y los de 2019 y 2020 avance'],
+            'note':['Datos acumulados a final de periodo. Los datos de 2019 y 2020 avance.'],
             'json': {
                 'value': 'deficit-publico-ccaa.json-stat',
                 'trend': 'deficit-publico-ccaa-tendencia.json-stat'
@@ -440,7 +440,7 @@ params = {
             }
         },
         'pensiones_no_contributivas': {
-            'sheet': 'P_NO CONTR.',
+            'sheet': 'P_NO_CONTR',
             'label': 'Pensiones No Contributivas',
             'category': 'Nivel, calidad y condiciones de vida',
             'value_vars': [
@@ -1265,7 +1265,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de agosto del año 2019 y posteriores son provisionales.  Los datos de enero, febrero, marzo y mayo de 2020 para Cantabria no tienen la información de camping por secreto estadistico.'],
+            'note':['Los datos de septiembre del año 2019 y posteriores son provisionales. Los datos de enero, febrero, marzo y mayo de 2020 para Cantabria no tienen la información de camping por secreto estadístico.'],
             'json': {
                 'value': 'pernoctaciones-extrahoteleras.json-stat',
                 'trend': 'pernoctaciones-extrahoteleras-tendencia.json-stat'
