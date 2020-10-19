@@ -102,9 +102,13 @@ df_global = pd.DataFrame()
 indicators = []
 for key in cfg.series:
     if cfg.series[key].rate_vars != []:
-        # Cantabria
+        # Crea una variable para mostrar el valor del indicador
+        if key in ['deuda_publica_pib', 'deficit_publico_pib']:
+            coltoshow = 'Valor Cantabria'
+        else:
+            coltoshow = 'Var. interanual Cantabria'
         df_cant = data[cfg.file][cfg.series[key].sheet][[
-            'Año', 'Var. interanual Cantabria']].copy()
+                'Año', coltoshow]].copy()
         df_cant = transform(df_cant, cfg.periods.global_annual, 'Cantabria - ')
         df_cant.set_index('Año', inplace=True)
         df_cant = df_cant.transpose()
@@ -112,7 +116,7 @@ for key in cfg.series:
         df_cant[' - Indicadores'] = cfg.series[key].label
         # España
         df_esp = data[cfg.file][cfg.series[key].sheet][[
-            'Año', 'Var. interanual España']].copy()
+            'Año', 'Valor España']].copy()
         df_esp = transform(df_esp, cfg.periods.global_annual, 'España - ')
         df_esp.set_index('Año', inplace=True)
         df_esp = df_esp.transpose()
@@ -120,7 +124,7 @@ for key in cfg.series:
         # merge dataframes
         df_cant = df_cant.merge(df_esp, on=' - Indicadores')
         # append to global
-        indicators.append(df_cant)
+        indicators.append(df_cant)    
 
 df_global = pd.concat(indicators, axis=0, verify_integrity=False)
 df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)

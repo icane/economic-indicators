@@ -125,9 +125,16 @@ df_global = pd.DataFrame()
 indicators = []
 for key in cfg.series:
     if cfg.series[key].rate_vars != []:
+        # Crea dos nuevas variables para mostrar el valor del indicador
+        if key in ['deuda_publica_ccaa_pib']:
+            coltoshow = 'Valor Cantabria'
+            coltoshowes = 'Valor España'
+        else:
+            coltoshow = 'Var. interanual Cantabria'
+            coltoshowes = 'Var. interanual España'
         # Cantabria
         df_cant = data[cfg.file][cfg.series[key].sheet][[
-            'Año', 'Trimestre', 'Var. interanual Cantabria']].copy()
+            'Año', 'Trimestre', coltoshow]].copy()
         df_cant = transform(df_cant, cfg.periods.global_quarterly, 'Cantabria - ')
         df_cant.set_index('Trimestre', inplace=True)
         df_cant = df_cant.transpose()
@@ -135,7 +142,7 @@ for key in cfg.series:
         df_cant[' - Indicadores'] = cfg.series[key].label
         # España
         df_esp = data[cfg.file][cfg.series[key].sheet][[
-            'Año', 'Trimestre', 'Var. interanual España']].copy()
+            'Año', 'Trimestre', coltoshowes]].copy()
         df_esp = transform(df_esp, cfg.periods.global_quarterly, 'España - ')
         df_esp.set_index('Trimestre', inplace=True)
         df_esp = df_esp.transpose()
