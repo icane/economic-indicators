@@ -105,8 +105,10 @@ for key in cfg.series:
         # Crea una variable para mostrar el valor del indicador
         if key in ['deuda_publica_pib', 'deficit_publico_pib']:
             coltoshow = 'Valor Cantabria'
+            coltoshowes = 'Valor España'
         else:
             coltoshow = 'Var. interanual Cantabria'
+            coltoshowes = 'Var. interanual España'
         df_cant = data[cfg.file][cfg.series[key].sheet][[
                 'Año', coltoshow]].copy()
         df_cant = transform(df_cant, cfg.periods.global_annual, 'Cantabria - ')
@@ -116,7 +118,7 @@ for key in cfg.series:
         df_cant[' - Indicadores'] = cfg.series[key].label
         # España
         df_esp = data[cfg.file][cfg.series[key].sheet][[
-            'Año', 'Valor España']].copy()
+            'Año', coltoshowes]].copy()
         df_esp = transform(df_esp, cfg.periods.global_annual, 'España - ')
         df_esp.set_index('Año', inplace=True)
         df_esp = df_esp.transpose()
