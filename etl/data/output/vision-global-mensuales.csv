@@ -3,9 +3,9 @@ Economía,-51.23,-71.7,-1.68,247.97,,Ingresos tributarios netos,-27.62,-29.74,-1
 Economía,93.02,8.99,202.33,,,Déficit público CC.AA,63.67,12.68,192.9,,
 Mercado de Trabajo,23.92,27.75,25.4,21.9,15.63,Paro registrado,25.27,28.09,25.29,24.04,22.62
 Mercado de Trabajo,-59.65,-43.43,-22.42,-16.23,-8.93,Contratos,-59.02,-42.28,-29.52,-26.4,-22.06
-Mercado de Trabajo,-3.29,-5.06,-2.99,-4.33,,Afiliados,-3.85,-5.01,-3.2,-3.45,
-Mercado de Trabajo,-3.64,-5.85,-3.46,-5.11,,Afiliados asalariados,-4.37,-5.78,-3.83,-4.15,
-Mercado de Trabajo,-1.79,-1.65,-0.95,-0.91,,Afiliados no asalariados,-1.31,-1.25,-0.14,-0.02,
+Mercado de Trabajo,-3.29,-5.06,-2.99,-4.33,-1.02,Afiliados,-3.85,-5.01,-3.2,-3.45,-1.98
+Mercado de Trabajo,-3.64,-5.85,-3.46,-5.11,-1.1,Afiliados asalariados,-4.37,-5.78,-3.83,-4.15,-2.34
+Mercado de Trabajo,-1.79,-1.65,-0.95,-0.91,-0.71,Afiliados no asalariados,-1.31,-1.25,-0.14,-0.02,-0.19
 Mercado de Trabajo,229.69,772.22,,,,Trabajadores afectados por expedientes de regulación de empleo,1717.98,645.76,,,
 "Nivel, calidad y condiciones de vida",200.95,120.57,65.74,45.46,,Beneficiarios prestaciones por desempleo,183.45,127.67,72.03,52.63,
 "Nivel, calidad y condiciones de vida",293.65,166.33,98.47,,,Gasto prestaciones por desempleo,279.15,193.11,106.6,,
@@ -28,7 +28,7 @@ Servicios,-31.0,-10.8,-2.2,,,Índice de cifra de negocios del sector servicios,-
 Servicios,-8.4,-8.7,-6.1,,,Índice de ocupación del sector servicios,-7.0,-7.1,-6.1,,
 Servicios,-19.5,-2.0,-1.0,-1.0,,Índice de cifra de negocios del comercio al por menor a precios constantes,-20.1,-3.3,-3.7,-4.6,
 Servicios,-3.0,-3.0,-2.1,-1.8,,Índice de ocupación del comercio al por menor,-3.6,-3.7,-3.4,-3.4,
-Servicios,-99.98,-99.14,-72.76,-62.98,,Tráfico aéreo de pasajeros,-98.94,-96.16,-76.24,-69.66,
+Servicios,-99.98,-99.14,-72.76,-62.98,-73.62,Tráfico aéreo de pasajeros,-98.94,-96.16,-76.24,-69.66,-79.9
 Servicios,-34.04,-1.8,-22.52,-32.15,,Tráfico portuario,-25.28,-15.37,-13.55,-10.39,
 Servicios,-95.8,-94.75,-66.33,-65.31,,Tráfico portuario de pasajeros,-92.44,-76.27,-63.67,-65.58,
 Servicios,-99.21,-88.63,-34.77,-16.14,,Pernoctaciones hoteleras,-99.19,-95.1,-73.39,-64.29,
