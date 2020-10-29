@@ -20,7 +20,7 @@ params = {
                 'Ingresos tributarios netos España. Var interanual'],
             'trend_vars': [],
             'source': 'ICANE a partir de Informes Mensuales de Recaudación Tributaria de la AEAT',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Miles de euros'},
@@ -34,7 +34,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'ingresos-tributarios.json-stat',
                 'trend': 'ingresos-tributarios-tendencia.json-stat'
@@ -54,7 +54,7 @@ params = {
                 'Deficit público CC.AA Cantabria. Tendencia',
                 'Deficit público CC.AA España. Tendencia'],
             'source': 'ICANE a partir de Presupuestos de la Comunidad Autónoma en términos de Contabilidad Nacional de la IGAE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Millones de euros'},
@@ -68,7 +68,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            'note':['Datos acumulados a final de periodo. Los datos de 2019 y 2020 avance.'],
+            'note': ['Datos acumulados a final de periodo. Los datos de 2019 y 2020 avance.'],
             'json': {
                 'value': 'deficit-publico-ccaa.json-stat',
                 'trend': 'deficit-publico-ccaa-tendencia.json-stat'
@@ -86,7 +86,7 @@ params = {
                 'Paro Cantabria. Tendencia',
                 'Paro España. Tendencia'],
             'source': 'ICANE a partir de Movimiento Laboral Registrado del SEPE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Personas'},
@@ -104,7 +104,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'paro.json-stat',
                 'trend': 'paro-tendencia.json-stat'
@@ -123,7 +123,7 @@ params = {
                 'Contratos Cantabria. Tendencia',
                 'Contratos España. Tendencia'],
             'source': 'ICANE a partir de Movimiento Laboral Registrado del SEPE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Contratos'},
@@ -141,7 +141,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'contratos.json-stat',
                 'trend': 'contratos-tendencia.json-stat'
@@ -161,7 +161,7 @@ params = {
                 'Afiliados Cantabria. Tendencia',
                 'Afiliados España. Tendencia'],
             'source': 'ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
@@ -179,7 +179,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Datos a último día de mes'],
+            'note': ['Datos a último día de mes'],
             'json': {
                 'value': 'afiliados.json-stat',
                 'trend': 'afiliados-tendencia.json-stat'
@@ -199,7 +199,7 @@ params = {
                 'Afiliados asalariados Cantabria. Tendencia',
                 'Afiliados asalariados España. Tendencia'],
             'source': 'ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
@@ -217,7 +217,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Datos a último día de mes'],
+            'note': ['Datos a último día de mes'],
             'json': {
                 'value': 'afiliados-asalariados.json-stat',
                 'trend': 'afiliados-asalariados-tendencia.json-stat'
@@ -237,7 +237,7 @@ params = {
                 'Afiliados no asalariados Cantabria. Tendencia',
                 'Afiliados no asalariados España. Tendencia'],
             'source': 'ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Afiliados (a último día de mes)'},
@@ -255,7 +255,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Datos a último día de mes'],
+            'note': ['Datos a último día de mes'],
             'json': {
                 'value': 'afiliados-no-asalariados.json-stat',
                 'trend': 'afiliados-no-asalariados-tendencia.json-stat'
@@ -275,7 +275,7 @@ params = {
                 'Trabajadores afectados por expedientes de regulación de empleo Cantabria. Tendencia',
                 'Trabajadores afectados por expedientes de regulación de empleo España. Tendencia'],
             'source': 'ICANE a partir de Regulación de Empleo del Ministerio de Ministerio de Trabajo, Migraciones y Seguridad Social',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Personas'},
@@ -293,7 +293,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2020 son provisionales. Se ha ampliado el plazo para que las autoridades laborales remitan la información necesaria para elaborar la estadística por causa de la situación provocada por el COVID. Se incluyen únicamente trabajadores afectados por procedimientos de ámbito nacional. La información referida a los procedimientos de ámbito provincial o de Comunidad Autónoma se ampliará cuando se disponga de un número relevante de autoridades laborales en disposición de facilitar datos. Es importante por tanto tener en cuenta que en las tablas publicadas no está recogido el número de trabajadores del Total Nacional'],
+            'note': ['Los datos de 2020 son provisionales. Se ha ampliado el plazo para que las autoridades laborales remitan la información necesaria para elaborar la estadística por causa de la situación provocada por el COVID. Se incluyen únicamente trabajadores afectados por procedimientos de ámbito nacional. La información referida a los procedimientos de ámbito provincial o de Comunidad Autónoma se ampliará cuando se disponga de un número relevante de autoridades laborales en disposición de facilitar datos. Es importante por tanto tener en cuenta que en las tablas publicadas no está recogido el número de trabajadores del Total Nacional'],
             'json': {
                 'value': 'expedientes-regulacion-empleo.json-stat',
                 'trend': 'expedientes-regulacion-empleo-tendencia.json-stat'
@@ -313,7 +313,7 @@ params = {
                 'Beneficiarios prestaciones por desempleo Cantabria. Tendencia',
                 'Beneficiarios prestaciones por desempleos España. Tendencia'],
             'source': 'ICANE a partir de Prestaciones por Desempleo del Ministerio de Trabajo, Migraciones y Seguridad Social',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Beneficiarios'},
@@ -331,7 +331,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            'note':['A último día del mes'],
+            'note': ['A último día del mes'],
             'json': {
                 'value': 'prestacion-desempleo-beneficiarios.json-stat',
                 'trend': 'prestacion-desempleo-beneficiarios-tendencia.json-stat'
@@ -351,7 +351,7 @@ params = {
                 'Gasto prestaciones por desempleo Cantabria. Tendencia',
                 'Gasto prestaciones por desempleos España. Tendencia'],
             'source': 'ICANE a partir de Prestaciones por Desempleo del Ministerio de Trabajo, Migraciones y Seguridad Social',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Miles de euros'},
@@ -369,7 +369,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            'note':['Gasto contablilizado en el mes siguiente pero devengado en el mes'],
+            'note': ['Gasto contablilizado en el mes siguiente pero devengado en el mes'],
             'json': {
                 'value': 'gasto-prestaciones-desempleo.json-stat',
                 'trend': 'gasto-prestaciones-desempleo-tendencia.json-stat'
@@ -385,7 +385,7 @@ params = {
                 'Ipc España. Var interanual'],
             'trend_vars': [],
             'source': 'ICANE a partir de Índice de Precios al Consumo del INE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Índice'},
@@ -399,7 +399,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'ipc.json-stat',
                 'trend': 'ipc-tendencia.json-stat'
@@ -419,7 +419,7 @@ params = {
                 'Pensiones Conbtributivas Cantabria. Tendencia',
                 'Pensiones Contributivas España. Tendencia'],
             'source': 'ICANE a partir de pensiones contributivas del Ministerio de Trabajo, Migraciones y Seguridad Social',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Número de pensiones'},
@@ -433,7 +433,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'pensiones-contributivas.json-stat',
                 'trend': 'pensiones-contributivas-tendencia.json-stat'
@@ -453,7 +453,7 @@ params = {
                 'Pensiones no Conbtributivas Cantabria. Tendencia',
                 'Pensiones no Contributivas España. Tendencia'],
             'source': 'ICANE a partir de prestaciones no contributivas del Ministerio de Trabajo, Migraciones y Seguridad Social',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Número de pensiones'},
@@ -467,7 +467,7 @@ params = {
                         'decimals': 2, 'label': '%'}
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'pensiones-no-contributivas.json-stat',
                 'trend': 'pensiones-no-contributivas-tendencia.json-stat'
@@ -487,7 +487,7 @@ params = {
                 'Índice de cifra de negocios en la industria Cantabria. Tendencia',
                 'Índice de cifra de negocios en la industria España. Tendencia'],
             'source': 'ICANE a partir de Ìndice de Cifra de Negocios en la Industria del INE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Índice'},
@@ -505,7 +505,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'indice-cifra-negocios-industria.json-stat',
                 'trend': 'indice-cifra-negocios-industria-tendencia.json-stat'
@@ -525,7 +525,7 @@ params = {
                 'Matriculación de vehículos Cantabria. Tendencia',
                 'Matriculación de vehículos España. Tendencia'],
             'source': 'ICANE a partir de Matriculación de Vehiculos de la Dirección General de Tráfico',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Vehículos'},
@@ -543,7 +543,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'matriculaciones.json-stat',
                 'trend': 'matriculaciones-tendencia.json-stat'
@@ -563,7 +563,7 @@ params = {
                 'Indicador de clima industrial Cantabria. Tendencia',
                 'Indicador de clima industrial España. Tendencia'],
             'source': 'ICANE a partir de Encuesta de Coyuntura Industrial del Ministerio de Industria, Comercio y Turismo',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 2, 'label': 'Saldo'},
@@ -581,7 +581,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de un saldo de porcentaje'],
+            'note': ['Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de un saldo de porcentaje'],
             'json': {
                 'value': 'clima-industrial.json-stat',
                 'trend': 'clima-industrial-tendencia.json-stat'
@@ -601,7 +601,7 @@ params = {
                 'Índice de Producción Industrial  Cantabria. Tendencia',
                 'Índice de Producción Industrial s España. Tendencia'],
             'source': 'ICANE  a partir de Índice de Producción Industrial del INE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 2, 'label': 'Índice'},
@@ -619,7 +619,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'ipi.json-stat',
                 'trend': 'ipi-tendencia.json-stat'
@@ -639,7 +639,7 @@ params = {
                 'Consumo de productos petrolíferos Cantabria. Tendencia',
                 'Consumo de productos petrolíferos España. Tendencia'],
             'source': 'ICANE a partir de Consumo de Productos Pretrolíferos del CORES',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 2, 'label': 'Toneladas'},
@@ -657,7 +657,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos del año en curso y del año precedente pueden sufrir variaciones debidas a rectificaciones enviadas por las compañías informantes.'],
+            'note': ['Los datos del año en curso y del año precedente pueden sufrir variaciones debidas a rectificaciones enviadas por las compañías informantes.'],
             'json': {
                 'value': 'consumo-productos-petroliferos.json-stat',
                 'trend': 'consumo-productos-petroliferos-tendencia.json-stat'
@@ -677,7 +677,7 @@ params = {
                 'Consumo de gas natural Cantabria. Tendencia',
                 'Consumo de gas natural España. Tendencia'],
             'source': 'ICANE a partir de consumo de Gas Natural de CORES',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Gigavatios hora'},
@@ -695,7 +695,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Debido a desajustes en la información remitida pueden encontrarse pequeñas diferencias entre los datos de consumos desglosados por grupos de presión y los desglosados por Comunidades Autónomas. Datos provisionales.'],
+            'note': ['Debido a desajustes en la información remitida pueden encontrarse pequeñas diferencias entre los datos de consumos desglosados por grupos de presión y los desglosados por Comunidades Autónomas. Datos provisionales.'],
             'json': {
                 'value': 'consumo-gas-natural.json-stat',
                 'trend': 'consumo-gas-natural-tendencia.json-stat'
@@ -715,7 +715,7 @@ params = {
                 'Consumo de cemento Zona Oeste. Tendencia',
                 'Consumo de cemento España. Tendencia'],
             'source': 'ICANE a partir de datos de Estadística de Cemento de Oficemen',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Toneladas'},
@@ -733,7 +733,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['La zona oeste está conformada por las Comunidades Autónomas de Castilla León, Galicia, Asturias y Cantabria. Los datos de junio de 2019 y posteriores son provisionales.'],
+            'note': ['La zona oeste está conformada por las Comunidades Autónomas de Castilla León, Galicia, Asturias y Cantabria. Los datos de junio de 2019 y posteriores son provisionales.'],
             'json': {
                 'value': 'consumo-cemento.json-stat',
                 'trend': 'consumo-cemento-tendencia.json-stat'
@@ -753,7 +753,7 @@ params = {
                 'Empresas inscritas en la Seguridad Social Cantabria. Tendencia',
                 'Empresas inscritas en la Seguridad Social España. Tendencia'],
             'source': 'ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Empresas'},
@@ -771,7 +771,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'empresas.json-stat',
                 'trend': 'empresas-tendencia.json-stat'
@@ -791,7 +791,7 @@ params = {
                 'Empresas personas físicas inscritas en la Seguridad Social Cantabria. Tendencia',
                 'Empresas personas físicass inscritas en la Seguridad Social España. Tendencia'],
             'source': 'ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Empresas'},
@@ -809,7 +809,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'personas-fisicas.json-stat',
                 'trend': 'personas-fisicas-tendencia.json-stat'
@@ -829,7 +829,7 @@ params = {
                 'Empresas personas jurídicas inscritas en la Seguridad Social Cantabria. Tendencia',
                 'Empresas personas jurídicas inscritas en la Seguridad Social España. Tendencia'],
             'source': 'ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo, Migraciones y Seguridad Social',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Empresas'},
@@ -847,7 +847,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'personas-juridicas.json-stat',
                 'trend': 'personas-juridicas-tendencia.json-stat'
@@ -867,7 +867,7 @@ params = {
                 'Sociedades mercantiles constituidas Cantabria. Tendencia',
                 'Sociedades mercantiles constituidas España. Tendencia'],
             'source': 'ICANE a partir de Sociedades Mercantiles del INE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Sociedades'},
@@ -885,7 +885,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos son provisionales desde Enero de 2020'],
+            'note': ['Los datos son provisionales desde Enero de 2020'],
             'json': {
                 'value': 'sociedades-mercantiles-constituidas.json-stat',
                 'trend': 'sociedades-mercantiles-constituidas-tendencia.json-stat'
@@ -905,7 +905,7 @@ params = {
                 'Sociedades mercantiles constituidas Cantabria. Tendencia',
                 'Sociedades mercantiles constituidas España. Tendencia'],
             'source': 'ICANE a partir de Sociedades Mercantiles del INE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Sociedades'},
@@ -923,7 +923,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos son provisionales desde Enero de 2020'],
+            'note': ['Los datos son provisionales desde Enero de 2020'],
             'json': {
                 'value': 'sociedades-mercantiles-disueltas.json-stat',
                 'trend': 'sociedades-mercantiles-disueltas-tendencia.json-stat'
@@ -943,7 +943,7 @@ params = {
                 'Índice de cifra de negocios del sector servicios Cantabria. Tendencia',
                 'Índice de cifra de negocios del sector servicios España. Tendencia'],
             'source': 'ICANE a partir de Indicador de Actividad del Sector Servicios del INE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Índice'},
@@ -961,7 +961,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'indice-cifra-negocios-servicios.json-stat',
                 'trend': 'indice-cifra-negocios-servicios-tendencia.json-stat'
@@ -981,7 +981,7 @@ params = {
                 'Índice de ocupación del sector servicios Cantabria. Tendencia',
                 'Índice de ocupación del sector servicios España. Tendencia'],
             'source': 'ICANE a partir de Indicador de Actividad del Sector Servicios del INE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Índice'},
@@ -999,7 +999,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'indice-ocupacion-servicios.json-stat',
                 'trend': 'indice-ocupacion-servicios-tendencia.json-stat'
@@ -1019,7 +1019,7 @@ params = {
                 'Índice de comercio al por menor a precios constantes Cantabria. Tendencia',
                 'Índice de comercio al por menor a precios constantes España. Tendencia'],
             'source': 'ICANE a partir de Índice de Comercio al por Menor del INE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 1, 'label': 'Índice'},
@@ -1037,7 +1037,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'icm.json-stat',
                 'trend': 'icm-tendencia.json-stat'
@@ -1057,7 +1057,7 @@ params = {
                 'Índice de ocupacion del comercio al por menor Cantabria. Tendencia',
                 'Índice de ocupacion del comercio al por menor España. Tendencia'],
             'source': 'ICANE a partir de Índice de Comercio al por Menor del INE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Índice'},
@@ -1075,7 +1075,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'indice-ocupacion-comercio-menor.json-stat',
                 'trend': 'indice-ocupacion-comercio-menor-tendencia.json-stat'
@@ -1095,7 +1095,7 @@ params = {
                 'Tráfico aéreo de pasajeros Cantabria. Tendencia',
                 'Tráfico aéreo de pasajeros España. Tendencia'],
             'source': 'ICANE a partir de Estadística de tráfico aéreo de AENA',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Pasajeros'},
@@ -1113,7 +1113,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos son provisionales desde el año 2019'],
+            'note': ['Los datos son provisionales desde el año 2019'],
             'json': {
                 'value': 'trafico-aereo.json-stat',
                 'trend': 'trafico-aereo-tendencia.json-stat'
@@ -1133,7 +1133,7 @@ params = {
                 'Tráfico portuario Cantabria. Tendencia',
                 'Tráfico portuario España. Tendencia'],
             'source': 'ICANE a partir de Estadística del Puerto de la Autoridad Portuaria de Santander y Ministerio de Fomento',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 1, 'label': 'Toneladas'},
@@ -1151,7 +1151,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'trafico-portuario.json-stat',
                 'trend': 'trafico-portuario-tendencia.json-stat'
@@ -1171,7 +1171,7 @@ params = {
                 'Tráfico portuario de pasajeros Cantabria. Tendencia',
                 'Tráfico portuario de pasajeros España. Tendencia'],
             'source': 'ICANE a partir de Estadística del Puerto de la Autoridad Portuaria de Santander y Ministerio de Fomento',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 1, 'label': 'Pasajeros'},
@@ -1189,7 +1189,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
                 'value': 'trafico-portuario-pasajeros.json-stat',
                 'trend': 'trafico-portuario-pasajeros-tendencia.json-stat'
@@ -1209,7 +1209,7 @@ params = {
                 'Pernoctaciones hoteleras Cantabria. Tendencia',
                 'Pernoctaciones hoteleras España. Tendencia'],
             'source': 'ICANE a partir de Coyuntura Turística Hotelera del INE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Pernoctaciones'},
@@ -1227,7 +1227,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de enero del año 2020 y posteriores son provisionales'],
+            'note': ['Los datos de enero del año 2020 y posteriores son provisionales'],
             'json': {
                 'value': 'pernoctaciones-hoteleras.json-stat',
                 'trend': 'pernoctaciones-hoteleras-tendencia.json-stat'
@@ -1247,7 +1247,7 @@ params = {
                 'Pernoctaciones extrahoteleras Cantabria. Tendencia',
                 'Pernoctaciones extrahoteleras España. Tendencia'],
             'source': 'ICANE a partir de Encuesta de Ocupación de Alojamientos Turísticos Extrahoteleros del INE',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Pernoctaciones'},
@@ -1265,7 +1265,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de septiembre del año 2019 y posteriores son provisionales. Los datos de enero, febrero, marzo y mayo de 2020 para Cantabria no tienen la información de camping por secreto estadístico.'],
+            'note': ['Los datos de enero del año 2020 y posteriores son provisionales. Los datos de enero, febrero, marzo y mayo de 2020 para Cantabria no tienen la información de camping por secreto estadístico.'],
             'json': {
                 'value': 'pernoctaciones-extrahoteleras.json-stat',
                 'trend': 'pernoctaciones-extrahoteleras-tendencia.json-stat'
@@ -1283,7 +1283,7 @@ params = {
                 'Importaciones Cantabria. Tendencia',
                 'Importaciones España. Tendencia'],
             'source': 'ICANE a partir de Estadistica de Comercio Exterior de la AEAT',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 1, 'label': 'Miles de euros'},
@@ -1301,7 +1301,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT'],
+            'note': ['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT'],
             'json': {
                 'value': 'importaciones.json-stat',
                 'trend': 'importaciones-tendencia.json-stat'
@@ -1320,7 +1320,7 @@ params = {
                 'Exportaciones Cantabria. Tendencia',
                 'Exportaciones España. Tendencia'],
             'source': 'ICANE a partir de Estadistica de Comercio Exterior de la AEAT',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 1, 'label': 'Miles de euros'},
@@ -1338,7 +1338,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT'],
+            'note': ['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT'],
             'json': {
                 'value': 'exportaciones.json-stat',
                 'trend': 'exportaciones-tendencia.json-stat'
@@ -1356,7 +1356,7 @@ params = {
                 'Saldo comercial Cantabria. Tendencia',
                 'Saldo comercial España. Tendencia'],
             'source': 'ICANE a partir de Estadistica de Comercio Exterior de la AEAT',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 1, 'label': 'Miles de euros'},
@@ -1374,7 +1374,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT'],
+            'note': ['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT'],
             'json': {
                 'value': 'saldo-comercial.json-stat',
                 'trend': 'saldo-comercial-tendencia.json-stat'
@@ -1392,7 +1392,7 @@ params = {
                 'Tasa cobertura Cantabria. Tendencia',
                 'Tasa cobertura España. Tendencia'],
             'source': 'ICANE a partir de Estadistica de Comercio Exterior de la AEAT',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 1, 'label': '%'},
@@ -1410,7 +1410,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa.'],
+            'note': ['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa.'],
             'json': {
                 'value': 'tasa-cobertura.json-stat',
                 'trend': 'tasa-cobertura-tendencia.json-stat'
@@ -1430,7 +1430,7 @@ params = {
                 'Gasto en productos farmacéuticos y sanitarios Cantabria. Tendencia',
                 'Gasto en productos farmacéuticos y sanitarios España. Tendencia'],
             'source': 'ICANE a partir de Gasto en productos farmacéuticos y sanitarios del Ministerio de Hacienda',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 1, 'label': 'Miles de euros'},
@@ -1448,7 +1448,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Gasto devengado neto acumulado anual. Cantabria está realizando la revisión de la información de toda la serie para homogeneizar los criterios aplicados en la extracción de la información, por lo que las tres partidas de gasto pueden presentar modificaciones en próximas publicaciones.'],
+            'note': ['Gasto devengado neto acumulado anual. Cantabria está realizando la revisión de la información de toda la serie para homogeneizar los criterios aplicados en la extracción de la información, por lo que las tres partidas de gasto pueden presentar modificaciones en próximas publicaciones.'],
             'json': {
                 'value': 'gasto-farmaceutico-sanitario.json-stat',
                 'trend': 'gasto-farmaceutico-sanitario-tendencia.json-stat'
