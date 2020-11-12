@@ -2,7 +2,7 @@ Categoria,Cantabria - 2020-06,Cantabria - 2020-07,Cantabria - 2020-08,Cantabria 
 Economía,-71.7,-1.68,247.97,660.54,,Ingresos tributarios netos,-29.74,-14.66,1.11,-0.13,
 Economía,8.99,204.65,227.14,,,Déficit público CC.AA,12.68,193.48,167.3,,
 Mercado de Trabajo,27.75,25.4,21.9,15.63,13.47,Paro registrado,28.09,25.29,24.04,22.62,20.4
-Mercado de Trabajo,-43.43,-22.42,-16.23,-8.93,,Contratos,-42.28,-29.52,-26.4,-22.06,
+Mercado de Trabajo,-43.43,-22.42,-16.23,-8.93,-24.36,Contratos,-42.28,-29.52,-26.4,-22.06,-30.27
 Mercado de Trabajo,-5.06,-2.99,-4.33,-1.02,,Afiliados,-5.01,-3.2,-3.45,-1.98,
 Mercado de Trabajo,-5.85,-3.46,-5.11,-1.1,,Afiliados asalariados,-5.78,-3.83,-4.15,-2.34,
 Mercado de Trabajo,-1.65,-0.95,-0.91,-0.71,,Afiliados no asalariados,-1.25,-0.14,-0.02,-0.19,
@@ -19,11 +19,11 @@ Industria y energía,-8.8,-6.8,-4.0,4.1,,Índice de Producción Industrial,-10.1
 Industria y energía,-19.64,-5.93,-9.42,,,Consumo de productos petrolíferos,1.0,1.0,-13.46,,
 Industria y energía,-48.88,-40.14,-27.1,,,Consumo de gas natural,-18.59,-13.07,-9.07,,
 Construcción,0.26,-21.28,-8.84,-8.24,,Consumo de cemento,4.73,-3.82,-3.18,0.87,
-Empresas,-4.87,-2.75,-3.3,-2.53,,Empresas inscritas en la Seguridad social,-5.63,-3.48,-3.5,-3.1,
-Empresas,-7.92,-4.38,-5.85,-4.28,,Personas físicas inscritas en la Seguridad social,-9.47,-5.95,-6.04,-5.37,
-Empresas,-2.71,-1.58,-1.46,-1.31,,Personas jurídicas inscritas en la Seguridad social,-3.3,-2.0,-1.98,-1.75,
-Empresas,-3.17,51.11,45.16,,,Sociedades mercantiles constituidas,-9.42,-2.42,7.06,,
-Empresas,30.77,-44.44,70.0,,,Sociedades mercantiles disueltas,-11.39,-11.88,-3.77,,
+Empresas,-4.87,-2.75,-3.3,-2.53,-1.66,Empresas inscritas en la Seguridad social,-5.63,-3.48,-3.5,-3.1,-2.46
+Empresas,-7.92,-4.38,-5.85,-4.28,-2.48,Personas físicas inscritas en la Seguridad social,-9.47,-5.95,-6.04,-5.37,-4.22
+Empresas,-2.71,-1.58,-1.46,-1.31,-1.11,Personas jurídicas inscritas en la Seguridad social,-3.3,-2.0,-1.98,-1.75,-1.43
+Empresas,-3.17,51.11,45.16,-23.33,,Sociedades mercantiles constituidas,-9.42,-2.42,7.06,14.03,
+Empresas,30.77,-44.44,70.0,-56.0,,Sociedades mercantiles disueltas,-11.39,-11.88,-3.77,29.32,
 Servicios,-10.8,-2.1,-7.7,,,Índice de cifra de negocios del sector servicios,-18.0,-13.7,-15.3,,
 Servicios,-8.7,-6.1,-4.6,,,Índice de ocupación del sector servicios,-7.1,-6.1,-5.5,,
 Servicios,-2.0,-1.0,-0.6,2.7,,Índice de cifra de negocios del comercio al por menor a precios constantes,-3.3,-3.7,-4.7,-2.1,
