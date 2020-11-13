@@ -113,8 +113,7 @@ for key in cfg.series:
     json_file = replace_month(json_file)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.value)
 
-    # Rate and trend vars
-        
+    # Rate and trend vars    
     if key not in ['empresas_afectadas_erte',
                    'afiliados_afectados_erte']:
         if cfg.series[key].trend_vars == []:
