@@ -87,7 +87,6 @@ for key in cfg.series:
                     cfg.series[key].rate_vars[0]: 'Cantabria',
                     cfg.series[key].rate_vars[1]: 'España'},
                 inplace=True)
-    print(data)
     # Remove .0 from Año and Mes
     data[cfg.file][cfg.series[key].sheet]['Año'] = \
         data[cfg.file][cfg.series[key].sheet]['Año'].astype(
