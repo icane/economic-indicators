@@ -147,6 +147,39 @@ params = {
                 'trend': 'contratos-tendencia.json-stat'
             }
         },
+        'afiliados_afectados_erte': {
+            'sheet': 'AFI_ERTE',
+            'label': 'Afiliados afectados por ERTE',
+            'category': 'Mercado de Trabajo',
+            'value_vars': [
+                'Afiliados afectados por ERTE Cantabria',
+                'Afiliados afectados por ERTE España'],
+            'rate_vars': [
+                'Afiliados afectados por ERTE sobre el total de afiliados asalariados Cantabria',
+                'Afiliados afectados por ERTE sobre el total de afiliados asalariados España'],
+            'trend_vars': [
+                ],
+            'source': 'ICANE a partir de Afiliciaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
+            'unit': {
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Afiliados (a último día de mes)'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Afiliados (a último día de mes)'},
+                },
+                'trend': {
+                    'Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note': ['Los datos de octubre no incluyen los ERTE del RDL 30/2020'],
+            'json': {
+                'value': 'afiliados-afectados-erte.json-stat',
+                'trend': 'afiliados-afectados-erte-tendencia.json-stat'
+            }
+        },
         'afiliados': {
             'sheet': 'Afiliados',
             'label': 'Afiliados',
@@ -775,6 +808,39 @@ params = {
             'json': {
                 'value': 'empresas.json-stat',
                 'trend': 'empresas-tendencia.json-stat'
+            }
+        },
+        'empresas_afectadas_erte': {
+            'sheet': 'EMP_ERTE',
+            'label': 'Empresas afectadas por ERTE',
+            'category': 'Empresas',
+            'value_vars': [
+                'Empresas afectados por ERTE Cantabria',
+                'Empresas afectados por ERTE España'],
+            'rate_vars': [
+                'Empresas afectados por ERTE sobre el total de empresas Cantabria',
+                'Empresas afectados por ERTE sobre el total de empresas España'],
+            'trend_vars': [
+                ],
+            'source': 'ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo. Migraciones y Seguridad Social',
+            'unit': {
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Empresas (a último día de mes)'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Empresas (a último día de mes)'},
+                },
+                'trend': {
+                    'Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note': ['Los datos de octubre no incluyen los ERTE del RDL 30/2020'],
+            'json': {
+                'value': 'empresas-afectadas-erte.json-stat',
+                'trend': 'empresas-afectadas-erte-tendencia.json-stat'
             }
         },
         'personas_fisicas': {
