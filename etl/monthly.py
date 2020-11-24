@@ -88,12 +88,14 @@ for key in cfg.series:
                     cfg.series[key].rate_vars[1]: 'España'},
                 inplace=True)
     # Remove .0 from Año and Mes
-    data[cfg.file][cfg.series[key].sheet]['Año'] = \
-        data[cfg.file][cfg.series[key].sheet]['Año'].astype(
-            str).replace('\.0', '', regex=True)
-    data[cfg.file][cfg.series[key].sheet]['Mes'] = \
-        data[cfg.file][cfg.series[key].sheet]['Mes'].astype(
-            str).replace('\.0', '', regex=True)
+    data[cfg.file][cfg.series[key].sheet]['Año'] = data[
+        cfg.file][cfg.series[key].sheet]['Año'].astype(str).replace(
+            r'\.0', '', regex=True
+        )
+    data[cfg.file][cfg.series[key].sheet]['Mes'] = data[
+        cfg.file][cfg.series[key].sheet]['Mes'].astype(str).replace(
+            r'\.0', '', regex=True
+        )
 
     # Value variables
     variables = ['Año', 'Mes', 'Valor Cantabria', 'Valor España']
@@ -113,7 +115,7 @@ for key in cfg.series:
     json_file = replace_month(json_file)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.value)
 
-    # Rate and trend vars    
+    # Rate and trend vars
     if key not in ['empresas_afectadas_erte',
                    'afiliados_afectados_erte']:
         if cfg.series[key].trend_vars == []:
@@ -163,7 +165,9 @@ for key in cfg.series:
         # Cantabria
         df_cant = data[cfg.file][cfg.series[key].sheet][[
             'Año', 'Mes', coltoshow]].copy()
-        df_cant = transform(df_cant, cfg.periods.global_monthly, 'Cantabria - ')
+        df_cant = transform(
+            df_cant, cfg.periods.global_monthly, 'Cantabria - '
+        )
         df_cant.set_index('Mes', inplace=True)
         df_cant = df_cant.transpose()
         df_cant.insert(0, 'Categoria', cfg.series[key].category)
@@ -171,7 +175,9 @@ for key in cfg.series:
         # España
         df_esp = data[cfg.file][cfg.series[key].sheet][[
             'Año', 'Mes', coltoshowes]].copy()
-        df_esp = transform(df_esp, cfg.periods.global_monthly, 'España - ')
+        df_esp = transform(
+            df_esp, cfg.periods.global_monthly, 'España - '
+        )
         df_esp.set_index('Mes', inplace=True)
         df_esp = df_esp.transpose()
         df_esp[' - Indicadores'] = cfg.series[key].label
