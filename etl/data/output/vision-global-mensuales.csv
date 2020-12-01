@@ -19,7 +19,7 @@ Industria y energía,-50.62,-13.24,-17.3,-0.06,2.15,Indicador de clima industria
 Industria y energía,-8.8,-6.8,-4.0,4.1,,Índice de Producción Industrial,-10.1,-6.3,-5.9,-0.6,
 Industria y energía,-19.64,-5.94,-9.42,-5.5,,Consumo de productos petrolíferos,-17.46,-10.58,-13.45,-8.43,
 Industria y energía,-48.88,-40.14,-27.1,-31.74,,Consumo de gas natural,-16.41,-9.73,-12.36,-6.95,
-Construcción,0.26,-21.28,-8.84,-8.24,,Consumo de cemento,4.73,-3.82,-3.18,0.87,
+Construcción,0.26,-21.28,-8.84,-18.6,-29.56,Consumo de cemento,3.81,-3.92,-3.9,2.06,-13.09
 Empresas,-4.87,-2.75,-3.3,-2.53,-1.66,Empresas inscritas en la Seguridad social,-5.63,-3.48,-3.5,-3.1,-2.46
 Empresas,27.13,16.26,11.02,10.02,8.57,Empresas afectadas por ERTE,29.59,20.37,15.78,13.88,11.46
 Empresas,-7.92,-4.38,-5.85,-4.28,-2.48,Personas físicas inscritas en la Seguridad social,-9.47,-5.95,-6.04,-5.37,-4.22
@@ -31,10 +31,10 @@ Servicios,-8.7,-6.1,-4.6,-4.9,,Índice de ocupación del sector servicios,-7.1,-
 Servicios,-2.0,-1.0,-0.6,2.5,2.2,Índice de cifra de negocios del comercio al por menor a precios constantes,-3.3,-3.7,-4.7,-2.2,-2.4
 Servicios,-3.0,-2.1,-1.6,-1.4,-1.4,Índice de ocupación del comercio al por menor,-3.7,-3.4,-3.3,-3.0,-3.0
 Servicios,-99.14,-72.76,-62.98,-73.62,,Tráfico aéreo de pasajeros,-96.16,-76.24,-69.66,-79.9,
-Servicios,-1.79,-22.41,-32.07,22.1,,Tráfico portuario,-15.37,-13.55,-10.39,-7.34,
-Servicios,-94.75,-66.33,-65.31,-70.95,,Tráfico portuario de pasajeros,-76.27,-63.67,-65.58,-68.75,
+Servicios,-1.75,-22.39,-32.05,22.11,-17.25,Tráfico portuario,-15.37,-13.55,-10.39,-7.34,-5.39
+Servicios,-94.75,-66.33,-65.31,-70.95,-68.17,Tráfico portuario de pasajeros,-76.27,-63.67,-65.58,-68.75,-69.84
 Servicios,-88.63,-34.77,-16.14,-48.89,-61.72,Pernoctaciones hoteleras,-95.1,-73.39,-64.29,-78.39,-83.27
-Servicios,-77.9,-10.67,1.61,-22.6,,Pernoctaciones extrahoteleras,-84.4,-49.16,-41.37,-58.07,
+Servicios,-77.9,-10.67,1.61,-22.6,-43.42,Pernoctaciones extrahoteleras,-84.4,-49.16,-41.37,-58.07,-66.41
 Sector exterior,-27.11,-32.26,-17.15,-5.18,,Importaciones,-20.07,-14.7,-17.17,-10.79,
 Sector exterior,0.29,-6.84,-4.14,20.51,,Exportaciones,-9.22,-7.52,-9.12,-0.93,
 Sector exterior,142.16,132.74,250.09,568.15,,Saldo comercial,196.68,87.68,56.44,65.05,
