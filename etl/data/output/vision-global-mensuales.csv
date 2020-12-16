@@ -3,10 +3,10 @@ Economía,-1.68,247.97,660.54,-10.48,,Ingresos tributarios netos,-14.66,1.11,-0.
 Economía,193.02,214.29,208.97,,,Déficit público CC.AA,200.24,175.8,171.88,,
 Mercado de Trabajo,25.4,21.9,15.63,13.47,14.59,Paro registrado,25.29,24.04,22.62,20.4,20.42
 Mercado de Trabajo,-22.42,-16.23,-8.93,-24.36,-19.69,Contratos,-29.52,-26.4,-22.06,-30.27,-17.82
-Mercado de Trabajo,4.55,2.71,2.41,2.06,,Afiliados afectados por ERTE,7.26,5.3,4.68,4.1,
-Mercado de Trabajo,-2.99,-4.33,-1.02,0.06,,Afiliados,-3.2,-3.45,-1.98,-1.02,
-Mercado de Trabajo,-3.46,-5.11,-1.1,-3.08,,Afiliados asalariados,-3.82,-4.15,-2.34,-8.2,
-Mercado de Trabajo,-0.95,-0.91,-0.71,-0.4,,Afiliados no asalariados,-0.14,-0.02,-0.19,0.25,
+Mercado de Trabajo,4.55,2.71,2.41,2.06,3.0,Afiliados afectados por ERTE,7.26,5.3,4.68,4.1,4.76
+Mercado de Trabajo,-2.99,-4.33,-1.02,0.06,-1.92,Afiliados,-3.2,-3.45,-1.98,-1.02,-2.27
+Mercado de Trabajo,-3.46,-5.11,-1.1,-3.08,-2.21,Afiliados asalariados,-3.82,-4.15,-2.34,-8.2,-2.71
+Mercado de Trabajo,-0.95,-0.91,-0.71,-0.4,-0.66,Afiliados no asalariados,-0.14,-0.02,-0.19,0.25,-0.12
 Mercado de Trabajo,-38.42,55.56,-80.49,,,Trabajadores afectados por expedientes de regulación de empleo,299.45,129.56,21.74,,
 "Nivel, calidad y condiciones de vida",65.74,45.46,32.35,14.26,,Beneficiarios prestaciones por desempleo,72.03,52.63,41.63,35.88,
 "Nivel, calidad y condiciones de vida",98.47,60.96,45.19,30.62,,Gasto prestaciones por desempleo,106.6,73.15,63.79,61.85,
@@ -14,14 +14,14 @@ Mercado de Trabajo,-38.42,55.56,-80.49,,,Trabajadores afectados por expedientes 
 "Nivel, calidad y condiciones de vida",0.08,0.12,0.07,0.05,,Pensiones Contributivas,0.23,0.22,0.05,0.05,
 "Nivel, calidad y condiciones de vida",-0.85,-0.87,-0.73,-0.37,,Pensiones No Contributivas,-0.46,-0.47,-0.55,-1.05,
 Industria y energía,-12.9,-13.4,0.1,,,Índice de cifra de negocios en la industria,-10.6,-9.9,-3.3,,
-Industria y energía,16.23,23.4,-2.94,,,Matriculación de vehículos,3.56,-5.86,-6.57,,
+Industria y energía,16.17,23.25,-3.01,-5.84,-14.92,Matriculación de vehículos,3.37,-6.11,-6.73,-17.23,-15.28
 Industria y energía,-13.24,-17.3,-0.06,2.15,26.81,Indicador de clima industrial,-8.18,-11.16,-4.2,-0.77,-4.13
 Industria y energía,-6.8,-3.9,2.5,-5.8,,Índice de Producción Industrial,-6.3,-5.9,-0.6,-6.1,
 Industria y energía,-5.94,-9.42,-5.5,-11.37,,Consumo de productos petrolíferos,-9.9,-12.76,-7.51,-12.14,
 Industria y energía,-40.14,-27.1,-31.74,,,Consumo de gas natural,-9.73,-12.36,-6.95,,
 Construcción,-21.28,-8.84,-18.6,-29.56,,Consumo de cemento,-3.92,-3.9,2.06,-13.09,
 Empresas,-2.75,-3.3,-2.53,-1.66,-3.27,Empresas inscritas en la Seguridad social,-3.48,-3.5,-3.1,-2.46,-3.39
-Empresas,16.26,11.02,10.02,8.57,,Empresas afectadas por ERTE,20.37,15.78,13.88,11.46,
+Empresas,16.26,11.02,10.02,8.57,10.45,Empresas afectadas por ERTE,20.37,15.78,13.88,11.46,13.04
 Empresas,-4.38,-5.85,-4.28,-2.48,-5.43,Personas físicas inscritas en la Seguridad social,-5.95,-6.04,-5.37,-4.22,-5.29
 Empresas,-1.58,-1.46,-1.31,-1.11,-1.79,Personas jurídicas inscritas en la Seguridad social,-2.0,-1.98,-1.75,-1.43,-2.25
 Empresas,51.11,45.16,-23.33,-20.75,,Sociedades mercantiles constituidas,-2.42,7.06,14.03,-7.95,
