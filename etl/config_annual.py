@@ -34,7 +34,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Para Cantabria, los datos de 2017 son provisionales, 2018 son avance y 2019 primera estimación. Para España los datos de 2018 son provisionales y 2019 son avance'],
+            'note':['Para Cantabria, los datos de 2018 son provisionales y los de 2019 avance. Para España los datos de 2018 son provisionales y 2019 son avance'],
             'json': {
                 'value': 'pib-precios-corrientes.json-stat',
                 'trend': 'pib-precios-corrientes-tendencia.json-stat'
