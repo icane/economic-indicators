@@ -7,13 +7,13 @@ Mercado de Trabajo,4.55,2.71,2.41,2.06,3.0,Afiliados afectados por ERTE,7.26,5.3
 Mercado de Trabajo,-2.99,-4.33,-1.02,0.06,-1.92,Afiliados,-3.2,-3.45,-1.98,-1.02,-2.27
 Mercado de Trabajo,-3.46,-5.11,-1.1,-3.08,-2.21,Afiliados asalariados,-3.82,-4.15,-2.34,-8.2,-2.71
 Mercado de Trabajo,-0.95,-0.91,-0.71,-0.4,-0.66,Afiliados no asalariados,-0.14,-0.02,-0.19,0.25,-0.12
-Mercado de Trabajo,-38.42,55.56,-80.49,,,Trabajadores afectados por expedientes de regulación de empleo,299.45,129.56,21.74,,
+Mercado de Trabajo,-38.42,55.56,-80.49,-25.13,,Trabajadores afectados por expedientes de regulación de empleo,299.45,129.56,21.74,5.96,
 "Nivel, calidad y condiciones de vida",65.74,45.46,32.35,14.26,,Beneficiarios prestaciones por desempleo,72.03,52.63,41.63,35.88,
 "Nivel, calidad y condiciones de vida",98.47,60.96,45.19,30.62,,Gasto prestaciones por desempleo,106.6,73.15,63.79,61.85,
 "Nivel, calidad y condiciones de vida",-0.4,-0.6,-0.4,-0.8,-0.9,Índice de precios al consumo,-0.6,-0.5,-0.4,-0.8,-0.8
 "Nivel, calidad y condiciones de vida",0.08,0.12,0.07,0.05,,Pensiones Contributivas,0.23,0.22,0.05,0.05,
 "Nivel, calidad y condiciones de vida",-0.85,-0.87,-0.73,-0.37,,Pensiones No Contributivas,-0.46,-0.47,-0.55,-1.05,
-Industria y energía,-12.9,-13.4,0.1,,,Índice de cifra de negocios en la industria,-10.6,-9.9,-3.3,,
+Industria y energía,-12.9,-13.4,0.1,-5.2,,Índice de cifra de negocios en la industria,-10.6,-9.9,-3.3,-8.8,
 Industria y energía,16.17,23.25,-3.01,-5.84,-14.92,Matriculación de vehículos,3.37,-6.11,-6.73,-17.23,-15.28
 Industria y energía,-13.24,-17.3,-0.06,2.15,26.81,Indicador de clima industrial,-8.18,-11.16,-4.2,-0.77,-4.13
 Industria y energía,-6.8,-3.9,2.5,-5.8,,Índice de Producción Industrial,-6.3,-5.9,-0.6,-6.1,
@@ -26,17 +26,17 @@ Empresas,-4.38,-5.85,-4.28,-2.48,-5.43,Personas físicas inscritas en la Segurid
 Empresas,-1.58,-1.46,-1.31,-1.11,-1.79,Personas jurídicas inscritas en la Seguridad social,-2.0,-1.98,-1.75,-1.43,-2.25
 Empresas,51.11,45.16,-23.33,-20.75,,Sociedades mercantiles constituidas,-2.42,7.06,14.03,-7.95,
 Empresas,-44.44,70.0,-56.0,-40.0,,Sociedades mercantiles disueltas,-11.88,-3.77,29.32,-8.84,
-Servicios,-2.2,-7.7,-4.4,,,Índice de cifra de negocios del sector servicios,-13.7,-15.3,-12.7,,
-Servicios,-6.1,-4.6,-4.9,,,Índice de ocupación del sector servicios,-6.1,-5.5,-5.3,,
+Servicios,-2.2,-7.7,-4.6,-8.5,,Índice de cifra de negocios del sector servicios,-13.7,-15.3,-12.7,-14.0,
+Servicios,-6.1,-4.6,-5.0,-4.7,,Índice de ocupación del sector servicios,-6.1,-5.5,-5.3,-5.2,
 Servicios,-1.0,-0.6,2.5,2.2,,Índice de cifra de negocios del comercio al por menor a precios constantes,-3.7,-4.7,-2.2,-2.4,
 Servicios,-2.1,-1.6,-1.4,-1.4,,Índice de ocupación del comercio al por menor,-3.4,-3.3,-3.0,-3.0,
-Servicios,-72.76,-62.98,-73.62,-82.3,,Tráfico aéreo de pasajeros,-76.24,-69.66,-79.9,-81.96,
+Servicios,-72.76,-62.98,-73.62,-82.3,-92.48,Tráfico aéreo de pasajeros,-76.24,-69.66,-79.9,-81.96,-84.18
 Servicios,-22.39,-32.05,22.11,-17.25,,Tráfico portuario,-13.55,-10.39,-7.34,-5.39,
 Servicios,-66.33,-65.31,-70.95,-68.17,,Tráfico portuario de pasajeros,-63.67,-65.58,-68.75,-69.84,
 Servicios,-34.77,-16.14,-48.89,-61.72,,Pernoctaciones hoteleras,-73.39,-64.29,-78.39,-83.27,
 Servicios,-10.67,1.61,-22.6,-43.42,,Pernoctaciones extrahoteleras,-49.16,-41.37,-58.07,-66.41,
-Sector exterior,-32.26,-17.15,-5.18,,,Importaciones,-14.7,-17.17,-10.79,,
-Sector exterior,-6.84,-4.14,20.51,,,Exportaciones,-7.52,-9.12,-0.93,,
-Sector exterior,132.74,250.09,568.15,,,Saldo comercial,87.68,56.44,65.05,,
-Sector exterior,44.35,16.5,28.37,,,Tasa de cobertura,7.66,8.07,9.35,,
+Sector exterior,-32.26,-17.15,-5.18,-17.29,,Importaciones,-14.7,-17.17,-10.79,-11.91,
+Sector exterior,-6.84,-4.14,20.51,5.33,,Exportaciones,-7.52,-9.12,-0.93,-5.88,
+Sector exterior,132.74,250.09,568.15,151.69,,Saldo comercial,87.68,56.44,65.05,74.74,
+Sector exterior,44.35,16.5,28.37,31.56,,Tasa de cobertura,7.66,8.07,9.35,6.24,
 Sanidad,1.75,3.13,4.34,,,Gasto en productos farmacéuticos y sanitarios,10.34,10.51,10.75,,
