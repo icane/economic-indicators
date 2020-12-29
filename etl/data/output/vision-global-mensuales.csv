@@ -1,6 +1,6 @@
 Categoria,Cantabria - 2020-07,Cantabria - 2020-08,Cantabria - 2020-09,Cantabria - 2020-10,Cantabria - 2020-11, - Indicadores,España - 2020-07,España - 2020-08,España - 2020-09,España - 2020-10,España - 2020-11
-Economía,-1.68,247.97,660.54,-10.48,,Ingresos tributarios netos,-14.66,1.11,-0.13,-12.42,
-Economía,193.02,214.29,208.97,,,Déficit público CC.AA,200.24,175.8,171.88,,
+Economía,-1.68,247.97,660.54,-10.48,2.27,Ingresos tributarios netos,-14.66,1.11,-0.13,-12.42,4.23
+Economía,193.02,214.29,208.97,187.8,,Déficit público CC.AA,200.24,175.8,171.88,123.86,
 Mercado de Trabajo,25.4,21.9,15.63,13.47,14.59,Paro registrado,25.29,24.04,22.62,20.4,20.42
 Mercado de Trabajo,-22.42,-16.23,-8.93,-24.36,-19.69,Contratos,-29.52,-26.4,-22.06,-30.27,-17.82
 Mercado de Trabajo,4.55,2.71,2.41,2.06,3.0,Afiliados afectados por ERTE,7.26,5.3,4.68,4.1,4.76
@@ -18,8 +18,8 @@ Industria y energía,16.17,23.25,-3.01,-5.84,-14.92,Matriculación de vehículos
 Industria y energía,-13.24,-17.3,-0.06,2.15,26.81,Indicador de clima industrial,-8.18,-11.16,-4.2,-0.77,-4.13
 Industria y energía,-6.8,-3.9,2.5,-5.8,,Índice de Producción Industrial,-6.3,-5.9,-0.6,-6.1,
 Industria y energía,-5.94,-9.42,-5.5,-11.37,,Consumo de productos petrolíferos,-9.9,-12.76,-7.51,-12.14,
-Industria y energía,-40.14,-27.1,-31.74,,,Consumo de gas natural,-9.73,-12.36,-6.95,,
-Construcción,-21.28,-8.84,-18.6,-29.56,,Consumo de cemento,-3.92,-3.9,2.06,-13.09,
+Industria y energía,-40.14,-27.1,-31.74,-18.42,,Consumo de gas natural,-9.6,-12.23,-7.05,-15.82,
+Construcción,-21.28,-8.84,-18.6,-29.56,18.41,Consumo de cemento,-3.92,-3.9,2.46,-13.22,3.81
 Empresas,-2.75,-3.3,-2.53,-1.66,-3.27,Empresas inscritas en la Seguridad social,-3.48,-3.5,-3.1,-2.46,-3.39
 Empresas,16.26,11.02,10.02,8.57,10.45,Empresas afectadas por ERTE,20.37,15.78,13.88,11.46,13.04
 Empresas,-4.38,-5.85,-4.28,-2.48,-5.43,Personas físicas inscritas en la Seguridad social,-5.95,-6.04,-5.37,-4.22,-5.29
@@ -28,15 +28,15 @@ Empresas,51.11,45.16,-23.33,-20.75,,Sociedades mercantiles constituidas,-2.42,7.
 Empresas,-44.44,70.0,-56.0,-40.0,,Sociedades mercantiles disueltas,-11.88,-3.77,29.32,-8.84,
 Servicios,-2.2,-7.7,-4.6,-8.5,,Índice de cifra de negocios del sector servicios,-13.7,-15.3,-12.7,-14.0,
 Servicios,-6.1,-4.6,-5.0,-4.7,,Índice de ocupación del sector servicios,-6.1,-5.5,-5.3,-5.2,
-Servicios,-1.0,-0.6,2.5,2.2,,Índice de cifra de negocios del comercio al por menor a precios constantes,-3.7,-4.7,-2.2,-2.4,
-Servicios,-2.1,-1.6,-1.4,-1.4,,Índice de ocupación del comercio al por menor,-3.4,-3.3,-3.0,-3.0,
+Servicios,-1.0,-0.6,2.5,1.6,-6.3,Índice de cifra de negocios del comercio al por menor a precios constantes,-3.7,-4.7,-2.2,-2.3,-5.8
+Servicios,-2.1,-1.6,-1.4,-1.4,-2.3,Índice de ocupación del comercio al por menor,-3.4,-3.3,-3.0,-3.0,-3.5
 Servicios,-72.76,-62.98,-73.62,-82.3,-92.48,Tráfico aéreo de pasajeros,-76.24,-69.66,-79.9,-81.96,-84.18
 Servicios,-22.39,-32.05,22.11,-17.25,,Tráfico portuario,-13.55,-10.39,-7.34,-5.39,
 Servicios,-66.33,-65.31,-70.95,-68.17,,Tráfico portuario de pasajeros,-63.67,-65.58,-68.75,-69.84,
-Servicios,-34.77,-16.14,-48.89,-61.72,,Pernoctaciones hoteleras,-73.39,-64.29,-78.39,-83.27,
+Servicios,-34.77,-16.14,-48.89,-61.72,-86.47,Pernoctaciones hoteleras,-73.39,-64.29,-78.39,-83.27,-84.48
 Servicios,-10.67,1.61,-22.6,-43.42,,Pernoctaciones extrahoteleras,-49.16,-41.37,-58.07,-66.41,
 Sector exterior,-32.26,-17.15,-5.18,-17.29,,Importaciones,-14.7,-17.17,-10.79,-11.91,
 Sector exterior,-6.84,-4.14,20.51,5.33,,Exportaciones,-7.52,-9.12,-0.93,-5.88,
 Sector exterior,132.74,250.09,568.15,151.69,,Saldo comercial,87.68,56.44,65.05,74.74,
 Sector exterior,44.35,16.5,28.37,31.56,,Tasa de cobertura,7.66,8.07,9.35,6.24,
-Sanidad,1.75,3.13,4.34,,,Gasto en productos farmacéuticos y sanitarios,10.34,10.51,10.75,,
+Sanidad,1.75,3.13,4.34,3.01,,Gasto en productos farmacéuticos y sanitarios,10.14,10.33,10.59,10.57,
