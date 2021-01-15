@@ -10,20 +10,20 @@ Mercado de Trabajo,-0.91,-0.71,-0.4,-0.66,-0.42,Afiliados no asalariados,-0.02,-
 Mercado de Trabajo,55.56,-80.49,-25.13,,,Trabajadores afectados por expedientes de regulación de empleo,129.56,21.74,5.96,,
 "Nivel, calidad y condiciones de vida",45.46,32.35,14.26,15.4,,Beneficiarios prestaciones por desempleo,52.63,41.63,35.88,21.26,
 "Nivel, calidad y condiciones de vida",60.96,45.19,30.62,29.54,,Gasto prestaciones por desempleo,73.15,63.79,61.85,42.87,
-"Nivel, calidad y condiciones de vida",-0.6,-0.4,-0.8,-0.9,,Índice de precios al consumo,-0.5,-0.4,-0.8,-0.8,
+"Nivel, calidad y condiciones de vida",-0.6,-0.4,-0.8,-0.9,-0.5,Índice de precios al consumo,-0.5,-0.4,-0.8,-0.8,-0.5
 "Nivel, calidad y condiciones de vida",0.12,0.07,0.05,,,Pensiones Contributivas,0.22,0.05,0.05,,
 "Nivel, calidad y condiciones de vida",-0.87,-0.73,-0.37,,,Pensiones No Contributivas,-0.47,-0.55,-1.05,,
 Industria y energía,-13.4,0.1,-5.2,,,Índice de cifra de negocios en la industria,-9.9,-3.3,-8.8,,
-Industria y energía,23.25,-3.01,-5.84,-14.92,,Matriculación de vehículos,-6.11,-6.73,-17.23,-15.28,
+Industria y energía,23.25,-3.01,-5.84,-14.92,-2.14,Matriculación de vehículos,-5.87,-6.58,-17.11,-15.16,2.03
 Industria y energía,-17.3,-0.06,2.15,26.81,,Indicador de clima industrial,-11.16,-4.2,-0.77,-4.13,
 Industria y energía,-3.9,2.5,-5.5,1.1,,Índice de Producción Industrial,-5.9,-0.6,-6.2,-2.0,
 Industria y energía,-9.42,-5.5,-11.37,-15.89,,Consumo de productos petrolíferos,-12.76,-7.51,-12.13,-17.42,
 Industria y energía,-27.1,-31.74,-18.42,,,Consumo de gas natural,-12.23,-7.05,-15.82,,
 Construcción,-8.84,-18.6,-29.56,18.41,,Consumo de cemento,-3.9,2.46,-13.22,3.81,
-Empresas,-3.3,-2.53,-1.66,-3.27,,Empresas inscritas en la Seguridad social,-3.5,-3.1,-2.46,-3.39,
+Empresas,-3.3,-2.53,-1.66,-3.27,-3.26,Empresas inscritas en la Seguridad social,-3.5,-3.1,-2.46,-3.39,-3.34
 Empresas,11.02,10.02,8.57,10.45,,Empresas afectadas por ERTE,15.78,13.88,11.46,13.04,
-Empresas,-5.85,-4.28,-2.48,-5.43,,Personas físicas inscritas en la Seguridad social,-6.04,-5.37,-4.22,-5.29,
-Empresas,-1.46,-1.31,-1.11,-1.79,,Personas jurídicas inscritas en la Seguridad social,-1.98,-1.75,-1.43,-2.25,
+Empresas,-5.85,-4.28,-2.48,-5.43,-5.71,Personas físicas inscritas en la Seguridad social,-6.04,-5.37,-4.22,-5.29,-5.75
+Empresas,-1.46,-1.31,-1.11,-1.79,-1.6,Personas jurídicas inscritas en la Seguridad social,-1.98,-1.75,-1.43,-2.25,-1.85
 Empresas,45.16,-23.33,-20.75,,,Sociedades mercantiles constituidas,7.06,14.03,-7.95,,
 Empresas,70.0,-56.0,-40.0,,,Sociedades mercantiles disueltas,-3.77,29.32,-8.84,,
 Servicios,-7.7,-4.6,-8.5,,,Índice de cifra de negocios del sector servicios,-15.3,-12.7,-14.0,,

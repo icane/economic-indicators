@@ -174,7 +174,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['A partir de diciembre se incluyen los ERTE del RDL 30/2020.'],
+            'note': ['A partir de noviembre se incluyen los ERTE del RDL 30/2020.'],
             'json': {
                 'value': 'afiliados-afectados-erte.json-stat',
                 'trend': 'afiliados-afectados-erte-tendencia.json-stat'
