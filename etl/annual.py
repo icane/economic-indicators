@@ -1,26 +1,26 @@
 """Annual indicators."""
 
-from etl.common import to_json_stat, write_to_file
+import json
 
+from etl.common import to_json_stat, write_to_file
 from etl.config_annual import annual_cfg as cfg
 
 from etlstat.extractor.extractor import xlsx
-
-import json
 
 import pandas as pd
 
 
 def transform(df, periods, prefix=''):
-    """Slice dataframe. Generate time period column.
-    
+    """
+    Slice dataframe. Generate time period column.
+
         df (dataframe): dataset
         periods (int): number of time periods
         prefix (str): prefix for time periods
     """
     for i in range(0, len(df)):
         period = str(df.loc[i, 'Año'])
-        df.loc[i, 'period'] =  prefix + period
+        df.loc[i, 'period'] = prefix + period
 
     df.drop(columns={'Año'}, axis=1, inplace=True)
     df.rename(columns={'period': 'Año'}, inplace=True)
@@ -56,13 +56,14 @@ for key in cfg.series:
 
     # Remove .0 from Año
     data[cfg.file][cfg.series[key].sheet]['Año'] = \
-        data[cfg.file][cfg.series[key].sheet]['Año'].astype(str).replace('\.0', '', regex=True)
+        data[cfg.file][cfg.series[key].sheet]['Año'].astype(str).replace(
+            r'\.0', '', regex=True)
 
     # Value variables
     value_vars = cfg.series[key].value_vars
     variables = ['Año', 'Valor Cantabria', 'Valor España']
-    df = data[cfg.file]\
-        [cfg.series[key].sheet][variables].copy()
+    df = data[cfg.file][
+            cfg.series[key].sheet][variables].copy()
     df = transform(df, cfg.periods.annual)
     json_file = to_json_stat(
         df,
@@ -78,9 +79,12 @@ for key in cfg.series:
 
     # Rate and trend vars
     if cfg.series[key].rate_vars != []:
-        variables = ['Año', 'Var. interanual Cantabria', 'Var. interanual España']
-        df_trend = data[cfg.file]\
-            [cfg.series[key].sheet][variables].copy()
+        variables = [
+            'Año', 'Var. interanual Cantabria', 'Var. interanual España'
+        ]
+        df_trend = data[cfg.file][
+            cfg.series[key].sheet
+        ][variables].copy()
         df_trend = transform(
             df_trend, cfg.periods.annual)
         # Exclude rows whose value for Var. interanual Cantabria is NA
@@ -126,7 +130,7 @@ for key in cfg.series:
         # merge dataframes
         df_cant = df_cant.merge(df_esp, on=' - Indicadores')
         # append to global
-        indicators.append(df_cant)    
+        indicators.append(df_cant)
 
 df_global = pd.concat(indicators, axis=0, verify_integrity=False)
 df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
