@@ -3,7 +3,7 @@ Economía,-10.48,2.27,,,,Ingresos tributarios netos,-12.42,4.23,,,
 Economía,187.8,,,,,Déficit público CC.AA,123.86,,,,
 Mercado de Trabajo,13.47,14.59,16.06,12.67,14.44,Paro registrado,20.4,20.42,22.9,21.84,23.5
 Mercado de Trabajo,-24.36,-19.69,-27.51,-23.88,-22.89,Contratos,-30.27,-17.82,-22.13,-26.2,-23.98
-Mercado de Trabajo,2.06,3.0,4.92,,,Afiliados afectados por ERTE,4.1,4.76,4.84,,
+Mercado de Trabajo,2.06,3.0,4.92,4.7,,Afiliados afectados por ERTE,4.1,4.76,4.84,4.75,
 Mercado de Trabajo,0.06,-1.92,-1.53,-0.66,,Afiliados,-1.02,-2.27,-1.85,-1.13,
 Mercado de Trabajo,0.17,-2.21,-1.79,-0.78,,Afiliados asalariados,-1.28,-2.71,-2.24,-1.44,
 Mercado de Trabajo,-0.4,-0.66,-0.42,-0.18,,Afiliados no asalariados,0.25,-0.12,0.05,0.4,
@@ -21,7 +21,7 @@ Industria y energía,-11.37,-15.89,-4.89,,,Consumo de productos petrolíferos,-1
 Industria y energía,-18.42,-31.82,-24.07,,,Consumo de gas natural,-13.86,-10.6,4.31,,
 Construcción,-29.56,18.41,14.5,-25.12,,Consumo de cemento,-13.21,3.55,8.17,-19.22,
 Empresas,-1.66,-3.27,-3.26,-3.44,,Empresas inscritas en la Seguridad social,-2.46,-3.39,-3.34,-2.68,
-Empresas,8.57,10.45,14.7,,,Empresas afectadas por ERTE,11.46,13.04,13.57,,
+Empresas,8.57,10.45,14.7,14.7,,Empresas afectadas por ERTE,11.46,13.04,13.57,13.5,
 Empresas,-2.48,-5.43,-5.71,-5.85,,Personas físicas inscritas en la Seguridad social,-4.22,-5.29,-5.75,-4.25,
 Empresas,-1.11,-1.79,-1.6,-1.83,,Personas jurídicas inscritas en la Seguridad social,-1.43,-2.25,-1.85,-1.75,
 Empresas,-20.75,59.46,26.67,,,Sociedades mercantiles constituidas,-7.95,0.1,8.08,,
