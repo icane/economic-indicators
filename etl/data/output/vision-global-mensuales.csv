@@ -20,12 +20,12 @@ Industria y energía,-5.6,1.4,9.7,-5.1,,Índice de Producción Industrial,-6.2,-
 Industria y energía,-11.37,-15.89,-4.89,,,Consumo de productos petrolíferos,-12.13,-17.41,-6.52,,
 Industria y energía,-18.42,-31.82,-24.07,,,Consumo de gas natural,-13.86,-10.6,4.31,,
 Construcción,-29.56,18.41,14.5,-25.12,,Consumo de cemento,-13.21,3.55,8.17,-19.22,
-Empresas,-1.66,-3.27,-3.26,-3.44,,Empresas inscritas en la Seguridad social,-2.46,-3.39,-3.34,-2.68,
-Empresas,8.57,10.45,14.7,14.7,,Empresas afectadas por ERTE,11.46,13.04,13.57,13.5,
-Empresas,-2.48,-5.43,-5.71,-5.85,,Personas físicas inscritas en la Seguridad social,-4.22,-5.29,-5.75,-4.25,
-Empresas,-1.11,-1.79,-1.6,-1.83,,Personas jurídicas inscritas en la Seguridad social,-1.43,-2.25,-1.85,-1.75,
-Empresas,-20.75,59.46,26.67,,,Sociedades mercantiles constituidas,-7.95,0.1,8.08,,
-Empresas,-40.0,-33.33,0.0,,,Sociedades mercantiles disueltas,-8.84,4.04,10.45,,
+Empresas,-1.66,-3.27,-3.26,-3.44,-3.87,Empresas inscritas en la Seguridad social,-2.46,-3.39,-3.34,-2.68,-3.65
+Empresas,8.57,10.45,14.7,14.7,15.46,Empresas afectadas por ERTE,11.46,13.04,13.57,13.5,15.67
+Empresas,-2.48,-5.43,-5.71,-5.85,-6.36,Personas físicas inscritas en la Seguridad social,-4.22,-5.29,-5.75,-4.25,-6.19
+Empresas,-1.11,-1.79,-1.6,-1.83,-2.2,Personas jurídicas inscritas en la Seguridad social,-1.43,-2.25,-1.85,-1.75,-2.13
+Empresas,-20.75,59.46,26.67,36.73,,Sociedades mercantiles constituidas,-7.95,0.1,8.08,-9.76,
+Empresas,-40.0,-33.33,0.0,-14.58,,Sociedades mercantiles disueltas,-8.84,4.04,10.45,-15.25,
 Servicios,-8.6,-8.1,-4.4,,,Índice de cifra de negocios del sector servicios,-14.1,-12.6,-8.7,,
 Servicios,-4.6,-5.0,-6.3,,,Índice de ocupación del sector servicios,-5.1,-4.9,-4.9,,
 Servicios,1.6,-6.3,1.71,,,Índice de cifra de negocios del comercio al por menor a precios constantes,-2.3,-5.8,-0.63,,
