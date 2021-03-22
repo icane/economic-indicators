@@ -19,7 +19,7 @@ Industria y energía,2.15,26.81,12.77,-5.12,8.85,Indicador de clima industrial,-
 Industria y energía,-5.6,1.4,9.7,-5.1,,Índice de Producción Industrial,-6.2,-2.2,2.2,-6.9,
 Industria y energía,-11.37,-15.89,-4.89,-8.15,,Consumo de productos petrolíferos,-12.13,-17.41,-6.52,-18.2,
 Industria y energía,-18.42,-31.82,-24.07,,,Consumo de gas natural,-13.86,-10.6,4.31,,
-Construcción,-29.56,18.41,14.5,-25.12,,Consumo de cemento,-13.21,3.55,8.17,-19.22,
+Construcción,-32.33,14.89,21.32,-23.73,-12.92,Consumo de cemento,-13.21,3.55,9.34,-19.22,-2.4
 Empresas,-1.66,-3.27,-3.26,-3.44,-3.87,Empresas inscritas en la Seguridad social,-2.46,-3.39,-3.34,-2.68,-3.65
 Empresas,8.57,10.45,14.7,14.7,15.46,Empresas afectadas por ERTE,11.46,13.04,13.57,13.5,15.67
 Empresas,-2.48,-5.43,-5.71,-5.85,-6.36,Personas físicas inscritas en la Seguridad social,-4.22,-5.29,-5.75,-4.25,-6.19
@@ -35,8 +35,8 @@ Servicios,-17.25,26.94,-12.97,-24.13,,Tráfico portuario,-5.39,-1.2,-1.09,0.0,
 Servicios,-68.17,-58.09,-33.2,-73.09,,Tráfico portuario de pasajeros,-69.84,-74.07,-67.53,-74.63,
 Servicios,-61.72,-86.47,-81.72,-76.1,,Pernoctaciones hoteleras,-83.27,-84.48,-81.19,-85.0,
 Servicios,-43.42,-88.97,-90.68,-74.71,,Pernoctaciones extrahoteleras,-66.41,-74.82,-71.15,-73.96,
-Sector exterior,-17.29,-11.02,-7.9,,,Importaciones,-11.91,-5.95,-3.3,,
-Sector exterior,5.33,16.58,16.7,,,Exportaciones,-5.88,-1.32,0.9,,
+Sector exterior,-17.29,-11.02,-7.9,-8.8,,Importaciones,-11.91,-5.95,-3.3,-16.4,
+Sector exterior,5.33,16.58,16.7,-20.3,,Exportaciones,-5.88,-1.32,0.9,-11.4,
 Sector exterior,166.72,120.2,631.83,,,Saldo comercial,75.45,69.56,52.91,,
 Sector exterior,32.42,25.26,,,,Tasa de cobertura,6.46,4.95,,,
 Sanidad,3.01,3.69,,,,Gasto en productos farmacéuticos y sanitarios,10.57,10.95,,,
