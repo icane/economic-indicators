@@ -766,7 +766,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['La zona oeste está conformada por las Comunidades Autónomas de Castilla León, Galicia, Asturias y Cantabria. Los datos de febrero de 2020 y posteriores son provisionales.'],
+            'note': ['La zona oeste está conformada por las Comunidades Autónomas de Castilla y León, Galicia, Asturias y Cantabria. Los datos de marzo de 2020 y posteriores son provisionales.'],
             'json': {
                 'value': 'consumo-cemento.json-stat',
                 'trend': 'consumo-cemento-tendencia.json-stat'
