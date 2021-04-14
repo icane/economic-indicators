@@ -3,14 +3,14 @@ Economía,2.27,47.35,-241.76,-27.9,,Ingresos tributarios netos,4.23,-6.02,-1.18,
 Economía,337.25,147.45,-115.38,,,Déficit público CC.AA,158.73,67.54,-48.21,,
 Mercado de Trabajo,14.59,16.06,12.67,14.44,5.77,Paro registrado,20.42,22.9,21.84,23.5,11.31
 Mercado de Trabajo,-19.69,-27.51,-23.88,-22.89,36.8,Contratos,-17.82,-22.13,-26.2,-23.98,11.75
-Mercado de Trabajo,3.0,4.92,4.7,5.22,,Afiliados afectados por ERTE,4.76,4.84,4.75,5.78,
-Mercado de Trabajo,-1.92,-1.53,-0.66,-1.6,,Afiliados,-2.27,-1.85,-1.13,-2.27,
-Mercado de Trabajo,-2.21,-1.79,-0.78,-1.89,,Afiliados asalariados,-2.71,-2.24,-1.44,-2.77,
-Mercado de Trabajo,-0.66,-0.42,-0.18,-0.41,,Afiliados no asalariados,-0.12,0.05,0.4,0.15,
+Mercado de Trabajo,3.0,4.92,4.7,5.22,3.9,Afiliados afectados por ERTE,4.76,4.84,4.75,5.78,4.8
+Mercado de Trabajo,-1.92,-1.53,-0.66,-1.6,2.6,Afiliados,-2.27,-1.85,-1.13,-2.27,1.89
+Mercado de Trabajo,-2.21,-1.79,-0.78,-1.89,3.1,Afiliados asalariados,-2.71,-2.24,-1.44,-2.77,1.97
+Mercado de Trabajo,-0.66,-0.42,-0.18,-0.41,0.59,Afiliados no asalariados,-0.12,0.05,0.4,0.15,1.5
 Mercado de Trabajo,280.95,-95.53,-95.83,,,Trabajadores afectados por expedientes de regulación de empleo,225.41,-58.23,-1.29,,
 "Nivel, calidad y condiciones de vida",15.4,18.67,12.31,12.55,,Beneficiarios prestaciones por desempleo,21.26,17.08,16.09,17.82,
 "Nivel, calidad y condiciones de vida",29.54,40.61,33.27,37.37,,Gasto prestaciones por desempleo,42.87,43.23,40.83,51.02,
-"Nivel, calidad y condiciones de vida",-0.9,-0.5,0.5,0.0,,Índice de precios al consumo,-0.8,-0.5,0.5,-0.1,
+"Nivel, calidad y condiciones de vida",-0.9,-0.5,0.5,-0.1,1.5,Índice de precios al consumo,-0.8,-0.5,0.5,0.0,1.3
 "Nivel, calidad y condiciones de vida",,,,,,Pensiones Contributivas,,,,,
 "Nivel, calidad y condiciones de vida",,,,,,Pensiones No Contributivas,,,,,
 Industria y energía,-0.4,-1.2,-1.9,,,Índice de cifra de negocios en la industria,-2.4,-2.0,-9.9,,
@@ -24,8 +24,8 @@ Empresas,-3.27,-3.26,-3.44,-3.87,2.22,Empresas inscritas en la Seguridad social,
 Empresas,10.45,14.7,14.7,15.46,13.15,Empresas afectadas por ERTE,13.04,13.57,13.5,15.67,14.04
 Empresas,-5.43,-5.71,-5.85,-6.36,3.74,Personas físicas inscritas en la Seguridad social,-5.29,-5.75,-4.25,-6.19,4.63
 Empresas,-1.79,-1.6,-1.83,-2.2,1.24,Personas jurídicas inscritas en la Seguridad social,-2.25,-1.85,-1.75,-2.13,2.04
-Empresas,59.46,26.67,36.73,,,Sociedades mercantiles constituidas,0.1,8.08,-9.76,,
-Empresas,-33.33,0.0,-14.58,,,Sociedades mercantiles disueltas,4.04,10.45,-15.25,,
+Empresas,59.46,26.67,36.73,51.79,,Sociedades mercantiles constituidas,0.1,8.08,-9.78,3.09,
+Empresas,-33.33,0.0,-14.58,13.79,,Sociedades mercantiles disueltas,4.04,10.45,-15.33,3.43,
 Servicios,-8.0,-4.3,-12.0,,,Índice de cifra de negocios del sector servicios,-12.6,-8.7,-16.5,,
 Servicios,-5.0,-6.3,-5.8,,,Índice de ocupación del sector servicios,-4.9,-4.9,-4.6,,
 Servicios,-5.9,1.9,-6.7,-5.3,,Índice de cifra de negocios del comercio al por menor a precios constantes,-5.9,-0.5,-10.8,-9.4,
