@@ -130,7 +130,7 @@ indicators = []
 for key in cfg.series:
     if cfg.series[key].rate_vars != []:
         # Crea dos nuevas variables para mostrar el valor del indicador
-        if key in ['deuda_publica_ccaa_pib']:
+        if key in ['deuda_publica_ccaa_pib', 'balanza_comercial']:
             coltoshow = 'Valor Cantabria'
             coltoshowes = 'Valor España'
         else:
