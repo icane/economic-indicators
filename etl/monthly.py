@@ -154,8 +154,7 @@ for key in cfg.series:
 df_global = pd.DataFrame()
 indicators = []
 for key in cfg.series:
-
-    if key in cfg.series != []:
+    if cfg.series[key].rate_vars != []:  # if there is a variation to show
         if key in ['empresas_afectadas_erte', 'afiliados_afectados_erte']:
             coltoshow = 'Cantabria'
             coltoshowes = 'España'
