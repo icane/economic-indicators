@@ -7,7 +7,7 @@ Mercado de Trabajo,3.0,4.92,4.7,5.22,3.9,Afiliados afectados por ERTE,4.76,4.84,
 Mercado de Trabajo,-1.92,-1.53,-0.66,-1.6,2.6,Afiliados,-2.27,-1.85,-1.13,-2.27,1.89
 Mercado de Trabajo,-2.21,-1.79,-0.78,-1.89,3.1,Afiliados asalariados,-2.71,-2.24,-1.44,-2.77,1.97
 Mercado de Trabajo,-0.66,-0.42,-0.18,-0.41,0.59,Afiliados no asalariados,-0.12,0.05,0.4,0.15,1.5
-Mercado de Trabajo,280.95,-95.53,-95.83,,,Trabajadores afectados por expedientes de regulación de empleo,225.41,-58.23,-1.29,,
+Mercado de Trabajo,280.95,-95.53,-95.83,187.27,,Trabajadores afectados por expedientes de regulación de empleo,225.41,-58.23,-1.29,250.74,
 "Nivel, calidad y condiciones de vida",15.4,18.67,12.31,12.55,,Beneficiarios prestaciones por desempleo,21.26,17.08,16.09,17.82,
 "Nivel, calidad y condiciones de vida",29.54,40.61,33.27,37.37,,Gasto prestaciones por desempleo,42.87,43.23,40.83,51.02,
 "Nivel, calidad y condiciones de vida",-0.9,-0.5,0.5,-0.1,1.5,Índice de precios al consumo,-0.8,-0.5,0.5,0.0,1.3
@@ -18,7 +18,7 @@ Industria y energía,-14.92,-2.14,-39.61,-15.93,203.5,Matriculación de vehícul
 Industria y energía,26.81,12.77,-5.12,8.85,20.93,Indicador de clima industrial,-4.13,-5.38,1.6,-3.64,-3.64
 Industria y energía,1.4,9.6,-5.3,12.0,,Índice de Producción Industrial,-2.2,2.2,-7.0,-3.4,
 Industria y energía,-15.89,-4.89,-8.16,-17.35,,Consumo de productos petrolíferos,-17.41,-6.51,-18.14,-15.46,
-Industria y energía,-31.82,-24.07,-10.93,,,Consumo de gas natural,-9.76,2.35,-2.92,,
+Industria y energía,-31.82,-24.07,-10.93,-13.25,,Consumo de gas natural,-9.75,2.38,-2.91,-11.7,
 Construcción,9.7,13.04,-25.82,-11.46,89.59,Consumo de cemento,3.55,9.12,-18.76,-1.66,52.63
 Empresas,-3.27,-3.26,-3.44,-3.87,2.22,Empresas inscritas en la Seguridad social,-3.39,-3.34,-2.68,-3.65,2.96
 Empresas,10.45,14.7,14.7,15.46,13.15,Empresas afectadas por ERTE,13.04,13.57,13.5,15.67,14.04
@@ -31,9 +31,9 @@ Servicios,-5.0,-6.3,-5.9,-6.8,,Índice de ocupación del sector servicios,-4.9,-
 Servicios,-5.9,1.9,-6.7,-5.3,,Índice de cifra de negocios del comercio al por menor a precios constantes,-5.9,-0.5,-10.8,-9.4,
 Servicios,-2.2,-3.0,-3.1,-3.6,,Índice de ocupación del comercio al por menor,-3.4,-3.6,-3.3,-3.4,
 Servicios,-92.48,-88.13,-90.32,-93.24,,Tráfico aéreo de pasajeros,-84.12,-79.08,-83.43,-86.81,
-Servicios,26.94,-12.97,-24.13,40.79,,Tráfico portuario,-1.2,-1.09,-7.84,-8.31,
-Servicios,-58.09,-33.2,-73.09,-63.68,,Tráfico portuario de pasajeros,-74.07,-67.53,-74.63,-72.84,
-Servicios,-86.47,-81.72,-75.41,-73.33,,Pernoctaciones hoteleras,-84.48,-81.19,-85.01,-86.46,
+Servicios,26.94,-12.97,-24.13,40.79,26.06,Tráfico portuario,-1.2,-1.09,-7.84,-8.31,4.12
+Servicios,-58.09,-33.2,-73.09,-63.68,-1.35,Tráfico portuario de pasajeros,-74.07,-67.53,-74.63,-72.84,-24.7
+Servicios,-86.47,-81.72,-75.41,-73.33,-34.41,Pernoctaciones hoteleras,-84.48,-81.19,-85.01,-86.46,-57.94
 Servicios,-88.97,-90.68,-74.71,-80.12,,Pernoctaciones extrahoteleras,-74.82,-71.15,-73.96,-77.91,
 Sector exterior,-11.02,-7.9,-8.8,23.4,,Importaciones,-5.95,-3.3,-16.4,-5.7,
 Sector exterior,16.58,16.7,-20.3,19.8,,Exportaciones,-1.32,0.9,-11.4,-1.9,
