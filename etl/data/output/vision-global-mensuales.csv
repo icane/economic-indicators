@@ -3,7 +3,7 @@ Economía,-27.9,-10.64,133.42,-31.41,,Ingresos tributarios netos,-4.34,-3.41,91.
 Economía,-680.0,-2900.0,-291.43,,,Déficit público CC.AA,-107.95,-29.88,-467.5,,
 Mercado de Trabajo,14.44,5.77,-1.48,-5.69,-7.91,Paro registrado,23.5,11.31,2.07,-1.98,-6.43
 Mercado de Trabajo,-22.89,36.8,189.94,102.17,77.27,Contratos,-23.98,11.75,101.57,81.67,55.06
-Mercado de Trabajo,5.22,3.9,3.53,,,Afiliados afectados por ERTE,5.78,4.8,4.07,,
+Mercado de Trabajo,5.22,3.9,3.53,3.19,,Afiliados afectados por ERTE,5.78,4.8,4.07,3.4,
 Mercado de Trabajo,-1.6,2.6,3.32,3.65,,Afiliados,-2.27,1.89,3.23,3.55,
 Mercado de Trabajo,-1.89,3.1,3.77,4.19,,Afiliados asalariados,-2.77,1.97,3.35,3.78,
 Mercado de Trabajo,-0.41,0.59,1.47,1.42,,Afiliados no asalariados,0.15,1.5,2.65,2.46,
@@ -17,11 +17,11 @@ Industria y energía,1.4,26.7,64.5,,,Índice de cifra de negocios en la industri
 Industria y energía,-15.93,203.5,4337.04,62.22,,Matriculación de vehículos,-31.33,120.3,1269.29,111.82,
 Industria y energía,8.85,20.93,15.39,46.06,53.73,Indicador de clima industrial,-3.64,3.72,34.48,34.27,21.83
 Industria y energía,12.0,27.4,47.0,34.9,,Índice de Producción Industrial,-3.4,15.4,50.2,28.2,
-Industria y energía,-17.35,7.41,84.52,,,Consumo de productos petrolíferos,-15.46,21.15,60.17,,
+Industria y energía,-17.35,7.41,84.52,31.33,,Consumo de productos petrolíferos,-15.46,21.15,60.17,39.26,
 Industria y energía,-13.25,5.85,25.27,,,Consumo de gas natural,-11.7,8.37,28.56,,
 Construcción,-7.62,35.66,59.68,6.26,,Consumo de cemento,-1.66,49.34,116.76,16.89,
 Empresas,-3.87,2.22,3.49,3.04,,Empresas inscritas en la Seguridad social,-3.65,2.96,4.21,3.13,
-Empresas,15.46,13.15,12.14,,,Empresas afectadas por ERTE,15.67,14.04,12.52,,
+Empresas,15.46,13.15,12.14,10.98,,Empresas afectadas por ERTE,15.67,14.04,12.52,10.9,
 Empresas,-6.36,3.74,5.51,4.31,,Personas físicas inscritas en la Seguridad social,-6.19,4.63,6.34,4.03,
 Empresas,-2.2,1.24,2.2,2.21,,Personas jurídicas inscritas en la Seguridad social,-2.13,2.04,3.04,2.63,
 Empresas,51.79,49.02,200.0,171.43,,Sociedades mercantiles constituidas,3.09,61.79,298.36,152.37,
