@@ -18,7 +18,7 @@ Industria y energía,-15.93,203.5,4337.04,62.22,-5.56,Matriculación de vehícul
 Industria y energía,8.85,20.93,15.39,46.06,53.73,Indicador de clima industrial,-3.64,3.72,34.48,34.27,21.83
 Industria y energía,12.0,27.4,47.0,34.9,,Índice de Producción Industrial,-3.4,15.4,50.2,28.2,
 Industria y energía,-17.35,7.41,84.52,31.33,,Consumo de productos petrolíferos,-15.46,21.15,60.17,39.26,
-Industria y energía,-13.25,5.85,25.27,,,Consumo de gas natural,-11.7,8.37,28.56,,
+Industria y energía,-13.25,5.85,25.27,19.17,,Consumo de gas natural,-11.7,8.37,28.56,17.52,
 Construcción,-7.62,35.66,59.68,6.26,6.72,Consumo de cemento,-1.66,49.34,116.76,16.89,4.73
 Empresas,-3.87,2.22,3.49,3.04,,Empresas inscritas en la Seguridad social,-3.65,2.96,4.21,3.13,
 Empresas,15.46,13.15,12.14,10.98,,Empresas afectadas por ERTE,15.67,14.04,12.52,10.9,
@@ -31,9 +31,9 @@ Servicios,-6.8,-4.1,0.5,2.8,,Índice de ocupación del sector servicios,-4.9,-2.
 Servicios,-5.4,17.8,35.8,18.9,,Índice de cifra de negocios del comercio al por menor a precios constantes,-9.6,18.1,38.5,18.8,
 Servicios,-3.8,-2.1,0.0,1.4,,Índice de ocupación del comercio al por menor,-3.4,-2.1,0.0,1.6,
 Servicios,-93.24,-79.54,38061.11,90556.25,3991.37,Tráfico aéreo de pasajeros,-86.81,-60.63,2503.86,2100.43,779.39
-Servicios,40.79,26.06,28.96,,,Tráfico portuario,-8.31,4.12,9.27,,
-Servicios,-63.68,-1.35,430.81,,,Tráfico portuario de pasajeros,-72.84,-24.7,547.39,,
-Servicios,-73.33,-34.41,,2597.38,,Pernoctaciones hoteleras,-86.46,-57.94,,2565.04,
+Servicios,40.79,26.06,28.96,72.85,-5.9,Tráfico portuario,-8.31,4.12,9.27,18.51,11.57
+Servicios,-63.68,-1.35,430.81,409.59,1106.18,Tráfico portuario de pasajeros,-72.84,-24.7,547.39,395.52,99.61
+Servicios,-73.33,-34.41,,2597.38,435.28,Pernoctaciones hoteleras,-86.46,-57.94,,2565.04,654.55
 Servicios,-80.12,3.13,,1370.65,,Pernoctaciones extrahoteleras,-77.91,-20.08,,1163.76,
 Sector exterior,23.4,37.8,35.8,62.0,,Importaciones,-5.7,20.5,63.9,55.6,
 Sector exterior,19.8,24.3,67.5,58.6,,Exportaciones,-1.9,29.9,71.8,55.3,
