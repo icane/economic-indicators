@@ -4,16 +4,16 @@ Economía,-2900.0,-291.43,-528.57,,,Déficit público CC.AA,-29.88,-467.5,11.64,
 Mercado de Trabajo,5.77,-1.48,-5.69,-7.91,-4.61,Paro registrado,11.31,2.07,-1.98,-6.43,-9.45
 Mercado de Trabajo,36.8,189.94,102.17,77.27,16.8,Contratos,11.75,101.57,81.67,55.06,19.67
 Mercado de Trabajo,3.9,3.53,3.19,,,Afiliados afectados por ERTE,4.8,4.07,3.4,,
-Mercado de Trabajo,2.6,3.32,3.65,,,Afiliados,1.89,3.23,3.55,,
-Mercado de Trabajo,3.1,3.77,4.19,,,Afiliados asalariados,1.97,3.35,3.78,,
-Mercado de Trabajo,0.59,1.47,1.42,,,Afiliados no asalariados,1.5,2.65,2.46,,
+Mercado de Trabajo,2.6,3.32,3.65,4.69,4.24,Afiliados,1.89,3.23,3.55,4.31,4.67
+Mercado de Trabajo,3.1,3.77,4.19,5.56,5.01,Afiliados asalariados,1.97,3.35,3.78,4.79,5.26
+Mercado de Trabajo,0.59,1.47,1.42,1.16,0.96,Afiliados no asalariados,1.5,2.65,2.46,2.03,1.92
 Mercado de Trabajo,-98.58,-98.04,-100.0,,,Trabajadores afectados por expedientes de regulación de empleo,-99.08,-98.63,-95.47,,
 "Nivel, calidad y condiciones de vida",-2.2,-57.28,-62.38,-49.66,,Beneficiarios prestaciones por desempleo,5.65,-53.33,-58.15,-50.84,
 "Nivel, calidad y condiciones de vida",33.27,-55.86,-62.9,-46.22,,Gasto prestaciones por desempleo,44.15,-49.38,-57.79,-50.7,
-"Nivel, calidad y condiciones de vida",1.5,1.5,2.7,3.1,,Índice de precios al consumo,1.3,1.3,2.7,2.7,
+"Nivel, calidad y condiciones de vida",1.5,1.5,2.7,3.1,3.0,Índice de precios al consumo,1.3,1.3,2.7,2.7,2.9
 "Nivel, calidad y condiciones de vida",0.42,0.54,0.95,1.11,1.18,Pensiones Contributivas,0.17,0.34,0.84,1.02,1.04
 "Nivel, calidad y condiciones de vida",-0.38,-0.28,0.21,0.23,,Pensiones No Contributivas,-1.09,-1.13,-0.96,-0.83,
-Industria y energía,26.7,64.5,43.3,,,Índice de cifra de negocios en la industria,22.0,69.4,41.7,,
+Industria y energía,26.7,64.5,43.3,22.1,,Índice de cifra de negocios en la industria,22.0,69.4,41.7,19.0,
 Industria y energía,203.5,4337.04,62.22,-5.56,,Matriculación de vehículos,120.3,1269.29,111.82,10.33,
 Industria y energía,20.93,15.39,46.06,53.73,,Indicador de clima industrial,3.72,34.48,34.27,21.83,
 Industria y energía,27.4,47.0,34.9,12.0,,Índice de Producción Industrial,15.4,50.2,28.2,11.2,
@@ -24,10 +24,10 @@ Empresas,2.22,3.49,3.04,2.93,2.35,Empresas inscritas en la Seguridad social,2.96
 Empresas,13.15,12.14,10.98,,,Empresas afectadas por ERTE,14.04,12.52,10.9,,
 Empresas,3.74,5.51,4.31,3.7,2.52,Personas físicas inscritas en la Seguridad social,4.63,6.34,4.03,3.0,2.31
 Empresas,1.24,2.2,2.21,2.41,2.22,Personas jurídicas inscritas en la Seguridad social,2.04,3.04,2.63,2.44,2.37
-Empresas,49.02,200.0,171.43,,,Sociedades mercantiles constituidas,61.79,298.36,152.37,,
-Empresas,-4.17,275.0,1100.0,,,Sociedades mercantiles disueltas,44.29,360.4,256.85,,
-Servicios,29.8,58.4,35.3,,,Índice de cifra de negocios del sector servicios,20.8,57.3,38.8,,
-Servicios,-4.1,0.5,2.8,,,Índice de ocupación del sector servicios,-2.8,0.8,2.3,,
+Empresas,49.02,200.0,171.43,22.95,,Sociedades mercantiles constituidas,61.79,298.36,152.37,41.81,
+Empresas,-4.17,275.0,1100.0,11.76,,Sociedades mercantiles disueltas,44.29,360.4,256.85,40.81,
+Servicios,29.8,58.4,35.3,20.2,,Índice de cifra de negocios del sector servicios,20.8,57.3,38.8,21.7,
+Servicios,-4.1,0.5,2.8,5.0,,Índice de ocupación del sector servicios,-2.8,0.8,2.3,3.4,
 Servicios,17.8,35.8,18.9,,,Índice de cifra de negocios del comercio al por menor a precios constantes,18.1,38.5,18.8,,
 Servicios,-2.1,0.0,1.4,,,Índice de ocupación del comercio al por menor,-2.1,0.0,1.6,,
 Servicios,-79.54,38061.11,90556.25,3991.37,,Tráfico aéreo de pasajeros,-60.63,2503.86,2100.43,779.39,
