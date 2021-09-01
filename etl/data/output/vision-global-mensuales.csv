@@ -1,42 +1,42 @@
-Categoria,Cantabria - 2021-03,Cantabria - 2021-04,Cantabria - 2021-05,Cantabria - 2021-06,Cantabria - 2021-07, - Indicadores,España - 2021-03,España - 2021-04,España - 2021-05,España - 2021-06,España - 2021-07
-Economía,-10.64,133.42,-31.41,-17.59,,Ingresos tributarios netos,-3.41,91.72,-16.42,46.45,
-Economía,-2900.0,-291.43,-528.57,,,Déficit público CC.AA,-29.88,-467.5,11.64,,
-Mercado de Trabajo,5.77,-1.48,-5.69,-7.91,-4.61,Paro registrado,11.31,2.07,-1.98,-6.43,-9.45
-Mercado de Trabajo,36.8,189.94,102.17,77.27,16.8,Contratos,11.75,101.57,81.67,55.06,19.67
-Mercado de Trabajo,3.9,3.53,3.19,,,Afiliados afectados por ERTE,4.8,4.07,3.4,,
-Mercado de Trabajo,2.6,3.32,3.65,4.69,4.24,Afiliados,1.89,3.23,3.55,4.31,4.67
-Mercado de Trabajo,3.1,3.77,4.19,5.56,5.01,Afiliados asalariados,1.97,3.35,3.78,4.79,5.26
-Mercado de Trabajo,0.59,1.47,1.42,1.16,0.96,Afiliados no asalariados,1.5,2.65,2.46,2.03,1.92
-Mercado de Trabajo,-98.58,-98.04,-100.0,,,Trabajadores afectados por expedientes de regulación de empleo,-99.08,-98.63,-95.47,,
-"Nivel, calidad y condiciones de vida",-2.2,-57.28,-62.38,-49.66,,Beneficiarios prestaciones por desempleo,5.65,-53.33,-58.15,-50.84,
-"Nivel, calidad y condiciones de vida",33.27,-55.86,-62.9,-46.22,,Gasto prestaciones por desempleo,44.15,-49.38,-57.79,-50.7,
-"Nivel, calidad y condiciones de vida",1.5,1.5,2.7,3.1,3.0,Índice de precios al consumo,1.3,1.3,2.7,2.7,2.9
-"Nivel, calidad y condiciones de vida",0.42,0.54,0.95,1.11,1.18,Pensiones Contributivas,0.17,0.34,0.84,1.02,1.04
-"Nivel, calidad y condiciones de vida",-0.38,-0.28,0.21,0.23,,Pensiones No Contributivas,-1.09,-1.13,-0.96,-0.83,
-Industria y energía,26.7,64.5,43.3,22.1,,Índice de cifra de negocios en la industria,22.0,69.4,41.7,19.0,
-Industria y energía,203.5,4337.04,62.22,-5.56,-27.93,Matriculación de vehículos,120.3,1269.29,111.82,10.33,-26.86
-Industria y energía,20.93,15.39,46.06,53.73,,Indicador de clima industrial,3.72,34.48,34.27,21.83,
-Industria y energía,27.4,47.0,34.9,12.0,,Índice de Producción Industrial,15.4,50.2,28.2,11.2,
-Industria y energía,7.41,84.52,31.33,,,Consumo de productos petrolíferos,21.15,60.17,39.26,,
-Industria y energía,5.85,25.27,19.17,17.21,,Consumo de gas natural,8.37,28.56,17.52,5.49,
-Construcción,35.66,59.68,6.26,6.72,,Consumo de cemento,49.34,116.76,16.89,4.73,
-Empresas,2.22,3.49,3.04,2.93,2.35,Empresas inscritas en la Seguridad social,2.96,4.21,3.13,2.64,2.35
-Empresas,13.15,12.14,10.98,,,Empresas afectadas por ERTE,14.04,12.52,10.9,,
-Empresas,3.74,5.51,4.31,3.7,2.52,Personas físicas inscritas en la Seguridad social,4.63,6.34,4.03,3.0,2.31
-Empresas,1.24,2.2,2.21,2.41,2.22,Personas jurídicas inscritas en la Seguridad social,2.04,3.04,2.63,2.44,2.37
-Empresas,49.02,200.0,171.43,22.95,,Sociedades mercantiles constituidas,61.79,298.36,152.37,41.81,
-Empresas,-4.17,275.0,1100.0,11.76,,Sociedades mercantiles disueltas,44.29,360.4,256.85,40.81,
-Servicios,29.8,58.4,35.3,20.2,,Índice de cifra de negocios del sector servicios,20.8,57.3,38.8,21.7,
-Servicios,-4.1,0.5,2.8,5.0,,Índice de ocupación del sector servicios,-2.8,0.8,2.3,3.4,
-Servicios,17.8,35.8,18.9,,,Índice de cifra de negocios del comercio al por menor a precios constantes,18.1,38.5,18.8,,
-Servicios,-2.1,0.0,1.4,,,Índice de ocupación del comercio al por menor,-2.1,0.0,1.6,,
-Servicios,-79.54,38061.11,90556.25,3991.37,97.66,Tráfico aéreo de pasajeros,-60.63,2503.86,2100.43,779.39,116.65
-Servicios,26.06,28.96,72.85,-5.9,,Tráfico portuario,4.12,9.27,18.51,11.57,
-Servicios,-1.35,430.81,409.59,1106.18,,Tráfico portuario de pasajeros,-24.7,547.39,395.52,99.61,
-Servicios,-34.41,,2597.38,435.28,26.67,Pernoctaciones hoteleras,-57.94,,2565.04,654.55,125.0
-Servicios,3.13,,1370.65,,,Pernoctaciones extrahoteleras,-20.08,,1163.76,,
-Sector exterior,37.8,35.8,62.0,46.9,,Importaciones,20.5,63.9,55.6,35.1,
-Sector exterior,24.3,67.5,58.6,16.5,,Exportaciones,29.9,71.8,55.3,22.0,
-Sector exterior,-3.25,613.29,51.05,-30.81,,Saldo comercial,79.77,14.6,12.62,-165.99,
+Categoria,Cantabria - 2021-04,Cantabria - 2021-05,Cantabria - 2021-06,Cantabria - 2021-07,Cantabria - 2021-08, - Indicadores,España - 2021-04,España - 2021-05,España - 2021-06,España - 2021-07,España - 2021-08
+Economía,133.42,-31.41,-17.59,,,Ingresos tributarios netos,91.72,-16.42,46.45,,
+Economía,-291.43,-528.57,,,,Déficit público CC.AA,-467.5,11.64,,,
+Mercado de Trabajo,-1.48,-5.69,-7.91,-4.61,,Paro registrado,2.07,-1.98,-6.43,-9.45,
+Mercado de Trabajo,189.94,102.17,77.27,16.8,,Contratos,101.57,81.67,55.06,19.67,
+Mercado de Trabajo,3.53,3.19,,,,Afiliados afectados por ERTE,4.07,3.4,,,
+Mercado de Trabajo,3.32,3.65,4.69,4.24,,Afiliados,3.23,3.55,4.31,4.67,
+Mercado de Trabajo,3.77,4.19,5.56,5.01,,Afiliados asalariados,3.35,3.78,4.79,5.26,
+Mercado de Trabajo,1.47,1.42,1.16,0.96,,Afiliados no asalariados,2.65,2.46,2.03,1.92,
+Mercado de Trabajo,-98.04,-100.0,-61.78,,,Trabajadores afectados por expedientes de regulación de empleo,-98.63,-95.47,-88.66,,
+"Nivel, calidad y condiciones de vida",-57.28,-62.38,-49.66,,,Beneficiarios prestaciones por desempleo,-53.33,-58.15,-50.84,,
+"Nivel, calidad y condiciones de vida",-55.86,-62.9,-46.22,,,Gasto prestaciones por desempleo,-49.38,-57.79,-50.7,,
+"Nivel, calidad y condiciones de vida",1.5,2.7,3.1,3.0,,Índice de precios al consumo,1.3,2.7,2.7,2.9,
+"Nivel, calidad y condiciones de vida",0.54,0.95,1.11,1.18,1.01,Pensiones Contributivas,0.34,0.84,1.02,1.04,0.87
+"Nivel, calidad y condiciones de vida",-0.28,0.21,0.23,,,Pensiones No Contributivas,-1.13,-0.96,-0.83,,
+Industria y energía,64.5,43.3,22.1,,,Índice de cifra de negocios en la industria,69.4,41.7,19.0,,
+Industria y energía,4337.04,62.22,-5.56,-27.93,,Matriculación de vehículos,1269.29,111.82,10.33,-26.86,
+Industria y energía,15.39,46.06,53.73,,,Indicador de clima industrial,34.48,34.27,21.83,,
+Industria y energía,47.0,34.9,12.0,,,Índice de Producción Industrial,50.2,28.2,11.2,,
+Industria y energía,84.52,31.33,,,,Consumo de productos petrolíferos,60.17,39.26,,,
+Industria y energía,25.27,19.17,17.21,,,Consumo de gas natural,28.56,17.52,5.49,,
+Construcción,59.68,6.26,6.72,,,Consumo de cemento,116.76,16.89,4.73,,
+Empresas,3.49,3.04,2.93,2.35,,Empresas inscritas en la Seguridad social,4.21,3.13,2.64,2.35,
+Empresas,12.14,10.98,,,,Empresas afectadas por ERTE,12.52,10.9,,,
+Empresas,5.51,4.31,3.7,2.52,,Personas físicas inscritas en la Seguridad social,6.34,4.03,3.0,2.31,
+Empresas,2.2,2.21,2.41,2.22,,Personas jurídicas inscritas en la Seguridad social,3.04,2.63,2.44,2.37,
+Empresas,200.0,171.43,22.95,,,Sociedades mercantiles constituidas,298.36,152.37,41.81,,
+Empresas,275.0,1100.0,11.76,,,Sociedades mercantiles disueltas,360.4,256.85,40.81,,
+Servicios,58.4,35.3,20.2,,,Índice de cifra de negocios del sector servicios,57.3,38.8,21.7,,
+Servicios,0.5,2.8,5.0,,,Índice de ocupación del sector servicios,0.8,2.3,3.4,,
+Servicios,35.8,18.9,3.5,-1.2,,Índice de cifra de negocios del comercio al por menor a precios constantes,38.5,18.8,1.4,0.1,
+Servicios,0.0,1.4,1.9,1.5,,Índice de ocupación del comercio al por menor,0.0,1.6,1.8,2.0,
+Servicios,38061.11,90556.25,3991.37,97.66,,Tráfico aéreo de pasajeros,2503.86,2100.43,779.39,116.65,
+Servicios,28.96,72.85,-5.9,,,Tráfico portuario,9.27,18.51,11.57,,
+Servicios,430.81,409.59,1106.18,,,Tráfico portuario de pasajeros,547.39,395.52,99.61,,
+Servicios,,2597.38,435.28,26.67,,Pernoctaciones hoteleras,,2565.04,654.55,125.0,
+Servicios,,1370.65,308.05,4.29,,Pernoctaciones extrahoteleras,,1163.76,243.9,55.82,
+Sector exterior,35.8,62.0,46.9,,,Importaciones,63.9,55.6,35.1,,
+Sector exterior,67.5,58.6,16.5,,,Exportaciones,71.8,55.3,22.0,,
+Sector exterior,613.29,51.05,-30.81,,,Saldo comercial,14.6,12.62,-165.99,,
 Sector exterior,,,,,,Tasa de cobertura,,,,,
-Sanidad,-0.55,2.68,6.02,,,Gasto en productos farmacéuticos y sanitarios,0.85,1.32,3.01,,
+Sanidad,2.68,6.02,,,,Gasto en productos farmacéuticos y sanitarios,1.32,3.01,,,
