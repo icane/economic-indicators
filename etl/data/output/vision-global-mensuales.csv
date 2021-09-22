@@ -13,7 +13,7 @@ Mercado de Trabajo,-98.04,-100.0,-61.78,,,Trabajadores afectados por expedientes
 "Nivel, calidad y condiciones de vida",1.5,2.7,3.1,3.0,3.5,Índice de precios al consumo,1.3,2.7,2.7,2.9,3.3
 "Nivel, calidad y condiciones de vida",0.54,0.95,1.11,1.18,1.01,Pensiones Contributivas,0.34,0.84,1.02,1.04,0.87
 "Nivel, calidad y condiciones de vida",-0.28,0.21,0.23,0.72,,Pensiones No Contributivas,-1.13,-0.96,-0.83,-0.63,
-Industria y energía,64.5,43.3,22.1,,,Índice de cifra de negocios en la industria,69.4,41.7,19.0,,
+Industria y energía,64.5,43.3,22.1,18.5,,Índice de cifra de negocios en la industria,69.4,41.7,19.0,10.5,
 Industria y energía,4337.04,62.22,-5.56,-27.93,-35.94,Matriculación de vehículos,1269.29,111.82,10.33,-26.86,-24.99
 Industria y energía,15.39,46.06,53.73,22.79,30.15,Indicador de clima industrial,34.48,34.27,21.83,14.06,11.9
 Industria y energía,47.0,34.9,12.0,6.0,,Índice de Producción Industrial,50.2,28.2,11.2,0.4,
@@ -26,8 +26,8 @@ Empresas,5.51,4.31,3.7,2.52,2.36,Personas físicas inscritas en la Seguridad soc
 Empresas,2.2,2.21,2.41,2.22,1.83,Personas jurídicas inscritas en la Seguridad social,3.04,2.63,2.44,2.37,1.89
 Empresas,200.0,171.43,22.95,-26.47,,Sociedades mercantiles constituidas,298.36,152.37,41.81,9.66,
 Empresas,275.0,1100.0,11.76,-20.0,,Sociedades mercantiles disueltas,360.4,256.85,40.81,4.74,
-Servicios,58.4,35.3,20.2,,,Índice de cifra de negocios del sector servicios,57.3,38.8,21.7,,
-Servicios,0.5,2.8,5.0,,,Índice de ocupación del sector servicios,0.8,2.3,3.4,,
+Servicios,58.6,35.3,20.1,4.5,,Índice de cifra de negocios del sector servicios,57.2,38.7,21.7,11.6,
+Servicios,0.5,2.7,5.0,3.5,,Índice de ocupación del sector servicios,0.8,2.3,3.4,2.8,
 Servicios,35.8,18.9,3.5,-1.2,,Índice de cifra de negocios del comercio al por menor a precios constantes,38.5,18.8,1.4,0.1,
 Servicios,0.0,1.4,1.9,1.5,,Índice de ocupación del comercio al por menor,0.0,1.6,1.8,2.0,
 Servicios,38061.11,90556.25,3991.37,97.66,96.92,Tráfico aéreo de pasajeros,2503.86,2100.43,779.39,116.65,101.2
