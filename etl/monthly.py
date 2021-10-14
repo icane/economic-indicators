@@ -1,6 +1,7 @@
 """Monthly indicators."""
 
 import json
+import re
 
 from etl.common import to_json_stat, write_to_file
 from etl.config_monthly import monthly_cfg as cfg
@@ -45,6 +46,20 @@ def replace_month(json_str):
     json_str = json_str.replace('-11"', '-Nov"')
     json_str = json_str.replace('-12"', '-Dic"')
     return json_str
+
+
+def zona_oeste_rplc(file):
+    """Replace 'Cantabria' by 'Zona Oeste' in text file."""
+    f = open(file, 'r+')
+    text = f.read()
+    # Replace
+    text = re.sub(r'Cantabria"', r'Zona Oeste"', text)
+    # Go to top of file and clear content
+    f.seek(0)
+    f.truncate()
+    # re-write file and close
+    f.write(text)
+    f.close()
 
 
 # Read  input files
@@ -188,7 +203,11 @@ for key in cfg.series:
 df_global = pd.concat(indicators, axis=0, verify_integrity=False, sort=True)
 df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
 
+# Replace 'Cantabria' by 'Zona Oeste' in json-stat.
+zona_oeste_rplc(cfg.path.output + "consumo-cemento.json-stat")
+zona_oeste_rplc(cfg.path.output + "consumo-cemento-tendencia.json-stat")
+
+
 print('\nEnd of process. Files generated successfully.')
 print('\nCheck the following:')
 print('\n\tFormat of the global file.')
-print('\n\tReplace "Cantabria" by "Zona Oeste" in "consumo-cemento" files.')
