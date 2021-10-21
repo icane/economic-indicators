@@ -29,3 +29,25 @@ def write_to_file(str_data, file_name):
     file = open(file_name, 'w')
     file.write(str_data)
     file.close()
+
+
+def global_with_format(full_df):
+    """
+    Format global view df.
+
+    Omit unwanted columns (old periods), retain 5 latest periods and reorder.
+
+        full_df (dataframe): global dataframe to reformat
+    """
+    col_list = list(full_df.columns)
+    pivot_idx = col_list.index('Categoria')
+
+    # rearrange column names in the desired order
+    ordcol = (
+        col_list[pivot_idx:pivot_idx+1] + col_list[pivot_idx-5:pivot_idx]
+        + col_list[0:1] + col_list[-5:]
+    )
+
+    full_df = full_df[ordcol]
+
+    return full_df

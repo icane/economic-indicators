@@ -3,7 +3,7 @@
 import json
 import re
 
-from etl.common import to_json_stat, write_to_file
+from etl.common import global_with_format, to_json_stat, write_to_file
 from etl.config_monthly import monthly_cfg as cfg
 
 from etlstat.extractor.extractor import xlsx
@@ -201,6 +201,8 @@ for key in cfg.series:
         indicators.append(df_cant)
 
 df_global = pd.concat(indicators, axis=0, verify_integrity=False, sort=True)
+# reorder df_global before save to csv
+df_global = global_with_format(df_global)
 df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
 
 # Replace 'Cantabria' by 'Zona Oeste' in json-stat.
@@ -209,5 +211,3 @@ zona_oeste_rplc(cfg.path.output + "consumo-cemento-tendencia.json-stat")
 
 
 print('\nEnd of process. Files generated successfully.')
-print('\nCheck the following:')
-print('\n\tFormat of the global file.')
