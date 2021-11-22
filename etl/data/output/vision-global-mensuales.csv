@@ -13,7 +13,7 @@ Mercado de Trabajo,-61.78,-79.82,-71.43,,,Trabajadores afectados por expedientes
 "Nivel, calidad y condiciones de vida",3.1,3.0,3.5,4.5,5.5,Índice de precios al consumo,2.7,3.0,3.5,4.5,5.5
 "Nivel, calidad y condiciones de vida",1.11,1.18,1.01,1.16,,Pensiones Contributivas,1.02,1.04,0.87,1.09,
 "Nivel, calidad y condiciones de vida",0.23,0.72,,,,Pensiones No Contributivas,-0.83,-0.63,,,
-Industria y energía,22.1,18.5,28.1,,,Índice de cifra de negocios en la industria,19.0,10.5,17.1,,
+Industria y energía,22.1,18.8,28.5,17.7,,Índice de cifra de negocios en la industria,19.0,10.6,17.2,12.5,
 Industria y energía,-6.75,-37.81,-37.03,-71.88,-32.41,Matriculación de vehículos,-8.42,-57.12,-42.52,-26.29,-43.76
 Industria y energía,53.72,22.79,30.16,14.83,20.74,Indicador de clima industrial,21.83,14.06,11.9,12.0,14.51
 Industria y energía,11.7,6.5,7.3,3.1,,Índice de Producción Industrial,11.1,0.4,3.6,1.9,
@@ -31,12 +31,12 @@ Servicios,5.0,3.5,3.1,,,Índice de ocupación del sector servicios,3.4,2.8,2.6,,
 Servicios,3.6,-0.7,-2.1,-2.6,,Índice de cifra de negocios del comercio al por menor a precios constantes,1.5,0.1,-0.1,0.0,
 Servicios,1.9,1.7,1.1,1.4,,Índice de ocupación del comercio al por menor,1.8,2.0,1.8,2.0,
 Servicios,3991.37,97.66,96.92,167.25,307.89,Tráfico aéreo de pasajeros,779.39,116.65,101.2,198.99,287.06
-Servicios,-5.9,62.82,25.82,,,Tráfico portuario,11.57,8.53,11.84,,
-Servicios,1106.18,28.64,32.85,,,Tráfico portuario de pasajeros,99.61,32.42,43.11,,
+Servicios,-5.9,62.82,25.82,-13.9,,Tráfico portuario,11.57,8.53,11.84,3.7,
+Servicios,1106.18,28.64,32.85,135.66,,Tráfico portuario de pasajeros,99.61,32.42,43.11,78.62,
 Servicios,435.28,26.67,18.2,78.7,,Pernoctaciones hoteleras,654.55,125.0,103.78,212.15,
 Servicios,308.05,4.29,-13.94,34.24,,Pernoctaciones extrahoteleras,243.9,55.82,48.11,97.99,
 Sector exterior,46.9,56.1,57.8,,,Importaciones,35.1,18.9,33.9,,
 Sector exterior,16.5,25.1,22.4,,,Exportaciones,22.0,13.6,25.1,,
 Sector exterior,-30.81,-24.55,-141.26,,,Saldo comercial,-165.99,-421.46,-123.32,,
 Sector exterior,,,,,,Tasa de cobertura,,,,,
-Sanidad,10.66,8.18,6.27,,,Gasto en productos farmacéuticos y sanitarios,1.4,0.69,0.79,,
+Sanidad,10.66,8.18,6.27,-0.37,,Gasto en productos farmacéuticos y sanitarios,1.4,0.69,0.79,0.77,
