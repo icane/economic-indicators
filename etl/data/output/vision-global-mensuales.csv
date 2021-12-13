@@ -12,7 +12,7 @@ Mercado de Trabajo,-79.82,-71.43,-62.5,,,Trabajadores afectados por expedientes 
 "Nivel, calidad y condiciones de vida",-33.5,-23.36,-20.36,-16.38,,Gasto prestaciones por desempleo,-37.39,-29.7,-26.29,-29.73,
 "Nivel, calidad y condiciones de vida",3.0,3.5,4.5,5.5,,Índice de precios al consumo,3.0,3.5,4.5,5.5,
 "Nivel, calidad y condiciones de vida",1.18,1.01,1.16,1.15,1.04,Pensiones Contributivas,1.04,0.87,1.09,1.1,1.13
-"Nivel, calidad y condiciones de vida",0.72,,,,,Pensiones No Contributivas,-0.63,,,,
+"Nivel, calidad y condiciones de vida",0.72,0.6,0.03,-0.04,,Pensiones No Contributivas,-0.63,-0.76,-0.79,-0.38,
 Industria y energía,18.8,28.5,17.7,,,Índice de cifra de negocios en la industria,10.6,17.2,12.5,,
 Industria y energía,-37.81,-37.03,-71.88,-32.41,,Matriculación de vehículos,-57.12,-42.52,-26.29,-43.76,
 Industria y energía,22.79,30.15,14.83,20.74,-3.22,Indicador de clima industrial,14.06,11.9,12.0,14.51,11.59
@@ -20,10 +20,10 @@ Industria y energía,6.5,7.3,3.1,,,Índice de Producción Industrial,0.4,3.6,1.9
 Industria y energía,3.45,11.64,12.48,,,Consumo de productos petrolíferos,4.64,10.19,11.23,,
 Industria y energía,27.0,21.23,-16.72,,,Consumo de gas natural,-10.66,-5.48,4.03,,
 Construcción,7.66,1.77,12.73,32.24,,Consumo de cemento,0.17,7.65,4.36,10.15,
-Empresas,2.35,2.05,2.26,2.6,,Empresas inscritas en la Seguridad social,2.35,1.55,1.78,2.51,
+Empresas,2.35,2.05,2.26,2.6,3.22,Empresas inscritas en la Seguridad social,2.35,1.55,1.78,2.51,2.69
 Empresas,6.03,5.21,5.06,4.45,,Empresas afectadas por ERTE,7.41,6.87,6.15,6.79,
-Empresas,2.52,2.36,2.4,2.59,,Personas físicas inscritas en la Seguridad social,2.31,0.96,1.18,2.47,
-Empresas,2.22,1.83,2.17,2.61,,Personas jurídicas inscritas en la Seguridad social,2.37,1.89,2.13,2.54,
+Empresas,2.52,2.36,2.4,2.59,4.15,Personas físicas inscritas en la Seguridad social,2.31,0.96,1.18,2.47,2.7
+Empresas,2.22,1.83,2.17,2.61,2.6,Personas jurídicas inscritas en la Seguridad social,2.37,1.89,2.13,2.54,2.69
 Empresas,-26.47,0.0,15.22,,,Sociedades mercantiles constituidas,9.66,9.68,0.32,,
 Empresas,-20.0,-35.29,45.45,,,Sociedades mercantiles disueltas,4.74,13.45,-21.24,,
 Servicios,4.8,7.9,13.2,,,Índice de cifra de negocios del sector servicios,11.6,16.4,16.6,,
