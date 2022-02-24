@@ -21,7 +21,7 @@ Industria y energía,12.48,8.21,27.19,5.17,,Consumo de productos petrolíferos,1
 Industria y energía,-16.72,-19.96,16.99,,,Consumo de gas natural,4.03,5.82,21.72,,
 Construcción,10.18,30.48,4.32,34.16,4.7,Consumo de cemento,3.09,5.72,11.73,20.6,21.05
 Empresas,2.26,2.6,3.22,4.05,3.9,Empresas inscritas en la Seguridad social,1.78,2.51,2.69,2.84,2.31
-Empresas,5.06,4.45,,,,Empresas afectadas por ERTE,6.15,6.79,,,
+Empresas,5.06,4.45,3.22,2.49,,Empresas afectadas por ERTE,6.15,6.79,,2.36,
 Empresas,2.4,2.59,4.15,5.5,5.17,Personas físicas inscritas en la Seguridad social,1.18,2.47,2.7,3.13,1.79
 Empresas,2.17,2.61,2.6,3.11,3.08,Personas jurídicas inscritas en la Seguridad social,2.13,2.54,2.69,2.66,2.61
 Empresas,15.22,21.43,25.42,7.02,,Sociedades mercantiles constituidas,0.32,-0.65,11.42,9.44,
@@ -33,7 +33,7 @@ Servicios,1.9,1.1,2.7,3.4,,Índice de ocupación del comercio al por menor,2.0,2
 Servicios,167.25,307.89,858.44,450.1,394.27,Tráfico aéreo de pasajeros,198.99,287.06,361.46,233.18,269.64
 Servicios,-13.86,11.29,-20.17,45.53,,Tráfico portuario,3.7,2.81,5.31,6.42,
 Servicios,135.66,139.51,100.48,65.35,,Tráfico portuario de pasajeros,78.62,140.61,160.15,118.53,
-Servicios,78.7,161.87,487.5,293.73,,Pernoctaciones hoteleras,212.15,365.57,416.97,306.33,
+Servicios,78.7,161.87,487.5,293.73,201.57,Pernoctaciones hoteleras,212.15,365.57,416.97,306.33,340.18
 Servicios,34.24,110.87,470.42,631.32,,Pernoctaciones extrahoteleras,97.99,193.5,249.75,198.43,
 Sector exterior,9.3,60.3,68.6,30.9,,Importaciones,24.2,23.7,36.3,38.3,
 Sector exterior,12.5,11.9,18.3,20.5,,Exportaciones,21.9,13.6,22.6,21.3,
