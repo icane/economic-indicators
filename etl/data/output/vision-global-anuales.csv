@@ -3,10 +3,10 @@ Economía,3.33,3.85,3.91,3.1,-9.19,PIB. Precios corrientes,3.36,4.31,3.56,3.42,-
 Economía,2.66,3.05,2.08,1.47,-9.76,PIB. Índices de volumen,3.03,2.97,2.29,2.09,-10.82
 Economía,3.71,3.94,3.9,2.93,-9.26,PIB per cápita,3.27,4.13,3.13,2.59,-10.31
 Economía,-5.6,53.33,-12.27,-29.5,31.17,Ingresos tributarios netos,2.33,4.14,7.6,1.98,-8.81
-Economía,7.92,4.98,4.54,0.52,,Deuda pública CC.AA,5.22,4.02,1.83,0.57,
-Economía,-10.53,-68.45,-33.9,251.28,,Deficit público CC.AA,-49.68,-56.12,-21.08,116.15,
-Economía,-1.47,-0.45,-0.28,-0.96,,Deficit público CC.AA sobre el PIB,-0.85,-0.36,-0.27,-0.57,
-Economía,22.7,22.9,22.9,22.3,,Deuda pública CC.AA sobre el PIB,24.9,24.8,24.4,23.7,
+Economía,7.92,4.98,4.54,0.52,7.62,Deuda pública CC.AA,5.22,4.02,1.83,0.57,2.5
+Economía,10.53,68.45,33.9,-251.28,142.34,Deficit público CC.AA,-49.68,-56.12,-21.08,116.15,-65.84
+Economía,-1.47,-0.45,-0.28,-0.96,-0.5,Deficit público CC.AA sobre el PIB,-0.85,-0.36,-0.27,-0.57,-0.2
+Economía,22.7,22.9,22.9,22.3,26.7,Deuda pública CC.AA sobre el PIB,24.9,24.8,24.4,23.7,25.9
 Sanidad,1.82,0.9,5.46,5.26,,Gasto sanitario público consolidado. Sector CC.AA,1.48,3.08,3.69,5.85,
 Sanidad,6.61,6.43,6.49,6.64,,Gasto sanitario público consolidado sobre el PIB. Sector CC.AA,5.56,5.49,5.5,5.6,
 Sanidad,2.19,0.99,5.45,5.24,,Gasto sanitario público consolidado per cápita. Sector CC.AA,1.39,2.89,3.29,4.59,
