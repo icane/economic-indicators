@@ -17,7 +17,7 @@ Industria y energía,15.2,18.7,14.7,,,Índice de cifra de negocios en la industr
 Industria y energía,-22.9,-10.49,-19.68,-15.27,3.08,Matriculación de vehículos,-16.68,-7.26,-15.6,7.12,5.77
 Industria y energía,20.74,-3.22,-7.15,20.15,-3.84,Indicador de clima industrial,14.51,11.59,13.75,10.69,16.79
 Industria y energía,-3.1,-0.5,2.0,2.9,,Índice de Producción Industrial,-3.1,5.5,3.0,4.0,
-Industria y energía,8.21,27.19,5.17,,,Consumo de productos petrolíferos,6.05,22.75,6.35,,
+Industria y energía,8.21,27.19,5.17,3.32,,Consumo de productos petrolíferos,6.05,22.75,6.35,11.85,
 Industria y energía,-19.96,16.99,-0.49,,,Consumo de gas natural,5.82,21.72,8.49,,
 Construcción,30.48,4.32,34.16,4.7,,Consumo de cemento,5.72,11.73,20.6,21.05,
 Empresas,2.6,3.22,4.05,3.9,4.1,Empresas inscritas en la Seguridad social,2.51,2.69,2.84,2.31,2.98
@@ -25,7 +25,7 @@ Empresas,4.45,3.22,2.49,,,Empresas afectadas por ERTE,6.79,,2.36,,
 Empresas,2.59,4.15,5.5,5.17,5.44,Personas físicas inscritas en la Seguridad social,2.47,2.7,3.13,1.79,3.11
 Empresas,2.61,2.6,3.11,3.08,3.24,Personas jurídicas inscritas en la Seguridad social,2.54,2.69,2.66,2.61,2.91
 Empresas,21.43,25.42,7.02,13.43,,Sociedades mercantiles constituidas,-0.65,11.42,9.44,4.92,
-Empresas,22.22,31.25,72.73,,,Sociedades mercantiles disueltas,10.76,3.3,0.89,,
+Empresas,22.22,31.25,72.73,4.88,,Sociedades mercantiles disueltas,10.76,3.3,0.89,23.38,
 Servicios,11.1,20.4,16.2,,,Índice de cifra de negocios del sector servicios,16.4,24.4,18.5,,
 Servicios,2.2,4.1,4.4,,,Índice de ocupación del sector servicios,3.4,4.0,4.0,,
 Servicios,-3.6,5.9,-3.1,2.8,,Índice de cifra de negocios del comercio al por menor a precios constantes,-2.5,6.2,-3.1,3.8,
