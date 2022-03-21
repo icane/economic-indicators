@@ -11,21 +11,21 @@ Mercado de Trabajo,-99.33,-96.25,-79.49,,,Trabajadores afectados por expedientes
 "Nivel, calidad y condiciones de vida",-14.62,-19.14,-20.57,-19.41,,Beneficiarios prestaciones por desempleo,-28.66,-23.54,-19.89,-21.54,
 "Nivel, calidad y condiciones de vida",-16.38,-18.67,-26.73,-26.52,,Gasto prestaciones por desempleo,-29.73,-23.89,-25.81,-27.49,
 "Nivel, calidad y condiciones de vida",5.5,5.7,6.8,6.2,7.7,Índice de precios al consumo,5.4,5.5,6.5,6.1,7.6
-"Nivel, calidad y condiciones de vida",1.15,1.04,0.97,0.99,,Pensiones Contributivas,1.1,1.13,1.1,1.13,
+"Nivel, calidad y condiciones de vida",8.91,4.31,30.41,4.61,11.2,Pensiones Contributivas,0.32,11.7,22.15,20.78,14.02
 "Nivel, calidad y condiciones de vida",-0.04,0.01,-0.2,0.5,,Pensiones No Contributivas,-0.38,-0.06,0.02,0.55,
 Industria y energía,15.2,18.7,14.7,,,Índice de cifra de negocios en la industria,7.7,19.1,17.9,,
 Industria y energía,-22.9,-10.49,-19.68,-15.27,3.08,Matriculación de vehículos,-16.68,-7.26,-15.6,7.12,5.77
 Industria y energía,20.74,-3.22,-7.15,20.15,-3.84,Indicador de clima industrial,14.51,11.59,13.75,10.69,16.79
 Industria y energía,-3.1,-0.5,2.0,2.9,,Índice de Producción Industrial,-3.1,5.5,3.0,4.0,
-Industria y energía,8.21,27.19,5.17,3.32,,Consumo de productos petrolíferos,6.05,22.75,6.35,11.85,
+Industria y energía,8.21,27.19,5.17,,,Consumo de productos petrolíferos,6.05,22.75,6.35,,
 Industria y energía,-19.96,16.99,-0.49,,,Consumo de gas natural,5.82,21.72,8.49,,
-Construcción,30.48,4.32,34.16,4.7,,Consumo de cemento,5.72,11.73,20.6,21.05,
+Construcción,30.48,4.32,34.16,4.7,11.2,Consumo de cemento,5.72,11.73,20.6,21.05,14.02
 Empresas,2.6,3.22,4.05,3.9,4.1,Empresas inscritas en la Seguridad social,2.51,2.69,2.84,2.31,2.98
 Empresas,4.45,3.22,2.49,,,Empresas afectadas por ERTE,6.79,,2.36,,
 Empresas,2.59,4.15,5.5,5.17,5.44,Personas físicas inscritas en la Seguridad social,2.47,2.7,3.13,1.79,3.11
 Empresas,2.61,2.6,3.11,3.08,3.24,Personas jurídicas inscritas en la Seguridad social,2.54,2.69,2.66,2.61,2.91
 Empresas,21.43,25.42,7.02,13.43,,Sociedades mercantiles constituidas,-0.65,11.42,9.44,4.92,
-Empresas,22.22,31.25,72.73,4.88,,Sociedades mercantiles disueltas,10.76,3.3,0.89,23.38,
+Empresas,22.22,31.25,72.73,,,Sociedades mercantiles disueltas,10.76,3.3,0.89,,
 Servicios,11.1,20.4,16.2,,,Índice de cifra de negocios del sector servicios,16.4,24.4,18.5,,
 Servicios,2.2,4.1,4.4,,,Índice de ocupación del sector servicios,3.4,4.0,4.0,,
 Servicios,-3.6,5.9,-3.1,2.8,,Índice de cifra de negocios del comercio al por menor a precios constantes,-2.5,6.2,-3.1,3.8,
@@ -35,8 +35,8 @@ Servicios,11.29,-20.17,45.53,34.45,,Tráfico portuario,2.81,5.31,6.42,10.41,
 Servicios,139.51,100.48,65.35,304.32,,Tráfico portuario de pasajeros,140.61,160.15,118.53,131.21,
 Servicios,161.87,487.5,293.73,201.57,,Pernoctaciones hoteleras,365.57,416.97,306.33,340.18,
 Servicios,110.87,470.42,631.32,269.99,,Pernoctaciones extrahoteleras,193.5,249.75,198.43,224.97,
-Sector exterior,60.3,68.6,30.9,,,Importaciones,23.7,36.3,38.3,,
-Sector exterior,11.9,18.3,20.5,,,Exportaciones,13.6,22.6,21.3,,
-Sector exterior,-91.04,-95.57,-19.96,,,Saldo comercial,-416.57,-609.31,-397.85,,
-Sector exterior,-44.38,-43.01,-9.99,,,Tasa de cobertura,-7.97,-9.85,-11.71,,
+Sector exterior,60.34,68.65,30.88,84.86,,Importaciones,23.71,36.3,38.29,42.21,
+Sector exterior,11.93,18.33,20.48,28.64,,Exportaciones,13.6,22.56,21.34,24.61,
+Sector exterior,-91.04,-95.57,-19.96,-200.21,,Saldo comercial,-416.57,-609.31,-397.85,-246.1,
+Sector exterior,-44.38,-43.01,-9.99,-37.88,,Tasa de cobertura,-7.97,-9.85,-11.71,-11.39,
 Sanidad,2.98,7.11,,,,Gasto en productos farmacéuticos y sanitarios,-0.06,0.74,,,
