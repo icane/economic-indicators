@@ -1,5 +1,5 @@
 Categoria,Cantabria - 2021-11,Cantabria - 2021-12,Cantabria - 2022-01,Cantabria - 2022-02,Cantabria - 2022-03, - Indicadores,España - 2021-11,España - 2021-12,España - 2022-01,España - 2022-02,España - 2022-03
-Economía,-8.07,-35.44,153.14,31.52,,Ingresos tributarios netos,0.61,17.5,30.17,15.13,
+Economía,-8.07,-35.44,153.14,31.52,14.56,Ingresos tributarios netos,0.61,17.5,30.17,15.13,16.42
 Economía,94.12,120.69,188.24,,,Déficit público CC.AA,527.63,86.24,68.63,,
 Mercado de Trabajo,-10.94,-13.64,-14.5,-15.63,-14.39,Paro registrado,-17.36,-20.12,-21.22,-22.38,-21.29
 Mercado de Trabajo,44.46,36.06,26.0,15.82,-7.53,Contratos,39.44,24.09,22.57,19.12,19.07
@@ -28,8 +28,8 @@ Empresas,25.42,7.02,13.43,-42.35,,Sociedades mercantiles constituidas,11.42,9.44
 Empresas,31.25,72.73,,3.03,,Sociedades mercantiles disueltas,3.3,0.89,,-2.84,
 Servicios,20.4,16.8,17.3,23.5,,Índice de cifra de negocios del sector servicios,24.4,18.5,24.3,23.5,
 Servicios,4.1,4.4,4.6,4.9,,Índice de ocupación del sector servicios,4.0,4.0,4.0,4.4,
-Servicios,5.9,-3.1,3.1,1.2,,Índice de cifra de negocios del comercio al por menor a precios constantes,6.2,-3.1,3.5,1.7,
-Servicios,2.7,3.4,4.3,4.5,,Índice de ocupación del comercio al por menor,2.5,2.6,3.1,2.6,
+Servicios,5.9,-3.1,3.1,1.0,-5.0,Índice de cifra de negocios del comercio al por menor a precios constantes,6.2,-3.1,3.5,1.7,-5.5
+Servicios,2.7,3.4,4.3,4.6,4.3,Índice de ocupación del comercio al por menor,2.5,2.6,3.1,2.7,2.3
 Servicios,858.44,450.1,394.27,941.25,860.0,Tráfico aéreo de pasajeros,361.46,233.18,269.64,434.1,387.07
 Servicios,-20.17,45.53,34.45,6.07,,Tráfico portuario,5.31,6.42,10.41,8.73,
 Servicios,100.48,65.35,304.32,276.34,,Tráfico portuario de pasajeros,160.15,118.53,131.21,132.57,
