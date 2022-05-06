@@ -1,12 +1,12 @@
-Categoria,Cantabria - 2016,Cantabria - 2017,Cantabria - 2018,Cantabria - 2019,Cantabria - 2020, - Indicadores,España - 2016,España - 2017,España - 2018,España - 2019,España - 2020
-Economía,3.33,3.85,3.91,3.1,-9.19,PIB. Precios corrientes,3.36,4.31,3.56,3.42,-9.84
-Economía,2.66,3.05,2.08,1.47,-9.76,PIB. Índices de volumen,3.03,2.97,2.29,2.09,-10.82
-Economía,3.71,3.94,3.9,2.93,-9.26,PIB per cápita,3.27,4.13,3.13,2.59,-10.31
-Economía,-5.6,53.33,-12.27,-29.5,31.17,Ingresos tributarios netos,2.33,4.14,7.6,1.98,-8.81
-Economía,7.92,4.98,4.54,0.52,7.62,Deuda pública CC.AA,5.22,4.02,1.83,0.57,2.5
-Economía,10.53,68.45,33.9,-251.28,142.34,Deficit público CC.AA,-49.68,-56.12,-21.08,116.15,-65.84
-Economía,-1.47,-0.45,-0.28,-0.96,-0.5,Deficit público CC.AA sobre el PIB,-0.85,-0.36,-0.27,-0.57,-0.2
-Economía,22.7,22.9,22.9,22.3,26.7,Deuda pública CC.AA sobre el PIB,24.9,24.8,24.4,23.7,25.9
-Sanidad,1.84,0.9,5.46,9.38,6.77,Gasto sanitario público consolidado. Sector CC.AA,1.45,2.71,3.77,5.58,11.66
-Sanidad,6.61,6.43,6.52,6.92,8.14,Gasto sanitario público consolidado sobre el PIB. Sector CC.AA,5.56,5.48,5.49,5.63,6.92
-Sanidad,2.19,0.99,5.45,9.21,6.7,Gasto sanitario público consolidado per cápita. Sector CC.AA,1.39,2.74,3.36,5.09,10.22
+Categoria,Cantabria - 2017,Cantabria - 2018,Cantabria - 2019,Cantabria - 2020,Cantabria - 2021, - Indicadores,España - 2017,España - 2018,España - 2019,España - 2020,España - 2021
+Economía,3.85,3.91,3.1,-9.19,,PIB. Precios corrientes,4.31,3.56,3.42,-9.84,
+Economía,3.05,2.08,1.47,-9.76,,PIB. Índices de volumen,2.97,2.29,2.09,-10.82,
+Economía,3.94,3.9,2.93,-9.26,,PIB per cápita,4.13,3.13,2.59,-10.31,
+Economía,53.33,-12.27,-29.5,31.17,-7.21,Ingresos tributarios netos,4.14,7.6,1.98,-8.81,15.12
+Economía,4.98,4.54,0.52,7.62,,Deuda pública CC.AA,4.02,1.83,0.57,2.5,
+Economía,68.45,33.9,-251.28,142.34,,Deficit público CC.AA,-56.12,-21.08,116.15,-65.84,
+Economía,-0.45,-0.28,-0.96,-0.5,,Deficit público CC.AA sobre el PIB,-0.36,-0.27,-0.57,-0.2,
+Economía,22.9,22.9,22.3,26.7,,Deuda pública CC.AA sobre el PIB,24.8,24.4,23.7,25.9,
+Sanidad,0.9,5.46,9.38,6.77,,Gasto sanitario público consolidado. Sector CC.AA,2.71,3.77,5.58,11.66,
+Sanidad,6.43,6.52,6.92,8.14,,Gasto sanitario público consolidado sobre el PIB. Sector CC.AA,5.48,5.49,5.63,6.92,
+Sanidad,0.99,5.45,9.21,6.7,,Gasto sanitario público consolidado per cápita. Sector CC.AA,2.74,3.36,5.09,10.22,
