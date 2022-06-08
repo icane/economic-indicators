@@ -1,8 +1,8 @@
 Categoria,Cantabria - 2022-01,Cantabria - 2022-02,Cantabria - 2022-03,Cantabria - 2022-04,Cantabria - 2022-05, - Indicadores,España - 2022-01,España - 2022-02,España - 2022-03,España - 2022-04,España - 2022-05
 Economía,153.14,31.52,14.56,83.96,,Ingresos tributarios netos,30.17,15.13,16.42,14.4,
 Economía,182.35,126.67,444.44,,,Déficit público CC.AA,39.94,23.92,106.44,,
-Mercado de Trabajo,-14.5,-15.63,-14.39,-17.75,,Paro registrado,-21.22,-22.38,-21.29,-22.71,
-Mercado de Trabajo,26.0,15.82,-7.53,-1.15,,Contratos,22.57,19.12,19.07,6.87,
+Mercado de Trabajo,-14.5,-15.63,-14.39,-17.75,-17.13,Paro registrado,-21.22,-22.38,-21.29,-22.71,-22.7
+Mercado de Trabajo,26.0,15.82,-7.53,-1.15,-13.09,Contratos,22.57,19.12,19.07,6.87,6.17
 Mercado de Trabajo,,,,,,Afiliados afectados por ERTE,,,,,
 Mercado de Trabajo,2.59,2.84,3.29,,,Afiliados,3.76,4.36,5.16,,
 Mercado de Trabajo,3.02,3.32,3.92,,,Afiliados asalariados,4.23,4.97,5.99,,
@@ -16,7 +16,7 @@ Mercado de Trabajo,5257.14,80.38,434.18,,,Trabajadores afectados por expedientes
 Industria y energía,24.7,29.1,8.0,,,Índice de cifra de negocios en la industria,22.2,20.5,13.2,,
 Industria y energía,-15.27,3.08,-21.77,-12.85,,Matriculación de vehículos,7.12,5.84,-23.28,-11.87,
 Industria y energía,20.15,-3.84,-11.69,-4.85,4.69,Indicador de clima industrial,10.69,16.79,7.36,-0.35,0.07
-Industria y energía,1.9,-0.9,-5.6,,,Índice de Producción Industrial,4.3,4.1,1.1,,
+Industria y energía,1.9,-0.5,-4.4,-0.8,,Índice de Producción Industrial,4.3,4.2,0.4,-0.4,
 Industria y energía,3.32,15.57,-4.77,,,Consumo de productos petrolíferos,11.85,18.62,-6.36,,
 Industria y energía,-7.36,8.85,-6.23,,,Consumo de gas natural,6.59,23.19,6.22,,
 Construcción,4.61,11.2,-28.14,2.72,,Consumo de cemento,20.78,14.02,-15.49,8.77,
