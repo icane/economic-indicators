@@ -65,7 +65,11 @@ params = {
                     'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
                     'Var. interanual España': {
-                        'decimals': 2, 'label': '%'}
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
                 }
             },
             'note': ['Datos acumulados a final de periodo. Los datos de 2020 son avance.'],
@@ -463,7 +467,11 @@ params = {
                     'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
                     'Var. interanual España': {
-                        'decimals': 2, 'label': '%'}
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
                 }
             },
             'note': [''],
@@ -497,7 +505,11 @@ params = {
                     'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
                     'Var. interanual España': {
-                        'decimals': 2, 'label': '%'}
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
                 }
             },
             'note': [''],

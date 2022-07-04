@@ -62,6 +62,14 @@ def zona_oeste_rplc(file):
     f.close()
 
 
+def round_avoiding_errors(value, decimals):
+    try:
+        _ = round(value, decimals)
+        return _
+    except:
+        return value
+
+
 # Read  input files
 data = xlsx(cfg.path.input)
 
@@ -152,6 +160,40 @@ for key in cfg.series:
         df_trend, cfg.periods.monthly)
     variables.remove('Año')
     variables.remove('Mes')
+
+    # Apply decimals from config file depeding on the column
+    if 'Cantabria' in df_trend:
+        decimals = cfg.series[key].unit.trend.Cantabria.decimals
+        df_trend['Cantabria'] = df_trend['Cantabria'].apply(
+            lambda x: round_avoiding_errors(x, decimals))
+
+    if 'España' in df_trend:
+        decimals = cfg.series[key].unit.trend.España.decimals
+        df_trend['España'] = df_trend['España'].apply(
+            lambda x: round_avoiding_errors(x, decimals))
+    
+    if 'Var. interanual Cantabria' in df_trend:
+        decimals = cfg.series[key].unit.trend['Var. interanual Cantabria'].decimals
+        df_trend['Var. interanual Cantabria'] = df_trend[
+            'Var. interanual Cantabria'].apply(
+            lambda x: round_avoiding_errors(x, decimals))
+
+    if 'Var. interanual España' in df_trend:
+        decimals = cfg.series[key].unit.trend['Var. interanual España'].decimals
+        df_trend['Var. interanual España'] = df_trend[
+            'Var. interanual España'].apply(
+            lambda x: round_avoiding_errors(x, decimals))
+
+    if 'Tendencia Cantabria' in df_trend:
+        decimals = cfg.series[key].unit.trend['Tendencia Cantabria'].decimals
+        df_trend['Tendencia Cantabria'] = df_trend['Tendencia Cantabria'].apply(
+            lambda x: round_avoiding_errors(x, decimals))
+
+    if 'Tendencia España' in df_trend:
+        decimals = cfg.series[key].unit.trend['Tendencia España'].decimals
+        df_trend['Tendencia España'] = df_trend['Tendencia España'].apply(
+            lambda x: round_avoiding_errors(x, decimals))
+
     json_file = to_json_stat(
         df_trend,
         ['Mes'],
@@ -162,6 +204,8 @@ for key in cfg.series:
         cfg.series[key].unit.trend
     json_obj['note'] = cfg.series[key].note
     json_file = json.dumps(json_obj)
+    if cfg.series[key].json.trend == 'empresas-afectadas-erte-tendencia.json-stat':
+        print(json_file)
     json_file = replace_month(json_file)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.trend)
 
@@ -186,6 +230,12 @@ for key in cfg.series:
         df_cant = df_cant.transpose()
         df_cant.insert(0, 'Categoria', cfg.series[key].category)
         df_cant[' - Indicadores'] = cfg.series[key].label
+
+        # (Cantabria) Round to 2 decimals for all columns less first and last
+        for column in df_cant.columns[1:-1]:
+            df_cant[column] = df_cant[column].apply(
+                lambda x: round_avoiding_errors(x,2))
+
         # España
         df_esp = data[cfg.file][cfg.series[key].sheet][[
             'Año', 'Mes', coltoshowes]].copy()
@@ -195,6 +245,12 @@ for key in cfg.series:
         df_esp.set_index('Mes', inplace=True)
         df_esp = df_esp.transpose()
         df_esp[' - Indicadores'] = cfg.series[key].label
+
+        # (España) Round to 2 decimals for all columns less first and last
+        for column in df_cant.columns[1:-1]:
+            df_cant[column] = df_cant[column].apply(
+                lambda x: round_avoiding_errors(x,2))
+
         # merge dataframes
         df_cant = df_cant.merge(df_esp, on=' - Indicadores')
         # append to global
