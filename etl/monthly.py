@@ -204,8 +204,6 @@ for key in cfg.series:
         cfg.series[key].unit.trend
     json_obj['note'] = cfg.series[key].note
     json_file = json.dumps(json_obj)
-    if cfg.series[key].json.trend == 'empresas-afectadas-erte-tendencia.json-stat':
-        print(json_file)
     json_file = replace_month(json_file)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json.trend)
 
@@ -246,9 +244,9 @@ for key in cfg.series:
         df_esp = df_esp.transpose()
         df_esp[' - Indicadores'] = cfg.series[key].label
 
-        # (España) Round to 2 decimals for all columns less first and last
-        for column in df_cant.columns[1:-1]:
-            df_cant[column] = df_cant[column].apply(
+        # (España) Round to 2 decimals for all columns 
+        for column in df_esp.columns:
+            df_esp[column] = df_esp[column].apply(
                 lambda x: round_avoiding_errors(x,2))
 
         # merge dataframes
