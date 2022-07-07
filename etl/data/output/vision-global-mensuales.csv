@@ -1,8 +1,8 @@
 Categoria,Cantabria - 2022-02,Cantabria - 2022-03,Cantabria - 2022-04,Cantabria - 2022-05,Cantabria - 2022-06, - Indicadores,España - 2022-02,España - 2022-03,España - 2022-04,España - 2022-05,España - 2022-06
 Economía,31.52,14.56,83.96,-1.85,,Ingresos tributarios netos,15.13,16.42,14.4,27.57,
 Economía,66.67,355.56,128.33,,,Déficit público CC.AA,23.3,105.97,46.7,,
-Mercado de Trabajo,-15.63,-14.39,-17.75,-17.13,,Paro registrado,-22.38,-21.29,-22.71,-22.7,
-Mercado de Trabajo,15.82,-7.53,-1.15,-13.09,,Contratos,19.12,19.07,6.87,6.17,
+Mercado de Trabajo,-15.63,-14.39,-17.75,-17.13,385.19,Paro registrado,-22.38,-21.29,-22.71,-22.7,-20.3
+Mercado de Trabajo,15.82,-7.53,-1.15,-13.09,-18.87,Contratos,19.12,19.07,6.87,6.17,-1.62
 Mercado de Trabajo,0.75,0.6,-,0.13,,Afiliados afectados por ERTE,0.71,0.59,-,0.16,
 Mercado de Trabajo,2.84,3.29,4.41,3.21,,Afiliados,4.36,5.16,5.84,4.83,
 Mercado de Trabajo,3.32,3.92,5.27,3.88,,Afiliados asalariados,4.97,5.99,6.78,5.63,
@@ -16,7 +16,7 @@ Mercado de Trabajo,80.38,434.18,2088.24,,,Trabajadores afectados por expedientes
 Industria y energía,29.1,8.0,32.6,,,Índice de cifra de negocios en la industria,20.6,13.6,23.1,,
 Industria y energía,3.08,-21.77,-12.85,,,Matriculación de vehículos,5.84,-23.28,-11.87,,
 Industria y energía,-3.84,-11.69,-4.85,4.69,19.5,Indicador de clima industrial,16.79,7.36,-0.35,0.07,3.03
-Industria y energía,-0.5,-4.4,-0.8,,,Índice de Producción Industrial,4.2,0.4,-0.4,,
+Industria y energía,-0.5,-5.4,-0.2,5.2,,Índice de Producción Industrial,4.2,0.3,-0.6,6.5,
 Industria y energía,15.57,-4.77,7.24,,,Consumo de productos petrolíferos,18.62,-6.36,12.41,,
 Industria y energía,8.85,-6.23,-7.12,,,Consumo de gas natural,23.19,6.22,-11.81,,
 Construcción,10.94,-28.4,2.72,12.14,,Consumo de cemento,13.59,-14.64,8.77,-0.93,
@@ -31,8 +31,8 @@ Servicios,5.0,5.2,5.7,,,Índice de ocupación del sector servicios,4.4,4.8,5.4,,
 Servicios,1.0,-5.0,,,,Índice de cifra de negocios del comercio al por menor a precios constantes,1.7,-5.5,,,
 Servicios,4.6,4.3,,,,Índice de ocupación del comercio al por menor,2.7,2.3,,,
 Servicios,941.25,860.0,1247.18,591.62,,Tráfico aéreo de pasajeros,434.1,387.07,457.17,277.97,
-Servicios,6.09,-24.53,-14.5,,,Tráfico portuario,8.73,-0.81,6.75,,
-Servicios,276.34,230.44,546.82,,,Tráfico portuario de pasajeros,132.57,106.42,211.8,,
+Servicios,6.09,-24.53,-14.38,-1.21,,Tráfico portuario,8.73,-0.81,6.75,13.27,
+Servicios,276.34,230.44,546.82,478.67,,Tráfico portuario de pasajeros,132.57,106.42,211.8,118.27,
 Servicios,242.54,319.01,671.23,247.24,,Pernoctaciones hoteleras,458.86,391.6,520.51,312.94,
 Servicios,386.14,392.97,898.81,272.08,,Pernoctaciones extrahoteleras,298.86,178.63,224.32,149.02,
 Sector exterior,26.3,16.7,21.0,,,Importaciones,38.8,31.6,38.9,,
