@@ -20,10 +20,10 @@ Industria y energía,4.9,-4.0,-5.8,-4.9,,Índice de Producción Industrial,6.9,6
 Industria y energía,16.11,-5.23,-5.13,,,Consumo de productos petrolíferos,5.9,1.52,-6.3,,
 Industria y energía,-3.95,-14.43,-41.16,,,Consumo de gas natural,-3.98,7.58,11.54,,
 Construcción,-9.64,-4.86,-14.82,-11.45,,Consumo de cemento,-1.93,0.31,-12.85,-5.33,
-Empresas,2.95,1.47,0.66,0.54,,Empresas inscritas en la Seguridad social,2.58,1.61,1.14,1.07,
+Empresas,2.95,1.47,0.66,0.54,0.6,Empresas inscritas en la Seguridad social,2.58,1.61,1.14,1.07,0.79
 Empresas,0.38,,,,,Empresas afectadas por ERTE,0.24,,,,
-Empresas,3.79,1.46,-0.15,-0.45,,Personas físicas inscritas en la Seguridad social,2.69,1.08,0.26,0.15,
-Empresas,2.39,1.48,1.23,1.22,,Personas jurídicas inscritas en la Seguridad social,2.53,1.91,1.65,1.59,
+Empresas,3.79,1.46,-0.15,-0.45,-0.53,Personas físicas inscritas en la Seguridad social,2.69,1.08,0.26,0.15,-0.2
+Empresas,2.39,1.48,1.23,1.22,1.37,Personas jurídicas inscritas en la Seguridad social,2.53,1.91,1.65,1.59,1.35
 Empresas,-5.26,6.67,-2.0,,,Sociedades mercantiles constituidas,-4.58,-6.75,-14.31,,
 Empresas,8.33,-10.53,50.0,,,Sociedades mercantiles disueltas,0.47,8.15,8.05,,
 Servicios,25.6,14.5,9.2,,,Índice de cifra de negocios del sector servicios,27.7,23.5,18.3,,
