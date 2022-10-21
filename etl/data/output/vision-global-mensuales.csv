@@ -13,8 +13,8 @@ Mercado de Trabajo,-,1213.33,-40.91,,,Trabajadores afectados por expedientes de 
 "Nivel, calidad y condiciones de vida",8.8,10.0,10.5,10.1,8.3,Índice de precios al consumo,8.7,10.2,10.8,10.5,8.9
 "Nivel, calidad y condiciones de vida",0.48,0.48,0.45,0.41,,Pensiones Contributivas,0.84,0.83,0.79,0.88,
 "Nivel, calidad y condiciones de vida",0.98,1.12,0.93,0.88,,Pensiones No Contributivas,-0.48,-0.29,-0.06,0.15,
-Industria y energía,37.5,24.0,22.9,,,Índice de cifra de negocios en la industria,32.6,31.6,19.9,,
-Industria y energía,-8.63,-17.93,-25.76,-0.85,,Matriculación de vehículos,-6.33,-6.6,-10.17,8.83,
+Industria y energía,37.5,24.0,22.7,19.4,,Índice de cifra de negocios en la industria,32.6,31.7,20.3,28.1,
+Industria y energía,-8.63,-17.93,-25.76,-0.85,2.65,Matriculación de vehículos,-6.33,-6.6,-10.17,8.83,7.54
 Industria y energía,4.69,19.5,-2.81,-4.87,-14.92,Indicador de clima industrial,0.07,3.03,-7.67,-7.74,-7.94
 Industria y energía,4.9,-4.0,-5.8,-4.9,,Índice de Producción Industrial,6.9,6.6,1.4,5.8,
 Industria y energía,16.11,-5.23,-5.13,-1.05,,Consumo de productos petrolíferos,5.9,1.52,-6.3,1.41,
@@ -26,17 +26,17 @@ Empresas,3.79,1.46,-0.15,-0.45,-0.53,Personas físicas inscritas en la Seguridad
 Empresas,2.39,1.48,1.23,1.22,1.37,Personas jurídicas inscritas en la Seguridad social,2.53,1.91,1.65,1.59,1.35
 Empresas,-5.26,6.67,-2.0,,,Sociedades mercantiles constituidas,-4.58,-6.75,-14.31,,
 Empresas,8.33,-10.53,50.0,,,Sociedades mercantiles disueltas,0.47,8.15,8.05,,
-Servicios,25.6,14.5,9.2,,,Índice de cifra de negocios del sector servicios,27.7,23.5,18.3,,
-Servicios,4.5,2.2,1.4,,,Índice de ocupación del sector servicios,5.6,4.9,4.0,,
+Servicios,25.6,14.5,9.1,15.0,,Índice de cifra de negocios del sector servicios,27.6,23.5,18.2,23.2,
+Servicios,4.5,2.2,1.4,-0.1,,Índice de ocupación del sector servicios,5.6,4.9,4.1,3.6,
 Servicios,3.5,-1.0,,,,Índice de cifra de negocios del comercio al por menor a precios constantes,2.8,0.2,,,
 Servicios,2.4,1.7,,,,Índice de ocupación del comercio al por menor,2.2,2.4,,,
-Servicios,591.62,195.82,92.08,53.8,,Tráfico aéreo de pasajeros,277.97,162.44,78.8,51.58,
-Servicios,-1.87,0.13,-10.02,,,Tráfico portuario,13.27,7.24,4.63,,
-Servicios,476.42,122.79,71.33,,,Tráfico portuario de pasajeros,118.27,94.76,114.89,,
+Servicios,591.62,195.82,92.08,53.8,52.94,Tráfico aéreo de pasajeros,277.97,162.44,78.8,51.58,52.5
+Servicios,-1.87,0.13,-10.02,-16.63,,Tráfico portuario,13.27,7.24,4.63,-2.73,
+Servicios,476.42,122.79,71.33,134.96,,Tráfico portuario de pasajeros,118.27,94.76,114.89,90.2,
 Servicios,247.24,62.4,18.46,0.05,,Pernoctaciones hoteleras,312.94,149.31,60.46,34.21,
 Servicios,272.08,30.22,11.77,7.55,,Pernoctaciones extrahoteleras,149.02,81.56,34.34,14.01,
-Sector exterior,38.0,5.5,22.0,,,Importaciones,47.1,41.1,37.1,,
-Sector exterior,36.4,16.3,16.7,,,Exportaciones,28.8,26.6,20.6,,
-Sector exterior,32.68,52.23,-0.91,,,Saldo comercial,-3496.08,-451.63,-310.72,,
-Sector exterior,-1.64,13.4,-5.67,,,Tasa de cobertura,-12.47,-9.95,-11.32,,
+Sector exterior,38.0,5.5,22.0,28.3,,Importaciones,47.1,41.1,37.1,42.6,
+Sector exterior,36.4,16.3,16.7,18.1,,Exportaciones,28.8,26.6,20.6,31.7,
+Sector exterior,32.68,52.23,-0.91,-197.89,,Saldo comercial,-3496.08,-451.63,-310.72,-104.75,
+Sector exterior,-1.64,13.4,-5.67,-7.47,,Tasa de cobertura,-12.47,-9.95,-11.32,-6.51,
 Sanidad,11.32,11.18,10.05,,,Gasto en productos farmacéuticos y sanitarios,5.05,4.92,4.22,,
