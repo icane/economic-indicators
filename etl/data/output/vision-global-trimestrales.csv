@@ -1,7 +1,7 @@
 Categoria,Cantabria - 2021-4,Cantabria - 2022-1,Cantabria - 2022-2,Cantabria - 2022-3,Cantabria - 2022-4, - Indicadores,España - 2021-4,España - 2022-1,España - 2022-2,España - 2022-3,España - 2022-4
 Economía,4.9,5.2,,,,PIB índices de volumen,5.54,6.28,,,
-Economía,2.44,-2.43,-2.75,,,Deuda pública CC.AA,2.83,0.67,1.48,,
-Economía,24.8,22.9,23.5,,,Deuda pública CC.AA sobre el PIB,25.9,25.0,24.9,,
+Economía,2.44,-2.43,-2.75,-0.04,,Deuda pública CC.AA,2.83,0.67,1.48,0.82,
+Economía,24.8,22.9,23.5,23.0,,Deuda pública CC.AA sobre el PIB,25.9,25.0,24.9,24.3,
 Empresas y establecimientos,15.72,12.01,1.7,-1.51,-0.64,Índice de confianza empresarial,23.51,16.19,6.18,1.63,-2.38
 Empresas y establecimientos,,,,,,Deudores concursados,,,,,
 Empresas y establecimientos,,,,,,Empresas concursadas,,,,,
@@ -17,4 +17,4 @@ Servicios,168.17,461.28,199.95,90.63,,Turistas internacionales,438.81,696.74,387
 Servicios,249.67,436.89,156.66,-3.81,,Gasto de turistas internacionales,531.55,794.45,433.14,99.96,
 Construcción,7.7,11.0,9.9,9.3,,Índice de precios de vivienda,6.4,8.5,8.0,7.6,
 Sector exterior,1.13,-0.11,7.26,,,Balanza comercial (% PIB),-4.04,-4.93,-5.17,,
-Construcción,17.42,22.91,7.27,,,Transacciones inmobiliarias,20.47,23.64,11.1,,
+Construcción,17.42,22.91,10.51,-24.3,,Transacciones inmobiliarias,20.47,23.64,12.12,3.87,
