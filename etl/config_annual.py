@@ -289,7 +289,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos de 2017 y 2018 son provisionales'],
+            'note': ['Los dos últimos años son provisionales'],
             'json': {
                 'value': 'gasto-sanitario-consolidado.json-stat',
                 'trend': 'gasto-sanitario-consolidado-tendencia.json-stat'
@@ -321,7 +321,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos de 2017 y 2018 son provisionales. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
+            'note': ['Los dos últimos años son provisionales. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
             'json': {
                 'value': 'gasto-sanitario-consolidado-pib.json-stat',
                 'trend': 'gasto-sanitario-consolidado-pib-tendencia.json-stat'
@@ -353,7 +353,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos de 2017 y 2018 son provisionales'],
+            'note': ['Los dos últimos años son provisionales'],
             'json': {
                 'value': 'gasto-sanitario-consolidado-per-capita.json-stat',
                 'trend': 'gasto-sanitario-consolidado-per-capita-tendencia.json-stat'

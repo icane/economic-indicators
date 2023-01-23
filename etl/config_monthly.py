@@ -778,7 +778,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['La zona oeste está conformada por las Comunidades Autónomas de Castilla y León, Galicia, Asturias y Cantabria. Los datos de marzo de 2020 y posteriores son provisionales.'],
+            'note': ['Son provisionales los datos del último año.'],
             'json': {
                 'value': 'consumo-cemento.json-stat',
                 'trend': 'consumo-cemento-tendencia.json-stat'
@@ -1191,7 +1191,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos son provisionales desde el año 2019'],
+            'note': [''],
             'json': {
                 'value': 'trafico-aereo.json-stat',
                 'trend': 'trafico-aereo-tendencia.json-stat'
@@ -1305,7 +1305,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos de enero del año 2020 y posteriores son provisionales'],
+            'note': [''],
             'json': {
                 'value': 'pernoctaciones-hoteleras.json-stat',
                 'trend': 'pernoctaciones-hoteleras-tendencia.json-stat'
@@ -1343,7 +1343,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos de enero del año 2020 y posteriores son provisionales. Los datos de enero, febrero, marzo y mayo de 2020 para Cantabria no tienen la información de camping por secreto estadístico.'],
+            'note': ['Los datos de enero, febrero, marzo y mayo de 2020 para Cantabria no tienen la información de camping por secreto estadístico.'],
             'json': {
                 'value': 'pernoctaciones-extrahoteleras.json-stat',
                 'trend': 'pernoctaciones-extrahoteleras-tendencia.json-stat'
@@ -1526,7 +1526,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Gasto devengado neto acumulado anual. Cantabria está realizando la revisión de la información de toda la serie para homogeneizar los criterios aplicados en la extracción de la información, por lo que las tres partidas de gasto pueden presentar modificaciones en próximas publicaciones.'],
+            'note': ['Gasto devengado neto acumulado anual.'],
             'json': {
                 'value': 'gasto-farmaceutico-sanitario.json-stat',
                 'trend': 'gasto-farmaceutico-sanitario-tendencia.json-stat'

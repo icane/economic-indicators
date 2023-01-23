@@ -477,7 +477,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos del primer trimestre del año 2019 y posteriores son provisionales.'],
+            'note': [''],
             'json': {
                 'value': 'pernoctaciones-residentes-espana.json-stat',
                 'trend': 'pernoctaciones-residentes-espana-tendencia.json-stat'
@@ -515,7 +515,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos del primer trimestre del año 2019 y posteriores son provisionales.'],
+            'note': [''],
             'json': {
                 'value': 'gasto-turistico-residentes-espana.json-stat',
                 'trend': 'gasto-turistico-residentes-espana-tendencia.json-stat'
@@ -553,7 +553,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos del primer trimestre del año 2020 y posteriores son provisionales. Segundo trimestre del año 2020 para Cantabria no disponible por falta de respaldo muestral.'],
+            'note': ['Segundo trimestre del año 2020 para Cantabria no disponible por falta de respaldo muestral.'],
             'json': {
                 'value': 'turistas-internacionales.json-stat',
                 'trend': 'turistas-internacionales-tendencia.json-stat'
@@ -591,7 +591,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos del primer trimestre del año 2020 y posteriores son provisionales. Segundo trimestre del año 2020 para Cantabria no disponible por falta de respaldo muestral.'],
+            'note': ['Segundo trimestre del año 2020 para Cantabria no disponible por falta de respaldo muestral.'],
             'json': {
                 'value': 'gasto-turistas-internacionales.json-stat',
                 'trend': 'gasto-turistas-internacionales-tendencia.json-stat'
