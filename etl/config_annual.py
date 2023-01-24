@@ -105,7 +105,7 @@ params = {
         },
         'gasto_publico_educacion': {
             'sheet': 'Hoja7',
-            'label': 'Ingresos tributarios netos',
+            'label': 'Gasto público en educación',
             'category': 'Economía',
             'value_vars': [
                 'Gasto público en educación Cantabria',
@@ -227,8 +227,8 @@ params = {
             },
             'note': ['Los datos de 2020 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
             'json': {
-                'value': 'deficit-publico-pib.json-stat',
-                'trend': 'deficit-publico-pib-tendencia.json-stat'
+                'value': 'personal-id-poblacion.json-stat',
+                'trend': 'personal-id-poblacion-tendencia.json-stat'
             }
         },
         'gasto_id': {
@@ -259,8 +259,8 @@ params = {
             },
             'note': [''],
             'json': {
-                'value': 'deuda-publica-pib.json-stat',
-                'trend': 'deuda-publica-pib-tendencia.json-stat'
+                'value': 'gasto-id.json-stat',
+                'trend': 'gasto-id-tendencia.json-stat'
             }
         },
         'gasto_sanitario_consolidado': {
