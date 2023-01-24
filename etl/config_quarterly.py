@@ -146,82 +146,6 @@ params = {
                 'trend': 'confianza-empresarial-tendencia.json-stat'
             }
         },
-        'deudores_concursados': {
-            'sheet': 'EPC_D',
-            'label': 'Deudores concursados',
-            'category': 'Empresas y establecimientos',
-            'value_vars': [
-                'Deudores concursados Cantabria',
-                'Deudores concursados España'],
-            'rate_vars': [
-                'Deudores concursados Cantabria. Var interanual',
-                'Deudores concursados España. Var interanual'],
-            'trend_vars': [
-                'Deudores concursados Cantabria. Tendencia',
-                'Deudores concursados España. Tendencia'],
-            'source': 'ICANE  a partir de Encuesta de Procedimiento Concursal del INE',
-            'unit': {
-                'value': {
-                    'Valor Cantabria': {
-                        'decimals': 1, 'label': 'Deudores (empresa y personas)'},
-                    'Valor España': {
-                        'decimals': 1, 'label': 'Deudores (empresa y personas)'},
-                },
-                'trend': {
-                    'Var. interanual Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'Var. interanual España': {
-                        'decimals': 2, 'label': '%'},
-                    'Tendencia Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'Tendencia España': {
-                        'decimals': 2, 'label': '%'},
-                }
-            },
-            'note': ['Los datos del T3 del año 2019 y posteriores son provisionales.'],
-            'json': {
-                'value': 'deudores-concursados.json-stat',
-                'trend': 'deudores-concursados-tendencia.json-stat'
-            }
-        },
-        'empresas_concursadas': {
-            'sheet': 'EPC_E',
-            'label': 'Empresas concursadas',
-            'category': 'Empresas y establecimientos',
-            'value_vars': [
-                'Empresas concursadas Cantabria',
-                'Empresas concursadas España'],
-            'rate_vars': [
-                'Empresas concursadas Cantabria. Var interanual',
-                'Empresas concursadas España. Var interanual'],
-            'trend_vars': [
-                'Empresas concursadas Cantabria. Tendencia',
-                'Empresas concursadas España. Tendencia'],
-            'source': 'ICANE  a partir de Encuesta de Procedimiento Concursal del INE',
-            'unit': {
-                'value': {
-                    'Valor Cantabria': {
-                        'decimals': 1, 'label': 'Empresas'},
-                    'Valor España': {
-                        'decimals': 1, 'label': 'Empresas'},
-                },
-                'trend': {
-                    'Var. interanual Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'Var. interanual España': {
-                        'decimals': 2, 'label': '%'},
-                    'Tendencia Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'Tendencia España': {
-                        'decimals': 2, 'label': '%'},
-                }
-            },
-            'note': ['Los datos del T3 del año 2019 y posteriores son provisionales.'],
-            'json': {
-                'value': 'empresas-concursadas.json-stat',
-                'trend': 'empresas-concursadas-tendencia.json-stat'
-            }
-        },
         'epa_ocupados': {
             'sheet': 'EPA',
             'label': 'Ocupados EPA',
@@ -633,44 +557,6 @@ params = {
             'json': {
                 'value': 'indice-precios-vivienda.json-stat',
                 'trend': 'indice-precios-vivienda-tendencia.json-stat'
-            }
-        },
-        'balanza_comercial': {
-            'sheet': 'BC',
-            'label': 'Balanza comercial (% PIB)',
-            'category': 'Sector exterior',
-            'value_vars': [
-                'Balanza Comercial % PIB Cantabria',
-                'Balanza Comercial % PIB España'],
-            'rate_vars': [
-                'Balanza Comercial % PIB. Var interanual',
-                'Balanza Comercial % PIB España. Var interanual'],
-            'trend_vars': [
-                'Balanza Comercial % PIB. Tendencia',
-                'Balanza Comercial % PIB España. Tendencia'],
-            'source': 'ICANE a partir de Estadística de Comercio Exterior de la AEAT, Contabilidad Nacional Trimestral de España del INE y Contabilidad Trimestral de Cantabria Base 2015 del ICANE',
-            'unit': {
-                'value': {
-                    'Valor Cantabria': {
-                        'decimals': 1, 'label': '%'},
-                    'Valor España': {
-                        'decimals': 1, 'label': '%'},
-                },
-                'trend': {
-                    'Var. interanual Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'Var. interanual España': {
-                        'decimals': 2, 'label': '%'},
-                    'Tendencia Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'Tendencia España': {
-                        'decimals': 2, 'label': '%'},
-                }
-            },
-            'note': ['Balanza comercial (% PIB)= (saldo comercial/PIB)*100. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
-            'json': {
-                'value': 'tasa-apertura.json-stat',
-                'trend': 'tasa-apertura-tendencia.json-stat'
             }
         },
         'transacciones_inmobiliarias': {
