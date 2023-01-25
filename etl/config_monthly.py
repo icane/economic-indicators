@@ -1401,6 +1401,82 @@ params = {
                 'value': 'gasto-farmaceutico-sanitario.json-stat',
                 'trend': 'gasto-farmaceutico-sanitario-tendencia.json-stat'
             }
+        },
+        'licitacion_oficial_construccion': {
+            'sheet': 'LOC',
+            'label': 'Licitación Oficial en Construcción',
+            'category': 'Construcción y vivienda',
+            'value_vars': [
+                'Licitación oficial en construcción Cantabria',
+                'Licitación oficial en construcción España'],
+            'rate_vars': [
+                'Licitación oficial en construcción Cantabria. Var interanual',
+                'Licitación oficial en construcción España. Var interanual'],
+            'trend_vars': [
+                'Licitación oficial en construcción Cantabria. Tendencia',
+                'Licitación oficial en construcción España. Tendencia'],
+            'source': 'ICANE a partir de Licitación Oficial de Construcción del Ministerio de Transporte Movilidad y Agenda Urbana',
+            'unit': {
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Miles de euros'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Miles de euros'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note': ['Los datos son acumulados a final de año.'],
+            'json': {
+                'value': 'licitacion-oficial-construccion.json-stat',
+                'trend': 'licitacion-oficial-construccion-tendencia.json-stat'
+            }
+        },
+        'produccion_energia': {
+            'sheet': 'ENERGIA',
+            'label': 'Producción de energía eléctrica',
+            'category': 'Industria',
+            'value_vars': [
+                'Producción neta de energía eléctrica Cantabria',
+                'Producción neta de energía eléctrica España'],
+            'rate_vars': [
+                'Producción neta de energía eléctrica Cantabria. Var interanual',
+                'Producción neta de energía eléctrica España. Var interanual'],
+            'trend_vars': [
+                'Producción neta de energía eléctrica Cantabria. Tendencia',
+                'Producción neta de energía eléctrica España. Tendencia'],
+            'source': 'ICANE a partir de Estadística de Industria de la Energía Eléctrica del Ministerio para la Transicción Ecológica y el Reto Demográfico',
+            'unit': {
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Megavatios hora'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Megavatios hora'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note': [''],
+            'json': {
+                'value': 'produccion-energia-electrica.json-stat',
+                'trend': 'produccion-energia-electrica-tendencia.json-stat'
+            }
         }
     },
     'globals': {

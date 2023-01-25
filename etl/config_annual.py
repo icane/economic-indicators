@@ -150,9 +150,9 @@ params = {
             'unit': {
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 0, 'label': 'Miles de euros'},
+                        'decimals': 0, 'label': '%'},
                     'Valor España': {
-                        'decimals': 0, 'label': 'Miles de euros'},
+                        'decimals': 0, 'label': '%'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -182,9 +182,9 @@ params = {
             'unit': {
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 0, 'label': 'Millones de euros'},
+                        'decimals': 0, 'label': '%'},
                     'Valor España': {
-                        'decimals': 0, 'label': 'Millones de euros'},
+                        'decimals': 0, 'label': '%'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -201,7 +201,7 @@ params = {
         },
         'personal_iD_ocupada': {
             'sheet': 'Hoja11',
-            'label': 'Personal en I+D sobre población ocupada en tanto por mil',
+            'label': 'Personal en I+D sobre la población ocupada',
             'category': 'Economía',
             'value_vars': [
                 'Personal en I+D sobre población ocupada en tanto por mil Cantabria',
@@ -214,9 +214,9 @@ params = {
             'unit': {
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 1, 'label': '%'},
+                        'decimals': 1, 'label': 'Tanto por mil'},
                     'Valor España': {
-                        'decimals': 1, 'label': '%'},
+                        'decimals': 1, 'label': 'Tanto por mil'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -225,7 +225,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos de 2020 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
+            'note': [''],
             'json': {
                 'value': 'personal-id-poblacion.json-stat',
                 'trend': 'personal-id-poblacion-tendencia.json-stat'
@@ -246,9 +246,9 @@ params = {
             'unit': {
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 1, 'label': '%'},
+                        'decimals': 1, 'label': 'Miles de euros'},
                     'Valor España': {
-                        'decimals': 1, 'label': '%'},
+                        'decimals': 1, 'label': 'Miles de euros'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
