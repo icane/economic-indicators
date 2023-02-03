@@ -1,6 +1,7 @@
 """Common methods."""
 
 from pyjstat import pyjstat
+import re
 
 
 def to_json_stat(df, id_vars, value_vars, source):
@@ -27,6 +28,7 @@ def to_json_stat(df, id_vars, value_vars, source):
 def write_to_file(str_data, file_name):
     """Write a string variable to disk file."""
     file = open(file_name, 'w')
+    str_data = re.sub("updated.*source\"", "updated\": null, \"source\"", str_data)
     file.write(str_data)
     file.close()
 
