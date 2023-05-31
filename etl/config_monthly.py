@@ -1478,9 +1478,6 @@ params = {
                 'trend': 'produccion-energia-electrica-tendencia.json-stat'
             }
         }
-    },
-    'globals': {
-        'csv': 'vision-global-mensuales.csv'
     }
 }
 

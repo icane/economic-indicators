@@ -359,9 +359,6 @@ params = {
                 'trend': 'gasto-sanitario-consolidado-per-capita-tendencia.json-stat'
             }
         },
-    },
-    'globals': {
-        'csv': 'vision-global-anuales.csv'
     }
 }
 

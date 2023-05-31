@@ -254,11 +254,6 @@ for key in cfg.series:
         # append to global
         indicators.append(df_cant)
 
-df_global = pd.concat(indicators, axis=0, verify_integrity=False, sort=True)
-# reorder df_global before save to csv
-df_global = global_with_format(df_global)
-df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
-
 # Replace 'Cantabria' by 'Zona Oeste' in json-stat.
 zona_oeste_rplc(cfg.path.output + "consumo-cemento.json-stat")
 zona_oeste_rplc(cfg.path.output + "consumo-cemento-tendencia.json-stat")
