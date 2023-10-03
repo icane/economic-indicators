@@ -130,8 +130,8 @@ params = {
                 'Afiliados Cantabria. Var interanual',
                 'Afiliados España. Var interanual'],
             'trend_vars': [
-                'Afiliados Cantabria. Tendencia',
-                'Afiliados España. Tendencia'],
+                'Afiliados  Cantabria. Tendencia',
+                'Afiliados  España. Tendencia'],
             'source': 'ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
             'unit': {
                 'value': {

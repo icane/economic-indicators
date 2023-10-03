@@ -9,7 +9,7 @@ params = {
     'file': 'Datos_carga_anual.xlsx',
     'series': {
         'pib_precios_corrientes': {
-            'sheet': 'Hoja2',
+            'sheet': 'PIB_corr',
             'label': 'PIB. Precios corrientes',
             'category': 'Economía',
             'value_vars': [
@@ -41,7 +41,7 @@ params = {
             }
         },
         'pib_indice_volumen': {
-            'sheet': 'Hoja1',
+            'sheet': 'PIB_in',
             'label': 'PIB. Índices de volumen',
             'category': 'Economía',
             'value_vars': [
@@ -73,7 +73,7 @@ params = {
             }
         },
         'pib_per_capita': {
-            'sheet': 'Hoja3',
+            'sheet': 'PIB_perc',
             'label': 'PIB per cápita',
             'category': 'Economía',
             'value_vars': [
@@ -104,7 +104,7 @@ params = {
             }
         },
         'gasto_publico_educacion': {
-            'sheet': 'Hoja7',
+            'sheet': 'Gasto_educa',
             'label': 'Gasto público en educación',
             'category': 'Economía',
             'value_vars': [
@@ -136,7 +136,7 @@ params = {
             }
         },
         'gasto_publico_educacion_pib': {
-            'sheet': 'Hoja8',
+            'sheet': 'Gasto_educa_pib',
             'label': 'Gasto público en educación sobre el PIB',
             'category': 'Economía',
             'value_vars': [
@@ -168,7 +168,7 @@ params = {
             }
         },
         'gasto_id_sobre_pib': {
-            'sheet': 'Hoja10',
+            'sheet': 'Gasto I+D_pib',
             'label': 'Gasto I+D sobre el PIB',
             'category': 'Economía',
             'value_vars': [
@@ -200,7 +200,7 @@ params = {
             }
         },
         'personal_iD_ocupada': {
-            'sheet': 'Hoja11',
+            'sheet': 'Per I+D sobre p activa',
             'label': 'Personal en I+D sobre la población ocupada',
             'category': 'Economía',
             'value_vars': [
@@ -232,7 +232,7 @@ params = {
             }
         },
         'gasto_id': {
-            'sheet': 'Hoja9',
+            'sheet': 'Gasto I+D',
             'label': 'Gasto I+D',
             'category': 'Economía',
             'value_vars': [
@@ -264,7 +264,7 @@ params = {
             }
         },
         'gasto_sanitario_consolidado': {
-            'sheet': 'Hoja4',
+            'sheet': 'Gasto_sani',
             'label': 'Gasto sanitario público consolidado. Sector CC.AA',
             'category': 'Sanidad',
             'value_vars': [
@@ -296,7 +296,7 @@ params = {
             }
         },
         'gasto_sanitario_consolidado_pib': {
-            'sheet': 'Hoja6',
+            'sheet': 'Gasto_sanpib',
             'label': 'Gasto sanitario público consolidado sobre el PIB. Sector CC.AA',
             'category': 'Sanidad',
             'value_vars': [
@@ -328,7 +328,7 @@ params = {
             }
         },
         'gasto_sanitario_consolidado_per_capita': {
-            'sheet': 'Hoja5',
+            'sheet': 'Gasto_sanPC',
             'label': 'Gasto sanitario público consolidado per cápita. Sector CC.AA',
             'category': 'Sanidad',
             'value_vars': [
