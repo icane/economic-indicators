@@ -66,7 +66,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Para Cantabria y España, los datos de 2020 son provisionales y 2021 son avance'],
+            'note': ['Para Cantabria y España, los datos de 2021 son provisionales y 2022 son avance'],
             'json': {
                 'value': 'pib-indice-volumen.json-stat',
                 'trend': 'pib-indice-volumen-tendencia.json-stat'
