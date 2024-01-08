@@ -34,7 +34,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Para Cantabria y España, los datos de 2020 son provisionales y 2021 son avance'],
+            'note': ['Para Cantabria y España, los datos de 2021 son provisionales y 2022 son avance'],
             'json': {
                 'value': 'pib-precios-corrientes.json-stat',
                 'trend': 'pib-precios-corrientes-tendencia.json-stat'
@@ -97,7 +97,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Para Cantabria y España, los datos de 2020 son provisionales y 2021 son avance'],
+            'note': ['Para Cantabria y España, los datos de 2021 son provisionales y 2022 son avance'],
             'json': {
                 'value': 'pib-per-capita.json-stat',
                 'trend': 'pib-per-capita-tendencia.json-stat'
@@ -193,7 +193,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': [''],
+            'note': ['A partir del año 2021 los datos están basados en Empresa Estadística en lugar de Unidades Legales'],
             'json': {
                 'value': 'gasto-id-sobre-pib.json-stat',
                 'trend': 'gasto-id-sobre-pib-tendencia.json-stat'
@@ -225,7 +225,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': [''],
+            'note': ['A partir del año 2021 los datos están basados en Empresa Estadística en lugar de Unidades Legales'],
             'json': {
                 'value': 'personal-id-poblacion.json-stat',
                 'trend': 'personal-id-poblacion-tendencia.json-stat'
@@ -257,7 +257,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': [''],
+            'note': ['A partir del año 2021 los datos están basados en Empresa Estadística en lugar de Unidades Legales'],
             'json': {
                 'value': 'gasto-id.json-stat',
                 'trend': 'gasto-id-tendencia.json-stat'
