@@ -9,7 +9,7 @@ params = {
     'file': 'Datos_carga_anual.xlsx',
     'series': {
         'pib_precios_corrientes': {
-            'sheet': 'Hoja2',
+            'sheet': 'PIB_corr',
             'label': 'PIB. Precios corrientes',
             'category': 'Economía',
             'value_vars': [
@@ -34,14 +34,14 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Para Cantabria y España, los datos de 2020 son provisionales y 2021 son avance'],
+            'note': ['Para Cantabria y España, los datos de 2021 son provisionales y 2022 son avance'],
             'json': {
                 'value': 'pib-precios-corrientes.json-stat',
                 'trend': 'pib-precios-corrientes-tendencia.json-stat'
             }
         },
         'pib_indice_volumen': {
-            'sheet': 'Hoja1',
+            'sheet': 'PIB_in',
             'label': 'PIB. Índices de volumen',
             'category': 'Economía',
             'value_vars': [
@@ -66,14 +66,14 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Para Cantabria y España, los datos de 2020 son provisionales y 2021 son avance'],
+            'note': ['Para Cantabria y España, los datos de 2021 son provisionales y 2022 son avance'],
             'json': {
                 'value': 'pib-indice-volumen.json-stat',
                 'trend': 'pib-indice-volumen-tendencia.json-stat'
             }
         },
         'pib_per_capita': {
-            'sheet': 'Hoja3',
+            'sheet': 'PIB_perc',
             'label': 'PIB per cápita',
             'category': 'Economía',
             'value_vars': [
@@ -97,14 +97,14 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Para Cantabria y España, los datos de 2020 son provisionales y 2021 son avance'],
+            'note': ['Para Cantabria y España, los datos de 2021 son provisionales y 2022 son avance'],
             'json': {
                 'value': 'pib-per-capita.json-stat',
                 'trend': 'pib-per-capita-tendencia.json-stat'
             }
         },
         'gasto_publico_educacion': {
-            'sheet': 'Hoja7',
+            'sheet': 'Gasto_educa',
             'label': 'Gasto público en educación',
             'category': 'Economía',
             'value_vars': [
@@ -136,7 +136,7 @@ params = {
             }
         },
         'gasto_publico_educacion_pib': {
-            'sheet': 'Hoja8',
+            'sheet': 'Gasto_educa_pib',
             'label': 'Gasto público en educación sobre el PIB',
             'category': 'Economía',
             'value_vars': [
@@ -168,7 +168,7 @@ params = {
             }
         },
         'gasto_id_sobre_pib': {
-            'sheet': 'Hoja10',
+            'sheet': 'Gasto I+D_pib',
             'label': 'Gasto I+D sobre el PIB',
             'category': 'Economía',
             'value_vars': [
@@ -193,14 +193,14 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': [''],
+            'note': ['A partir del año 2021 los datos están basados en Empresa Estadística en lugar de Unidades Legales'],
             'json': {
                 'value': 'gasto-id-sobre-pib.json-stat',
                 'trend': 'gasto-id-sobre-pib-tendencia.json-stat'
             }
         },
         'personal_iD_ocupada': {
-            'sheet': 'Hoja11',
+            'sheet': 'Per I+D sobre p activa',
             'label': 'Personal en I+D sobre la población ocupada',
             'category': 'Economía',
             'value_vars': [
@@ -225,14 +225,14 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': [''],
+            'note': ['A partir del año 2021 los datos están basados en Empresa Estadística en lugar de Unidades Legales'],
             'json': {
                 'value': 'personal-id-poblacion.json-stat',
                 'trend': 'personal-id-poblacion-tendencia.json-stat'
             }
         },
         'gasto_id': {
-            'sheet': 'Hoja9',
+            'sheet': 'Gasto I+D',
             'label': 'Gasto I+D',
             'category': 'Economía',
             'value_vars': [
@@ -257,14 +257,14 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': [''],
+            'note': ['A partir del año 2021 los datos están basados en Empresa Estadística en lugar de Unidades Legales'],
             'json': {
                 'value': 'gasto-id.json-stat',
                 'trend': 'gasto-id-tendencia.json-stat'
             }
         },
         'gasto_sanitario_consolidado': {
-            'sheet': 'Hoja4',
+            'sheet': 'Gasto_sani',
             'label': 'Gasto sanitario público consolidado. Sector CC.AA',
             'category': 'Sanidad',
             'value_vars': [
@@ -296,7 +296,7 @@ params = {
             }
         },
         'gasto_sanitario_consolidado_pib': {
-            'sheet': 'Hoja6',
+            'sheet': 'Gasto_sanpib',
             'label': 'Gasto sanitario público consolidado sobre el PIB. Sector CC.AA',
             'category': 'Sanidad',
             'value_vars': [
@@ -328,7 +328,7 @@ params = {
             }
         },
         'gasto_sanitario_consolidado_per_capita': {
-            'sheet': 'Hoja5',
+            'sheet': 'Gasto_sanPC',
             'label': 'Gasto sanitario público consolidado per cápita. Sector CC.AA',
             'category': 'Sanidad',
             'value_vars': [
@@ -359,9 +359,6 @@ params = {
                 'trend': 'gasto-sanitario-consolidado-per-capita-tendencia.json-stat'
             }
         },
-    },
-    'globals': {
-        'csv': 'vision-global-anuales.csv'
     }
 }
 

@@ -130,8 +130,8 @@ params = {
                 'Afiliados Cantabria. Var interanual',
                 'Afiliados España. Var interanual'],
             'trend_vars': [
-                'Afiliados Cantabria. Tendencia',
-                'Afiliados España. Tendencia'],
+                'Afiliados  Cantabria. Tendencia',
+                'Afiliados  España. Tendencia'],
             'source': 'ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
             'unit': {
                 'value': {
@@ -1249,7 +1249,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos son provisionales desde enero 2020. Las tasas de variación de 2020 se han calculado con los datos provisionales del año 2019 según las recomendaciones de la AEAT.'],
+            'note': ['Los datos son provisionales'],
             'json': {
                 'value': 'importaciones.json-stat',
                 'trend': 'importaciones-tendencia.json-stat'
@@ -1286,7 +1286,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos son provisionales desde enero 2020. Las tasas de variación de 2020 se han calculado con los datos provisionales del año 2019 según las recomendaciones de la AEAT.'],
+            'note': ['Los datos son provisionales'],
             'json': {
                 'value': 'exportaciones.json-stat',
                 'trend': 'exportaciones-tendencia.json-stat'
@@ -1322,7 +1322,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT'],
+            'note': ['Los datos son provisionales'],
             'json': {
                 'value': 'saldo-comercial.json-stat',
                 'trend': 'saldo-comercial-tendencia.json-stat'
@@ -1358,7 +1358,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos son provisionales desde enero 2020. Las tasas de variación de 2020 se han calculado con los datos provisionales del año 2019 según las recomendaciones de la AEAT. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa.'],
+            'note': ['Los datos son provisionales'],
             'json': {
                 'value': 'tasa-cobertura.json-stat',
                 'trend': 'tasa-cobertura-tendencia.json-stat'
@@ -1478,9 +1478,6 @@ params = {
                 'trend': 'produccion-energia-electrica-tendencia.json-stat'
             }
         }
-    },
-    'globals': {
-        'csv': 'vision-global-mensuales.csv'
     }
 }
 

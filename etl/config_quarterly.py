@@ -597,9 +597,6 @@ params = {
                 'trend': 'transacciones-inmobiliarias-tendencia.json-stat'
             }
         }
-    },
-    'globals': {
-        'csv': 'vision-global-trimestrales.csv'
     }
 }
 

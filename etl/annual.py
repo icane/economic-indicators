@@ -140,9 +140,4 @@ for key in cfg.series:
         # append to global
         indicators.append(df_cant)
 
-df_global = pd.concat(indicators, axis=0, verify_integrity=False, sort=True)
-# reorder df_global before save to csv
-df_global = global_with_format(df_global)
-df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
-
 print('\nEnd of process. Files generated successfully.')
