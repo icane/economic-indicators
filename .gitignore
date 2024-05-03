@@ -151,3 +151,6 @@ Backup of *.doc*
 
 # Gedit
 *~
+
+# Carpeta de datos
+etl/data/input/*
