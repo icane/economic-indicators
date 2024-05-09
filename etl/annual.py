@@ -24,7 +24,7 @@ def transform(df, periods, prefix=''):
 
     df.drop(columns={'Año'}, axis=1, inplace=True)
     df.rename(columns={'period': 'Año'}, inplace=True)
-    df = df.tail(periods)
+    # df = df.tail(periods)
     df = df.round(2)
     return df
 
