@@ -19,7 +19,7 @@ params = {
                 'PIB. Precios corrientes Cantabria. Var interanual',
                 'PIB. Precios corrientes España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Contabilidad Regional de España Base 2015 del INE y Contabilidad Nacional Anual de España del INE',
+            'source': 'ICANE a partir de Contabilidad Regional de España Base 2015 del INE y Contabilidad Nacional Anual de España del INE Base 2020',
             'unit': {
                 'value': {
                     'Valor Cantabria': {
@@ -34,7 +34,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Para Cantabria y España, los datos de 2021 son provisionales y 2022 son avance'],
+            'note': ['Cantabria: 2021 provisional y 2022 avance España: 2022 provisional y 2023 avance'],
             'json': {
                 'value': 'pib-precios-corrientes.json-stat',
                 'trend': 'pib-precios-corrientes-tendencia.json-stat'
@@ -51,7 +51,7 @@ params = {
                 'PIB. Índice de volumen Cantabria. Var interanual',
                 'PIB. Índice de volumen España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Contabilidad Regional de España Base 2015 del INE y Contabilidad Nacional Anual de España del INE',
+            'source': 'ICANE a partir de Contabilidad Regional de España Base 2015 del INE y Contabilidad Nacional Anual de España del INE Base 2020',
             'unit': {
                 'value': {
                     'Valor Cantabria': {
@@ -66,7 +66,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Para Cantabria y España, los datos de 2021 son provisionales y 2022 son avance'],
+            'note': ['Cantabria: 2021 provisional y 2022 avance España: 2022 provisional y 2023 avance'],
             'json': {
                 'value': 'pib-indice-volumen.json-stat',
                 'trend': 'pib-indice-volumen-tendencia.json-stat'
@@ -82,7 +82,7 @@ params = {
                 'PIB per cápita Cantabria. Var interanual',
                 'PIB per cápita España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Contabilidad Regional de España Base 2015 del INE y Contabilidad Nacional Anual de España del INE',
+            'source': 'ICANE a partir de Contabilidad Regional de España Base 2015 del INE y Contabilidad Nacional Anual de España del INE Base 2020',
             'unit': {
                 'value': {
                     'Valor Cantabria': {
@@ -97,7 +97,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Para Cantabria y España, los datos de 2021 son provisionales y 2022 son avance'],
+            'note': ['Cantabria: 2021 provisional y 2022 avance. España: 2022 provisional y 2023 avance. Para el cálculo del PIB per cápita se han utilizado las cifras de población a 1 de julio'],
             'json': {
                 'value': 'pib-per-capita.json-stat',
                 'trend': 'pib-per-capita-tendencia.json-stat'
