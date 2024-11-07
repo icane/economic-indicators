@@ -491,7 +491,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': [''],
+            'note': ['Total Matriculaciones sin ciclomotores. Los datos de 2024 son provisionales'],
             'json': {
                 'value': 'matriculaciones.json-stat',
                 'trend': 'matriculaciones-tendencia.json-stat'
