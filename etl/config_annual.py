@@ -200,7 +200,7 @@ params = {
             }
         },
         'personal_iD_ocupada': {
-            'sheet': 'Per I+D sobre p activa',
+            'sheet': 'Per I+D sobre p ocupada',
             'label': 'Personal en I+D sobre la población ocupada',
             'category': 'Economía',
             'value_vars': [
