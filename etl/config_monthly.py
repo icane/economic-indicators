@@ -40,7 +40,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Datos acumulados a final de periodo. Los datos de 2020 son avance.'],
+            'note': ['Datos acumulados a final de periodo. Los datos de 2023 son provisionales. Los datos de 2024 y 2025 son avance.'],
             'json': {
                 'value': 'deficit-publico-ccaa.json-stat',
                 'trend': 'deficit-publico-ccaa-tendencia.json-stat'
