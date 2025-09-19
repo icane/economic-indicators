@@ -34,7 +34,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['2022 provisional y 2023 avance'],
+            'note': ['Cantabria: 2022 provisional y 2023 avance. España: 2023 provisional y 2024 avance'],
             'json': {
                 'value': 'pib-precios-corrientes.json-stat',
                 'trend': 'pib-precios-corrientes-tendencia.json-stat'
@@ -66,7 +66,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['2022 provisional y 2023 avance'],
+            'note': ['Cantabria: 2022 provisional y 2023 avance. España: 2023 provisional y 2024 avance'],
             'json': {
                 'value': 'pib-indice-volumen.json-stat',
                 'trend': 'pib-indice-volumen-tendencia.json-stat'
@@ -97,7 +97,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['2022 provisional y 2023 avance.Para el cálculo del PIB per cápita se han utilizado las cifras de población a 1 de julio'],
+            'note': ['Cantabria: 2022 provisional y 2023 avance. España: 2023 provisional y 2024 avance'],
             'json': {
                 'value': 'pib-per-capita.json-stat',
                 'trend': 'pib-per-capita-tendencia.json-stat'
