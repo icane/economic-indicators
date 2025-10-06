@@ -34,7 +34,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Cantabria: 2022 provisional y 2023 avance. España: 2023 provisional y 2024 avance'],
+            'note': ['2023 provisional y 2024 avance'],
             'json': {
                 'value': 'pib-precios-corrientes.json-stat',
                 'trend': 'pib-precios-corrientes-tendencia.json-stat'
@@ -66,7 +66,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Cantabria: 2022 provisional y 2023 avance. España: 2023 provisional y 2024 avance'],
+            'note': ['2023 provisional y 2024 avance'],
             'json': {
                 'value': 'pib-indice-volumen.json-stat',
                 'trend': 'pib-indice-volumen-tendencia.json-stat'
@@ -97,7 +97,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Cantabria: 2022 provisional y 2023 avance. España: 2023 provisional y 2024 avance'],
+            'note': ['2023 provisional y 2024 avance'],
             'json': {
                 'value': 'pib-per-capita.json-stat',
                 'trend': 'pib-per-capita-tendencia.json-stat'
