@@ -8,38 +8,6 @@ from decouple import config
 params = {
     'file': 'Datos_carga_mensual.xlsx',
     'series': {
-        'ingresos_tributarios': {
-            'sheet': 'IT',
-            'label': 'Ingresos tributarios netos',
-            'category': 'Economía',
-            'value_vars': [
-                'Ingresos tributarios netos Delegación Cantabria',
-                'Ingresos tributarios netos España'],
-            'rate_vars': [
-                'Ingresos tributarios netos Delegación Cantabria. Var interanual',
-                'Ingresos tributarios netos España. Var interanual'],
-            'trend_vars': [],
-            'source': 'ICANE a partir de Informes Mensuales de Recaudación Tributaria de la AEAT',
-            'unit': {
-                'value': {
-                    'Valor Cantabria': {
-                        'decimals': 0, 'label': 'Miles de euros'},
-                    'Valor España': {
-                        'decimals': 0, 'label': 'Miles de euros'},
-                },
-                'trend': {
-                    'Var. interanual Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'Var. interanual España': {
-                        'decimals': 2, 'label': '%'}
-                }
-            },
-            'note': [''],
-            'json': {
-                'value': 'ingresos-tributarios.json-stat',
-                'trend': 'ingresos-tributarios-tendencia.json-stat'
-            }
-        },
         'deficit_publico_ccaa': {
             'sheet': 'PCN',
             'label': 'Déficit público CC.AA',
@@ -65,10 +33,14 @@ params = {
                     'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
                     'Var. interanual España': {
-                        'decimals': 2, 'label': '%'}
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Datos acumulados a final de periodo. Los datos de 2019 y 2020 avance.'],
+            'note': ['Datos acumulados a final de periodo. Los datos de 2023 son provisionales. Los datos de 2024 y 2025 son avance.'],
             'json': {
                 'value': 'deficit-publico-ccaa.json-stat',
                 'trend': 'deficit-publico-ccaa-tendencia.json-stat'
@@ -147,39 +119,6 @@ params = {
                 'trend': 'contratos-tendencia.json-stat'
             }
         },
-        'afiliados_afectados_erte': {
-            'sheet': 'AFI_ERTE',
-            'label': 'Afiliados afectados por ERTE',
-            'category': 'Mercado de Trabajo',
-            'value_vars': [
-                'Afiliados afectados por ERTE Cantabria',
-                'Afiliados afectados por ERTE España'],
-            'rate_vars': [
-                'Afiliados afectados por ERTE sobre el total de afiliados asalariados Cantabria',
-                'Afiliados afectados por ERTE sobre el total de afiliados asalariados España'],
-            'trend_vars': [
-                ],
-            'source': 'ICANE a partir de Afiliciaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
-            'unit': {
-                'value': {
-                    'Valor Cantabria': {
-                        'decimals': 1, 'label': 'Afiliados (a último día de mes)'},
-                    'Valor España': {
-                        'decimals': 1, 'label': 'Afiliados (a último día de mes)'},
-                },
-                'trend': {
-                    'Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'España': {
-                        'decimals': 2, 'label': '%'},
-                }
-            },
-            'note': ['A partir de noviembre de 2020 se incluyen los ERTE del RDL 30/2020'],
-            'json': {
-                'value': 'afiliados-afectados-erte.json-stat',
-                'trend': 'afiliados-afectados-erte-tendencia.json-stat'
-            }
-        },
         'afiliados': {
             'sheet': 'Afiliados',
             'label': 'Afiliados',
@@ -191,8 +130,8 @@ params = {
                 'Afiliados Cantabria. Var interanual',
                 'Afiliados España. Var interanual'],
             'trend_vars': [
-                'Afiliados Cantabria. Tendencia',
-                'Afiliados España. Tendencia'],
+                'Afiliados  Cantabria. Tendencia',
+                'Afiliados  España. Tendencia'],
             'source': 'ICANE a partir de Afiliaciones a la Seguridad Social de la Tesorería General de la Seguridad Social',
             'unit': {
                 'value': {
@@ -294,44 +233,6 @@ params = {
                 'trend': 'afiliados-no-asalariados-tendencia.json-stat'
             }
         },
-        'expedientes_regulacion_empleo': {
-            'sheet': 'RE',
-            'label': 'Trabajadores afectados por expedientes de regulación de empleo',
-            'category': 'Mercado de Trabajo',
-            'value_vars': [
-                'Trabajadores afectados por expedientes de regulación de empleo Cantabria',
-                'Trabajadores afectados por expedientes de regulación de empleo España'],
-            'rate_vars': [
-                'Trabajadores afectados por expedientes de regulación de empleo Cantabria. Var interanual',
-                'Trabajadores afectados por expedientes de regulación de empleo España. Var interanual'],
-            'trend_vars': [
-                'Trabajadores afectados por expedientes de regulación de empleo Cantabria. Tendencia',
-                'Trabajadores afectados por expedientes de regulación de empleo España. Tendencia'],
-            'source': 'ICANE a partir de Regulación de Empleo del Ministerio de Ministerio de Trabajo, Migraciones y Seguridad Social',
-            'unit': {
-                'value': {
-                    'Valor Cantabria': {
-                        'decimals': 0, 'label': 'Personas'},
-                    'Valor España': {
-                        'decimals': 0, 'label': 'Personas'},
-                },
-                'trend': {
-                    'Var. interanual Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'Var. interanual España': {
-                        'decimals': 2, 'label': '%'},
-                    'Tendencia Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'Tendencia España': {
-                        'decimals': 2, 'label': '%'},
-                }
-            },
-            'note': ['Los datos de 2020 son provisionales. Se ha ampliado el plazo para que las autoridades laborales remitan la información necesaria para elaborar la estadística por causa de la situación provocada por el COVID. Se incluyen únicamente trabajadores afectados por procedimientos de ámbito nacional. La información referida a los procedimientos de ámbito provincial o de Comunidad Autónoma se ampliará cuando se disponga de un número relevante de autoridades laborales en disposición de facilitar datos. Es importante por tanto tener en cuenta que en las tablas publicadas no está recogido el número de trabajadores del Total Nacional'],
-            'json': {
-                'value': 'expedientes-regulacion-empleo.json-stat',
-                'trend': 'expedientes-regulacion-empleo-tendencia.json-stat'
-            }
-        },
         'prd_b': {
             'sheet': 'PRD_B',
             'label': 'Beneficiarios prestaciones por desempleo',
@@ -416,7 +317,9 @@ params = {
             'rate_vars': [
                 'Ipc Cantabria. Var interanual',
                 'Ipc España. Var interanual'],
-            'trend_vars': [],
+            'trend_vars': [
+                'Ipc Cantabria. Tendencia',
+                'Ipc España. Tendencia'],
             'source': 'ICANE a partir de Índice de Precios al Consumo del INE',
             'unit': {
                 'value': {
@@ -429,7 +332,11 @@ params = {
                     'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
                     'Var. interanual España': {
-                        'decimals': 2, 'label': '%'}
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
                 }
             },
             'note': [''],
@@ -463,7 +370,11 @@ params = {
                     'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
                     'Var. interanual España': {
-                        'decimals': 2, 'label': '%'}
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
                 }
             },
             'note': [''],
@@ -497,7 +408,11 @@ params = {
                     'Var. interanual Cantabria': {
                         'decimals': 2, 'label': '%'},
                     'Var. interanual España': {
-                        'decimals': 2, 'label': '%'}
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
                 }
             },
             'note': [''],
@@ -576,7 +491,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': [''],
+            'note': ['Total Matriculaciones sin ciclomotores. Los datos de 2024 son provisionales'],
             'json': {
                 'value': 'matriculaciones.json-stat',
                 'trend': 'matriculaciones-tendencia.json-stat'
@@ -626,7 +541,7 @@ params = {
             'category': 'Industria y energía',
             'value_vars': [
                 'Índice de Producción Industrial  Cantabria',
-                'Índice de Producción Industrial s España'],
+                'Índice de Producción Industrial  España'],
             'rate_vars': [
                 'Índice de Producción Industrial  Cantabria. Var interanual',
                 'Índice de Producción Industrial s España. Var interanual'],
@@ -766,7 +681,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['La zona oeste está conformada por las Comunidades Autónomas de Castilla y León, Galicia, Asturias y Cantabria. Los datos de marzo de 2020 y posteriores son provisionales.'],
+            'note': ['Son provisionales los datos del último año.'],
             'json': {
                 'value': 'consumo-cemento.json-stat',
                 'trend': 'consumo-cemento-tendencia.json-stat'
@@ -808,39 +723,6 @@ params = {
             'json': {
                 'value': 'empresas.json-stat',
                 'trend': 'empresas-tendencia.json-stat'
-            }
-        },
-        'empresas_afectadas_erte': {
-            'sheet': 'EMP_ERTE',
-            'label': 'Empresas afectadas por ERTE',
-            'category': 'Empresas',
-            'value_vars': [
-                'Empresas afectados por ERTE Cantabria',
-                'Empresas afectados por ERTE España'],
-            'rate_vars': [
-                'Empresas afectados por ERTE sobre el total de empresas Cantabria',
-                'Empresas afectados por ERTE sobre el total de empresas España'],
-            'trend_vars': [
-                ],
-            'source': 'ICANE a partir de Estadística de Empresas Inscritas en Seguridad Social del Ministerio de Trabajo. Migraciones y Seguridad Social',
-            'unit': {
-                'value': {
-                    'Valor Cantabria': {
-                        'decimals': 1, 'label': 'Empresas (a último día de mes)'},
-                    'Valor España': {
-                        'decimals': 1, 'label': 'Empresas (a último día de mes)'},
-                },
-                'trend': {
-                    'Cantabria': {
-                        'decimals': 2, 'label': '%'},
-                    'España': {
-                        'decimals': 2, 'label': '%'},
-                }
-            },
-            'note': ['A partir de noviembre de 2020 se incluyen los ERTE del RDL 30/2020'],
-            'json': {
-                'value': 'empresas-afectadas-erte.json-stat',
-                'trend': 'empresas-afectadas-erte-tendencia.json-stat'
             }
         },
         'personas_fisicas': {
@@ -962,14 +844,14 @@ params = {
             'label': 'Sociedades mercantiles disueltas',
             'category': 'Empresas',
             'value_vars': [
-                'Sociedades mercantiles constituidas Cantabria',
-                'Sociedades mercantiles constituidas España'],
+                'Sociedades mercantiles disueltas Cantabria',
+                'Sociedades mercantiles disueltas España'],
             'rate_vars': [
-                'Sociedades mercantiles constituidas Cantabria. Var interanual',
-                'Sociedades mercantiles constituidas España. Var interanual'],
+                'Sociedades mercantiles disueltas Cantabria. Var interanual',
+                'Sociedades mercantiles disueltas España. Var interanual'],
             'trend_vars': [
-                'Sociedades mercantiles constituidas Cantabria. Tendencia',
-                'Sociedades mercantiles constituidas España. Tendencia'],
+                'Sociedades mercantiles disueltas Cantabria. Tendencia',
+                'Sociedades mercantiles disueltas España. Tendencia'],
             'source': 'ICANE a partir de Sociedades Mercantiles del INE',
             'unit': {
                 'value': {
@@ -1179,7 +1061,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos son provisionales desde el año 2019'],
+            'note': [''],
             'json': {
                 'value': 'trafico-aereo.json-stat',
                 'trend': 'trafico-aereo-tendencia.json-stat'
@@ -1293,7 +1175,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos de enero del año 2020 y posteriores son provisionales'],
+            'note': [''],
             'json': {
                 'value': 'pernoctaciones-hoteleras.json-stat',
                 'trend': 'pernoctaciones-hoteleras-tendencia.json-stat'
@@ -1331,7 +1213,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos de enero del año 2020 y posteriores son provisionales. Los datos de enero, febrero, marzo y mayo de 2020 para Cantabria no tienen la información de camping por secreto estadístico.'],
+            'note': ['Los datos de enero, febrero, marzo y mayo de 2020 para Cantabria no tienen la información de camping por secreto estadístico.'],
             'json': {
                 'value': 'pernoctaciones-extrahoteleras.json-stat',
                 'trend': 'pernoctaciones-extrahoteleras-tendencia.json-stat'
@@ -1367,7 +1249,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos son provisionales desde enero 2020. Las tasas de variación de 2020 se han calculado con los datos provisionales del año 2019 según las recomendaciones de la AEAT.'],
+            'note': ['Los datos son provisionales'],
             'json': {
                 'value': 'importaciones.json-stat',
                 'trend': 'importaciones-tendencia.json-stat'
@@ -1404,7 +1286,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos son provisionales desde enero 2020. Las tasas de variación de 2020 se han calculado con los datos provisionales del año 2019 según las recomendaciones de la AEAT.'],
+            'note': ['Los datos son provisionales'],
             'json': {
                 'value': 'exportaciones.json-stat',
                 'trend': 'exportaciones-tendencia.json-stat'
@@ -1440,7 +1322,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos son provisionales desde enero 2019. Las tasas de variación de 2019 se han calculado con los datos provisionales del año 2018 según las recomendaciones de la AEAT'],
+            'note': ['Los datos son provisionales'],
             'json': {
                 'value': 'saldo-comercial.json-stat',
                 'trend': 'saldo-comercial-tendencia.json-stat'
@@ -1476,7 +1358,7 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Los datos son provisionales desde enero 2020. Las tasas de variación de 2020 se han calculado con los datos provisionales del año 2019 según las recomendaciones de la AEAT. Para una mejor interpretación la tasa de variación se da en términos absolutos al tratarse de una tasa.'],
+            'note': ['Los datos son provisionales'],
             'json': {
                 'value': 'tasa-cobertura.json-stat',
                 'trend': 'tasa-cobertura-tendencia.json-stat'
@@ -1514,15 +1396,88 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note': ['Gasto devengado neto acumulado anual. Cantabria está realizando la revisión de la información de toda la serie para homogeneizar los criterios aplicados en la extracción de la información, por lo que las tres partidas de gasto pueden presentar modificaciones en próximas publicaciones.'],
+            'note': ['Gasto devengado neto acumulado anual.'],
             'json': {
                 'value': 'gasto-farmaceutico-sanitario.json-stat',
                 'trend': 'gasto-farmaceutico-sanitario-tendencia.json-stat'
             }
+        },
+        'licitacion_oficial_construccion': {
+            'sheet': 'LOC',
+            'label': 'Licitación Oficial en Construcción',
+            'category': 'Construcción y vivienda',
+            'value_vars': [
+                'Licitación oficial en construcción Cantabria',
+                'Licitación oficial en construcción España'],
+            'rate_vars': [
+                'Licitación oficial en construcción Cantabria. Var interanual',
+                'Licitación oficial en construcción España. Var interanual'],
+            'trend_vars': [
+                'Licitación oficial en construcción Cantabria. Tendencia',
+                'Licitación oficial en construcción España. Tendencia'],
+            'source': 'ICANE a partir de Licitación Oficial de Construcción del Ministerio de Transporte Movilidad y Agenda Urbana',
+            'unit': {
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Miles de euros'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Miles de euros'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note': ['Los datos son acumulados a final de año.'],
+            'json': {
+                'value': 'licitacion-oficial-construccion.json-stat',
+                'trend': 'licitacion-oficial-construccion-tendencia.json-stat'
+            }
+        },
+        'produccion_energia': {
+            'sheet': 'ENERGIA',
+            'label': 'Producción de energía eléctrica',
+            'category': 'Industria',
+            'value_vars': [
+                'Producción neta de energía eléctrica Cantabria',
+                'Producción neta de energía eléctrica España'],
+            'rate_vars': [
+                'Producción neta de energía eléctrica Cantabria. Var interanual',
+                'Producción neta de energía eléctrica España. Var interanual'],
+            'trend_vars': [
+                'Producción neta de energía eléctrica Cantabria. Tendencia',
+                'Producción neta de energía eléctrica España. Tendencia'],
+            'source': 'ICANE a partir de Estadística de Industria de la Energía Eléctrica del Ministerio para la Transicción Ecológica y el Reto Demográfico',
+            'unit': {
+                'value': {
+                    'Valor Cantabria': {
+                        'decimals': 1, 'label': 'Megavatios hora'},
+                    'Valor España': {
+                        'decimals': 1, 'label': 'Megavatios hora'},
+                },
+                'trend': {
+                    'Var. interanual Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Var. interanual España': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia Cantabria': {
+                        'decimals': 2, 'label': '%'},
+                    'Tendencia España': {
+                        'decimals': 2, 'label': '%'},
+                }
+            },
+            'note': [''],
+            'json': {
+                'value': 'produccion-energia-electrica.json-stat',
+                'trend': 'produccion-energia-electrica-tendencia.json-stat'
+            }
         }
-    },
-    'globals': {
-        'csv': 'vision-global-mensuales.csv'
     }
 }
 

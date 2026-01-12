@@ -2,7 +2,7 @@
 
 import json
 
-from etl.common import to_json_stat, write_to_file
+from etl.common import global_with_format, to_json_stat, write_to_file
 from etl.config_quarterly import quarterly_cfg as cfg
 
 from etlstat.extractor.extractor import xlsx
@@ -25,7 +25,7 @@ def transform(df, periods, prefix=''):
 
     df.drop(columns={'Año', 'Trimestre'}, axis=1, inplace=True)
     df.rename(columns={'period': 'Trimestre'}, inplace=True)
-    df = df.tail(periods)
+    # df = df.tail(periods)
     df = df.round(2)
     return df
 
@@ -44,7 +44,7 @@ data = xlsx(cfg.path.input)
 
 # Value and trend files for each indicator
 for key in cfg.series:
-
+    print(key)
     # Drop NA rows, if any
     data[cfg.file][cfg.series[key].sheet].dropna(
         axis=0, how='all', inplace=True)
@@ -157,9 +157,4 @@ for key in cfg.series:
         # append to global
         indicators.append(df_cant)
 
-df_global = pd.concat(indicators, axis=0, verify_integrity=False, sort=True)
-df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
-
 print('\nEnd of process. Files generated successfully.')
-print('\nCheck the following:')
-print('\n\tFormat of the global file.')

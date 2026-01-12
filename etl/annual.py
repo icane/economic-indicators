@@ -2,7 +2,7 @@
 
 import json
 
-from etl.common import to_json_stat, write_to_file
+from etl.common import global_with_format, to_json_stat, write_to_file
 from etl.config_annual import annual_cfg as cfg
 
 from etlstat.extractor.extractor import xlsx
@@ -24,7 +24,7 @@ def transform(df, periods, prefix=''):
 
     df.drop(columns={'Año'}, axis=1, inplace=True)
     df.rename(columns={'period': 'Año'}, inplace=True)
-    df = df.tail(periods)
+    # df = df.tail(periods)
     df = df.round(2)
     return df
 
@@ -34,6 +34,7 @@ data = xlsx(cfg.path.input)
 
 # Value and trend files for each indicator
 for key in cfg.series:
+    print(key)
     # Drop NA rows, if any
     data[cfg.file][cfg.series[key].sheet].dropna(
         axis=0, how='all', inplace=True)
@@ -87,8 +88,12 @@ for key in cfg.series:
         ][variables].copy()
         df_trend = transform(
             df_trend, cfg.periods.annual)
-        # Exclude rows whose value for Var. interanual Cantabria is NA
-        df_trend = df_trend[df_trend['Var. interanual Cantabria'].notna()]
+
+        # Exclude series for which all values for Var. interanual Cantabria
+        # are NA
+        if df_trend['Var. interanual Cantabria'].isna().all():
+            df_trend = df_trend[df_trend['Var. interanual Cantabria'].notna()]
+
         json_file = to_json_stat(
             df_trend,
             ['Año'],
@@ -107,7 +112,10 @@ indicators = []
 for key in cfg.series:
     if cfg.series[key].rate_vars != []:
         # Crea una variable para mostrar el valor del indicador
-        if key in ['deuda_publica_pib', 'deficit_publico_pib', 'gasto_sanitario_consolidado_pib']:
+        if key in [
+                'deuda_publica_pib', 'deficit_publico_pib',
+                'gasto_sanitario_consolidado_pib'
+        ]:
             coltoshow = 'Valor Cantabria'
             coltoshowes = 'Valor España'
         else:
@@ -132,9 +140,4 @@ for key in cfg.series:
         # append to global
         indicators.append(df_cant)
 
-df_global = pd.concat(indicators, axis=0, verify_integrity=False, sort=True)
-df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
-
 print('\nEnd of process. Files generated successfully.')
-print('\nCheck the following:')
-print('\n\tFormat of the global file.')
