@@ -9,7 +9,7 @@ params = {
     'file': 'Datos_carga_anual.xlsx',
     'series': {
         'pib_precios_corrientes': {
-            'sheet': 'Hoja2',
+            'sheet': 'PIB_corr',
             'label': 'PIB. Precios corrientes',
             'category': 'Economía',
             'value_vars': [
@@ -19,8 +19,8 @@ params = {
                 'PIB. Precios corrientes Cantabria. Var interanual',
                 'PIB. Precios corrientes España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Contabilidad Regional de España Base 2015 del INE y Contabilidad Nacional Anual de España del INE',
-            'unit':{
+            'source': 'ICANE a partir de Contabilidad Regional de España Base 2020 del INE',
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Miles de euros'},
@@ -34,14 +34,14 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Para Cantabria, los datos de 2018 son provisionales y los de 2019 avance. Para España los datos de 2018 son provisionales y 2019 son avance'],
+            'note': ['2023 provisional y 2024 avance'],
             'json': {
                 'value': 'pib-precios-corrientes.json-stat',
                 'trend': 'pib-precios-corrientes-tendencia.json-stat'
             }
         },
         'pib_indice_volumen': {
-            'sheet': 'Hoja1',
+            'sheet': 'PIB_in',
             'label': 'PIB. Índices de volumen',
             'category': 'Economía',
             'value_vars': [
@@ -51,8 +51,8 @@ params = {
                 'PIB. Índice de volumen Cantabria. Var interanual',
                 'PIB. Índice de volumen España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Contabilidad Regional de España Base 2015 del INE y Contabilidad Nacional Anual de España del INE',
-            'unit':{
+            'source': 'ICANE a partir de Contabilidad Regional de España Base 2020 del INE',
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 2, 'label': 'Índice'},
@@ -66,14 +66,14 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Para Cantabria, los datos de 2017 son provisionales, 2018 son avance y 2019 primera estimación. Para España los datos de 2018 son provisionales y 2019 son avance'],
+            'note': ['2023 provisional y 2024 avance'],
             'json': {
                 'value': 'pib-indice-volumen.json-stat',
                 'trend': 'pib-indice-volumen-tendencia.json-stat'
             }
         },
         'pib_per_capita': {
-            'sheet': 'Hoja3',
+            'sheet': 'PIB_perc',
             'label': 'PIB per cápita',
             'category': 'Economía',
             'value_vars': [
@@ -82,8 +82,8 @@ params = {
                 'PIB per cápita Cantabria. Var interanual',
                 'PIB per cápita España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Contabilidad Regional de España Base 2015 del INE y Contabilidad Nacional Anual de España del INE',
-            'unit':{
+            'source': 'ICANE a partir de Contabilidad Regional de España Base 2020 del INE',
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Euros'},
@@ -97,25 +97,25 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Para Cantabria, los datos de 2017 son provisionales, 2018 son avance y 2019 primera estimación. Para España los datos de 2018 son provisionales y 2019 son avance'],
+            'note': ['2023 provisional y 2024 avance'],
             'json': {
                 'value': 'pib-per-capita.json-stat',
                 'trend': 'pib-per-capita-tendencia.json-stat'
             }
         },
-        'ingresos_tributarios_netos': {
-            'sheet': 'Hoja7',
-            'label': 'Ingresos tributarios netos',
+        'gasto_publico_educacion': {
+            'sheet': 'Gasto_educa',
+            'label': 'Gasto público en educación',
             'category': 'Economía',
             'value_vars': [
-                'Ingresos tributarios netos Delegación Cantabria',
-                'Ingresos tributarios netos España'],
+                'Gasto público en educación Cantabria',
+                'Gasto público en educación España'],
             'rate_vars': [
-                'Ingresos tributarios netos Delegación Cantabria. Var interanual',
-                'Ingresos tributarios netos España. Var interanual'],
+                'Gasto público en educación Cantabria. Var interanual',
+                'Gasto público en educación España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Informes Anuales de Recaudación Tributaria de la AEAT',
-            'unit':{
+            'source': 'ICANE a partir de Estadística de Gasto Público en Educación del Ministerio de Educación y Formación Profesional',
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Miles de euros'},
@@ -129,30 +129,30 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
-                'value': 'ingresos-tributarios-netos.json-stat',
-                'trend': 'ingresos-tributarios-netos-tendencia.json-stat'
+                'value': 'gasto-publico-educacion.json-stat',
+                'trend': 'gasto-publico-educacion-tendencia.json-stat'
             }
         },
-        'deuda_publica': {
-            'sheet': 'Hoja8',
-            'label': 'Deuda pública CC.AA',
+        'gasto_publico_educacion_pib': {
+            'sheet': 'Gasto_educa_pib',
+            'label': 'Gasto público en educación sobre el PIB',
             'category': 'Economía',
             'value_vars': [
-                'Deuda pública CC.AA Cantabria',
-                'Deuda pública CC.AA España'],
+                'Gasto público en educación sobre el PIB. Cantabria',
+                'Gasto público en educación sobre el PIB. España'],
             'rate_vars': [
-                'Deuda pública CC.AA Cantabria. Var interanual',
-                'Deuda pública CC.AA España. Var interanual'],
+                'Gasto público en educación sobre el PIB. Cantabria. Var interanual',
+                'Gasto público en educación sobre el PIB.  España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Deuda según PDE del Banco de España',
-            'unit':{
+            'source': 'ICANE a partir de Estadística de Gasto Público en Educación del Ministerio de Educación y Formación Profesional',
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 0, 'label': 'Miles de euros'},
+                        'decimals': 0, 'label': '%'},
                     'Valor España': {
-                        'decimals': 0, 'label': 'Miles de euros'},
+                        'decimals': 0, 'label': '%'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -161,30 +161,30 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':[''],
+            'note': [''],
             'json': {
-                'value': 'deuda-publica.json-stat',
-                'trend': 'deuda-publica-tendencia.json-stat'
+                'value': 'gasto-publico-educacion-pib.json-stat',
+                'trend': 'gasto-publico-educacion-pib-tendencia.json-stat'
             }
         },
-        'deficit_publico': {
-            'sheet': 'Hoja10',
-            'label': 'Deficit público CC.AA',
+        'gasto_id_sobre_pib': {
+            'sheet': 'Gasto I+D_pib',
+            'label': 'Gasto I+D sobre el PIB',
             'category': 'Economía',
             'value_vars': [
-                'Déficit público CC.AA Cantabria',
-                'Déficit público CC.AA España'],
+                'Gasto I+D sobre el PIB. Cantabria',
+                'Gasto I+D sobre el PIB. España'],
             'rate_vars': [
-                'Déficit público CC.AA Cantabria. Var interanual',
-                'Déficit público CC.AA España. Var interanual'],
+                'Gasto I+D sobre el PIB. Cantabria. Var interanual',
+                'Gasto I+D sobre el PIB. España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Presupuestos de la Comunidad Autónoma en términos de Contabilidad Nacional de la IGAE',
-            'unit':{
+            'source': 'ICANE a partir de Estadística de I+D y Contabilidad Regional de España del INE',
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 0, 'label': 'Millones de euros'},
+                        'decimals': 0, 'label': '%'},
                     'Valor España': {
-                        'decimals': 0, 'label': 'Millones de euros'},
+                        'decimals': 0, 'label': '%'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -193,30 +193,30 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2019 son provisionales.'],
+            'note': ['A partir del año 2021 los datos están basados en Empresa Estadística en lugar de Unidades Legales'],
             'json': {
-                'value': 'deficit-publico.json-stat',
-                'trend': 'deficit-publico-tendencia.json-stat'
+                'value': 'gasto-id-sobre-pib.json-stat',
+                'trend': 'gasto-id-sobre-pib-tendencia.json-stat'
             }
         },
-        'deficit_publico_pib': {
-            'sheet': 'Hoja11',
-            'label': 'Deficit público CC.AA sobre el PIB',
+        'personal_iD_ocupada': {
+            'sheet': 'Per I+D sobre p ocupada',
+            'label': 'Personal en I+D sobre la población ocupada',
             'category': 'Economía',
             'value_vars': [
-                'Déficit público CC.AA sobre el PIB Cantabria',
-                'Déficit público CC.AA sobre el PIB España'],
+                'Personal en I+D sobre población ocupada en tanto por mil Cantabria',
+                'Personal en I+D sobre población ocupada en tanto por mil  España'],
             'rate_vars': [
-                'Déficit público CC.AA sobre el PIB Cantabria. Var interanual',
-                'Déficit público CC.AA sobre el PIB España. Var interanual'],
+                'Personal en I+D sobre población ocupada en tanto por mil Cantabria. Var interanual',
+                'Personal en I+D sobre población ocupada en tanto por mil  España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Presupuestos de la Comunidad Autónoma en términos de Contabilidad Nacional de la IGAE',
-            'unit':{
+            'source': 'ICANE a partir de Estadística de I+D y Encuesta de Población Activa del INE',
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 1, 'label': '%'},
+                        'decimals': 1, 'label': 'Tanto por mil'},
                     'Valor España': {
-                        'decimals': 1, 'label': '%'},
+                        'decimals': 1, 'label': 'Tanto por mil'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -225,30 +225,30 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2018 y 2019 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
+            'note': ['A partir del año 2021 los datos están basados en Empresa Estadística en lugar de Unidades Legales'],
             'json': {
-                'value': 'deficit-publico-pib.json-stat',
-                'trend': 'deficit-publico-pib-tendencia.json-stat'
+                'value': 'personal-id-poblacion.json-stat',
+                'trend': 'personal-id-poblacion-tendencia.json-stat'
             }
         },
-        'deuda_publica_pib': {
-            'sheet': 'Hoja9',
-            'label': 'Deuda pública CC.AA sobre el PIB',
+        'gasto_id': {
+            'sheet': 'Gasto I+D',
+            'label': 'Gasto I+D',
             'category': 'Economía',
             'value_vars': [
-                'Deuda pública CC.AA sobre el PIB Cantabria',
-                'Deuda pública CC.AA sobre el PIB España'],
+                'Gasto I+D.  Cantabria',
+                'Gasto I+D.  España'],
             'rate_vars': [
-                'Deuda pública CC.AA sobre el PIB Cantabria. Var interanual',
-                'Deuda pública CC.AA sobre el PIB España. Var interanual'],
+                'Gasto I+D.  Cantabria. Var interanual',
+                'Gasto I+D. España. Var interanual'],
             'trend_vars': [],
-            'source': 'ICANE a partir de Deuda según PDE del Banco de España',
-            'unit':{
+            'source': 'ICANE a partir de Estadística de I+D del INE',
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
-                        'decimals': 1, 'label': '%'},
+                        'decimals': 1, 'label': 'Miles de euros'},
                     'Valor España': {
-                        'decimals': 1, 'label': '%'},
+                        'decimals': 1, 'label': 'Miles de euros'},
                 },
                 'trend': {
                     'Var. interanual Cantabria': {
@@ -257,14 +257,14 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2018 y 2019 son un avance. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
+            'note': ['A partir del año 2021 los datos están basados en Empresa Estadística en lugar de Unidades Legales'],
             'json': {
-                'value': 'deuda-publica-pib.json-stat',
-                'trend': 'deuda-publica-pib-tendencia.json-stat'
+                'value': 'gasto-id.json-stat',
+                'trend': 'gasto-id-tendencia.json-stat'
             }
         },
         'gasto_sanitario_consolidado': {
-            'sheet': 'Hoja4',
+            'sheet': 'Gasto_sani',
             'label': 'Gasto sanitario público consolidado. Sector CC.AA',
             'category': 'Sanidad',
             'value_vars': [
@@ -275,7 +275,7 @@ params = {
                 'Gasto sanitario público consolidado. Sector CC.AA España. Var interanual'],
             'trend_vars': [],
             'source': 'ICANE a partir de Estadística de Gasto sanitario público del Ministerio de Sanidad',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Miles de euros'},
@@ -289,14 +289,14 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2017 y 2018 son provisionales'],
+            'note': ['Los dos últimos años son provisionales'],
             'json': {
                 'value': 'gasto-sanitario-consolidado.json-stat',
                 'trend': 'gasto-sanitario-consolidado-tendencia.json-stat'
             }
         },
         'gasto_sanitario_consolidado_pib': {
-            'sheet': 'Hoja6',
+            'sheet': 'Gasto_sanpib',
             'label': 'Gasto sanitario público consolidado sobre el PIB. Sector CC.AA',
             'category': 'Sanidad',
             'value_vars': [
@@ -307,7 +307,7 @@ params = {
                 'Gasto sanitario público consolidado sobre PIB. Sector CC.AA España. Var interanual'],
             'trend_vars': [],
             'source': 'ICANE a partir de Estadística de Gasto Sanitario Público del Ministerio de Sanidad',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 2, 'label': '%'},
@@ -321,14 +321,14 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2017 y 2018 son provisionales. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
+            'note': ['Los dos últimos años son provisionales. Para una mejor interpretación es el dato del indicador y no su tasa de variación anual.'],
             'json': {
                 'value': 'gasto-sanitario-consolidado-pib.json-stat',
                 'trend': 'gasto-sanitario-consolidado-pib-tendencia.json-stat'
             }
         },
         'gasto_sanitario_consolidado_per_capita': {
-            'sheet': 'Hoja5',
+            'sheet': 'Gasto_sanPC',
             'label': 'Gasto sanitario público consolidado per cápita. Sector CC.AA',
             'category': 'Sanidad',
             'value_vars': [
@@ -339,7 +339,7 @@ params = {
                 'Gasto sanitario público consolidado per cápita. Sector CC.AA España. Var interanual'],
             'trend_vars': [],
             'source': 'ICANE a partir de Estadística de Gasto sanitario público del Ministerio de Sanidad',
-            'unit':{
+            'unit': {
                 'value': {
                     'Valor Cantabria': {
                         'decimals': 0, 'label': 'Euros'},
@@ -353,15 +353,12 @@ params = {
                         'decimals': 2, 'label': '%'},
                 }
             },
-            'note':['Los datos de 2017 y 2018 son provisionales'],
+            'note': ['Los dos últimos años son provisionales'],
             'json': {
                 'value': 'gasto-sanitario-consolidado-per-capita.json-stat',
                 'trend': 'gasto-sanitario-consolidado-per-capita-tendencia.json-stat'
             }
         },
-    },
-    'globals': {
-        'csv': 'vision-global-anuales.csv'
     }
 }
 
